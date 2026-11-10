@@ -1,13 +1,5 @@
 theme: travail-retraites
 axe: pensions
 candidat: roussel
-statut: orale
-intitule: "Hausse des pensions de retraite, sans montant précisé"
-detail: "Il demande une hausse des pensions dans le cadre des débats budgétaires. Il l'avait déjà réclamée dans son discours de la Fête de l'Humanité le 12 septembre 2026. Aucun montant ni mécanisme d'indexation n'a été trouvé."
-citation: "augmenter les pensions"
-source:
-  url: https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/fabien-roussel-appelle-a-continuer-la-mobilisation-tant-que-le-gouvernement-n-entend-pas-ce-cri-de-souffrance-de-douleur-de-colere_8265494.html
-  titre: "franceinfo – Fabien Roussel appelle à continuer la mobilisation « tant que le gouvernement n'entend pas ce cri de souffrance, de douleur, de colère »"
-  contexte: "Matinale de franceinfo (« 8h30 franceinfo »), 3 novembre 2026"
-  date_consultation: 2026-11-10
+statut: non-publie
 date_maj: 2026-11-10

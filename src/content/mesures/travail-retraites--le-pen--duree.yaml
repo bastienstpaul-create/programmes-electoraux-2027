@@ -1,13 +1,5 @@
 theme: travail-retraites
 axe: duree
 candidat: le-pen
-statut: orale
-intitule: "40 annuités pour un début de carrière avant 20 ans, puis progressivement jusqu'à 42 annuités"
-detail: "Au débat du Medef du 27 août 2026, elle a présenté une durée progressive selon l'âge de début de carrière (« jusqu'à 24 ans et demi »), avec 42 annuités et un départ à 62 ans pour les autres assurés."
-citation: "un retour de l’âge légal à 62 ans, avec 42 annuités requises"
-source:
-  url: https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites
-  titre: "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites (Public Sénat)"
-  contexte: "Débat des candidats à l'université d'été du Medef (Roland-Garros), 27 août 2026, rapporté par Public Sénat"
-  date_consultation: 2026-11-10
+statut: non-publie
 date_maj: 2026-11-10

@@ -1,14 +1,5 @@
 theme: travail-retraites
 axe: financement
 candidat: le-pen
-statut: orale
-intitule: "Économies de 15 à 20 Md€ sur les retraites ; création d'un pilier de capitalisation"
-detail: "Lors de la présentation de sa trajectoire budgétaire le 6 octobre 2026, elle a chiffré 15 à 20 milliards d'euros d'économies sur les retraites par « des corrections de mesures injustes », sans détailler ces mesures, et annoncé un « pilier de capitalisation ». Selon un article Moneyvox du même jour, elle a annoncé une « grande réforme de la capitalisation individuelle et collective » à présenter ultérieurement."
-citation: "des corrections de mesures injustes"
-chiffrage_annonce: "15 à 20 milliards d'euros d'économies sur les retraites (à terme)"
-source:
-  url: https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f
-  titre: "140 milliards d'euros d'économies d'ici 2032 : « l'effort radical » proposé par Marine Le Pen pour « redresser » les finances publiques (Public Sénat)"
-  contexte: "Conférence de presse de présentation du contre-budget et de la trajectoire budgétaire du RN, siège du parti, Paris, 6 octobre 2026"
-  date_consultation: 2026-11-10
+statut: non-publie
 date_maj: 2026-11-10

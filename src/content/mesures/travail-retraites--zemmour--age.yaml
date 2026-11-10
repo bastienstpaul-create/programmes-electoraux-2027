@@ -1,13 +1,5 @@
 theme: travail-retraites
 axe: age
 candidat: zemmour
-statut: orale
-intitule: "Départ plus tardif à la retraite, sans âge précisé"
-detail: "Interrogé sur les retraites, il a déclaré qu'il faudra « augmenter la durée de travail et donc le fait de partir plus tard à la retraite ». Aucun âge chiffré dans cette source."
-citation: "le fait de partir plus tard à la retraite"
-source:
-  url: https://www.europe1.fr/politique/en-direct-immigration-pouvoir-dachat-narcotrafic-ce-quil-faut-retenir-de-linterview-deric-zemmour-dans-la-france-en-face-936419
-  titre: "Immigration, pouvoir d'achat, narcotrafic… Ce qu'il faut retenir de l'interview d'Éric Zemmour dans La France en face (Europe 1)"
-  contexte: "Émission « La France en face » (Laurence Ferrari, Pierre de Vilno), Europe 1 / CNews, 19 mai 2026"
-  date_consultation: 2026-11-10
+statut: non-publie
 date_maj: 2026-11-10

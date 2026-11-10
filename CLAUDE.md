@@ -15,6 +15,8 @@ Chaque thème suit toujours la même grille :
 ## Règles éditoriales (non négociables)
 - **Neutralité** : même grille, même niveau de détail, même ton pour tous les candidats. Aucune note, aucun classement, aucun adjectif évaluatif (« ambitieux », « irréaliste », « courageux », « démagogique », etc.).
 - **Intitulés neutres** : ne jamais reprendre les titres ou le vocabulaire militant d'un programme. Reformuler la mesure de façon descriptive ; garder la formulation originale en citation courte (**moins de 15 mots**) avec lien.
+- **Programmes publiés uniquement** (décision du 10/11/2026) : seules les mesures écrites dans un programme, un site de campagne ou un projet officiel du parti sont retenues. Les déclarations orales (interviews, meetings, presse) ne sont pas utilisées : en leur absence, statut `non-publie`.
+- **Votes à l'Assemblée** : pour chaque thème, rappeler les votes des groupes parlementaires sur les textes clés des dernières années (source : page du scrutin sur assemblee-nationale.fr), sans commentaire.
 - **Tout est sourcé** : chaque mesure renvoie à la page ou au document officiel du candidat (URL + date de consultation). Chaque chiffre ou évaluation renvoie à sa source.
 - **Sources d'évaluation privilégiées** : INSEE, Cour des comptes, COR, Haut Conseil des finances publiques, DREES, DARES, France Stratégie, Banque de France, OFCE, IPP, Institut Montaigne, Fondation iFRAP, Terra Nova, OCDE, Commission européenne. Quand des évaluateurs de sensibilités différentes divergent, **afficher les deux**.
 - **Statuts distincts et visibles** :

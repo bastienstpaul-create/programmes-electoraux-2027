@@ -1,14 +1,5 @@
 theme: travail-retraites
 axe: age
 candidat: le-pen
-statut: orale
-intitule: "Âge légal ramené à 62 ans, et à 60 ans pour les carrières commencées avant 20 ans"
-detail: "Position réaffirmée lors du discours de rentrée à Hénin-Beaumont (dimanche 13 septembre 2026), selon LCP, et exposée au débat du Medef le 27 août 2026. Public Sénat indique qu'elle évalue sa réforme à 9 milliards d'euros en année pleine."
-citation: "le retour à un âge légal à 62 ans"
-chiffrage_annonce: "9 milliards d'euros en année pleine (coût de la réforme, selon Public Sénat)"
-source:
-  url: https://lcp.fr/actualites/presidentielle-que-proposent-les-candidats-a-l-elysee-sur-les-retraites-441751
-  titre: "Présidentielle: que proposent les candidats à l'Élysée sur les retraites? (LCP)"
-  contexte: "Discours de rentrée de Marine Le Pen à Hénin-Beaumont (Pas-de-Calais), 13 septembre 2026, rapporté par LCP ; également débat des candidats aux universités d'été du Medef, 27 août 2026"
-  date_consultation: 2026-11-10
+statut: non-publie
 date_maj: 2026-11-10

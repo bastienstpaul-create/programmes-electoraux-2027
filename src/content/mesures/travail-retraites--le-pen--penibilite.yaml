@@ -1,13 +1,5 @@
 theme: travail-retraites
 axe: penibilite
 candidat: le-pen
-statut: orale
-intitule: "Départ à 60 ans avec 40 annuités si début avant 20 ans ; plus de cotisations retraite et chômage après l'âge légal"
-detail: "Au débat du Medef (27 août 2026), elle a proposé un départ à 60 ans après 40 ans de cotisation pour ceux ayant commencé à travailler avant 20 ans, ainsi que la suppression des cotisations chômage et retraite pour les personnes ayant atteint l'âge légal qui continuent de travailler (Public Sénat, 30 octobre 2026)."
-citation: "cotiseront 40 ans et partiront à 60 ans"
-source:
-  url: https://www.publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites
-  titre: "Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats à l'élection présidentielle sur les retraites (Public Sénat) ; complément : https://www.publicsenat.fr/actualites/economie/presidentielle-que-proposent-les-candidats-pour-augmenter-les-salaires"
-  contexte: "Débat des candidats à l'université d'été du Medef, 27 août 2026, rapporté par Public Sénat (articles des 30 septembre et 30 octobre 2026)"
-  date_consultation: 2026-11-10
+statut: non-publie
 date_maj: 2026-11-10

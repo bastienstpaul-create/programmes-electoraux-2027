@@ -79,7 +79,7 @@ export const STATUT_MESURE = {
   programme: { label: 'Programme écrit', aide: 'Mesure inscrite dans un document officiel du candidat ou de son parti.' },
   orale: { label: 'Annonce orale', aide: 'Mesure annoncée en interview ou en meeting, absente des documents écrits.' },
   aucune: { label: 'Pas de proposition identifiée', aide: 'Le programme publié ne contient pas de proposition sur ce point.' },
-  'non-publie': { label: 'Pas encore de proposition', aide: "Le candidat n'a pas encore publié de proposition sur ce point." },
+  'non-publie': { label: 'Programme non publié', aide: "Le candidat n'a pas encore publié de programme écrit sur ce point. Les déclarations orales ne sont pas prises en compte." },
   vide: { label: 'Non vérifié', aide: "Ce point n'a pas encore été vérifié par la rédaction du site." },
 } as const;
 export type StatutAffiche = keyof typeof STATUT_MESURE;

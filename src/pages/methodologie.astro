@@ -26,7 +26,8 @@ const majs = await Promise.all(candidats.map(async (c) => {
   <ul class="mt-3 list-disc space-y-2 pl-5">
     <li>Chaque thème est découpé en sous-thèmes identiques pour tous les candidats.</li>
     <li>Pour chaque sous-thème, on retient la proposition principale du candidat, résumée en une phrase descriptive. Les termes du programme ne sont pas repris ; une citation courte du texte d'origine figure dans « Détails ».</li>
-    <li>Sources acceptées : programme ou document officiel du candidat ou de son parti (« Programme écrit ») ; à défaut, une déclaration publique datée, rapportée par un média (« Annonce orale »).</li>
+    <li>Seuls les programmes écrits et publiés sont pris en compte : programme du candidat, site de campagne ou projet officiel de son parti. Les déclarations orales (interviews, meetings) ne sont pas retenues.</li>
+    <li>Quand le candidat n'a rien publié par écrit sur un point, la case indique « Programme non publié ». Quand son programme est publié mais ne dit rien sur ce point, elle indique « Pas de proposition identifiée ».</li>
     <li>Les chiffrages annoncés par les candidats sont distingués des estimations d'organismes indépendants.</li>
     <li>Les chiffres de contexte viennent de l'INSEE, de la Cour des comptes, du Conseil d'orientation des retraites, de la DREES, de la DARES, de France Stratégie, de la Banque de France, d'instituts (OFCE, IPP) et de think tanks de sensibilités variées (Institut Montaigne, Fondation iFRAP, Terra Nova), de l'OCDE et de la Commission européenne. Quand leurs estimations divergent, toutes sont affichées.</li>
   </ul>
@@ -38,7 +39,7 @@ const majs = await Promise.all(candidats.map(async (c) => {
 
   <h2 id="signaler" class="mt-10 text-xl">Signaler une erreur</h2>
   <p class="mt-3">Une proposition manquante, un chiffre erroné, une formulation qui vous semble orientée ? Indiquez la page concernée et, si possible, la source correcte. Chaque signalement est vérifié et la correction est datée.</p>
-  <p class="mt-2 text-ink-600">Adresse de signalement : à venir.</p>
+  <p class="mt-3"><a class="btn btn-secondary" href="mailto:bastienstpaul@gmail.com?subject=Programmes%202027%20%3A%20signalement%20d'erreur">Écrire pour signaler une erreur</a></p>
 
   {sources.length > 0 && (
     <>

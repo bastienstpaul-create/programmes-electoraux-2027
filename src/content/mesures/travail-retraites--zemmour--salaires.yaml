@@ -1,13 +1,5 @@
 theme: travail-retraites
 axe: salaires
 candidat: zemmour
-statut: orale
-intitule: "Baisse des cotisations sociales pour augmenter le pouvoir d'achat, sans barème précisé"
-detail: "Il propose une baisse des dépenses publiques d'au moins 100 milliards d'euros par an, ainsi qu'une baisse des cotisations sociales et des impôts. Aucune proposition sur le SMIC."
-citation: "il faut baisser également les charges sociales"
-source:
-  url: https://www.europe1.fr/politique/en-direct-immigration-pouvoir-dachat-narcotrafic-ce-quil-faut-retenir-de-linterview-deric-zemmour-dans-la-france-en-face-936419
-  titre: "Immigration, pouvoir d'achat, narcotrafic… Ce qu'il faut retenir de l'interview d'Éric Zemmour dans La France en face (Europe 1)"
-  contexte: "Émission « La France en face », Europe 1 / CNews, 19 mai 2026"
-  date_consultation: 2026-11-10
+statut: non-publie
 date_maj: 2026-11-10

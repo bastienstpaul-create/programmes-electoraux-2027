@@ -1,10 +1,9 @@
 theme: travail-retraites
 axe: temps-travail
 candidat: glucksmann
-statut: non-publie
-detail: "Le projet Acte I de Place publique ne contient aucune mesure sur la durée du travail (35 heures, heures supplémentaires, semaine de 4 jours), et le site glucks2027.fr non plus. Aucune déclaration datée n'a été trouvée."
+statut: aucune
 source:
   url: https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf
-  titre: "Place publique, « Acte I – Notre vision pour la France »"
+  titre: "Place publique, « Acte I – Notre vision pour la France » (projet du parti)"
   date_consultation: 2026-11-10
 date_maj: 2026-11-10

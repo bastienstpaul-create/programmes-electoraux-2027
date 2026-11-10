@@ -16,7 +16,7 @@ const statut = d?.statut ?? 'vide';
 const uid = `det-${mesure?.id ?? 'vide'}-${Math.random().toString(36).slice(2, 7)}`;
 const vide: Record<string, string> = {
   aucune: 'Pas de proposition identifiée sur ce point.',
-  'non-publie': 'Pas encore de proposition publiée sur ce point.',
+  'non-publie': 'Programme écrit non publié sur ce point à ce jour.',
   vide: 'Point pas encore vérifié.',
 };
 const aDetails = !!d && !!(d.detail || d.citation || d.chiffrage_annonce || d.cout || d.evaluations.length || d.source);

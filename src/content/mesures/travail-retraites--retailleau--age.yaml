@@ -1,14 +1,5 @@
 theme: travail-retraites
 axe: age
 candidat: retailleau
-statut: orale
-intitule: "Âge minimal de départ à 63 ans, avec décote de 7 % par an avant le taux plein"
-detail: "L'âge de 63 ans ne serait pas indexé sur l'espérance de vie. Les personnes ayant commencé tôt avec une carrière complète pourraient partir à taux plein à 63 ans. Une exonération de cotisations les inciterait à travailler jusqu'à 65 ans."
-citation: "L'âge minimal de départ, c'est 63 ans"
-chiffrage_annonce: "40 milliards d'euros d'économies en cumulé sur cinq ans pour l'ensemble de la réforme"
-source:
-  url: https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65
-  titre: "Retraites : Bruno Retailleau veut un âge minimal de départ à 63 ans et un taux plein à 65 ans (LCP)"
-  contexte: "LCI, mardi 22 septembre 2026 au soir ; article LCP du 23/09/2026"
-  date_consultation: 2026-11-10
+statut: non-publie
 date_maj: 2026-11-10
