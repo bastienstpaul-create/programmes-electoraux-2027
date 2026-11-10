@@ -49,6 +49,10 @@ const candidats = defineCollection({
     precision: z.string().optional(),
     programme_url: z.url().optional(),
     date_verification: date,
+    /** sigles des groupes de l'Assemblée où siègent les députés du parti (selon la législature) */
+    groupes_assemblee: z.array(z.string()).default([]),
+    /** précision sur ce rattachement (ex. parti sans groupe, apparentement) */
+    groupes_note: z.string().optional(),
     actif: z.boolean().default(true),
     factice: z.boolean().default(false),
   }),
@@ -201,4 +205,28 @@ const mesures = defineCollection({
     }),
 });
 
-export const collections = { sources, candidats, glossaire, themes, mesures };
+/* ------------------------------------------------------------------ */
+/* Votes à l'Assemblée nationale (scrutins publics)                    */
+/* ------------------------------------------------------------------ */
+const nb = z.number().int().min(0).nullable().optional();
+const votes = defineCollection({
+  loader: yaml('votes'),
+  schema: z.object({
+    theme: reference('themes'),
+    titre: z.string(),
+    /** ce qui a été voté (ensemble, article, motion de censure…) */
+    objet: z.string(),
+    date: date,
+    legislature: z.number().int(),
+    numero_scrutin: z.number().int(),
+    url: z.url().refine((u) => u.includes('assemblee-nationale.fr'), 'URL du scrutin sur assemblee-nationale.fr attendue'),
+    axes: z.array(z.string()).default([]),
+    resultat: z.enum(['adopte', 'rejete']),
+    decompte: z.object({ pour: z.number().int(), contre: nb, abstention: nb }),
+    groupes: z.array(z.object({ groupe: z.string(), sigle: z.string(), pour: nb, contre: nb, abstention: nb, non_votants: nb })).min(1),
+    note: z.string().optional(),
+    date_consultation: date,
+  }),
+});
+
+export const collections = { sources, candidats, glossaire, themes, mesures, votes };
