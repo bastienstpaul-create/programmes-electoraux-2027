@@ -1,0 +1,64 @@
+---
+/**
+ * Filtre par candidat. Masque les éléments [data-candidat] du conteneur cible.
+ * max : nombre maximum de candidats affichés simultanément (page Comparer).
+ */
+import type { Candidat } from '../lib/data';
+import { nomComplet } from '../lib/data';
+interface Props { candidats: Candidat[]; cible: string; max?: number; legende?: string }
+const { candidats, cible, max, legende = 'Afficher les candidats' } = Astro.props;
+---
+<fieldset class="filtre" data-cible={cible} data-max={max ?? ''}>
+  <legend class="mb-2 text-sm font-medium">{legende}{max && ` (${max} au maximum)`}</legend>
+  <div class="flex flex-wrap gap-2">
+    {candidats.map((c, i) => (
+      <label class="chip">
+        <input type="checkbox" value={c.id} checked={max ? i < Math.min(2, max) : true} class="sr-only peer" />
+        <span>{nomComplet(c)}</span>
+      </label>
+    ))}
+  </div>
+  {!max && (
+    <div class="mt-2 flex gap-3 text-sm">
+      <button type="button" data-action="tous" class="lien-btn">Tous</button>
+      <button type="button" data-action="aucun" class="lien-btn">Aucun</button>
+    </div>
+  )}
+  <p class="mt-2 text-sm text-slate-600 dark:text-slate-400" aria-live="polite" data-message></p>
+</fieldset>
+
+<script>
+  function init(fs: HTMLFieldSetElement) {
+    const cible = document.getElementById(fs.dataset.cible!);
+    if (!cible) return;
+    const max = Number(fs.dataset.max) || 0;
+    const boxes = [...fs.querySelectorAll<HTMLInputElement>('input[type=checkbox]')];
+    const msg = fs.querySelector<HTMLElement>('[data-message]')!;
+
+    // Pré-sélection via ?c=id1,id2
+    const pre = new URLSearchParams(location.search).get('c');
+    if (pre) {
+      const ids = pre.split(',');
+      boxes.forEach((b) => (b.checked = ids.includes(b.value)));
+    }
+
+    const appliquer = () => {
+      const actifs = new Set(boxes.filter((b) => b.checked).map((b) => b.value));
+      cible.querySelectorAll<HTMLElement>('[data-candidat]').forEach((el) => {
+        el.hidden = !actifs.has(el.dataset.candidat!);
+      });
+      if (max) boxes.forEach((b) => (b.disabled = !b.checked && actifs.size >= max));
+      msg.textContent = actifs.size === 0 ? 'Aucun candidat sélectionné.' : '';
+      if (pre !== null || max) {
+        const u = new URL(location.href);
+        u.searchParams.set('c', [...actifs].join(','));
+        history.replaceState(null, '', u);
+      }
+    };
+    boxes.forEach((b) => b.addEventListener('change', appliquer));
+    fs.querySelector('[data-action=tous]')?.addEventListener('click', () => { boxes.forEach((b) => (b.checked = true)); appliquer(); });
+    fs.querySelector('[data-action=aucun]')?.addEventListener('click', () => { boxes.forEach((b) => (b.checked = false)); appliquer(); });
+    appliquer();
+  }
+  document.querySelectorAll<HTMLFieldSetElement>('fieldset.filtre').forEach(init);
+</script>

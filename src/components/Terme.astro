@@ -1,0 +1,23 @@
+---
+/** Terme du glossaire : souligné, définition au clic (Popover API, accessible au clavier). */
+import { getEntry } from 'astro:content';
+import { url } from '../lib/data';
+interface Props { id: string; libelle?: string }
+const { id, libelle } = Astro.props;
+const t = await getEntry('glossaire', id);
+if (!t) throw new Error(`Terme de glossaire inconnu : « ${id} » (page ${Astro.url.pathname})`);
+const uid = `def-${id}-${Math.random().toString(36).slice(2, 8)}`;
+---
+<button type="button" class="terme" popovertarget={uid} aria-haspopup="dialog">{libelle ?? t.data.terme}</button><span
+  id={uid} popover="auto" role="dialog" aria-label={`Définition : ${t.data.terme}`} class="definition" data-pagefind-ignore>
+  <span class="flex items-start justify-between gap-3">
+    <strong class="text-base">{t.data.terme}</strong>
+    <button type="button" popovertarget={uid} popovertargetaction="hide" class="rounded px-2 text-lg leading-none text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" aria-label="Fermer">×</button>
+  </span>
+  <span class="mt-2 block">{t.data.definition}</span>
+  {t.data.exemple && <span class="mt-2 block text-slate-600 dark:text-slate-300"><em>Exemple :</em> {t.data.exemple}</span>}
+  <span class="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+    <a href={url(`/glossaire/#${id}`)}>Voir dans le glossaire</a>
+    {t.data.lien && <a href={t.data.lien.url} rel="noopener" target="_blank">{t.data.lien.titre} ↗</a>}
+  </span>
+</span>

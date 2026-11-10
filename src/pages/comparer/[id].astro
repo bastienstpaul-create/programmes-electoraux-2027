@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import TableauComparatif from '../../components/TableauComparatif.astro';
+import FiltreCandidats from '../../components/FiltreCandidats.astro';
+import BandeauFactice from '../../components/BandeauFactice.astro';
+import DateMaj from '../../components/DateMaj.astro';
+import { getThemes, getCandidats, getMesuresTheme, url, type Theme } from '../../lib/data';
+
+export async function getStaticPaths() {
+  return (await getThemes()).filter((t) => t.data.etat === 'publie').map((t) => ({ params: { id: t.id }, props: { theme: t } }));
+}
+const { theme } = Astro.props as { theme: Theme };
+const candidats = await getCandidats();
+const mesures = await getMesuresTheme(theme.id);
+---
+<Base title={`Comparer – ${theme.data.titre}`} large>
+  <p class="text-sm"><a href={url('/comparer/')}>Comparer</a> › <a href={url(`/themes/${theme.id}/`)}>{theme.data.titre}</a></p>
+  <h1 class="mt-1 text-2xl font-bold">Comparer : {theme.data.titre}</h1>
+  <DateMaj date={theme.data.date_maj} />
+  {theme.data.factice && <BandeauFactice />}
+  <div class="my-4"><FiltreCandidats candidats={candidats} cible="tableau-comparer" max={3} legende="Candidats comparés" /></div>
+  <div data-pagefind-ignore><TableauComparatif id="tableau-comparer" theme={theme} candidats={candidats} mesures={mesures} /></div>
+</Base>

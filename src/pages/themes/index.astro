@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getThemes, url } from '../../lib/data';
+const themes = await getThemes();
+---
+<Base title="Thèmes">
+  <h1 class="text-2xl font-bold">Les thèmes</h1>
+  <ul class="mt-4 grid gap-2 sm:grid-cols-2">
+    {themes.map((t) => (
+      <li><a href={url(`/themes/${t.id}/`)} class="carte block p-3 no-underline hover:border-slate-400">
+        <span class="font-semibold">{t.data.numero}. {t.data.titre}</span>
+        {t.data.sous_titre && <span class="block text-sm text-slate-600 dark:text-slate-400">{t.data.sous_titre}</span>}
+        {t.data.etat === 'en-preparation' && <span class="mt-1 block text-xs italic text-slate-500">Fiche en préparation</span>}
+      </a></li>
+    ))}
+  </ul>
+</Base>

@@ -3,7 +3,49 @@
 /* Mode sombre piloté par la classe .dark sur <html> */
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Palette neutre : aucune couleur associée à un parti */
+/* Palette neutre (ardoise) : aucune couleur associée à un parti. */
 @theme {
   --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply leading-relaxed; }
+  a { @apply text-slate-900 underline decoration-slate-400 underline-offset-2 hover:decoration-slate-900 dark:text-slate-100 dark:hover:decoration-slate-100; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-sky-600 dark:outline-sky-400; }
+  [hidden] { display: none !important; }
+}
+
+@layer components {
+  /* Terme du glossaire : souligné en pointillés, cliquable */
+  .terme {
+    @apply cursor-help underline decoration-dotted decoration-2 underline-offset-4 decoration-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-sm;
+    font: inherit; color: inherit; padding: 0; background: none;
+  }
+  /* Définition : feuille en bas d'écran sur mobile, carte centrée sur grand écran */
+  .definition {
+    @apply rounded-xl border border-slate-300 bg-white p-4 text-left text-sm leading-relaxed text-slate-900 shadow-xl dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100;
+    position: fixed; inset: auto 0.75rem 0.75rem 0.75rem; margin: 0 auto; max-width: 32rem; width: auto;
+    font-style: normal; font-weight: normal;
+  }
+  .definition:popover-open { display: block; }
+  .definition::backdrop { background: rgb(15 23 42 / 0.25); }
+
+  .source { @apply text-slate-700 dark:text-slate-300; }
+
+  .chip { @apply cursor-pointer select-none; }
+  .chip span { @apply inline-block rounded-full border border-slate-300 px-3 py-1 text-sm dark:border-slate-600; }
+  .chip input:checked + span { @apply border-slate-800 bg-slate-800 text-white dark:border-slate-200 dark:bg-slate-200 dark:text-slate-900; }
+  .chip input:disabled + span { @apply opacity-40 cursor-not-allowed; }
+  .chip input:focus-visible + span { @apply outline-2 outline-offset-2 outline-sky-600; }
+
+  .lien-btn { @apply underline decoration-slate-400 underline-offset-2; }
+
+  .grille-cartes { display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
+
+  .carte { @apply rounded-lg border border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900; }
+}
+
+/* Recherche Pagefind : couleurs alignées sur le thème */
+#recherche { --pagefind-ui-font: inherit; --pagefind-ui-primary: #1e293b; --pagefind-ui-text: #0f172a; --pagefind-ui-background: #fff; --pagefind-ui-border: #cbd5e1; --pagefind-ui-tag: #e2e8f0; }
+.dark #recherche { --pagefind-ui-primary: #e2e8f0; --pagefind-ui-text: #f1f5f9; --pagefind-ui-background: #0f172a; --pagefind-ui-border: #334155; --pagefind-ui-tag: #1e293b; }

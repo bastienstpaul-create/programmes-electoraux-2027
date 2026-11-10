@@ -1,0 +1,134 @@
+---
+import { getCollection, getEntries } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Section from '../../components/Section.astro';
+import Texte from '../../components/Texte.astro';
+import SourceLien from '../../components/SourceLien.astro';
+import DateMaj from '../../components/DateMaj.astro';
+import BandeauFactice from '../../components/BandeauFactice.astro';
+import TableauComparatif from '../../components/TableauComparatif.astro';
+import FiltreCandidats from '../../components/FiltreCandidats.astro';
+import { getThemes, getCandidats, getMesuresTheme, NATURE_BILAN, formatDate, url, type Theme } from '../../lib/data';
+
+export async function getStaticPaths() {
+  return (await getThemes()).map((t) => ({ params: { id: t.id }, props: { theme: t } }));
+}
+const { theme } = Astro.props as { theme: Theme };
+const d = theme.data;
+const candidats = await getCandidats();
+const mesures = await getMesuresTheme(theme.id);
+const termes = await getEntries(d.glossaire);
+const axeLibelle = (id: string) => d.axes.find((a) => a.id === id)?.libelle ?? id;
+
+// Sources citées sur la page (registre)
+const idsSources = new Set<string>([
+  ...(d.situation?.chiffres.map((c) => c.source.id) ?? []),
+  ...d.bilan.flatMap((b) => b.sources.map((s) => s.id)),
+  ...d.effets.flatMap((e) => e.evaluations.map((v) => v.source.id)),
+  ...mesures.flatMap((m) => [...(m.data.cout ? [m.data.cout.source.id] : []), ...m.data.evaluations.map((v) => v.source.id)]),
+]);
+const sources = (await getCollection('sources')).filter((s) => idsSources.has(s.id));
+const natures = ['fonctionne', 'ne-fonctionne-pas', 'debat'] as const;
+const sommaire = [['situation', 'Situation actuelle'], ['bilan', 'Bilan'], ['mesures', 'Mesures des candidats'], ['effets', 'Effets attendus'], ['glossaire', 'Glossaire'], ['sources', 'Sources']];
+---
+<Base title={d.titre} large>
+  <p class="text-sm"><a href={url('/themes/')}>Thèmes</a> › {d.numero}</p>
+  <h1 class="mt-1 text-2xl font-bold sm:text-3xl">{d.titre}</h1>
+  {d.sous_titre && <p class="text-slate-600 dark:text-slate-400">{d.sous_titre}</p>}
+  <DateMaj date={d.date_maj} />
+  {d.factice && <BandeauFactice />}
+
+  {d.etat === 'en-preparation' ? (
+    <p class="carte mt-6">Cette fiche est en préparation. Elle sera publiée lorsque la situation, le bilan et les mesures de chaque candidat auront été vérifiés et sourcés.</p>
+  ) : (
+    <div class="mt-4 space-y-8">
+      <nav aria-label="Sommaire de la fiche" class="flex flex-wrap gap-2 text-sm">
+        {sommaire.map(([h, l]) => <a href={`#${h}`} class="rounded-full border border-slate-300 px-3 py-1 no-underline hover:bg-slate-100 dark:border-slate-700 dark:hover:bg-slate-800">{l}</a>)}
+      </nav>
+
+      <Section id="situation" numero={1} titre="Situation actuelle">
+        {d.situation ? (
+          <div class="max-w-3xl">
+            <Texte texte={d.situation.texte} />
+            {d.situation.chiffres.length > 0 && (
+              <>
+                <h3 class="mt-6 font-semibold">Chiffres clés</h3>
+                <ul class="mt-2 grid gap-3 sm:grid-cols-3">
+                  {d.situation.chiffres.map((c) => (
+                    <li class="carte">
+                      <p class="text-2xl font-bold">{c.valeur}</p>
+                      {c.precision && <p class="text-sm"><Texte texte={c.precision} inline /></p>}
+                      <p class="mt-1 text-sm">{c.libelle} ({c.annee})</p>
+                      <p class="mt-1 text-xs">Source : <SourceLien id={c.source.id} /></p>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+            {d.situation.lois.length > 0 && (
+              <>
+                <h3 class="mt-6 font-semibold">Lois et règles en vigueur</h3>
+                <ul class="mt-2 space-y-2">
+                  {d.situation.lois.map((l) => <li class="carte"><a href={l.url} rel="noopener" target="_blank" class="font-medium">{l.titre} ↗</a><p class="mt-1 text-sm"><Texte texte={l.resume} inline /></p></li>)}
+                </ul>
+              </>
+            )}
+          </div>
+        ) : <p>À compléter.</p>}
+      </Section>
+
+      <Section id="bilan" numero={2} titre="Bilan des politiques existantes">
+        <div class="grid max-w-5xl gap-4 md:grid-cols-3">
+          {natures.map((n) => {
+            const items = d.bilan.filter((b) => b.nature === n);
+            return (
+              <div>
+                <h3 class="font-semibold">{NATURE_BILAN[n]}</h3>
+                {items.length ? (
+                  <ul class="mt-2 space-y-2">
+                    {items.map((b) => <li class="carte text-sm"><Texte texte={b.texte} inline /><span class="mt-1 block text-xs">Sources : {b.sources.map((s, i) => <>{i > 0 && ' ; '}<SourceLien id={s.id} /></>)}</span></li>)}
+                  </ul>
+                ) : <p class="mt-2 text-sm italic text-slate-500">Rien à signaler dans les évaluations consultées.</p>}
+              </div>
+            );
+          })}
+        </div>
+      </Section>
+
+      <Section id="mesures" numero={3} titre="Mesures des candidats">
+        <div class="mb-4"><FiltreCandidats candidats={candidats} cible="tableau-theme" /></div>
+        <TableauComparatif id="tableau-theme" theme={theme} candidats={candidats} mesures={mesures} />
+        <p class="mt-4 text-sm"><a href={url(`/comparer/${theme.id}/`)}>Comparer 2 ou 3 candidats côte à côte sur ce thème →</a></p>
+      </Section>
+
+      <Section id="effets" numero={4} titre="Effets attendus">
+        {d.effets.length === 0 ? <p>À compléter.</p> : (
+          <div class="max-w-3xl space-y-4">
+            {d.effets.map((e) => (
+              <article class="carte">
+                <h3 class="font-semibold">{e.sujet}</h3>
+                {e.axes.length > 0 && <p class="text-xs text-slate-500">Concerne : {e.axes.map(axeLibelle).join(', ')}</p>}
+                <ul class="mt-2 space-y-2 text-sm">
+                  {e.evaluations.map((v) => <li><SourceLien id={v.source.id} /> : <Texte texte={v.resume} inline />{v.fourchette && <strong class="ml-1 whitespace-nowrap">{v.fourchette}</strong>}</li>)}
+                </ul>
+                {e.desaccords && <p class="mt-3 border-t border-slate-200 pt-2 text-sm dark:border-slate-700"><strong>Points de désaccord :</strong> <Texte texte={e.desaccords} inline /></p>}
+              </article>
+            ))}
+          </div>
+        )}
+      </Section>
+
+      <Section id="glossaire" numero={5} titre="Glossaire du thème">
+        <dl class="grid max-w-5xl gap-3 sm:grid-cols-2">
+          {termes.map((t) => <div class="carte"><dt class="font-semibold"><a href={url(`/glossaire/#${t.id}`)} class="no-underline hover:underline">{t.data.terme}</a></dt><dd class="mt-1 text-sm">{t.data.definition}</dd></div>)}
+        </dl>
+      </Section>
+
+      <Section id="sources" titre="Sources citées sur cette page">
+        <ul class="max-w-3xl space-y-1 text-sm">
+          {sources.map((s) => <li><a href={s.data.url} rel="noopener" target="_blank">{s.data.titre}</a> – {s.data.organisme}{s.data.date_publication && `, ${formatDate(s.data.date_publication)}`} (consulté le {formatDate(s.data.date_consultation)})</li>)}
+        </ul>
+      </Section>
+    </div>
+  )}
+</Base>

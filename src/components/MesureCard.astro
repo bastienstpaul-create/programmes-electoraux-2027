@@ -1,0 +1,38 @@
+---
+import type { Mesure, Candidat } from '../lib/data';
+import { formatDate, nomComplet, url } from '../lib/data';
+import StatutBadge from './StatutBadge.astro';
+import Texte from './Texte.astro';
+import SourceLien from './SourceLien.astro';
+interface Props { mesure?: Mesure; candidat?: Candidat; compact?: boolean }
+const { mesure, candidat, compact = false } = Astro.props;
+const d = mesure?.data;
+---
+<article class="mesure flex h-full flex-col gap-2 rounded-lg border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+  {candidat && (
+    <a href={url(`/candidats/${candidat.id}/`)} class="text-sm font-semibold no-underline hover:underline">{nomComplet(candidat)}</a>
+  )}
+  <div><StatutBadge statut={d?.statut ?? 'vide'} /></div>
+  {d?.intitule && <p class="font-medium"><Texte texte={d.intitule} inline /></p>}
+  {d?.detail && !compact && <div class="text-sm text-slate-700 dark:text-slate-300"><Texte texte={d.detail} /></div>}
+  {d?.citation && (
+    <blockquote class="border-l-2 border-slate-300 pl-2 text-sm italic text-slate-600 dark:border-slate-600 dark:text-slate-400">
+      « {d.citation} »
+    </blockquote>
+  )}
+  {d?.cout && (
+    <p class="text-sm"><span class="font-medium">Coût estimé :</span> {d.cout.fourchette} (<SourceLien id={d.cout.source.id} />)
+      {d.cout.note && !compact && <span class="block text-slate-600 dark:text-slate-400">{d.cout.note}</span>}</p>
+  )}
+  {d && d.evaluations.length > 0 && !compact && (
+    <ul class="text-sm">
+      {d.evaluations.map((e) => <li><SourceLien id={e.source.id} /> : {e.resume}{e.fourchette && <> ({e.fourchette})</>}</li>)}
+    </ul>
+  )}
+  {d && (
+    <p class="mt-auto pt-1 text-xs text-slate-500 dark:text-slate-400">
+      {d.source && <><a href={d.source.url} rel="noopener" target="_blank">{d.source.titre}</a>{d.source.contexte && <> · {d.source.contexte}</>} · consulté le {formatDate(d.source.date_consultation)}<br /></>}
+      Mis à jour le {formatDate(d.date_maj)}
+    </p>
+  )}
+</article>

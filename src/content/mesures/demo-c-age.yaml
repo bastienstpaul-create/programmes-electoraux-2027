@@ -1,0 +1,6 @@
+theme: travail-retraites
+axe: age
+candidat: demo-c
+statut: aucune
+source: { url: "https://example.org/demo/programme-C", titre: "Programme du candidat C (factice)", date_consultation: 2026-11-10 }
+date_maj: 2026-11-10

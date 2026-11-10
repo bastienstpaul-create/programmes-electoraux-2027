@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCandidats, nomComplet, STATUT_CANDIDAT, formatDate, url } from '../../lib/data';
+const candidats = await getCandidats();
+---
+<Base title="Candidats">
+  <h1 class="text-2xl font-bold">Les candidats</h1>
+  <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">Classés par ordre alphabétique du nom.</p>
+  <ul class="mt-4 grid gap-3 sm:grid-cols-2">
+    {candidats.map((c) => (
+      <li class="carte">
+        <a href={url(`/candidats/${c.id}/`)} class="text-lg font-semibold">{nomComplet(c)}</a>
+        <p class="text-sm">{c.data.parti}</p>
+        <p class="mt-1 text-sm"><a href={c.data.statut_source} rel="noopener" target="_blank">{STATUT_CANDIDAT[c.data.statut]}</a> · vérifié le {formatDate(c.data.date_verification)}</p>
+      </li>
+    ))}
+  </ul>
+</Base>

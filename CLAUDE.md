@@ -38,6 +38,14 @@ Chaque thème suit toujours la même grille :
 - Recherche : Pagefind (`npm run build` génère l'index).
 - Mobile d'abord (lisible à 380 px), tableau comparatif → cartes empilées sur mobile, filtre par candidat. Mode clair/sombre, accessibilité (contrastes AA, navigation clavier).
 
+## Format du contenu (schémas : `src/content.config.ts`)
+- Identifiant d'une entrée = nom du fichier sans extension (ex. `themes/travail-retraites.yaml` → `travail-retraites`).
+- **Thème** : `axes` = les questions comparées (lignes du tableau). Une mesure cible un `axe` existant du thème.
+- **Mesure** : une par couple (thème, axe, candidat). `statut` ∈ `programme | orale | aucune | non-publie`. `source` obligatoire sauf `non-publie` ; `intitule` obligatoire pour `programme`/`orale` ; `contexte` obligatoire pour `orale` ; citation < 15 mots (vérifié au build). Absence de fichier = « Non renseigné » affiché.
+- **Textes** : `[[id-terme]]` ou `[[libellé|id-terme]]` → terme du glossaire cliquable (build en échec si l'id n'existe pas) ; `[libellé](https://…)` → lien ; ligne vide → paragraphe.
+- **Chiffres, bilans, effets, coûts** : référencent une entrée de `sources/` par son id (build en échec si absente).
+- Données de démonstration : fichiers `demo-*` et champ `factice: true` (bandeau affiché). À supprimer en phase 4.
+
 ## Contrôle qualité avant chaque commit de contenu
 - [ ] Toutes les mesures ont une source URL et une date de consultation.
 - [ ] Aucun chiffre sans source.

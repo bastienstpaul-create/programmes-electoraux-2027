@@ -1,0 +1,7 @@
+theme: travail-retraites
+axe: duree
+candidat: demo-a
+statut: programme
+intitule: "Mesure factice : porter la durée de cotisation à XXX [[trimestres|demo-trimestre]]"
+source: { url: "https://example.org/demo/programme-A#duree", titre: "Programme du candidat A (factice)", date_consultation: 2026-11-10 }
+date_maj: 2026-11-10

@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/data';
+---
+<Base title="Rechercher">
+  <h1 class="text-2xl font-bold">Rechercher</h1>
+  <div id="recherche" class="mt-4" data-pagefind-ignore>
+    <p class="text-sm text-slate-600">Chargement de la recherche…</p>
+  </div>
+  <link href={url('/pagefind/pagefind-ui.css')} rel="stylesheet" />
+  <script is:inline define:vars={{ base: url('/') }}>
+    const s = document.createElement('script');
+    s.src = base + 'pagefind/pagefind-ui.js';
+    s.onload = () => { document.getElementById('recherche').innerHTML = ''; new PagefindUI({ element: '#recherche', showSubResults: true, translations: { placeholder: 'Rechercher une mesure, un terme…' } }); };
+    s.onerror = () => (document.getElementById('recherche').innerHTML = '<p>La recherche est disponible uniquement sur le site construit (npm run build puis npm run preview).</p>');
+    document.head.appendChild(s);
+  </script>
+</Base>

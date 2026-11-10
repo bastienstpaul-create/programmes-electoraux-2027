@@ -1,0 +1,6 @@
+---
+import { formatDate } from '../lib/data';
+interface Props { date: Date; libelle?: string }
+const { date, libelle = 'Mis à jour le' } = Astro.props;
+---
+<p class="text-sm text-slate-600 dark:text-slate-400">{libelle} <time datetime={date.toISOString().slice(0, 10)}>{formatDate(date)}</time></p>
