@@ -1,0 +1,85 @@
+theme: travail-retraites
+titre: Motion de censure déposée par M. Bertrand Pancher et 90 députés après l'engagement de la responsabilité du Gouvernement (article 49, alinéa 3) sur le projet de loi de financement rectificative de la sécurité sociale pour 2023 (réforme des retraites)
+objet: Motion de censure déposée par M. Bertrand Pancher et 90 députés. Voter pour = renverser le Gouvernement et rejeter le texte de la réforme des retraites. Seuls les votes pour sont décomptés ; la motion devait recueillir 287 voix (majorité absolue des membres de l'Assemblée).
+date: 2023-03-20
+legislature: 16
+numero_scrutin: 1240
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/1240
+axes:
+- age
+- duree
+- financement
+resultat: rejete
+decompte:
+  pour: 278
+  contre: null
+  abstention: null
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 0
+  contre: null
+  abstention: null
+  non_votants: null
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 88
+  contre: null
+  abstention: null
+  non_votants: null
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 74
+  contre: null
+  abstention: null
+  non_votants: null
+- groupe: Les Républicains
+  sigle: LR
+  pour: 19
+  contre: null
+  abstention: null
+  non_votants: null
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 0
+  contre: null
+  abstention: null
+  non_votants: null
+- groupe: Socialistes et apparentés (membre de l’intergroupe NUPES)
+  sigle: SOC
+  pour: 31
+  contre: null
+  abstention: null
+  non_votants: null
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 0
+  contre: null
+  abstention: null
+  non_votants: null
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 22
+  contre: null
+  abstention: null
+  non_votants: null
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 22
+  contre: null
+  abstention: null
+  non_votants: null
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 18
+  contre: null
+  abstention: null
+  non_votants: null
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 4
+  contre: null
+  abstention: null
+  non_votants: null
+note: Motion rejetée à 9 voix près (278 voix pour, 287 requises). Le texte a donc été considéré comme adopté et est devenu la loi n° 2023-270 du 14 avril 2023. Le même jour, une seconde motion, déposée par Mme Marine Le Pen et 87 députés, a recueilli 94 voix (scrutin n° 1241, https://www.assemblee-nationale.fr/dyn/16/scrutins/1241). Les données ouvertes de l'Assemblée comptent en outre 1 non-votant dans le groupe Renaissance, non affiché sur la page.
+date_consultation: 2026-11-10

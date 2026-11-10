@@ -1,0 +1,90 @@
+theme: travail-retraites
+titre: Proposition de résolution (article 34-1 de la Constitution) invitant à abroger la loi n° 2023-270 de financement rectificative de la sécurité sociale pour 2023 (réforme des retraites)
+objet: Vote sur la proposition de résolution déposée par M. Stéphane Peu (groupe GDR). Une résolution exprime un avis de l'Assemblée ; elle n'a pas force de loi.
+date: 2025-06-05
+legislature: 17
+numero_scrutin: 2257
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/2257
+axes:
+- age
+- duree
+resultat: adopte
+decompte:
+  pour: 198
+  contre: 35
+  abstention: 0
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 41
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 0
+  contre: 11
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 59
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 44
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 0
+  contre: 1
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 33
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 0
+  contre: 11
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 0
+  contre: 7
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 4
+  contre: 3
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 17
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: UDR
+  sigle: UDR
+  pour: 0
+  contre: 2
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 0
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: 'Le compte rendu de séance rappelle que les résolutions de l''article 34-1 « n''ont pas force de loi » (propos de la ministre) : la loi de 2023 restait en vigueur après ce vote.'
+date_consultation: 2026-11-10

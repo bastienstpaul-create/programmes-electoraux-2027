@@ -1,0 +1,68 @@
+---
+/**
+ * Votes des groupes de l'Assemblée nationale sur les textes clés d'un thème.
+ * Décomptes officiels, sans commentaire. Une ligne par candidat (groupe de son parti),
+ * puis le détail de tous les groupes.
+ */
+import { getCollection } from 'astro:content';
+import Monogramme from './Monogramme.astro';
+import { formatDate, nomComplet, type Candidat } from '../lib/data';
+interface Props { themeId: string; candidats: Candidat[] }
+const { themeId, candidats } = Astro.props;
+const votes = (await getCollection('votes', (v) => v.data.theme.id === themeId)).sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
+type G = (typeof votes)[number]['data']['groupes'][number];
+const n = (x: number | null | undefined) => (x === null || x === undefined ? '–' : String(x));
+const resume = (g: G, censure: boolean) =>
+  censure ? `${n(g.pour)} pour` : `${n(g.pour)} pour, ${n(g.contre)} contre, ${n(g.abstention)} abstention${(g.abstention ?? 0) > 1 ? 's' : ''}`;
+---
+{votes.length > 0 && (
+  <div class="space-y-6">
+    {votes.map((v) => {
+      const d = v.data;
+      const censure = d.decompte.contre === null;
+      const uid = `vote-${v.id}`;
+      return (
+        <article class="rounded-[var(--radius-card)] border border-line bg-white p-4 sm:p-5">
+          <p class="text-sm text-ink-600"><time datetime={d.date.toISOString().slice(0, 10)}>{formatDate(d.date)}</time>, {d.legislature}e législature</p>
+          <h4 class="mt-1 font-semibold leading-snug">{d.titre}</h4>
+          <p class="mt-2 text-sm text-ink-600">{d.objet}</p>
+          <p class="mt-2 text-sm">
+            <span class="font-semibold">{d.resultat === 'adopte' ? 'Adopté' : 'Rejeté'}</span>{' '}
+            <span class="num">({censure ? `${d.decompte.pour} voix pour` : `${d.decompte.pour} pour, ${d.decompte.contre} contre, ${d.decompte.abstention} abstentions`})</span>.{' '}
+            <a href={d.url} target="_blank" rel="noopener">Scrutin n° {d.numero_scrutin} ↗</a>
+          </p>
+          <ul class="mt-4 grid gap-2 sm:grid-cols-2">
+            {candidats.map((c) => {
+              const g = d.groupes.find((x) => c.data.groupes_assemblee.includes(x.sigle));
+              return (
+                <li data-candidat={c.id} class="flex items-start gap-3 rounded-lg bg-surface p-3">
+                  <Monogramme candidat={c} />
+                  <div class="min-w-0 text-sm">
+                    <p class="font-semibold">{nomComplet(c)}</p>
+                    {g
+                      ? <p><span class="text-ink-600">Groupe {g.sigle} :</span> <span class="num">{resume(g, censure)}</span></p>
+                      : <p class="text-ink-600">{c.data.groupes_assemblee.length ? 'Groupe absent de ce scrutin.' : (c.data.groupes_note ?? 'Pas de groupe à l\'Assemblée.')}</p>}
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+          <button type="button" data-accordeon aria-expanded="false" aria-controls={uid} class="mt-3 inline-flex min-h-[44px] items-center text-sm font-semibold text-accent">Voir tous les groupes</button>
+          <div id={uid} hidden class="overflow-x-auto">
+            <table class="num w-full min-w-[28rem] text-left text-sm">
+              <caption class="sr-only">Décompte par groupe, scrutin n° {d.numero_scrutin}</caption>
+              <thead><tr class="border-b border-line"><th scope="col" class="py-2 pr-3">Groupe</th><th scope="col" class="px-2">Pour</th>{!censure && <><th scope="col" class="px-2">Contre</th><th scope="col" class="px-2">Abst.</th></>}<th scope="col" class="px-2">Non-votants</th></tr></thead>
+              <tbody>
+                {d.groupes.map((g) => (
+                  <tr class="border-b border-line last:border-0"><th scope="row" class="py-2 pr-3 font-normal">{g.groupe} ({g.sigle})</th><td class="px-2">{n(g.pour)}</td>{!censure && <><td class="px-2">{n(g.contre)}</td><td class="px-2">{n(g.abstention)}</td></>}<td class="px-2">{n(g.non_votants)}</td></tr>
+                ))}
+              </tbody>
+            </table>
+            {d.note && <p class="mt-2 text-sm text-ink-600">{d.note}</p>}
+            <p class="mt-1 text-xs text-ink-600">Décompte officiel consulté le {formatDate(d.date_consultation)}.</p>
+          </div>
+        </article>
+      );
+    })}
+  </div>
+)}

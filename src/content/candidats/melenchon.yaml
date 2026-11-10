@@ -5,4 +5,5 @@ statut: declare
 statut_source: "https://www.france24.com/fr/france/20261106-france-insoumise-jean-luc-melenchon-presente-programme-presidentielle-2027-fidele-volonte-rupture-lfi"
 precision: "Programme publié le 6 novembre 2026 (« L'Avenir en commun », 6e édition)."
 programme_url: "https://melenchon2027.fr/programme/livre/"
+groupes_assemblee: ["LFI-NUPES", "LFI-NFP"]
 date_verification: 2026-11-10

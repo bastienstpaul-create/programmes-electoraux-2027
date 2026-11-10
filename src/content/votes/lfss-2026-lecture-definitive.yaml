@@ -1,0 +1,92 @@
+theme: travail-retraites
+titre: Projet de loi de financement de la sécurité sociale pour 2026
+objet: Vote sur l'ensemble du projet de loi, lecture définitive (scrutin public solennel).
+date: 2025-12-16
+legislature: 17
+numero_scrutin: 4758
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/4758
+axes:
+- age
+- duree
+- pensions
+- financement
+resultat: adopte
+decompte:
+  pour: 247
+  contre: 232
+  abstention: 90
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 123
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 91
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 69
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 64
+  contre: 0
+  abstention: 5
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 18
+  contre: 3
+  abstention: 28
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 2
+  contre: 9
+  abstention: 27
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 36
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 9
+  contre: 0
+  abstention: 25
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 20
+  contre: 0
+  abstention: 2
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 1
+  contre: 10
+  abstention: 2
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 16
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 6
+  contre: 2
+  abstention: 1
+  non_votants: 0
+note: Texte devenu la loi n° 2025-1403 du 30 décembre 2025 (dossier législatif de l'Assemblée). En lecture définitive, l'Assemblée se prononce sur le dernier texte qu'elle a voté, qui comprenait l'article 45 bis (suspension de la réforme de 2023) rétabli le 5 décembre 2025.
+date_consultation: 2026-11-10

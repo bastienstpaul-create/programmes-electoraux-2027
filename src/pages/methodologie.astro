@@ -32,6 +32,13 @@ const majs = await Promise.all(candidats.map(async (c) => {
     <li>Les chiffres de contexte viennent de l'INSEE, de la Cour des comptes, du Conseil d'orientation des retraites, de la DREES, de la DARES, de France Stratégie, de la Banque de France, d'instituts (OFCE, IPP) et de think tanks de sensibilités variées (Institut Montaigne, Fondation iFRAP, Terra Nova), de l'OCDE et de la Commission européenne. Quand leurs estimations divergent, toutes sont affichées.</li>
   </ul>
 
+  <h2 class="mt-10 text-xl">Votes à l'Assemblée nationale</h2>
+  <ul class="mt-3 list-disc space-y-2 pl-5">
+    <li>Pour chaque thème, le site rappelle les scrutins publics clés depuis 2022 et le décompte officiel de chaque groupe, tel que publié sur assemblee-nationale.fr.</li>
+    <li>Chaque candidat est rattaché au groupe où siègent les députés de son parti. Ce rattachement est indiqué ; un vote de groupe n'engage pas personnellement le candidat.</li>
+    <li>Un parti sans groupe à l'Assemblée est signalé comme tel.</li>
+  </ul>
+
   <h2 class="mt-10 text-xl">Mises à jour par candidat</h2>
   <ul class="mt-3 divide-y divide-line">
     {majs.map(([c, d]) => <li data-candidat={c.id} class="flex justify-between gap-4 py-2"><span>{nomComplet(c)}</span><span class="num text-ink-600">{formatDate(d)}</span></li>)}

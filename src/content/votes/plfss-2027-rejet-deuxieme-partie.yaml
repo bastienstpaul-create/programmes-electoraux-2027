@@ -1,0 +1,89 @@
+theme: travail-retraites
+titre: Projet de loi de financement de la sécurité sociale pour 2027
+objet: Vote sur l'ensemble de la deuxième partie du projet de loi (première lecture). Son rejet a entraîné le rejet de l'ensemble du projet de loi en première lecture, la troisième partie ne pouvant être discutée qu'après l'adoption de la deuxième (compte rendu de séance).
+date: 2026-10-23
+legislature: 17
+numero_scrutin: 9097
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/9097
+axes:
+- financement
+resultat: rejete
+decompte:
+  pour: 1
+  contre: 115
+  abstention: 22
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 60
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 0
+  contre: 2
+  abstention: 4
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 21
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 8
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 0
+  contre: 8
+  abstention: 1
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 10
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 1
+  contre: 0
+  abstention: 12
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 0
+  contre: 0
+  abstention: 5
+  non_votants: 1
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 0
+  contre: 1
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 2
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 3
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 0
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: '138 votants. Compte rendu : https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/CRSANR5L17S2027O1N039'
+date_consultation: 2026-11-10

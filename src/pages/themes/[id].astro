@@ -8,6 +8,7 @@ import SourcesListe from '../../components/SourcesListe.astro';
 import Icone from '../../components/Icone.astro';
 import Selecteur from '../../components/Selecteur.astro';
 import TableauComparatif from '../../components/TableauComparatif.astro';
+import VotesAssemblee from '../../components/VotesAssemblee.astro';
 import { getThemes, getCandidats, getMesuresTheme, NATURE_BILAN, formatDate, url, type Theme } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -27,6 +28,7 @@ const idsSources = new Set<string>([
   ...mesures.flatMap((m) => [...(m.data.cout ? [m.data.cout.source.id] : []), ...m.data.evaluations.map((v) => v.source.id)]),
 ]);
 const sources = (await getCollection('sources')).filter((s) => idsSources.has(s.id));
+const aDesVotes = (await getCollection('votes', (v) => v.data.theme.id === theme.id)).length > 0;
 const natures = ['fonctionne', 'ne-fonctionne-pas', 'debat'] as const;
 const sommaire = [['situation', 'Situation actuelle'], ['bilan', 'Bilan'], ['propositions', 'Propositions'], ['effets', 'Effets attendus'], ['glossaire', 'Glossaire'], ['sources', 'Sources']];
 const desc = `${d.titre} : comparez les propositions des ${candidats.length} candidats à la présidentielle 2027, avec leurs sources.`;
@@ -120,6 +122,13 @@ const desc = `${d.titre} : comparez les propositions des ${candidats.length} can
           <p class="prose-w text-ink-600">Chaque proposition est résumée en une phrase. Ouvrez « Détails » pour lire la formulation, le chiffrage et la source.</p>
           <div class="mt-4"><Selecteur candidats={candidats} cible="comparaison" titrePartage={`${d.titre} : comparez les propositions`} /></div>
           <div class="mt-6"><TableauComparatif id="comparaison" theme={theme} candidats={candidats} mesures={mesures} /></div>
+          {aDesVotes && (
+            <div id="votes" class="mt-12 scroll-mt-[calc(var(--header-h)+1rem)]">
+              <h3 class="text-lg">Votes à l'Assemblée nationale sur ce thème</h3>
+              <p class="prose-w mt-2 text-ink-600">Comment ont voté les groupes parlementaires des partis des candidats sur les textes clés depuis 2022. Décomptes officiels de l'Assemblée, sans commentaire. Un vote de groupe ne vaut pas engagement personnel du candidat.</p>
+              <div class="mt-4"><VotesAssemblee themeId={theme.id} candidats={candidats} /></div>
+            </div>
+          )}
         </Section>
 
         <Section id="effets" numero={4} titre="Effets attendus">

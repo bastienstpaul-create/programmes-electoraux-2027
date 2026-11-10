@@ -1,0 +1,91 @@
+theme: travail-retraites
+titre: 'Projet de loi de financement de la sécurité sociale pour 2026 : article suspendant la réforme des retraites de 2023'
+objet: Vote sur l'article 45 bis, tel qu'amendé (première lecture). Selon la rapporteure en séance, l'article gèle l'âge de départ à 62 ans et 9 mois pour la génération 1964 et la durée d'assurance requise à 170 trimestres ; l'amendement n° 2686 du Gouvernement l'a étendu notamment aux carrières longues.
+date: 2025-11-12
+legislature: 17
+numero_scrutin: 3684
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/3684
+axes:
+- age
+- duree
+- financement
+resultat: adopte
+decompte:
+  pour: 255
+  contre: 146
+  abstention: 104
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 112
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 3
+  contre: 5
+  abstention: 67
+  non_votants: 6
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 60
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 67
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 8
+  contre: 25
+  abstention: 9
+  non_votants: 3
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 30
+  contre: 0
+  abstention: 4
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 11
+  contre: 1
+  abstention: 18
+  non_votants: 1
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 0
+  contre: 29
+  abstention: 1
+  non_votants: 2
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 17
+  contre: 0
+  abstention: 3
+  non_votants: 1
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 1
+  contre: 11
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 14
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 6
+  contre: 1
+  abstention: 2
+  non_votants: 0
+note: 'Article introduit par lettre rectificative du Gouvernement. En nouvelle lecture, après sa suppression par le Sénat, l''article 45 bis a été rétabli par l''amendement n° 840 du Gouvernement et amendements identiques, adoptés le 5 décembre 2025 (scrutin n° 4642 : 162 pour, 75 contre, 46 abstentions, https://www.assemblee-nationale.fr/dyn/17/scrutins/4642).'
+date_consultation: 2026-11-10

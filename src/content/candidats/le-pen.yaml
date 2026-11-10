@@ -5,4 +5,5 @@ statut: declare
 date_statut: 2026-07-07
 statut_source: "https://www.france24.com/fr/france/20260708-marine-le-pen-candidate-en-2027-un-choix-dynastique-du-rn-qui-%C3%A9clipse-jordan-bardella"
 precision: "Candidature annoncée après l'arrêt de la cour d'appel de Paris du 7 juillet 2026 ; un pourvoi en cassation est en cours."
+groupes_assemblee: ["RN"]
 date_verification: 2026-11-10
