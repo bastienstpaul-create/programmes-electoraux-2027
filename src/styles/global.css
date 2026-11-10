@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Mode sombre piloté par la classe .dark sur <html> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Palette neutre : aucune couleur associée à un parti */
+@theme {
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}

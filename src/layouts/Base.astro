@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+interface Props { title: string; description?: string }
+const { title, description = 'Comparateur neutre des programmes – présidentielle 2027' } = Astro.props;
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <script is:inline>
+      try {
+        const t = localStorage.getItem('theme');
+        if (t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.classList.add('dark');
+      } catch {}
+    </script>
+  </head>
+  <body class="min-h-screen bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+    <main class="mx-auto max-w-4xl px-4 py-6" data-pagefind-body>
+      <slot />
+    </main>
+    <footer class="mx-auto max-w-4xl border-t border-slate-200 px-4 py-6 text-sm text-slate-600 dark:border-slate-800 dark:text-slate-400">
+      Outil d'information indépendant, non affilié à un parti. Toutes les sources sont consultables.
+    </footer>
+  </body>
+</html>
