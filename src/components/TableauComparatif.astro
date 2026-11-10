@@ -1,57 +1,43 @@
 ---
 /**
- * Tableau comparatif : lignes = axes du thème, colonnes = candidats.
- * ≥ 1024 px : vrai tableau. En dessous : cartes empilées, axe par axe.
+ * Comparaison d'un thème. ≥ 1024 px : matrice (en-têtes et 1re colonne fixes,
+ * défilement horizontal). En dessous : une pile de cartes par sous-thème.
+ * Toutes les cellules existent pour chaque candidat (absence affichée explicitement).
  */
 import type { Theme, Candidat, Mesure } from '../lib/data';
-import { nomComplet, url } from '../lib/data';
 import MesureCard from './MesureCard.astro';
+import Bulletin from './Bulletin.astro';
 interface Props { theme: Theme; candidats: Candidat[]; mesures: Mesure[]; id: string }
 const { theme, candidats, mesures, id } = Astro.props;
 const trouver = (axe: string, c: string) => mesures.find((m) => m.data.axe === axe && m.data.candidat.id === c);
 const axes = theme.data.axes;
 ---
-<div id={id}>
+<div id={id} style={`--n:${candidats.length}`}>
   {axes.length === 0 ? (
-    <p class="text-slate-600 dark:text-slate-400">Aucune mesure renseignée pour l'instant.</p>
+    <p class="carte text-ink-600">Les mesures des candidats sur ce thème n'ont pas encore été rassemblées.</p>
   ) : (
     <>
-      <!-- Grand écran : tableau -->
-      <div class="hidden overflow-x-auto lg:block" data-pagefind-ignore>
-        <table class="w-full table-fixed border-collapse text-sm">
-          <caption class="sr-only">Mesures des candidats – {theme.data.titre}</caption>
-          <thead>
-            <tr>
-              <th scope="col" class="w-44 p-2 text-left align-bottom">Question</th>
-              {candidats.map((c) => (
-                <th scope="col" data-candidat={c.id} class="p-2 text-left align-bottom">
-                  <a href={url(`/candidats/${c.id}/`)}>{nomComplet(c)}</a>
-                  <span class="block text-xs font-normal text-slate-500 dark:text-slate-400">{c.data.parti}</span>
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {axes.map((a) => (
-              <tr class="border-t border-slate-200 dark:border-slate-800">
-                <th scope="row" class="p-2 text-left align-top font-semibold">{a.libelle}</th>
-                {candidats.map((c) => (
-                  <td data-candidat={c.id} class="p-2 align-top"><MesureCard mesure={trouver(a.id, c.id)} compact /></td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <p data-si-vide hidden class="carte text-ink-600">Sélectionnez au moins un candidat ci-dessus pour afficher ses propositions.</p>
+      <div class="matrice-scroll hidden lg:block" data-pagefind-ignore>
+        <div class="matrice" role="table" aria-label={`Propositions des candidats : ${theme.data.titre}`}>
+          <div class="matrice-ligne matrice-entete" role="row">
+            <div class="coin" role="columnheader"><span class="sr-only">Sous-thème</span></div>
+            {candidats.map((c) => <div role="columnheader" data-candidat={c.id}><Bulletin candidat={c} /></div>)}
+          </div>
+          {axes.map((a) => (
+            <div class="matrice-ligne" role="row">
+              <div role="rowheader" class="text-sm font-semibold">{a.libelle}</div>
+              {candidats.map((c) => <div role="cell" data-candidat={c.id}><MesureCard mesure={trouver(a.id, c.id)} /></div>)}
+            </div>
+          ))}
+        </div>
       </div>
-      <!-- Mobile / tablette : cartes empilées -->
-      <div class="space-y-6 lg:hidden">
+      <div class="space-y-8 lg:hidden">
         {axes.map((a) => (
           <section aria-labelledby={`${id}-${a.id}`}>
-            <h3 id={`${id}-${a.id}`} class="mb-2 text-lg font-semibold">{a.libelle}</h3>
-            <div class="grille-cartes">
-              {candidats.map((c) => (
-                <div data-candidat={c.id}><MesureCard mesure={trouver(a.id, c.id)} candidat={c} /></div>
-              ))}
+            <h3 id={`${id}-${a.id}`} class="mb-3 text-lg">{a.libelle}</h3>
+            <div class="pile">
+              {candidats.map((c) => <div data-candidat={c.id}><MesureCard mesure={trouver(a.id, c.id)} candidat={c} /></div>)}
             </div>
           </section>
         ))}

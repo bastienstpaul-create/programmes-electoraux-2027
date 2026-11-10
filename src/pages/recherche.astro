@@ -1,18 +1,129 @@
 ---
 import Base from '../layouts/Base.astro';
+import Icone from '../components/Icone.astro';
 import { url } from '../lib/data';
+const suggestions = ['SMIC', 'retraite à 62 ans', 'capitalisation', '35 heures', 'chômage', 'pension'];
 ---
-<Base title="Rechercher">
-  <h1 class="text-2xl font-bold">Rechercher</h1>
-  <div id="recherche" class="mt-4" data-pagefind-ignore>
-    <p class="text-sm text-slate-600">Chargement de la recherche…</p>
+<Base title="Rechercher" description="Rechercher une proposition des candidats à la présidentielle 2027.">
+  <h1 class="text-2xl">Rechercher une proposition</h1>
+  <form id="form-recherche" role="search" class="mt-5" action={url('/recherche/')}>
+    <label for="q" class="sr-only">Rechercher une mesure</label>
+    <div class="relative">
+      <span class="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-ink-600"><Icone nom="search" taille={20} /></span>
+      <input id="q" name="q" type="search" autocomplete="off" placeholder="Rechercher une mesure (ex. SMIC, retraite à 62 ans)"
+        class="h-12 w-full rounded-lg border border-line bg-white pl-11 pr-3 text-base text-ink-900 placeholder:text-ink-600" />
+    </div>
+  </form>
+
+  <div id="etat" class="mt-6" aria-live="polite">
+    <div data-etat="vide">
+      <p class="text-ink-600">Quelques exemples :</p>
+      <ul class="mt-2 flex flex-wrap gap-2">{suggestions.map((s) => <li><a href={`?q=${encodeURIComponent(s)}`} class="inline-flex min-h-[44px] items-center rounded-full border border-line px-4 text-ink-900 no-underline hover:border-ink-400">{s}</a></li>)}</ul>
+    </div>
+    <div data-etat="chargement" hidden>
+      <div class="squelette h-5 w-48"></div><div class="squelette mt-3 h-24"></div><div class="squelette mt-3 h-24"></div>
+    </div>
+    <div data-etat="erreur" hidden class="carte">
+      <p class="font-semibold">La recherche n'a pas pu être chargée.</p>
+      <p class="mt-1 text-ink-600">Vérifiez votre connexion, puis réessayez.</p>
+      <button type="button" class="btn btn-secondary mt-3" data-reessayer>Réessayer</button>
+    </div>
+    <div data-etat="aucun" hidden>
+      <p>Aucune proposition ne contient « <span data-terme></span> ».</p>
+      <p class="mt-1 text-ink-600">Essayez un mot plus court ou un autre terme, ou cherchez dans tout le site plus bas.</p>
+    </div>
   </div>
+  <div id="resultats" class="mt-4 space-y-10"></div>
+
+  <section aria-labelledby="titre-tout" class="mt-14 border-t border-line pt-8">
+    <h2 id="titre-tout" class="text-xl">Chercher dans tout le site</h2>
+    <p class="mt-1 text-ink-600">Fiches thèmes, chiffres, glossaire et méthodologie.</p>
+    <div id="recherche-pagefind" class="mt-4" data-pagefind-ignore><p class="text-sm text-ink-600">Chargement…</p></div>
+  </section>
   <link href={url('/pagefind/pagefind-ui.css')} rel="stylesheet" />
-  <script is:inline define:vars={{ base: url('/') }}>
-    const s = document.createElement('script');
-    s.src = base + 'pagefind/pagefind-ui.js';
-    s.onload = () => { document.getElementById('recherche').innerHTML = ''; new PagefindUI({ element: '#recherche', showSubResults: true, translations: { placeholder: 'Rechercher une mesure, un terme…' } }); };
-    s.onerror = () => (document.getElementById('recherche').innerHTML = '<p>La recherche est disponible uniquement sur le site construit (npm run build puis npm run preview).</p>');
-    document.head.appendChild(s);
-  </script>
 </Base>
+
+<script>
+  import { ordre } from '../scripts/ordre';
+  type Index = { themes: { id: string; titre: string; axes: Record<string, string> }[]; candidats: { id: string; nom: string }[]; mesures: { t: string; a: string; c: string; s: string; i: string; d: string; q: string }[] };
+  const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+  const norm = (s: string) => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  const etat = (nom: string) => document.querySelectorAll<HTMLElement>('#etat [data-etat]').forEach((el) => (el.hidden = el.dataset.etat !== nom));
+  const zone = document.getElementById('resultats')!;
+  const champ = document.getElementById('q') as HTMLInputElement;
+  let index: Index | null = null;
+
+  function surligner(texte: string, mots: string[]) {
+    if (!mots.length) return esc(texte);
+    const n = norm(texte);
+    const plages: [number, number][] = [];
+    for (const m of mots) { let i = n.indexOf(m); while (i >= 0) { plages.push([i, i + m.length]); i = n.indexOf(m, i + m.length); } }
+    plages.sort((a, b) => a[0] - b[0]);
+    let out = '', pos = 0;
+    for (const [a, b] of plages) { if (a < pos) continue; out += esc(texte.slice(pos, a)) + '<mark>' + esc(texte.slice(a, b)) + '</mark>'; pos = b; }
+    return out + esc(texte.slice(pos));
+  }
+
+  function chercher(q: string) {
+    zone.innerHTML = '';
+    const mots = norm(q).split(/\s+/).filter((m) => m.length > 1);
+    if (!mots.length) return etat('vide');
+    const idx = index!;
+    const ok = (m: Index['mesures'][number]) => { const h = norm(`${m.i} ${m.d} ${m.q} ${idx.themes.find((t) => t.id === m.t)?.axes[m.a] ?? ''}`); return mots.every((w) => h.includes(w)); };
+    const touches = idx.mesures.filter(ok);
+    if (!touches.length) { document.querySelector('[data-terme]')!.textContent = q; return etat('aucun'); }
+    etat('');
+    const rang = new Map(ordre().map((id, i) => [id, i]));
+    const nom = new Map(idx.candidats.map((c) => [c.id, c.nom]));
+    for (const t of idx.themes) {
+      const axes = [...new Set(touches.filter((m) => m.t === t.id).map((m) => m.a))];
+      if (!axes.length) continue;
+      let html = `<section><h2 class="text-xl"><a class="text-ink-900" href="${base}/themes/${t.id}/">${esc(t.titre)}</a></h2>`;
+      for (const a of axes) {
+        // Tous les candidats ayant une proposition sur ce sous-thème
+        const ms = idx.mesures.filter((m) => m.t === t.id && m.a === a).sort((x, y) => (rang.get(x.c) ?? 0) - (rang.get(y.c) ?? 0));
+        html += `<h3 class="mt-4 text-sm font-semibold text-ink-600">${esc(t.axes[a] ?? a)}</h3><ul class="mt-2 divide-y divide-line rounded-[var(--radius-card)] border border-line bg-white">`;
+        for (const m of ms) html += `<li class="p-3"><span class="block text-sm font-semibold">${esc(nom.get(m.c) ?? m.c)}</span><span class="block">${surligner(m.i, mots)}</span></li>`;
+        const ids = ms.map((m) => m.c).join(',');
+        html += `</ul><p class="mt-2 text-sm"><a href="${base}/themes/${t.id}/?c=${ids}#propositions">Voir le détail et les sources</a></p>`;
+      }
+      zone.insertAdjacentHTML('beforeend', html + '</section>');
+    }
+  }
+
+  async function charger() {
+    etat('chargement');
+    try {
+      const r = await fetch(`${base}/index-mesures.json`);
+      if (!r.ok) throw new Error(String(r.status));
+      index = await r.json();
+      chercher(champ.value);
+    } catch { etat('erreur'); }
+  }
+
+  const q0 = new URLSearchParams(location.search).get('q') ?? '';
+  champ.value = q0;
+  let minuterie = 0;
+  champ.addEventListener('input', () => {
+    clearTimeout(minuterie);
+    minuterie = window.setTimeout(() => {
+      const u = new URL(location.href); u.searchParams.set('q', champ.value); history.replaceState(null, '', u);
+      if (index) chercher(champ.value);
+    }, 150);
+  });
+  document.getElementById('form-recherche')!.addEventListener('submit', (e) => { e.preventDefault(); if (index) chercher(champ.value); });
+  document.querySelector('[data-reessayer]')!.addEventListener('click', charger);
+  charger();
+
+  // Pagefind (texte intégral), chargé à la demande
+  const s = document.createElement('script');
+  s.src = `${base}/pagefind/pagefind-ui.js`;
+  s.onload = () => {
+    document.getElementById('recherche-pagefind')!.innerHTML = '';
+    // @ts-expect-error global fourni par Pagefind
+    new PagefindUI({ element: '#recherche-pagefind', showSubResults: true, showImages: false, translations: { placeholder: 'Rechercher dans tout le site' } });
+  };
+  s.onerror = () => { document.getElementById('recherche-pagefind')!.innerHTML = '<p class="text-sm text-ink-600">Cette recherche est disponible sur le site publié.</p>'; };
+  document.head.appendChild(s);
+</script>

@@ -1,11 +1,7 @@
 ---
-/** Lien vers une source du registre. */
 import { getEntry } from 'astro:content';
-import { formatDate } from '../lib/data';
-interface Props { id: string; fourchette?: string }
-const { id } = Astro.props;
-const s = await getEntry('sources', id);
-if (!s) throw new Error(`Source inconnue : « ${id} »`);
-const date = s.data.date_publication ? `, ${formatDate(s.data.date_publication)}` : '';
+interface Props { id: string }
+const s = await getEntry('sources', Astro.props.id);
+if (!s) throw new Error(`Source inconnue : « ${Astro.props.id} »`);
 ---
-<a href={s.data.url} rel="noopener" target="_blank" class="source">{s.data.organisme}{date}</a>
+<a href={s.data.url} rel="noopener" target="_blank" title={s.data.titre}>{s.data.organisme}</a>

@@ -1,43 +1,55 @@
 ---
 import Base from '../layouts/Base.astro';
-import StatutBadge from '../components/StatutBadge.astro';
-import DateMaj from '../components/DateMaj.astro';
-import { getThemes, getDerniereMaj, url, STATUT_MESURE, type StatutAffiche } from '../lib/data';
+import Icone from '../components/Icone.astro';
+import { getThemes, getCandidats, getDerniereMaj, compterMesures, formatDate, url } from '../lib/data';
 const themes = await getThemes();
+const nbCandidats = (await getCandidats()).length;
 const maj = await getDerniereMaj();
-const blocs = [
-  ['Situation actuelle', 'les chiffres récents et les règles en vigueur'],
-  ['Bilan', 'ce que disent les évaluations des politiques déjà menées'],
-  ['Mesures des candidats', 'un tableau comparatif, question par question'],
-  ['Effets attendus', 'coûts et impacts estimés par les évaluateurs, en fourchettes'],
-  ['Glossaire', 'chaque terme technique expliqué simplement'],
-];
+const compte = new Map(await Promise.all(themes.map(async (t) => [t.id, await compterMesures(t.id)] as const)));
 ---
-<Base title="Accueil">
-  <h1 class="text-2xl font-bold sm:text-3xl">Présidentielle 2027 : comparer les programmes, thème par thème</h1>
-  <p class="mt-3 text-lg">Un outil pour comprendre ce que proposent les candidats, sans avis ni classement. Chaque mesure renvoie au document du candidat, chaque chiffre à sa source.</p>
-  <DateMaj date={maj} libelle="Dernière mise à jour :" />
+<Base title="Accueil" large>
+  <section class="prose-w">
+    <h1 class="text-2xl sm:text-[2.5rem] sm:leading-tight">Comparez les propositions des candidats, thème par thème, avec leurs sources.</h1>
+    <p class="mt-4 text-ink-600">
+      {nbCandidats} candidats, 19 thèmes. Chaque proposition est résumée de la même façon pour tous et renvoie au document d'origine.
+      Mis à jour le <time datetime={maj.toISOString().slice(0, 10)}>{formatDate(maj)}</time>.
+    </p>
+    <p class="mt-5 flex flex-wrap gap-3">
+      <a href="#themes" class="btn btn-primary">Choisir un thème</a>
+      <a href={url('/candidats/')} class="btn btn-secondary">Voir par candidat</a>
+    </p>
+  </section>
 
-  <h2 class="mt-8 text-xl font-bold">Comment lire une fiche thème</h2>
-  <ol class="mt-3 space-y-2">
-    {blocs.map(([t, d], i) => <li class="carte flex gap-3 p-3"><span class="font-bold text-slate-400">{i + 1}</span><span><strong>{t}</strong> : {d}.</span></li>)}
-  </ol>
-  <p class="mt-4">Les mots <button type="button" class="terme" disabled>soulignés en pointillés</button> sont expliqués dans le glossaire : touchez-les pour afficher leur définition.</p>
-  <p class="mt-4">Chaque mesure porte un statut :</p>
-  <ul class="mt-2 space-y-2">
-    {(Object.keys(STATUT_MESURE) as StatutAffiche[]).map((s) => <li class="flex flex-wrap items-center gap-2"><StatutBadge statut={s} /> <span class="text-sm">{STATUT_MESURE[s].aide}</span></li>)}
-  </ul>
+  <section id="themes" aria-labelledby="titre-themes" class="mt-12">
+    <h2 id="titre-themes" class="text-xl">Les thèmes</h2>
+    <ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {themes.map((t) => {
+        const n = compte.get(t.id) ?? 0;
+        const pret = t.data.etat === 'publie';
+        return (
+          <li>
+            <a href={url(`/themes/${t.id}/`)} class="carte flex h-full items-start gap-4">
+              <span class="grid size-11 flex-none place-items-center rounded-lg bg-surface text-ink-900">{t.data.icone && <Icone nom={t.data.icone} taille={22} />}</span>
+              <span class="min-w-0">
+                <span class="block font-semibold text-ink-900">{t.data.titre}</span>
+                <span class="mt-0.5 block text-sm text-ink-600">{pret ? `${n} proposition${n > 1 ? 's' : ''} comparée${n > 1 ? 's' : ''}` : 'Fiche en préparation'}</span>
+              </span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
 
-  <h2 class="mt-8 text-xl font-bold">Les thèmes</h2>
-  <ul class="mt-3 grid gap-2 sm:grid-cols-2">
-    {themes.map((t) => (
-      <li>
-        <a href={url(`/themes/${t.id}/`)} class="carte block p-3 no-underline hover:border-slate-400">
-          <span class="font-semibold">{t.data.numero}. {t.data.titre}</span>
-          {t.data.sous_titre && <span class="block text-sm text-slate-600 dark:text-slate-400">{t.data.sous_titre}</span>}
-          {t.data.etat === 'en-preparation' && <span class="mt-1 block text-xs italic text-slate-500">Fiche en préparation</span>}
-        </a>
-      </li>
-    ))}
-  </ul>
+  <section aria-labelledby="titre-lire" class="mt-12 prose-w">
+    <h2 id="titre-lire" class="text-xl">Comment lire une fiche</h2>
+    <ol class="mt-4 space-y-3">
+      <li><strong>1. Situation actuelle.</strong> Les chiffres récents et les règles en vigueur.</li>
+      <li><strong>2. Bilan.</strong> Ce que disent les évaluations des politiques déjà menées.</li>
+      <li><strong>3. Propositions.</strong> Les mesures de chaque candidat, sous-thème par sous-thème.</li>
+      <li><strong>4. Effets attendus.</strong> Coûts et impacts estimés par des organismes indépendants, en fourchettes.</li>
+      <li><strong>5. Glossaire.</strong> Les mots techniques, soulignés en pointillés : touchez-les pour lire leur définition.</li>
+    </ol>
+    <p class="mt-4 text-ink-600">Les candidats apparaissent dans un ordre tiré au hasard à chaque visite ; vous pouvez le trier de A à Z.</p>
+  </section>
 </Base>

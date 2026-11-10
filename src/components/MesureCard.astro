@@ -1,38 +1,63 @@
 ---
+/**
+ * Carte mesure : résumé + statut, puis « Détails » (accordéon) :
+ * précisions, citation, chiffrage annoncé, coût selon évaluateurs, source.
+ */
 import type { Mesure, Candidat } from '../lib/data';
-import { formatDate, nomComplet, url } from '../lib/data';
+import { formatDate } from '../lib/data';
 import StatutBadge from './StatutBadge.astro';
 import Texte from './Texte.astro';
 import SourceLien from './SourceLien.astro';
-interface Props { mesure?: Mesure; candidat?: Candidat; compact?: boolean }
-const { mesure, candidat, compact = false } = Astro.props;
+import Bulletin from './Bulletin.astro';
+interface Props { mesure?: Mesure; candidat?: Candidat }
+const { mesure, candidat } = Astro.props;
 const d = mesure?.data;
+const statut = d?.statut ?? 'vide';
+const uid = `det-${mesure?.id ?? 'vide'}-${Math.random().toString(36).slice(2, 7)}`;
+const vide: Record<string, string> = {
+  aucune: 'Pas de proposition identifiée sur ce point.',
+  'non-publie': 'Pas encore de proposition publiée sur ce point.',
+  vide: 'Point pas encore vérifié.',
+};
+const aDetails = !!d && !!(d.detail || d.citation || d.chiffrage_annonce || d.cout || d.evaluations.length || d.source);
 ---
-<article class="mesure flex h-full flex-col gap-2 rounded-lg border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
-  {candidat && (
-    <a href={url(`/candidats/${candidat.id}/`)} class="text-sm font-semibold no-underline hover:underline">{nomComplet(candidat)}</a>
-  )}
-  <div><StatutBadge statut={d?.statut ?? 'vide'} /></div>
-  {d?.intitule && <p class="font-medium"><Texte texte={d.intitule} inline /></p>}
-  {d?.detail && !compact && <div class="text-sm text-slate-700 dark:text-slate-300"><Texte texte={d.detail} /></div>}
-  {d?.citation && (
-    <blockquote class="border-l-2 border-slate-300 pl-2 text-sm italic text-slate-600 dark:border-slate-600 dark:text-slate-400">
-      « {d.citation} »
-    </blockquote>
-  )}
-  {d?.cout && (
-    <p class="text-sm"><span class="font-medium">Coût estimé :</span> {d.cout.fourchette} (<SourceLien id={d.cout.source.id} />)
-      {d.cout.note && !compact && <span class="block text-slate-600 dark:text-slate-400">{d.cout.note}</span>}</p>
-  )}
-  {d && d.evaluations.length > 0 && !compact && (
-    <ul class="text-sm">
-      {d.evaluations.map((e) => <li><SourceLien id={e.source.id} /> : {e.resume}{e.fourchette && <> ({e.fourchette})</>}</li>)}
-    </ul>
-  )}
-  {d && (
-    <p class="mt-auto pt-1 text-xs text-slate-500 dark:text-slate-400">
-      {d.source && <><a href={d.source.url} rel="noopener" target="_blank">{d.source.titre}</a>{d.source.contexte && <> · {d.source.contexte}</>} · consulté le {formatDate(d.source.date_consultation)}<br /></>}
-      Mis à jour le {formatDate(d.date_maj)}
-    </p>
+<article class="flex h-full flex-col gap-2.5 rounded-[var(--radius-card)] border border-line bg-white p-4">
+  {candidat && <div class="-mx-1 -mt-1"><Bulletin candidat={candidat} /></div>}
+  <div><StatutBadge statut={statut} /></div>
+  {d?.intitule
+    ? <p class="font-semibold leading-snug"><Texte texte={d.intitule} inline /></p>
+    : <p class="text-ink-600">{vide[statut]}</p>}
+
+  {aDetails && (
+    <div class="mt-auto">
+      <button type="button" data-accordeon aria-expanded="false" aria-controls={uid}
+        class="inline-flex min-h-[44px] items-center gap-1.5 text-sm font-semibold text-accent">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="chevron transition-transform"><path d="m6 9 6 6 6-6"/></svg>
+        Détails
+      </button>
+      <div id={uid} hidden class="space-y-2.5 border-t border-line pt-3 text-sm">
+        {d!.detail && <div class="text-ink-900"><Texte texte={d!.detail} /></div>}
+        {d!.citation && <blockquote class="border-l-2 border-line pl-3 italic text-ink-600">« {d!.citation} »</blockquote>}
+        {d!.chiffrage_annonce && <p><span class="font-semibold">Chiffrage annoncé par le candidat :</span> <span class="num">{d!.chiffrage_annonce}</span></p>}
+        {d!.cout && (
+          <p><span class="font-semibold">Coût selon <SourceLien id={d!.cout.source.id} /> :</span> <span class="num">{d!.cout.fourchette}</span>
+            {d!.cout.note && <span class="block text-ink-600">{d!.cout.note}</span>}</p>
+        )}
+        {d!.evaluations.length > 0 && (
+          <ul class="space-y-1">{d!.evaluations.map((e) => <li><SourceLien id={e.source.id} /> : {e.resume}{e.fourchette && <span class="num"> ({e.fourchette})</span>}</li>)}</ul>
+        )}
+        {d!.source && (
+          <p class="text-xs text-ink-600">
+            <a href={d!.source.url} target="_blank" rel="noopener">Source ↗</a>{' '}
+            <span>{d!.source.titre}{d!.source.contexte && `, ${d!.source.contexte}`}. Consulté le {formatDate(d!.source.date_consultation)}.</span>
+          </p>
+        )}
+        <p class="text-xs text-ink-600">Mis à jour le {formatDate(d!.date_maj)}.</p>
+      </div>
+    </div>
   )}
 </article>
+<style>
+  button[aria-expanded="true"] .chevron { transform: rotate(180deg); }
+  @media (prefers-reduced-motion: reduce) { .chevron { transition: none; } }
+</style>

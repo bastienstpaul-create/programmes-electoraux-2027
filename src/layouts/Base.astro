@@ -1,38 +1,60 @@
 ---
 import '../styles/global.css';
 import Entete from '../components/Entete.astro';
-import { url } from '../lib/data';
-interface Props { title: string; description?: string; large?: boolean }
-const { title, description = 'Comparateur neutre et sourcé des programmes des candidats à la présidentielle 2027.', large = false } = Astro.props;
-const titre = title === 'Accueil' ? 'Présidentielle 2027 – Comparateur des programmes' : `${title} – Présidentielle 2027`;
+import { getCandidats, getDerniereMaj, formatDate, url } from '../lib/data';
+interface Props { title: string; description?: string; large?: boolean; image?: string }
+const { title, description = 'Comparez les propositions des candidats à la présidentielle 2027, thème par thème, avec leurs sources.', large = false, image = '/og/accueil.png' } = Astro.props;
+const titre = title === 'Accueil' ? 'Programmes 2027 : comparez les propositions des candidats' : `${title} | Programmes 2027`;
+const candidats = await getCandidats();
+const maj = await getDerniereMaj();
+const site = Astro.site ?? new URL('https://example.org');
+const imageAbs = new URL(url(image), site).href;
 ---
 <!doctype html>
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content={description} />
-    <meta name="color-scheme" content="light dark" />
     <title>{titre}</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#12161f" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
+    <link rel="canonical" href={new URL(Astro.url.pathname, site).href} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:title" content={title === 'Accueil' ? 'Programmes 2027 : comparez les propositions' : title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={imageAbs} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
     <script is:inline>
-      try {
-        const t = localStorage.getItem('theme');
-        if (t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.classList.add('dark');
-      } catch {}
+      try { const t = localStorage.getItem('theme'); if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; } catch {}
     </script>
   </head>
-  <body class="flex min-h-screen flex-col bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
-    <a href="#contenu" class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-20 focus:bg-white focus:p-2">Aller au contenu</a>
+  <body data-candidats={candidats.map((c) => c.id).join(',')} class="flex min-h-screen flex-col">
+    <a href="#contenu" class="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 focus:rounded focus:bg-white focus:p-3">Aller au contenu</a>
     <Entete />
-    <main id="contenu" class:list={['mx-auto w-full flex-1 px-4 py-6', large ? 'max-w-6xl' : 'max-w-3xl']} data-pagefind-body>
+    <main id="contenu" class:list={['mx-auto w-full flex-1 px-4 pb-16 pt-6 sm:pt-10', large ? 'max-w-7xl' : 'max-w-3xl']} data-pagefind-body>
       <slot />
     </main>
-    <footer class="border-t border-slate-200 dark:border-slate-800">
-      <div class="mx-auto max-w-6xl px-4 py-6 text-sm text-slate-600 dark:text-slate-400">
-        <p>Outil d'information indépendant, non affilié à un parti ni à un candidat. Toutes les sources sont consultables.</p>
-        <p class="mt-1"><a href={url('/methode/')}>Méthode et sources</a> · <a href={url('/methode/#signaler')}>Signaler une erreur</a></p>
+    <footer class="border-t border-line bg-surface">
+      <div class="mx-auto grid max-w-7xl gap-4 px-4 py-8 text-sm text-ink-600 sm:grid-cols-[1fr_auto]">
+        <div class="prose-w">
+          <p>Outil d'information indépendant, non affilié à un candidat ou à un parti. Chaque mesure renvoie à sa source.</p>
+          <p class="mt-1">Dernière mise à jour le <time datetime={maj.toISOString().slice(0, 10)}>{formatDate(maj)}</time>.</p>
+        </div>
+        <ul class="flex flex-wrap gap-x-5 gap-y-2 sm:justify-end">
+          <li><a href={url('/methodologie/')}>Méthodologie</a></li>
+          <li><a href={url('/glossaire/')}>Glossaire</a></li>
+          <li><a href={url('/methodologie/#signaler')}>Signaler une erreur</a></li>
+        </ul>
       </div>
     </footer>
+    <script>
+      import '../scripts/ordre';
+      import '../scripts/interface';
+    </script>
   </body>
 </html>

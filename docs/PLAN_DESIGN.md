@@ -1,4 +1,4 @@
-# Plan design – à valider
+# Plan design (validé le 10/11/2026)
 
 Basé sur le brief design. Périmètre : présentation et interactions uniquement, pas de modification des mesures ni des sources.
 
@@ -39,7 +39,14 @@ Basé sur le brief design. Périmètre : présentation et interactions uniquemen
 7. OG images + favicon/theme-color.
 8. Contrôle accessibilité (axe-core via Playwright) et Lighthouse mobile ; corrections.
 
-## Questions
-1. Garder le bouton clair/sombre en plus du réglage système ?
-2. Recherche : remplacer Pagefind par la recherche maison groupée par thème, ou garder les deux ?
-3. Le skill `frontend-design` n'est pas installé dans cette session : je suis le brief directement.
+## Décisions
+- Bouton clair/sombre conservé, en plus du réglage système.
+- Deux recherches : mesures groupées par thème + Pagefind (tout le site).
+
+## Direction visuelle (skill frontend-design)
+- **Sujet** : information civique sur l'élection présidentielle ; public familial, souvent âgé, sur téléphone ; tâche : comparer vite et vérifier la source.
+- **Couleur** (brief) : encre #111827, encre secondaire #4B5563, filet #E5E7EB, surface #F9FAFB, blanc, indigo #4338CA réservé à l'interface.
+- **Type** : police système (Inter si installée) : zéro téléchargement, lisible, 17 px, graisses 400/600, chiffres tabulaires pour les montants.
+- **Idée unique** : le « bulletin ». En France, chaque candidat a un bulletin blanc identique. Les en-têtes candidats reprennent cette égalité stricte : même rectangle blanc, même monogramme gris, même typo. C'est le seul élément « affirmé » ; le reste est sobre.
+- **Mise en page** : alignement à gauche, texte ≤ 70ch, matrice pleine largeur sur desktop, pile de cartes sur mobile.
+- **À éviter** (réflexes génériques) : étiquettes en majuscules, flèches « → » dans les liens, suites « A · B · C », ombres sur chaque carte, numéros décoratifs (les 5 blocs d'une fiche sont une vraie séquence : numérotation conservée), animations d'entrée.

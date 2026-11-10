@@ -1,7 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import MesureCard from '../../components/MesureCard.astro';
-import BandeauFactice from '../../components/BandeauFactice.astro';
+import Monogramme from '../../components/Monogramme.astro';
+import Icone from '../../components/Icone.astro';
 import { getCandidats, getThemes, getMesuresCandidat, nomComplet, STATUT_CANDIDAT, formatDate, url, type Candidat } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -9,32 +10,57 @@ export async function getStaticPaths() {
 }
 const { candidat } = Astro.props as { candidat: Candidat };
 const c = candidat.data;
-const themes = (await getThemes()).filter((t) => t.data.etat === 'publie');
+const themes = await getThemes();
 const mesures = await getMesuresCandidat(candidat.id);
+const majCandidat = [c.date_verification, ...mesures.map((m) => m.data.date_maj)].sort((a, b) => b.getTime() - a.getTime())[0]!;
 ---
-<Base title={nomComplet(candidat)}>
-  <p class="text-sm"><a href={url('/candidats/')}>Candidats</a></p>
-  <h1 class="mt-1 text-2xl font-bold">{nomComplet(candidat)}</h1>
-  <p>{c.parti}</p>
-  <p class="mt-1 text-sm"><a href={c.statut_source} rel="noopener" target="_blank">{STATUT_CANDIDAT[c.statut]}{c.date_statut && ` le ${formatDate(c.date_statut)}`}</a> · vérifié le {formatDate(c.date_verification)}</p>
-  {c.precision && <p class="mt-1 text-sm text-slate-600 dark:text-slate-400">{c.precision}</p>}
-  <p class="mt-2">{c.programme_url ? <a href={c.programme_url} rel="noopener" target="_blank">Programme officiel ↗</a> : <span class="italic">Programme officiel non publié à ce jour.</span>}</p>
-  {c.factice && <BandeauFactice />}
+<Base title={nomComplet(candidat)} description={`Les propositions de ${nomComplet(candidat)} pour la présidentielle 2027, thème par thème, avec leurs sources.`}>
+  <p class="text-sm"><a href={url('/candidats/')}>Tous les candidats</a></p>
+  <header class="mt-3 flex items-center gap-4">
+    <span class="[&>.monogramme]:size-14 [&>.monogramme]:text-base"><Monogramme candidat={candidat} /></span>
+    <div>
+      <h1 class="text-2xl">{nomComplet(candidat)}</h1>
+      <p class="text-ink-600">{c.parti}</p>
+    </div>
+  </header>
+  <dl class="mt-6 space-y-1 text-sm">
+    <div><dt class="inline font-semibold">Statut : </dt><dd class="inline"><a href={c.statut_source} rel="noopener" target="_blank">{STATUT_CANDIDAT[c.statut]}{c.date_statut && ` le ${formatDate(c.date_statut)}`}</a></dd></div>
+    {c.precision && <div><dd class="text-ink-600">{c.precision}</dd></div>}
+    <div><dt class="inline font-semibold">Programme : </dt><dd class="inline">{c.programme_url ? <a href={c.programme_url} rel="noopener" target="_blank">document officiel ↗</a> : 'pas de programme complet publié à ce jour.'}</dd></div>
+    <div><dt class="inline font-semibold">Mise à jour : </dt><dd class="inline">{formatDate(majCandidat)}</dd></div>
+  </dl>
 
-  {themes.length === 0 && <p class="carte mt-6">Les fiches thèmes sont en préparation.</p>}
-  <div class="mt-6 space-y-8">
-    {themes.map((t) => (
-      <section aria-labelledby={`t-${t.id}`}>
-        <h2 id={`t-${t.id}`} class="text-xl font-bold"><a href={url(`/themes/${t.id}/#mesures`)} class="no-underline hover:underline">{t.data.numero}. {t.data.titre}</a></h2>
-        <div class="mt-3 space-y-4">
-          {t.data.axes.map((a) => (
-            <div>
-              <h3 class="mb-1 text-sm font-semibold text-slate-600 dark:text-slate-400">{a.libelle}</h3>
-              <MesureCard mesure={mesures.find((m) => m.data.theme.id === t.id && m.data.axe === a.id)} />
+  <div class="mt-10 divide-y divide-line border-y border-line">
+    {themes.map((t) => {
+      const publie = t.data.etat === 'publie';
+      const n = mesures.filter((m) => m.data.theme.id === t.id && (m.data.statut === 'programme' || m.data.statut === 'orale')).length;
+      return (
+        <section>
+          <h2>
+            <button type="button" data-accordeon aria-expanded="false" aria-controls={`th-${t.id}`} disabled={!publie}
+              class="flex min-h-[56px] w-full items-center gap-3 py-3 text-left text-base disabled:cursor-default">
+              {t.data.icone && <Icone nom={t.data.icone} taille={20} class="flex-none text-ink-600" />}
+              <span class="flex-1 font-semibold">{t.data.titre}</span>
+              <span class="text-sm font-normal text-ink-600">{publie ? `${n} proposition${n > 1 ? 's' : ''}` : 'en préparation'}</span>
+              {publie && <Icone nom="chevron-down" taille={20} class="chevron flex-none text-ink-600 transition-transform" />}
+            </button>
+          </h2>
+          {publie && (
+            <div id={`th-${t.id}`} hidden class="space-y-5 pb-6">
+              {t.data.axes.map((a) => (
+                <div>
+                  <h3 class="mb-2 text-sm font-semibold text-ink-600">{a.libelle}</h3>
+                  <MesureCard mesure={mesures.find((m) => m.data.theme.id === t.id && m.data.axe === a.id)} />
+                </div>
+              ))}
+              <p class="text-sm"><a href={url(`/themes/${t.id}/?c=${candidat.id}`)}>Comparer avec les autres candidats sur ce thème</a></p>
             </div>
-          ))}
-        </div>
-      </section>
-    ))}
+          )}
+        </section>
+      );
+    })}
   </div>
 </Base>
+<style>
+  button[aria-expanded="true"] :global(.chevron) { transform: rotate(180deg); }
+</style>

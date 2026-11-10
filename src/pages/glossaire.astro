@@ -7,17 +7,19 @@ const groupes = new Map<string, typeof termes>();
 for (const t of termes) { const l = lettre(t.data.terme); groupes.set(l, [...(groupes.get(l) ?? []), t]); }
 ---
 <Base title="Glossaire">
-  <h1 class="text-2xl font-bold">Glossaire</h1>
-  <nav aria-label="Lettres" class="mt-3 flex flex-wrap gap-2">{[...groupes.keys()].map((l) => <a href={`#lettre-${l}`} class="rounded border border-slate-300 px-2 no-underline dark:border-slate-700">{l}</a>)}</nav>
+  <h1 class="text-2xl">Glossaire</h1>
+  <p class="mt-3 text-ink-600">Les mots techniques utilisés sur le site, expliqués simplement.</p>
+  {termes.length === 0 && <p class="carte mt-6">Le glossaire se remplit au fur et à mesure des fiches thèmes.</p>}
+  <nav aria-label="Lettres" class="mt-6 flex flex-wrap gap-1">{[...groupes.keys()].map((l) => <a href={`#lettre-${l}`} class="grid size-11 place-items-center rounded-lg border border-line font-semibold text-ink-900 no-underline hover:border-ink-400">{l}</a>)}</nav>
   {[...groupes].map(([l, ts]) => (
-    <section id={`lettre-${l}`} class="mt-6 scroll-mt-20">
-      <h2 class="text-xl font-bold">{l}</h2>
-      <dl class="mt-2 space-y-3">
+    <section id={`lettre-${l}`} aria-label={`Lettre ${l}`} class="mt-10">
+      <h2 class="border-b border-line pb-2 text-xl">{l}</h2>
+      <dl class="mt-4 space-y-6">
         {ts.map((t) => (
-          <div id={t.id} class="carte scroll-mt-20 target:border-slate-800 dark:target:border-slate-200">
-            <dt class="font-semibold"><a href={`#${t.id}`} class="no-underline">{t.data.terme}</a></dt>
+          <div id={t.id} class="rounded-lg target:bg-accent-50 target:p-3">
+            <dt class="text-lg font-semibold"><a href={`#${t.id}`} class="text-ink-900 no-underline hover:underline">{t.data.terme}</a></dt>
             <dd class="mt-1">{t.data.definition}</dd>
-            {t.data.exemple && <dd class="mt-1 text-sm text-slate-600 dark:text-slate-400"><em>Exemple :</em> {t.data.exemple}</dd>}
+            {t.data.exemple && <dd class="mt-1 text-ink-600">Exemple : {t.data.exemple}</dd>}
             {t.data.lien && <dd class="mt-1 text-sm"><a href={t.data.lien.url} rel="noopener" target="_blank">{t.data.lien.titre} ↗</a></dd>}
           </div>
         ))}

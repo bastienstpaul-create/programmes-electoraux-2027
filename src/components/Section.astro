@@ -2,9 +2,9 @@
 interface Props { id: string; numero?: number; titre: string }
 const { id, numero, titre } = Astro.props;
 ---
-<section id={id} aria-labelledby={`${id}-titre`} class="scroll-mt-20 border-t border-slate-200 pt-6 dark:border-slate-800">
-  <h2 id={`${id}-titre`} class="mb-4 text-xl font-bold">
-    {numero && <span class="mr-2 text-slate-400" aria-hidden="true">{numero}.</span>}{titre}
+<section id={id} aria-labelledby={`${id}-titre`} class="scroll-mt-[calc(var(--header-h)+1rem)]">
+  <h2 id={`${id}-titre`} class="mb-5 flex items-baseline gap-3 border-b border-line pb-3 text-xl">
+    {numero && <span class="num text-ink-600 font-normal" aria-hidden="true">{numero}</span>}{titre}
   </h2>
   <slot />
 </section>

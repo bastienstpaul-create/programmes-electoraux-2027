@@ -76,11 +76,11 @@ export const STATUT_CANDIDAT: Record<Candidat['data']['statut'], string> = {
 };
 
 export const STATUT_MESURE = {
-  programme: { label: 'Programme écrit', aide: 'Mesure inscrite dans le programme officiel.' },
-  orale: { label: 'Annonce orale', aide: 'Mesure annoncée en interview ou en meeting, pas (encore) dans le programme écrit.' },
-  aucune: { label: 'Pas de mesure', aide: 'Le programme publié ne contient pas de mesure sur ce point.' },
-  'non-publie': { label: 'Programme non publié', aide: "Le candidat n'a pas encore publié son programme sur ce thème." },
-  vide: { label: 'Non renseigné', aide: "Ce point n'a pas encore été vérifié par la rédaction du site." },
+  programme: { label: 'Programme écrit', aide: 'Mesure inscrite dans un document officiel du candidat ou de son parti.' },
+  orale: { label: 'Annonce orale', aide: 'Mesure annoncée en interview ou en meeting, absente des documents écrits.' },
+  aucune: { label: 'Pas de proposition identifiée', aide: 'Le programme publié ne contient pas de proposition sur ce point.' },
+  'non-publie': { label: 'Pas encore de proposition', aide: "Le candidat n'a pas encore publié de proposition sur ce point." },
+  vide: { label: 'Non vérifié', aide: "Ce point n'a pas encore été vérifié par la rédaction du site." },
 } as const;
 export type StatutAffiche = keyof typeof STATUT_MESURE;
 
@@ -92,3 +92,12 @@ export const NATURE_BILAN = {
 
 /** Chemin interne tenant compte du `base` éventuel. */
 export const url = (p: string) => `${import.meta.env.BASE_URL.replace(/\/$/, '')}${p}`;
+
+/** Initiales pour le monogramme : première lettre du prénom et du nom. */
+export const initiales = (c: Candidat) =>
+  (c.data.prenom.charAt(0) + c.data.nom.replace(/^(de |d'|le |la )/i, (m) => m).charAt(0)).toUpperCase();
+
+/** Nombre de mesures effectives (écrites ou orales) d'un thème. */
+export async function compterMesures(themeId: string) {
+  return (await getMesuresTheme(themeId)).filter((m) => m.data.statut === 'programme' || m.data.statut === 'orale').length;
+}

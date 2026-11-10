@@ -1,0 +1,17 @@
+---
+/** Icône Lucide (outline monochrome) inlinée au build : aucune librairie côté client. */
+import { readFileSync } from 'node:fs';
+import { createRequire } from 'node:module';
+interface Props { nom: string; taille?: number; class?: string }
+const { nom, taille = 24, class: cls } = Astro.props;
+const require = createRequire(import.meta.url);
+let svg = '';
+try {
+  svg = readFileSync(require.resolve(`lucide-static/icons/${nom}.svg`), 'utf8')
+    .replace(/<!--.*?-->/s, '')
+    .replace(/class="[^"]*"/, `class="${cls ?? ''}" aria-hidden="true" focusable="false"`)
+    .replace(/width="24"/, `width="${taille}"`).replace(/height="24"/, `height="${taille}"`)
+    .replace(/stroke-width="2"/, 'stroke-width="1.75"');
+} catch { throw new Error(`Icône Lucide inconnue : ${nom}`); }
+---
+<Fragment set:html={svg} />

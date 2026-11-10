@@ -1,0 +1,51 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { getCandidats, getMesuresCandidat, nomComplet, formatDate } from '../lib/data';
+const sources = (await getCollection('sources')).sort((a, b) => a.data.organisme.localeCompare(b.data.organisme, 'fr'));
+const candidats = await getCandidats();
+const majs = await Promise.all(candidats.map(async (c) => {
+  const ms = await getMesuresCandidat(c.id);
+  const d = [c.data.date_verification, ...ms.map((m) => m.data.date_maj)].sort((a, b) => b.getTime() - a.getTime())[0]!;
+  return [c, d] as const;
+}));
+---
+<Base title="Méthodologie">
+  <h1 class="text-2xl">Méthodologie</h1>
+  <p class="mt-3 text-ink-600">Comment les propositions sont choisies, résumées et vérifiées.</p>
+
+  <h2 class="mt-10 text-xl">Neutralité</h2>
+  <ul class="mt-3 list-disc space-y-2 pl-5">
+    <li>Tous les candidats ont la même place, le même format et la même couleur neutre. Pas de photo, pas de logo.</li>
+    <li>L'ordre d'affichage est tiré au hasard à chaque visite. Un bouton permet de trier de A à Z.</li>
+    <li>Aucune note, aucun classement, aucun qualificatif : le site décrit, il ne juge pas.</li>
+    <li>Quand un candidat n'a rien proposé sur un point, c'est écrit, au même format que les autres.</li>
+  </ul>
+
+  <h2 class="mt-10 text-xl">Sélection et résumé des propositions</h2>
+  <ul class="mt-3 list-disc space-y-2 pl-5">
+    <li>Chaque thème est découpé en sous-thèmes identiques pour tous les candidats.</li>
+    <li>Pour chaque sous-thème, on retient la proposition principale du candidat, résumée en une phrase descriptive. Les termes du programme ne sont pas repris ; une citation courte du texte d'origine figure dans « Détails ».</li>
+    <li>Sources acceptées : programme ou document officiel du candidat ou de son parti (« Programme écrit ») ; à défaut, une déclaration publique datée, rapportée par un média (« Annonce orale »).</li>
+    <li>Les chiffrages annoncés par les candidats sont distingués des estimations d'organismes indépendants.</li>
+    <li>Les chiffres de contexte viennent de l'INSEE, de la Cour des comptes, du Conseil d'orientation des retraites, de la DREES, de la DARES, de France Stratégie, de la Banque de France, d'instituts (OFCE, IPP) et de think tanks de sensibilités variées (Institut Montaigne, Fondation iFRAP, Terra Nova), de l'OCDE et de la Commission européenne. Quand leurs estimations divergent, toutes sont affichées.</li>
+  </ul>
+
+  <h2 class="mt-10 text-xl">Mises à jour par candidat</h2>
+  <ul class="mt-3 divide-y divide-line">
+    {majs.map(([c, d]) => <li data-candidat={c.id} class="flex justify-between gap-4 py-2"><span>{nomComplet(c)}</span><span class="num text-ink-600">{formatDate(d)}</span></li>)}
+  </ul>
+
+  <h2 id="signaler" class="mt-10 text-xl">Signaler une erreur</h2>
+  <p class="mt-3">Une proposition manquante, un chiffre erroné, une formulation qui vous semble orientée ? Indiquez la page concernée et, si possible, la source correcte. Chaque signalement est vérifié et la correction est datée.</p>
+  <p class="mt-2 text-ink-600">Adresse de signalement : à venir.</p>
+
+  {sources.length > 0 && (
+    <>
+      <h2 class="mt-10 text-xl">Registre des sources</h2>
+      <ul class="mt-3 space-y-2 text-sm">
+        {sources.map((s) => <li><a href={s.data.url} rel="noopener" target="_blank">{s.data.titre}</a>, {s.data.organisme}{s.data.date_publication && `, ${formatDate(s.data.date_publication)}`}. Consulté le {formatDate(s.data.date_consultation)}.</li>)}
+      </ul>
+    </>
+  )}
+</Base>

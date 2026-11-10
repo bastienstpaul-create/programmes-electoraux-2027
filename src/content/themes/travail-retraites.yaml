@@ -1,4 +1,14 @@
 numero: 6
 titre: "Travail et retraites"
+icone: "briefcase"
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+  - { id: age, libelle: "Âge de départ à la retraite" }
+  - { id: duree, libelle: "Durée de cotisation" }
+  - { id: pensions, libelle: "Montant des pensions" }
+  - { id: financement, libelle: "Financement des retraites" }
+  - { id: penibilite, libelle: "Pénibilité, carrières longues et seniors" }
+  - { id: salaires, libelle: "SMIC et salaires" }
+  - { id: temps-travail, libelle: "Durée du travail" }
+  - { id: chomage, libelle: "Assurance chômage" }

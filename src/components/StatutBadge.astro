@@ -2,17 +2,5 @@
 import { STATUT_MESURE, type StatutAffiche } from '../lib/data';
 interface Props { statut: StatutAffiche }
 const { statut } = Astro.props;
-const s = STATUT_MESURE[statut];
-// Distinction par forme + texte, pas seulement par couleur (accessibilité).
-const styles: Record<StatutAffiche, string> = {
-  programme: 'bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-900',
-  orale: 'border border-dashed border-slate-500 text-slate-800 dark:text-slate-200',
-  aucune: 'bg-slate-200 text-slate-800 dark:bg-slate-700 dark:text-slate-100',
-  'non-publie': 'border border-dotted border-slate-400 text-slate-700 italic dark:text-slate-300',
-  vide: 'text-slate-500 italic dark:text-slate-400',
-};
-const icones: Record<StatutAffiche, string> = { programme: '▤', orale: '◔', aucune: '∅', 'non-publie': '…', vide: '?' };
 ---
-<span class={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium ${styles[statut]}`} title={s.aide}>
-  <span aria-hidden="true">{icones[statut]}</span>{s.label}
-</span>
+<span class="statut" data-statut={statut} title={STATUT_MESURE[statut].aide}>{STATUT_MESURE[statut].label}</span>

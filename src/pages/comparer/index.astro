@@ -1,40 +1,8 @@
 ---
-import Base from '../../layouts/Base.astro';
-import { getThemes, getCandidats, nomComplet, url } from '../../lib/data';
-const themes = (await getThemes()).filter((t) => t.data.etat === 'publie');
-const candidats = await getCandidats();
+/** Ancienne adresse : renvoie vers la liste des thèmes (la comparaison se fait sur chaque fiche). */
+import { url } from '../../lib/data';
+const cible = url('/themes/');
 ---
-<Base title="Comparer">
-  <h1 class="text-2xl font-bold">Comparer 2 ou 3 candidats</h1>
-  <form id="form-comparer" class="carte mt-4 space-y-4" action={url('/comparer/')}>
-    <label class="block">
-      <span class="font-medium">Thème</span>
-      <select name="theme" required class="mt-1 block w-full rounded border border-slate-300 bg-white p-2 dark:border-slate-600 dark:bg-slate-900">
-        {themes.map((t) => <option value={t.id}>{t.data.numero}. {t.data.titre}</option>)}
-      </select>
-    </label>
-    <fieldset>
-      <legend class="font-medium">Candidats (2 ou 3)</legend>
-      <div class="mt-2 flex flex-wrap gap-2">
-        {candidats.map((c) => <label class="chip"><input type="checkbox" name="c" value={c.id} class="sr-only" /><span>{nomComplet(c)}</span></label>)}
-      </div>
-    </fieldset>
-    <p data-erreur class="text-sm" aria-live="polite"></p>
-    <button type="submit" class="rounded bg-slate-800 px-4 py-2 font-medium text-white hover:bg-slate-700 dark:bg-slate-200 dark:text-slate-900">Comparer</button>
-  </form>
-  {themes.length === 0 && <p class="mt-4">Aucune fiche thème publiée pour l'instant.</p>}
-</Base>
-<script>
-  const f = document.getElementById('form-comparer') as HTMLFormElement;
-  const boxes = [...f.querySelectorAll<HTMLInputElement>('input[name=c]')];
-  const maj = () => { const n = boxes.filter((b) => b.checked).length; boxes.forEach((b) => (b.disabled = !b.checked && n >= 3)); };
-  boxes.forEach((b) => b.addEventListener('change', maj));
-  f.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const ids = boxes.filter((b) => b.checked).map((b) => b.value);
-    const err = f.querySelector<HTMLElement>('[data-erreur]')!;
-    if (ids.length < 2) { err.textContent = 'Choisissez au moins 2 candidats.'; return; }
-    const theme = (f.elements.namedItem('theme') as HTMLSelectElement).value;
-    location.href = `${f.getAttribute('action')}${theme}/?c=${ids.join(',')}`;
-  });
-</script>
+<meta http-equiv="refresh" content={`0; url=${cible}`} />
+<link rel="canonical" href={cible} />
+<p><a href={cible}>Voir les thèmes</a></p>

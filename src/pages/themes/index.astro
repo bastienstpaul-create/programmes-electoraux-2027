@@ -1,17 +1,26 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getThemes, url } from '../../lib/data';
+import Icone from '../../components/Icone.astro';
+import { getThemes, compterMesures, url } from '../../lib/data';
 const themes = await getThemes();
+const compte = new Map(await Promise.all(themes.map(async (t) => [t.id, await compterMesures(t.id)] as const)));
 ---
-<Base title="Thèmes">
-  <h1 class="text-2xl font-bold">Les thèmes</h1>
-  <ul class="mt-4 grid gap-2 sm:grid-cols-2">
+<Base title="Thèmes" large>
+  <h1 class="text-2xl">Les thèmes</h1>
+  <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
     {themes.map((t) => (
-      <li><a href={url(`/themes/${t.id}/`)} class="carte block p-3 no-underline hover:border-slate-400">
-        <span class="font-semibold">{t.data.numero}. {t.data.titre}</span>
-        {t.data.sous_titre && <span class="block text-sm text-slate-600 dark:text-slate-400">{t.data.sous_titre}</span>}
-        {t.data.etat === 'en-preparation' && <span class="mt-1 block text-xs italic text-slate-500">Fiche en préparation</span>}
+      <li><a href={url(`/themes/${t.id}/`)} class="carte flex h-full items-start gap-4">
+        <span class="grid size-11 flex-none place-items-center rounded-lg bg-surface text-ink-900">{t.data.icone && <Icone nom={t.data.icone} taille={22} />}</span>
+        <span><span class="block font-semibold text-ink-900">{t.data.titre}</span>
+        <span class="block text-sm text-ink-600">{t.data.etat === 'publie' ? `${compte.get(t.id)} propositions comparées` : 'Fiche en préparation'}</span></span>
       </a></li>
     ))}
   </ul>
 </Base>
+<script is:inline>
+  // Compatibilité : /themes/?theme=x&c=a,b → /themes/x/?c=a,b
+  (function () {
+    const p = new URLSearchParams(location.search), t = p.get('theme');
+    if (t && /^[a-z0-9-]+$/.test(t)) { p.delete('theme'); location.replace(location.pathname + t + '/' + (p.toString() ? '?' + p : '')); }
+  })();
+</script>
