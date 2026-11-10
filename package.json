@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@types/node": "^26.6.6",
+    "axe-core": "^4.14.0",
     "pagefind": "^1.6.0"
   }
 }

@@ -186,11 +186,10 @@
     border: 1px solid var(--line); border-radius: var(--radius-card); background: var(--surface);
     overscroll-behavior-x: contain;
   }
-  .matrice { width: max-content; min-width: 100%; }
+  .matrice { width: calc(12rem + var(--n, 1) * 17rem); min-width: 100%; }
   .matrice-ligne {
     display: grid; grid-auto-flow: column;
-    grid-template-columns: 12rem; grid-auto-columns: minmax(15rem, 1fr);
-    min-width: calc(12rem + var(--n, 1) * 15rem);
+    grid-template-columns: 12rem; grid-auto-columns: minmax(0, 1fr);
     border-top: 1px solid var(--line);
   }
   .matrice-ligne > * { padding: 0.75rem; }
