@@ -1,0 +1,13 @@
+---
+/** Liste de sources regroupées par organisme : « COR (1, 2), Cour des comptes ». */
+import { getEntries } from 'astro:content';
+interface Props { ids: { collection: 'sources'; id: string }[] }
+const sources = await getEntries(Astro.props.ids);
+const groupes = new Map<string, typeof sources>();
+for (const s of sources) groupes.set(s.data.organisme, [...(groupes.get(s.data.organisme) ?? []), s]);
+---
+<span>Source{sources.length > 1 ? 's' : ''} : {[...groupes].map(([org, ss], i) => (
+  <>{i > 0 && ', '}{ss.length === 1
+    ? <a href={ss[0]!.data.url} rel="noopener" target="_blank" title={ss[0]!.data.titre}>{org}</a>
+    : <>{org} ({ss.map((s, j) => <>{j > 0 && ', '}<a href={s.data.url} rel="noopener" target="_blank" title={s.data.titre}>{j + 1}</a></>)})</>}</>
+))}</span>

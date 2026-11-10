@@ -1,14 +1,227 @@
 numero: 6
-titre: "Travail et retraites"
-icone: "briefcase"
+titre: Travail et retraites
+icone: briefcase
 date_maj: 2026-11-10
-etat: en-preparation
+etat: publie
 axes:
-  - { id: age, libelle: "Âge de départ à la retraite" }
-  - { id: duree, libelle: "Durée de cotisation" }
-  - { id: pensions, libelle: "Montant des pensions" }
-  - { id: financement, libelle: "Financement des retraites" }
-  - { id: penibilite, libelle: "Pénibilité, carrières longues et seniors" }
-  - { id: salaires, libelle: "SMIC et salaires" }
-  - { id: temps-travail, libelle: "Durée du travail" }
-  - { id: chomage, libelle: "Assurance chômage" }
+- id: age
+  libelle: Âge de départ à la retraite
+- id: duree
+  libelle: Durée de cotisation
+- id: pensions
+  libelle: Montant des pensions
+- id: financement
+  libelle: Financement des retraites
+- id: penibilite
+  libelle: Pénibilité, carrières longues et seniors
+- id: salaires
+  libelle: SMIC et salaires
+- id: temps-travail
+  libelle: Durée du travail
+- id: chomage
+  libelle: Assurance chômage
+situation:
+  texte: 'Le système de retraite français fonctionne principalement par [[répartition|repartition]] : les cotisations prélevées sur les salaires des personnes qui travaillent servent à payer, la même année, les pensions des retraités. Chaque salarié relève de deux étages obligatoires : un régime de base (l''Assurance retraite pour les salariés du privé) et un régime complémentaire par points ([[Agirc-Arrco|agirc-arrco]] pour les salariés du privé). Au total, une quarantaine de régimes coexistent. En 2025, sur 417 milliards d''euros de ressources, environ deux tiers (277 milliards) venaient des cotisations ; le reste provenait d''impôts et de transferts publics.
+
+
+    L''âge à partir duquel on peut partir, appelé [[âge légal|age-legal]], dépend de l''année de naissance. Aujourd''hui, il est de 62 ans et 9 mois pour les personnes nées entre le 1er janvier 1963 et le 31 mars 1965, puis il augmente de 3 mois par génération jusqu''à 64 ans pour les personnes nées à partir de 1969. Pour toucher une pension sans réduction ([[taux plein|taux-plein]]) avant 67 ans, il faut aussi une [[durée d''assurance|duree-assurance]] minimale : 170 trimestres pour les générations 1963 à mars 1965, 171 pour la fin de 1965, puis 172 trimestres (43 ans) à partir de 1966. S''il manque des trimestres, une [[décote|decote]] s''applique ; à 67 ans, le taux plein est accordé quel que soit le nombre de trimestres. Ce calendrier résulte de la réforme de 2023, qui portait l''âge légal à 64 ans, modifiée par la [[LFSS|lfss]] pour 2026 : la loi du 30 décembre 2025 a décalé la hausse d''une génération pour les pensions prenant effet à partir du 1er septembre 2026. Ce texte ne prévoit pas de date de fin. En novembre 2026, le Sénat examine le projet de loi de financement de la Sécurité sociale pour 2027 : sa commission des affaires sociales a adopté un amendement qui annule cette suspension. L''Assemblée nationale avait rejeté ce projet le 23 octobre 2026.
+
+
+    Côté finances, les retraites ont coûté 422 milliards d''euros en 2025, soit 14,1 % de la richesse nationale (PIB) et près d''un quart des dépenses publiques. Le système a enregistré un déficit de 5,1 milliards d''euros (0,2 % du PIB). Selon les projections du [[COR|cor]] de juin 2026, à règles inchangées, ce déficit atteindrait 0,9 % du PIB en 2045 et 2,4 % en 2070. En 2025, on comptait 17,4 millions de retraités de droit direct pour 30,6 millions de personnes en emploi. Fin 2024, la pension brute moyenne de droit direct était de 1 750 euros par mois : 1 380 euros pour les femmes et 2 190 euros pour les hommes. En 2023, le niveau de vie moyen des retraités était proche de celui de l''ensemble de la population.
+
+
+    L''emploi des seniors progresse depuis le début des années 2000. Au 2e trimestre 2026, 62,1 % des 55-64 ans avaient un emploi. Chez les 60-64 ans, ce taux atteignait 44,4 % en 2025, soit environ 11 points de moins que la moyenne de l''Union européenne. Le taux de chômage de l''ensemble de la population active était de 8,3 % au 2e trimestre 2026.
+
+
+    Pour un salarié du privé à temps plein, la durée légale du travail est de 35 heures par semaine, soit 1 607 heures par an. Le [[SMIC|smic]] horaire brut est de 12,31 euros depuis le 1er juin 2026, soit 1 867,02 euros brut par mois pour 35 heures (environ 1 478 euros net). Il est revalorisé chaque 1er janvier selon des règles fixées par la loi ([[indexation|indexation]]), et automatiquement en cours d''année si les prix augmentent d''au moins 2 %. Les pensions de base sont, elles, revalorisées chaque 1er janvier en fonction de l''inflation (+0,9 % au 1er janvier 2026).'
+  chiffres:
+  - libelle: Dépenses de retraite
+    valeur: 14,1 % du PIB
+    precision: 422 milliards d'euros, soit 24,3 % des dépenses publiques ; ensemble des régimes obligatoires (COR, synthèse p. 3)
+    annee: '2025'
+    source: cor-ra-2026-synthese
+  - libelle: Solde du système de retraite
+    valeur: −5,1 milliards d'euros (−0,2 % du PIB)
+    precision: 'Régimes de base et complémentaires, hors produits financiers ; projection : −0,9 % du PIB en 2045 et −2,4 % en 2070 (COR, synthèse p. 1)'
+    annee: '2025'
+    source: cor-ra-2026-synthese
+  - libelle: Nombre de retraités de droit direct
+    valeur: 17,4 millions
+    precision: Retraités vivant en France et à l'étranger ; 30,6 millions de cotisants (emploi total) ; chiffre 2025 estimé (COR, rapport p. 73)
+    annee: '2025'
+    source: cor-ra-2026-complet
+  - libelle: Pension brute moyenne de droit direct
+    valeur: 1 750 € par mois
+    precision: 'Femmes : 1 380 € ; hommes : 2 190 € ; y compris majoration pour 3 enfants ou plus, retraités résidant en France, fin 2024 (COR, rapport p. 161, tableau 3.2, données DREES)'
+    annee: '2024'
+    source: cor-ra-2026-complet
+  - libelle: Taux d'emploi des 55-64 ans
+    valeur: 62,1 %
+    precision: 'Moyenne trimestrielle corrigée des variations saisonnières, +6,7 points depuis fin 2019 (Insee, Informations rapides n° 192, p. 6). Moyenne annuelle 2025 : 61,8 % en France contre 66,5 % dans l''UE (Insee, données Eurostat)'
+    annee: '2026'
+    source: insee-ir192-chomage-t2-2026
+  - libelle: SMIC
+    valeur: 12,31 € brut de l'heure
+    precision: 1 867,02 € brut par mois pour 151,67 heures (environ 1 477,93 € net, montant indicatif), depuis le 1er juin 2026
+    annee: '2026'
+    source: insee-smic-series
+  lois:
+  - titre: 'Âge légal : article L161-17-2 du code de la sécurité sociale'
+    resume: Fixe l'âge minimal de départ selon l'année de naissance. Issu de la loi n° 2010-1330 du 9 novembre 2010 (passage de 60 à 62 ans), modifié par les lois de 2023 et de 2025.
+    url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025014605/
+  - titre: 'Durée d''assurance : article L161-17-3 du code de la sécurité sociale'
+    resume: Fixe le nombre de trimestres exigé pour le taux plein selon l'année de naissance. Issu de la loi n° 2014-40 du 20 janvier 2014 (hausse progressive jusqu'à 172 trimestres), modifié en 2023 et 2025.
+    url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028494794/
+  - titre: Loi n° 2023-270 du 14 avril 2023 de financement rectificative de la sécurité sociale pour 2023
+    resume: Elle a reporté l'âge légal de 62 à 64 ans, de 3 mois par génération à partir des personnes nées le 1er septembre 1961, et accéléré la hausse de la durée d'assurance. Le gouvernement l'a fait adopter avec l'article 49.3 ; le Conseil constitutionnel a validé l'essentiel du texte le 14 avril 2023 (décision n° 2023-849 DC).
+    url: https://www.conseil-constitutionnel.fr/decision/2023/2023849DC.htm
+  - titre: Loi n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 (article 105)
+    resume: 'Elle suspend la hausse de l''âge et de la durée d''assurance pour les personnes nées en 1964 et au 1er trimestre 1965 (62 ans et 9 mois, 170 trimestres), puis reprend la hausse pour les générations suivantes : 64 ans pour les personnes nées en 1969, 172 trimestres dès 1966. Elle s''applique aux pensions prenant effet à partir du 1er septembre 2026 et ne fixe pas de date de fin.'
+    url: https://www.assemblee-nationale.fr/dyn/17/textes/l17t0199_texte-adopte-provisoire.pdf
+bilan:
+- nature: fonctionne
+  texte: 'Réforme de 2010 : l''IPP a comparé les générations 1950 et 1954. Pour les assurés non concernés par la carrière longue, le recul de l''âge légal a augmenté l''emploi de 20 à 25 points entre 60 et 62 ans, avec un effet visible dès 57 ans. Les caisses de retraite y ont gagné environ 5,4 milliards d''euros pour la génération 1954.'
+  sources:
+  - ipp-rapport-61-2025
+- nature: ne-fonctionne-pas
+  texte: La même étude de l'IPP montre qu'environ un quart des personnes qui ont dû reporter leur départ ont touché des allocations chômage entre l'ancien et le nouvel âge. La probabilité d'être au chômage indemnisé entre 60 et 62 ans a augmenté de 12 à 15 points. L'effet net sur les comptes de l'assurance chômage reste faible (au plus 36 millions d'euros par an).
+  sources:
+  - ipp-rapport-61-2025
+- nature: fonctionne
+  texte: 'Réformes successives (2010, 2014, 2023) : selon le COR, le taux d''emploi des 55-64 ans est passé de 41 % en 2010 à 61,7 % en 2025. Celui des 60-64 ans a gagné 2,0 points en 2025, à 44,4 %, après +3,4 points en 2024. À 62 ans, la part des personnes en emploi atteint 37,8 % sur la période 2023-2025, soit +3,4 points, ce que le COR relie à la montée en charge de la réforme de 2023.'
+  sources:
+  - cor-ra-2026-partie4
+- nature: ne-fonctionne-pas
+  texte: Entre l'emploi et la retraite, beaucoup de seniors passent par une période sans l'un ni l'autre. À 61 ans, environ 24,5 % des personnes ne sont ni en emploi ni à la retraite (3,8 % au chômage, 14,5 % inactives pour raison de santé). Le taux d'emploi des 60-64 ans reste environ 11 points sous la moyenne européenne.
+  sources:
+  - cor-ra-2026-partie4
+  - insee-debats-2027
+- nature: debat
+  texte: 'Malgré les réformes, le COR projette un déficit sur toute la période : −0,2 % du PIB en 2030, −2,4 % en 2070, contre −1,4 % prévu en 2070 dans le rapport de 2025, en raison surtout d''une fécondité revue à la baisse. Le COR souligne aussi que les dépenses resteraient presque stables jusqu''en 2045 (14,1 % puis 14,2 % du PIB), ce qui selon lui ne correspond pas à l''idée de dépenses hors de contrôle. La Cour des comptes (février 2025) qualifiait les perspectives de « préoccupantes » et prévoyait 15 milliards d''euros de déficit en 2035.'
+  sources:
+  - cor-ra-2026-synthese
+  - cor-ra-2026-complet
+  - ccomptes-retraites-2025
+- nature: fonctionne
+  texte: 'En 2023, le niveau de vie moyen des retraités (2 473 € par mois et par unité de consommation) était équivalent à celui de l''ensemble de la population (2 468 €). Leur taux de pauvreté (10,5 %) était inférieur à celui de l''ensemble de la population (15,4 %), mais à son plus haut depuis 1996. Le COR projette une baisse relative de ce niveau de vie : 90,3 % de celui de l''ensemble de la population en 2070.'
+  sources:
+  - cor-ra-2026-synthese
+  - cor-ra-2026-complet
+- nature: debat
+  texte: Les écarts entre femmes et hommes se réduisent mais restent élevés. En 2022, les femmes percevaient en moyenne 1 272 € net de pension (réversion comprise), soit 24 % de moins que les hommes. Pour la génération 1957, la pension de droit direct des femmes représente 72,1 % de celle des hommes, contre 54,6 % pour la génération 1940. Le taux de pauvreté est de 11,9 % chez les femmes retraitées et de 8,9 % chez les hommes retraités (2023).
+  sources:
+  - insee-debats-2027
+  - cor-ra-2026-complet
+effets:
+- sujet: Effet d'un changement de l'âge légal (retour à 62 ou 60 ans, maintien à 64 ans ou recul à 65 ans)
+  axes:
+  - age
+  evaluations:
+  - source: ccomptes-retraites-2025
+    resume: 'Partir de la règle des 64 ans de la réforme de 2023. Abaisser l''âge d''un an (63 ans) coûterait 5,8 Md€ au système de retraite en 2035, et 13 Md€ à l''ensemble des finances publiques. Le reculer d''un an (65 ans à partir de la génération 1968) rapporterait jusqu''à 8,4 Md€ au système, et 17,7 Md€ aux finances publiques. À l''horizon 2045 : −4,3 Md€ pour 63 ans, +8,4 Md€ pour 65 ans (génération 1972). Rapport p. 11.'
+    fourchette: '63 ans : −5,8 Md€ (système) / −13 Md€ (finances publiques) en 2035 ; 65 ans : +8,4 / +17,7 Md€'
+  - source: institut-montaigne-nfp-retraites-2024
+    resume: 'Chiffrage réalisé pour les législatives de 2024 : annuler la réforme de 2023 (retour à 62 ans) coûterait 8,2 Md€ par an à l''horizon 2027. Annuler aussi le recul d''âge de 2010 (retour à 60 ans) ajouterait 27 Md€ en 2027 (1,2 point de PIB). L''Institut précise que ce chiffrage n''intègre pas la baisse possible de l''activité.'
+    fourchette: 8,2 Md€ (62 ans) ; +27 Md€ pour revenir à 60 ans (horizon 2027)
+  - source: cor-ra-2026-synthese
+    resume: 'Simulations de la DG Trésor, de l''OFCE et du laboratoire I-MIP réunies par le COR : relever l''âge légal d''un an augmenterait l''emploi de 200 000 à 240 000 personnes à long terme (20 ans) et le PIB de 0,1 % à 0,8 %. Le chômage augmenterait temporairement, avec des reports vers d''autres dépenses publiques. Abaisser l''âge produirait en principe l''effet inverse, mais cette variante n''a pas été simulée. Synthèse p. 15.'
+    fourchette: +50 000 à +140 000 emplois à 2 ans ; +200 000 à +240 000 à 20 ans ; solde public +0,3 à +0,65 point de PIB à 20 ans
+  desaccords: 'Les deux chiffrages ne portent ni sur le même horizon (2027 contre 2035), ni sur le même périmètre (système de retraite seul ou ensemble des finances publiques). Les effets sur l''emploi dépendent aussi de la part des seniors qui passent par le chômage ou l''invalidité avant la retraite : l''étude de l''IPP sur 2010 mesure ce report vers le chômage. Le COR rappelle que le bilan en bien-être reste difficile à établir, car la hausse d''activité réduit le temps libre.'
+- sujet: Effet du maintien ou de l'annulation de la suspension de la réforme de 2023
+  axes:
+  - age
+  - duree
+  evaluations:
+  - source: cor-ra-2026-synthese
+    resume: La suspension votée dans la LFSS pour 2026 coûte en moyenne 1,8 Md€ par an en année pleine jusqu'en 2032 (synthèse p. 1).
+    fourchette: 1,8 Md€ par an en moyenne jusqu'en 2032
+  - source: senat-plfss-2027-essentiel
+    resume: Selon la commission des affaires sociales du Sénat (4 novembre 2026), la suspension coûtera plus de 10 Md€ en cumulé. L'annuler dans la loi pour 2027 ferait économiser 0,6 Md€ dès 2027 (p. 16).
+    fourchette: 0,6 Md€ d'économie en 2027 si annulation ; plus de 10 Md€ de coût cumulé si maintien
+  - source: ifrap-suspension-2025
+    resume: 'Estimation publiée avant le vote, pour un gel durable à 62 ans et 9 mois et 170 trimestres (hypothèse plus large que la suspension finalement votée), à partir des chiffrages de la Cour des comptes : 5,8 Md€ d''économies auxquelles on renoncerait pour le système de retraite et 16,5 Md€ pour l''ensemble des finances publiques en 2035, en euros constants 2024.'
+    fourchette: 5,8 Md€ (système) / 16,5 Md€ (finances publiques) en 2035
+  desaccords: Les chiffrages diffèrent selon la version étudiée (gel durable ou décalage d'une génération), l'horizon (année 2027, moyenne jusqu'en 2032 ou cumul) et le périmètre. La commission du Sénat et la Fondation iFRAP défendent le retour au calendrier de 2023. La suspension a été adoptée par le Parlement dans la LFSS pour 2026 ; l'Assemblée nationale a rejeté le PLFSS pour 2027 dans sa première lecture.
+- sujet: Effet d'une modification de la durée de cotisation exigée
+  axes:
+  - duree
+  evaluations:
+  - source: ccomptes-retraites-2025
+    resume: 'Passer de 43 à 42 ans de cotisation coûterait 3,9 Md€ au système en 2035 (7,1 Md€ pour les finances publiques). Passer à 44 ans rapporterait 5,2 Md€ (9,7 Md€). L''effet grandit avec le temps : à l''horizon 2045, −7,7 Md€ ou +8 Md€ (génération 1972). Rapport p. 11.'
+    fourchette: −3,9 à +5,2 Md€ en 2035 (système de retraite)
+  desaccords: Aucun autre chiffrage récent du même levier n'a été consulté. La Cour indique que l'effet à court terme est plus faible que celui de l'âge, mais qu'il s'accroît au fil des générations.
+- sujet: Effet d'une revalorisation des pensions inférieure à l'inflation (sous-indexation ou gel)
+  axes:
+  - pensions
+  evaluations:
+  - source: ccomptes-retraites-2025
+    resume: Revaloriser les pensions d'un point de moins que l'inflation ferait économiser 2,9 Md€ en 2025. La Cour juge l'effet négatif sur l'économie « relativement faible », car les retraités consomment en moyenne une plus petite part de leur revenu. Rapport p. 12.
+    fourchette: 2,9 Md€ par point de sous-indexation (2025)
+  - source: senat-plfss-2027-essentiel
+    resume: Le PLFSS pour 2027 propose de geler la revalorisation des pensions supérieures à 1 260 € par mois, pour un rendement de 4,1 Md€ (3 Md€ pour la Sécurité sociale, 1,1 Md€ pour l'État). La commission du Sénat propose de relever ce seuil à 1 500 €, ce qui réduirait l'économie d'environ 0,2 Md€ (p. 15-16).
+    fourchette: 4,1 Md€ en 2027 (gel au-delà de 1 260 €)
+  - source: cor-ra-2026-synthese
+    resume: Selon les modèles réunis par le COR, une modération des pensions de 6 Md€ réduit la consommation et l'emploi à court terme (−10 000 à −20 000 emplois à 2 ans, −5 000 à −10 000 à 20 ans) et améliore le solde public de 0,1 point de PIB. Le COR note que l'effet récessif serait moindre si la mesure ciblait les pensions les plus élevées. Synthèse p. 14-15.
+    fourchette: −5 000 à −25 000 emplois selon l'horizon
+  desaccords: La Cour des comptes juge l'effet sur l'économie faible ; le COR classe ce levier parmi ceux qui ont un effet récessif. Les deux s'accordent sur un gain budgétaire immédiat. La commission du Sénat propose d'épargner les pensions jusqu'à 1 500 €.
+- sujet: Effet d'une hausse des cotisations retraite
+  axes:
+  - financement
+  evaluations:
+  - source: ccomptes-retraites-2025
+    resume: Un point de cotisation supplémentaire rapporterait entre 4,8 et 7,6 Md€ par an, selon qu'il pèse sur les employeurs ou les salariés et sur quelle part du salaire. Rapport p. 12.
+    fourchette: 4,8 à 7,6 Md€ par point
+  - source: cor-ra-2026-synthese
+    resume: Selon les modèles réunis par le COR, une hausse de 6 Md€ des cotisations des employeurs réduirait l'emploi de 15 000 à 80 000 personnes à 20 ans ; une hausse des cotisations des salariés, de 15 000 à 80 000 également. Synthèse p. 15.
+    fourchette: −15 000 à −80 000 emplois à 20 ans pour 6 Md€
+  desaccords: L'ampleur de l'effet sur l'emploi varie fortement d'un modèle à l'autre (DG Trésor, OFCE, I-MIP).
+- sujet: Effet de l'introduction d'une part de retraite par capitalisation
+  axes:
+  - financement
+  evaluations:
+  - source: terra-nova-lgc-capitalisation-2025
+    resume: Article d'Eric Weil (consultant), publié par La Grande Conversation, la revue de Terra Nova. Pour qu'une part de capitalisation finance à terme 10 % à 15 % des retraites des salariés du privé, il faudrait environ 20 Md€ de plus chaque année pendant la transition, soit 300 à 400 Md€ au total. Des gains nets pourraient apparaître après 30 à 40 ans si les rendements attendus se réalisent (p. 9-10).
+    fourchette: ≈ 20 Md€ par an ; 300 à 400 Md€ au total
+  - source: tresor-eco-406-2026
+    resume: Selon la DG Trésor (Trésor-Éco n° 406, octobre 2026), un régime partiel par capitalisation, en complément de la répartition, aiderait au financement de l'économie. Mais il exigerait qu'au moins une génération accepte des sacrifices financiers pendant la transition, et ne dispenserait pas de mesures pour équilibrer la répartition. Pas de chiffrage dans la synthèse consultée.
+    fourchette: Non chiffré dans la synthèse
+  - source: cor-capitalisation-2025
+    resume: 'Selon le COR (décembre 2025), toute transition implique une double cotisation des actifs, une mise à contribution des retraités (par exemple une sous-indexation durable) ou une prise en charge par l''État. Les deux systèmes sont exposés à des risques différents : démographie pour la répartition, marchés financiers pour la capitalisation. Les réserves des régimes par répartition représentaient 213,8 Md€ (7,3 % du PIB) fin 2024.'
+    fourchette: Non chiffré
+  - source: ifrap-capitalisation-2023
+    resume: La Fondation iFRAP (février 2023) défend une part de capitalisation obligatoire, ajoutée à la répartition et généralisée à tous. Elle cite les régimes déjà existants (fonctionnaires, pharmaciens, Banque de France, Sénat) et le financement de l'économie. Pas de coût de transition chiffré sur la page consultée.
+    fourchette: Non chiffré
+  desaccords: Terra Nova (via La Grande Conversation) présente le coût de la transition comme l'obstacle principal à un régime obligatoire ; la Fondation iFRAP met en avant l'équité et le financement de l'économie. Le COR et la DG Trésor décrivent les deux aspects sans trancher.
+- sujet: 'Effet d''une forte hausse du SMIC (exemple : 1 600 € net, soit +14,4 % en 2024)'
+  axes:
+  - salaires
+  evaluations:
+  - source: institut-montaigne-smic-2024
+    resume: 'Chiffrage réalisé pour les législatives de 2024 : un coût d''environ 19 Md€ pour les finances publiques (estimation basse 17 Md€, haute 21 Md€), surtout par la hausse des allègements de cotisations. Pour l''emploi, l''Institut présente plusieurs estimations tirées de la littérature : environ 223 000, environ 300 000 à 360 000, voire 600 000 emplois détruits à moyen terme, ce dernier chiffre étant « à prendre avec prudence ».'
+    fourchette: 17 à 21 Md€ par an ; 223 000 à 600 000 emplois selon les études
+  - source: ifrap-smic-2024
+    resume: Selon la Fondation iFRAP (juillet 2024), 240 000 emplois pourraient être détruits et 9 500 à 70 000 entreprises risqueraient la faillite dans l'année. Ces résultats sont présentés comme des ordres de grandeur.
+    fourchette: 240 000 emplois
+  - source: fjj-smic-2024
+    resume: La Fondation Jean-Jaurès (septembre 2024) propose d'atteindre 1 600 € net progressivement et de recentrer les allègements de cotisations sur les salaires proches du SMIC. Sans réduction de ces allègements, la hausse coûterait environ 3,8 Md€ aux finances publiques. Selon la Fondation, les effets sur l'emploi sont « ambigus » et dépendent de la conjoncture.
+    fourchette: ≈ 3,8 Md€ sans réforme des allègements
+  - source: groupe-experts-smic-2025
+    resume: 'Le groupe d''experts sur le SMIC (25 novembre 2025) a recommandé de ne pas aller au-delà de la revalorisation automatique (rapport p. 11). Il rappelle que les allègements généraux coûtent environ 75 Md€ (2024) ; selon ses simulations, les supprimer détruirait 1,3 à 1,9 million d''emplois. Les expériences étrangères varient : peu d''effet sur l''emploi total en Allemagne en 2015, des pertes d''emplois ciblées en Espagne après la hausse de 22 % de 2019.'
+    fourchette: Pas de chiffrage d'une hausse à 1 600 €
+  desaccords: 'Les coûts publics varient de 3,8 Md€ (Fondation Jean-Jaurès) à 19 Md€ (Institut Montaigne) : le premier chiffre est un effet immédiat, le second inclut la hausse des allègements de cotisations due au resserrement des salaires autour du SMIC. Les estimations de pertes d''emplois dépendent de l''élasticité retenue (de 223 000 à 600 000 selon les études citées par l''Institut Montaigne). La Fondation Jean-Jaurès juge ces effets dépendants du contexte.'
+glossaire:
+- repartition
+- capitalisation
+- agirc-arrco
+- age-legal
+- taux-plein
+- duree-assurance
+- decote
+- minimum-contributif
+- carriere-longue
+- c2p
+- cor
+- lfss
+- smic
+- indexation
+- article-49-3

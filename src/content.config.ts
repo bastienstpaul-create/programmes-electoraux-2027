@@ -84,8 +84,8 @@ const loi = z.object({
   titre: z.string(),
   resume: z.string(),
   url: z.url().refine(
-    (u) => /legifrance\.gouv\.fr|vie-publique\.fr|eur-lex\.europa\.eu|conseil-constitutionnel\.fr/.test(u),
-    'Lien attendu vers Légifrance, vie-publique.fr, EUR-Lex ou le Conseil constitutionnel',
+    (u) => /legifrance\.gouv\.fr|vie-publique\.fr|eur-lex\.europa\.eu|conseil-constitutionnel\.fr|assemblee-nationale\.fr|senat\.fr/.test(u),
+    'Lien attendu vers Légifrance, vie-publique.fr, EUR-Lex, le Conseil constitutionnel ou le Parlement',
   ),
 });
 
