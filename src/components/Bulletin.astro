@@ -1,0 +1,16 @@
+---
+/** En-tête candidat « bulletin » : identique pour tous (monogramme + nom + parti). */
+import Monogramme from './Monogramme.astro';
+import { nomComplet, url, type Candidat } from '../lib/data';
+interface Props { candidat: Candidat; lien?: boolean }
+const { candidat, lien = true } = Astro.props;
+---
+<div class="flex items-center gap-3 rounded-[var(--radius-card)] border border-line bg-white px-3 py-2.5">
+  <Monogramme candidat={candidat} />
+  <div class="min-w-0 leading-tight">
+    {lien
+      ? <a href={url(`/candidats/${candidat.id}/`)} class="font-semibold text-ink-900 no-underline hover:underline">{nomComplet(candidat)}</a>
+      : <span class="font-semibold">{nomComplet(candidat)}</span>}
+    <span class="block truncate text-xs text-ink-600">{candidat.data.parti}</span>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+---
+import { initiales, type Candidat } from '../lib/data';
+interface Props { candidat: Candidat }
+---
+<span class="monogramme" aria-hidden="true">{initiales(Astro.props.candidat)}</span>

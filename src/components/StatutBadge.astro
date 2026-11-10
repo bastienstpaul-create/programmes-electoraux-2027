@@ -1,0 +1,6 @@
+---
+import { STATUT_MESURE, type StatutAffiche } from '../lib/data';
+interface Props { statut: StatutAffiche }
+const { statut } = Astro.props;
+---
+<span class="statut" data-statut={statut} title={STATUT_MESURE[statut].aide}>{STATUT_MESURE[statut].label}</span>

@@ -1,0 +1,169 @@
+---
+import { getCollection, getEntries } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Section from '../../components/Section.astro';
+import Texte from '../../components/Texte.astro';
+import SourceLien from '../../components/SourceLien.astro';
+import SourcesListe from '../../components/SourcesListe.astro';
+import Icone from '../../components/Icone.astro';
+import Selecteur from '../../components/Selecteur.astro';
+import TableauComparatif from '../../components/TableauComparatif.astro';
+import { getThemes, getCandidats, getMesuresTheme, NATURE_BILAN, formatDate, url, type Theme } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const themes = await getThemes();
+  return themes.map((t, i) => ({ params: { id: t.id }, props: { theme: t, prec: themes[i - 1], suiv: themes[i + 1], themes } }));
+}
+const { theme, prec, suiv, themes } = Astro.props as { theme: Theme; prec?: Theme; suiv?: Theme; themes: Theme[] };
+const d = theme.data;
+const candidats = await getCandidats();
+const mesures = await getMesuresTheme(theme.id);
+const termes = await getEntries(d.glossaire);
+const axeLibelle = (id: string) => d.axes.find((a) => a.id === id)?.libelle ?? id;
+const idsSources = new Set<string>([
+  ...(d.situation?.chiffres.map((c) => c.source.id) ?? []),
+  ...d.bilan.flatMap((b) => b.sources.map((s) => s.id)),
+  ...d.effets.flatMap((e) => e.evaluations.map((v) => v.source.id)),
+  ...mesures.flatMap((m) => [...(m.data.cout ? [m.data.cout.source.id] : []), ...m.data.evaluations.map((v) => v.source.id)]),
+]);
+const sources = (await getCollection('sources')).filter((s) => idsSources.has(s.id));
+const natures = ['fonctionne', 'ne-fonctionne-pas', 'debat'] as const;
+const sommaire = [['situation', 'Situation actuelle'], ['bilan', 'Bilan'], ['propositions', 'Propositions'], ['effets', 'Effets attendus'], ['glossaire', 'Glossaire'], ['sources', 'Sources']];
+const desc = `${d.titre} : comparez les propositions des ${candidats.length} candidats à la présidentielle 2027, avec leurs sources.`;
+---
+<Base title={`${d.titre} : comparez les propositions`} description={desc} image={`/og/${theme.id}.png`} large>
+  <nav aria-label="Thèmes" class="mb-6">
+    <ul class="onglets hidden md:flex">
+      {themes.map((t) => <li><a href={url(`/themes/${t.id}/`)} aria-current={t.id === theme.id ? 'page' : undefined}>{t.data.titre}</a></li>)}
+    </ul>
+    <label class="md:hidden">
+      <span class="sr-only">Changer de thème</span>
+      <select class="h-11 w-full rounded-lg border border-line bg-white px-3 text-ink-900" onchange="location.href=this.value">
+        {themes.map((t) => <option value={url(`/themes/${t.id}/`)} selected={t.id === theme.id}>{t.data.titre}</option>)}
+      </select>
+    </label>
+  </nav>
+
+  <header class="prose-w">
+    <div class="flex items-center gap-3">
+      {d.icone && <span class="grid size-12 flex-none place-items-center rounded-xl bg-surface"><Icone nom={d.icone} taille={26} /></span>}
+      <h1 class="text-2xl">{d.titre}</h1>
+    </div>
+    {d.sous_titre && <p class="mt-2 text-ink-600">{d.sous_titre}</p>}
+    <p class="mt-2 text-sm text-ink-600">Fiche mise à jour le <time datetime={d.date_maj.toISOString().slice(0, 10)}>{formatDate(d.date_maj)}</time>.</p>
+  </header>
+
+  {d.etat === 'en-preparation' ? (
+    <div class="carte mt-8 prose-w">
+      <p class="font-semibold">Cette fiche est en préparation.</p>
+      <p class="mt-1 text-ink-600">Elle sera publiée quand la situation actuelle, le bilan et les propositions de chaque candidat auront été vérifiés et sourcés. En attendant, consultez un autre thème.</p>
+    </div>
+  ) : (
+    <>
+      <nav aria-label="Sommaire de la fiche" class="mt-6">
+        <ol class="flex flex-wrap gap-2 text-sm">
+          {sommaire.map(([h, l], i) => <li><a href={`#${h}`} class="inline-flex min-h-[40px] items-center rounded-full border border-line px-3 text-ink-900 no-underline hover:border-ink-400">{i < 5 ? `${i + 1}. ` : ''}{l}</a></li>)}
+        </ol>
+      </nav>
+
+      <div class="mt-10 space-y-14">
+        <Section id="situation" numero={1} titre="Situation actuelle">
+          {d.situation ? (
+            <>
+              <div class="prose-w"><Texte texte={d.situation.texte} /></div>
+              {d.situation.chiffres.length > 0 && (
+                <>
+                  <h3 class="mt-8 text-lg">Chiffres clés</h3>
+                  <dl class="mt-3 grid gap-px overflow-hidden rounded-[var(--radius-card)] border border-line bg-line sm:grid-cols-2 lg:grid-cols-3">
+                    {d.situation.chiffres.map((c) => (
+                      <div class="bg-white p-4">
+                        <dt class="text-sm text-ink-600">{c.libelle} <span class="whitespace-nowrap">({c.annee})</span></dt>
+                        <dd class="num mt-1 text-xl font-semibold">{c.valeur}</dd>
+                        {c.precision && <dd class="text-sm"><Texte texte={c.precision} inline /></dd>}
+                        <dd class="mt-1 text-xs text-ink-600">Source : <SourceLien id={c.source.id} /></dd>
+                      </div>
+                    ))}
+                  </dl>
+                </>
+              )}
+              {d.situation.lois.length > 0 && (
+                <>
+                  <h3 class="mt-8 text-lg">Lois et règles en vigueur</h3>
+                  <ul class="mt-3 divide-y divide-line prose-w">
+                    {d.situation.lois.map((l) => <li class="py-3"><a href={l.url} rel="noopener" target="_blank" class="font-semibold">{l.titre} ↗</a><p class="mt-1 text-ink-600"><Texte texte={l.resume} inline /></p></li>)}
+                  </ul>
+                </>
+              )}
+            </>
+          ) : <p class="text-ink-600">Section en cours de rédaction.</p>}
+        </Section>
+
+        <Section id="bilan" numero={2} titre="Bilan des politiques existantes">
+          <div class="grid gap-8 lg:grid-cols-3">
+            {natures.map((n) => {
+              const items = d.bilan.filter((b) => b.nature === n);
+              return (
+                <div>
+                  <h3 class="text-lg">{NATURE_BILAN[n]}</h3>
+                  {items.length ? (
+                    <ul class="mt-3 space-y-4">
+                      {items.map((b) => <li class="border-l-2 border-line pl-3"><Texte texte={b.texte} inline /><span class="mt-1 block text-xs text-ink-600"><SourcesListe ids={b.sources} /></span></li>)}
+                    </ul>
+                  ) : <p class="mt-3 text-sm text-ink-600">Rien de notable dans les évaluations consultées.</p>}
+                </div>
+              );
+            })}
+          </div>
+        </Section>
+
+        <Section id="propositions" numero={3} titre="Propositions des candidats">
+          <p class="prose-w text-ink-600">Chaque proposition est résumée en une phrase. Ouvrez « Détails » pour lire la formulation, le chiffrage et la source.</p>
+          <div class="mt-4"><Selecteur candidats={candidats} cible="comparaison" titrePartage={`${d.titre} : comparez les propositions`} /></div>
+          <div class="mt-6"><TableauComparatif id="comparaison" theme={theme} candidats={candidats} mesures={mesures} /></div>
+        </Section>
+
+        <Section id="effets" numero={4} titre="Effets attendus">
+          {d.effets.length === 0 ? <p class="text-ink-600">Aucune estimation publiée par un organisme indépendant n'a encore été rassemblée.</p> : (
+            <div class="space-y-8">
+              {d.effets.map((e) => (
+                <article class="prose-w">
+                  <h3 class="text-lg">{e.sujet}</h3>
+                  {e.axes.length > 0 && <p class="text-sm text-ink-600">Sous-thème concerné : {e.axes.map(axeLibelle).join(', ')}</p>}
+                  <ul class="mt-3 divide-y divide-line rounded-[var(--radius-card)] border border-line bg-white">
+                    {e.evaluations.map((v) => (
+                      <li class="p-4">
+                        <p class="font-semibold"><SourceLien id={v.source.id} />{v.fourchette && <span class="num ml-2 font-normal text-ink-900">{v.fourchette}</span>}</p>
+                        <p class="mt-1 text-ink-600"><Texte texte={v.resume} inline /></p>
+                      </li>
+                    ))}
+                  </ul>
+                  {e.desaccords && <p class="mt-3"><span class="font-semibold">Points de désaccord.</span> <Texte texte={e.desaccords} inline /></p>}
+                </article>
+              ))}
+            </div>
+          )}
+        </Section>
+
+        <Section id="glossaire" numero={5} titre="Glossaire du thème">
+          {termes.length === 0 ? <p class="text-ink-600">Aucun terme pour l'instant.</p> : (
+            <dl class="grid gap-x-8 gap-y-5 md:grid-cols-2">
+              {termes.map((t) => <div><dt class="font-semibold"><a href={url(`/glossaire/#${t.id}`)} class="text-ink-900">{t.data.terme}</a></dt><dd class="mt-1 text-ink-600">{t.data.definition}</dd></div>)}
+            </dl>
+          )}
+        </Section>
+
+        <Section id="sources" titre="Sources citées">
+          <ul class="prose-w space-y-2 text-sm">
+            {sources.map((s) => <li><a href={s.data.url} rel="noopener" target="_blank">{s.data.titre}</a>, {s.data.organisme}{s.data.date_publication && `, ${formatDate(s.data.date_publication)}`}. Consulté le {formatDate(s.data.date_consultation)}.</li>)}
+            {sources.length === 0 && <li class="text-ink-600">Les sources des propositions figurent dans chaque « Détails ».</li>}
+          </ul>
+        </Section>
+      </div>
+    </>
+  )}
+
+  <nav aria-label="Thème précédent ou suivant" class="mt-16 grid gap-3 border-t border-line pt-6 sm:grid-cols-2">
+    {prec ? <a href={url(`/themes/${prec.id}/`)} class="carte"><span class="block text-sm text-ink-600">Thème précédent</span><span class="font-semibold text-ink-900">{prec.data.titre}</span></a> : <span></span>}
+    {suiv && <a href={url(`/themes/${suiv.id}/`)} class="carte sm:text-right"><span class="block text-sm text-ink-600">Thème suivant</span><span class="font-semibold text-ink-900">{suiv.data.titre}</span></a>}
+  </nav>
+</Base>

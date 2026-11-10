@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+import Icone from '../components/Icone.astro';
+import { getThemes, getCandidats, getDerniereMaj, compterMesures, formatDate, url } from '../lib/data';
+const themes = await getThemes();
+const nbCandidats = (await getCandidats()).length;
+const maj = await getDerniereMaj();
+const compte = new Map(await Promise.all(themes.map(async (t) => [t.id, await compterMesures(t.id)] as const)));
+---
+<Base title="Accueil" large>
+  <section class="prose-w">
+    <h1 class="text-2xl sm:text-[2.5rem] sm:leading-tight">Comparez les propositions des candidats, thème par thème, avec leurs sources.</h1>
+    <p class="mt-4 text-ink-600">
+      {nbCandidats} candidats, 19 thèmes. Chaque proposition est résumée de la même façon pour tous et renvoie au document d'origine.
+      Mis à jour le <time datetime={maj.toISOString().slice(0, 10)}>{formatDate(maj)}</time>.
+    </p>
+    <p class="mt-5 flex flex-wrap gap-3">
+      <a href="#themes" class="btn btn-primary">Choisir un thème</a>
+      <a href={url('/candidats/')} class="btn btn-secondary">Voir par candidat</a>
+    </p>
+  </section>
+
+  <section id="themes" aria-labelledby="titre-themes" class="mt-12">
+    <h2 id="titre-themes" class="text-xl">Les thèmes</h2>
+    <ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {themes.map((t) => {
+        const n = compte.get(t.id) ?? 0;
+        const pret = t.data.etat === 'publie';
+        return (
+          <li>
+            <a href={url(`/themes/${t.id}/`)} class="carte flex h-full items-start gap-4">
+              <span class="grid size-11 flex-none place-items-center rounded-lg bg-surface text-ink-900">{t.data.icone && <Icone nom={t.data.icone} taille={22} />}</span>
+              <span class="min-w-0">
+                <span class="block font-semibold text-ink-900">{t.data.titre}</span>
+                <span class="mt-0.5 block text-sm text-ink-600">{pret ? `${n} proposition${n > 1 ? 's' : ''} comparée${n > 1 ? 's' : ''}` : 'Fiche en préparation'}</span>
+              </span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+
+  <section aria-labelledby="titre-lire" class="mt-12 prose-w">
+    <h2 id="titre-lire" class="text-xl">Comment lire une fiche</h2>
+    <ol class="mt-4 space-y-3">
+      <li><strong>1. Situation actuelle.</strong> Les chiffres récents et les règles en vigueur.</li>
+      <li><strong>2. Bilan.</strong> Ce que disent les évaluations des politiques déjà menées.</li>
+      <li><strong>3. Propositions.</strong> Les mesures de chaque candidat, sous-thème par sous-thème.</li>
+      <li><strong>4. Effets attendus.</strong> Coûts et impacts estimés par des organismes indépendants, en fourchettes.</li>
+      <li><strong>5. Glossaire.</strong> Les mots techniques, soulignés en pointillés : touchez-les pour lire leur définition.</li>
+    </ol>
+    <p class="mt-4 text-ink-600">Les candidats apparaissent dans un ordre tiré au hasard à chaque visite ; vous pouvez le trier de A à Z.</p>
+  </section>
+</Base>

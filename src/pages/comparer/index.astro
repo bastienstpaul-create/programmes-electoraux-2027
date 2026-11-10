@@ -1,0 +1,8 @@
+---
+/** Ancienne adresse : renvoie vers la liste des thèmes (la comparaison se fait sur chaque fiche). */
+import { url } from '../../lib/data';
+const cible = url('/themes/');
+---
+<meta http-equiv="refresh" content={`0; url=${cible}`} />
+<link rel="canonical" href={cible} />
+<p><a href={cible}>Voir les thèmes</a></p>

@@ -1,0 +1,7 @@
+---
+import { getEntry } from 'astro:content';
+interface Props { id: string }
+const s = await getEntry('sources', Astro.props.id);
+if (!s) throw new Error(`Source inconnue : « ${Astro.props.id} »`);
+---
+<a href={s.data.url} rel="noopener" target="_blank" title={s.data.titre}>{s.data.organisme}</a>
