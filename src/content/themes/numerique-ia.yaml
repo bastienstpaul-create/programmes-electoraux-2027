@@ -1,5 +1,18 @@
 numero: 15
-titre: "Numérique et IA"
-icone: "cpu"
+titre: Numérique et IA
+icone: cpu
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: ia
+  libelle: Intelligence artificielle
+- id: donnees
+  libelle: Données personnelles et vie privée
+- id: plateformes
+  libelle: Réseaux sociaux et plateformes
+- id: mineurs
+  libelle: Protection des mineurs en ligne
+- id: souverainete
+  libelle: Souveraineté numérique
+- id: acces
+  libelle: Accès au numérique et couverture du territoire

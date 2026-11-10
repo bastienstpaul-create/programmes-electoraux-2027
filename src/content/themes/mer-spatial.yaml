@@ -1,5 +1,16 @@
 numero: 19
-titre: "Mer et spatial"
-icone: "rocket"
+titre: Mer et spatial
+icone: rocket
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: spatial
+  libelle: Politique spatiale
+- id: maritime
+  libelle: Économie maritime et ports
+- id: marine
+  libelle: Marine nationale et zone maritime
+- id: peche
+  libelle: Pêche
+- id: oceans
+  libelle: Protection des océans

@@ -1,5 +1,18 @@
 numero: 5
-titre: "Économie, industrie, emploi"
-icone: "factory"
+titre: Économie, industrie, emploi
+icone: factory
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: industrie
+  libelle: Industrie et relocalisations
+- id: pme
+  libelle: PME, simplification et normes
+- id: commerce
+  libelle: Commerce international
+- id: pouvoir-achat
+  libelle: Prix et pouvoir d'achat
+- id: investissement
+  libelle: Investissement et innovation
+- id: emploi
+  libelle: Emploi et formation professionnelle

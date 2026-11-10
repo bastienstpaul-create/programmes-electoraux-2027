@@ -1,6 +1,21 @@
 numero: 4
-titre: "Finances publiques"
-icone: "coins"
-sous_titre: "Dette, déficit, fiscalité"
+titre: Finances publiques
+icone: coins
+sous_titre: Dette, déficit, fiscalité
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: deficit
+  libelle: Trajectoire du déficit
+- id: dette
+  libelle: Dette publique
+- id: depenses
+  libelle: Dépenses publiques et économies
+- id: impot-revenu
+  libelle: Impôt sur le revenu
+- id: patrimoine
+  libelle: Impôts sur le patrimoine et les hauts revenus
+- id: entreprises
+  libelle: Fiscalité des entreprises
+- id: consommation
+  libelle: TVA et impôts sur la consommation

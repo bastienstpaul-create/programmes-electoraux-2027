@@ -1,6 +1,19 @@
 numero: 1
-titre: "Institutions et démocratie"
-icone: "landmark"
-sous_titre: "Constitution, mode de scrutin, référendum, collectivités"
+titre: Institutions et démocratie
+icone: landmark
+sous_titre: Constitution, mode de scrutin, référendum, collectivités
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: mode-scrutin
+  libelle: Mode de scrutin des législatives
+- id: referendum
+  libelle: Référendum et participation citoyenne
+- id: parlement
+  libelle: Pouvoirs du Parlement et article 49.3
+- id: constitution
+  libelle: Révision de la Constitution et mandat présidentiel
+- id: collectivites
+  libelle: Collectivités locales et décentralisation
+- id: ethique
+  libelle: Transparence et éthique de la vie publique

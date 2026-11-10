@@ -1,5 +1,18 @@
 numero: 14
-titre: "Égalité et discriminations"
-icone: "scale"
+titre: Égalité et discriminations
+icone: scale
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: egalite-pro
+  libelle: Égalité professionnelle femmes-hommes
+- id: violences
+  libelle: Violences faites aux femmes
+- id: discriminations
+  libelle: Racisme et discriminations
+- id: laicite
+  libelle: Laïcité
+- id: lgbt
+  libelle: Droits des personnes LGBT+
+- id: accessibilite
+  libelle: Accessibilité et inclusion

@@ -1,5 +1,20 @@
 numero: 3
-titre: "Immigration et intégration"
-icone: "globe"
+titre: Immigration et intégration
+icone: globe
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: sejour
+  libelle: Titres de séjour et immigration de travail
+- id: asile
+  libelle: Droit d'asile
+- id: eloignement
+  libelle: Expulsions et obligations de quitter le territoire
+- id: nationalite
+  libelle: Accès à la nationalité
+- id: integration
+  libelle: 'Intégration : langue, emploi, logement'
+- id: prestations
+  libelle: Accès des étrangers aux prestations sociales
+- id: frontieres
+  libelle: Frontières et coopération européenne
