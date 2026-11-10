@@ -118,6 +118,8 @@ const themes = defineCollection({
     numero: z.number().int().min(1),
     titre: z.string(),
     sous_titre: z.string().optional(),
+    /** nom d'icône Lucide (outline monochrome), ex. "briefcase" */
+    icone: z.string().optional(),
     date_maj: date,
     /** fiche remplie ou en attente */
     etat: z.enum(['en-preparation', 'publie']).default('en-preparation'),
@@ -156,8 +158,8 @@ const mesures = defineCollection({
        * non-publie  : le candidat n'a pas encore publié son programme sur ce thème
        */
       statut: z.enum(['programme', 'orale', 'aucune', 'non-publie']),
-      /** reformulation descriptive et neutre */
-      intitule: z.string().optional(),
+      /** résumé descriptif et neutre, en langage simple (140 caractères max) */
+      intitule: z.string().max(140, 'Intitulé : 140 caractères maximum').optional(),
       detail: z.string().optional(),
       /** formulation originale, moins de 15 mots */
       citation: z
@@ -173,6 +175,9 @@ const mesures = defineCollection({
           date_consultation: date,
         })
         .optional(),
+      /** chiffrage annoncé par le candidat lui-même (≠ estimation d'un évaluateur) */
+      chiffrage_annonce: z.string().optional(),
+      /** estimation du coût par un évaluateur indépendant */
       cout: z
         .object({
           fourchette: z.string(),
