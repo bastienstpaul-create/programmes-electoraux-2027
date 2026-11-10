@@ -11,7 +11,8 @@ const candidats = await getCandidats();
       <li class="carte">
         <a href={url(`/candidats/${c.id}/`)} class="text-lg font-semibold">{nomComplet(c)}</a>
         <p class="text-sm">{c.data.parti}</p>
-        <p class="mt-1 text-sm"><a href={c.data.statut_source} rel="noopener" target="_blank">{STATUT_CANDIDAT[c.data.statut]}</a> · vérifié le {formatDate(c.data.date_verification)}</p>
+        {c.data.precision && <p class="mt-1 text-sm text-slate-600 dark:text-slate-400">{c.data.precision}</p>}
+        <p class="mt-1 text-sm"><a href={c.data.statut_source} rel="noopener" target="_blank">{STATUT_CANDIDAT[c.data.statut]}{c.data.date_statut && ` le ${formatDate(c.data.date_statut)}`}</a> · vérifié le {formatDate(c.data.date_verification)}</p>
       </li>
     ))}
   </ul>

@@ -1,8 +1,0 @@
-theme: travail-retraites
-axe: age
-candidat: demo-b
-statut: orale
-intitule: "Mesure factice : maintenir l'âge légal actuel"
-citation: "Phrase factice prononcée en interview"
-source: { url: "https://example.org/demo/interview-B", titre: "Interview (factice)", contexte: "Émission fictive, 1er octobre 2026", date_consultation: 2026-11-10 }
-date_maj: 2026-11-10

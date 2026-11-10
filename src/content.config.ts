@@ -43,6 +43,10 @@ const candidats = defineCollection({
     /** déclaré = candidature annoncée ; investi = désigné par son parti ; pressenti = non déclaré */
     statut: z.enum(['declare', 'investi', 'pressenti', 'retire']),
     statut_source: z.url(),
+    /** date de déclaration ou d'investiture */
+    date_statut: date.optional(),
+    /** précision factuelle sur le statut (procédure en cours, départage prévu…) */
+    precision: z.string().optional(),
     programme_url: z.url().optional(),
     date_verification: date,
     actif: z.boolean().default(true),

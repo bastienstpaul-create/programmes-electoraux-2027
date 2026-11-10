@@ -1,34 +1,4 @@
 numero: 6
 titre: "Travail et retraites"
 date_maj: 2026-11-10
-etat: publie
-factice: true
-axes:
-  - { id: age, libelle: "Âge de départ à la retraite", description: "Axe factice de démonstration" }
-  - { id: duree, libelle: "Durée de cotisation" }
-  - { id: pension-min, libelle: "Pension minimale" }
-situation:
-  texte: |
-    Paragraphe factice de démonstration. Ici sera décrite la situation actuelle, avec des termes du glossaire comme l'[[âge légal|demo-age-legal]] ou le [[demo-trimestre]], et des liens vers les [textes officiels](https://example.org/demo).
-
-    Second paragraphe factice. Les chiffres ci-dessous sont inventés pour la maquette.
-  chiffres:
-    - { libelle: "Indicateur factice 1", valeur: "00,0 Md€", annee: 2025, source: demo-stat-a }
-    - { libelle: "Indicateur factice 2", valeur: "00 %", precision: "du [[PIB|demo-pib]]", annee: 2025, source: demo-stat-a }
-    - { libelle: "Indicateur factice 3", valeur: "0,0 millions", annee: 2026, source: demo-eval-a }
-  lois:
-    - titre: "Loi factice de démonstration"
-      resume: "Résumé factice d'une loi, avec lien obligatoire vers Légifrance ou vie-publique.fr."
-      url: "https://www.legifrance.gouv.fr/"
-bilan:
-  - { nature: fonctionne, texte: "Constat factice : ce que les évaluations jugent efficace.", sources: [demo-eval-a] }
-  - { nature: ne-fonctionne-pas, texte: "Constat factice : ce que les évaluations jugent inefficace.", sources: [demo-eval-b] }
-  - { nature: debat, texte: "Constat factice : point sur lequel les évaluateurs divergent.", sources: [demo-eval-a, demo-eval-c] }
-effets:
-  - sujet: "Effet factice sur le solde du système"
-    axes: [age]
-    evaluations:
-      - { source: demo-eval-a, resume: "Évaluateur fictif A : estimation factice.", fourchette: "+0 à +0 Md€/an" }
-      - { source: demo-eval-b, resume: "Évaluateur fictif B : estimation factice divergente.", fourchette: "-0 à +0 Md€/an" }
-    desaccords: "Texte factice : origine du désaccord (hypothèses d'emploi des seniors, par exemple)."
-glossaire: [demo-age-legal, demo-trimestre, demo-pib]
+etat: en-preparation

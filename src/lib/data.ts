@@ -70,7 +70,7 @@ export function formatDate(d: Date): string {
 
 export const STATUT_CANDIDAT: Record<Candidat['data']['statut'], string> = {
   declare: 'Candidature déclarée',
-  investi: 'Investi par son parti',
+  investi: 'Investi(e) par son parti ou une primaire',
   pressenti: 'Pressenti (non déclaré)',
   retire: 'Candidature retirée',
 };

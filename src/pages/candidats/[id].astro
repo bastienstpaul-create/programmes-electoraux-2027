@@ -16,10 +16,12 @@ const mesures = await getMesuresCandidat(candidat.id);
   <p class="text-sm"><a href={url('/candidats/')}>Candidats</a></p>
   <h1 class="mt-1 text-2xl font-bold">{nomComplet(candidat)}</h1>
   <p>{c.parti}</p>
-  <p class="mt-1 text-sm"><a href={c.statut_source} rel="noopener" target="_blank">{STATUT_CANDIDAT[c.statut]}</a> · vérifié le {formatDate(c.date_verification)}</p>
+  <p class="mt-1 text-sm"><a href={c.statut_source} rel="noopener" target="_blank">{STATUT_CANDIDAT[c.statut]}{c.date_statut && ` le ${formatDate(c.date_statut)}`}</a> · vérifié le {formatDate(c.date_verification)}</p>
+  {c.precision && <p class="mt-1 text-sm text-slate-600 dark:text-slate-400">{c.precision}</p>}
   <p class="mt-2">{c.programme_url ? <a href={c.programme_url} rel="noopener" target="_blank">Programme officiel ↗</a> : <span class="italic">Programme officiel non publié à ce jour.</span>}</p>
   {c.factice && <BandeauFactice />}
 
+  {themes.length === 0 && <p class="carte mt-6">Les fiches thèmes sont en préparation.</p>}
   <div class="mt-6 space-y-8">
     {themes.map((t) => (
       <section aria-labelledby={`t-${t.id}`}>

@@ -1,8 +1,0 @@
-prenom: "Candidat"
-nom: "C (fictif)"
-parti: "Parti fictif C"
-statut: declare
-statut_source: "https://example.org/demo/candidat-C"
-programme_url: "https://example.org/demo/programme-C"
-date_verification: 2026-11-10
-factice: true

@@ -1,5 +1,0 @@
-terme: "Âge légal (exemple)"
-definition: "Texte factice de démonstration. Ici figurera une définition simple en deux ou trois phrases. Elle s'affiche au clic sur le terme souligné."
-exemple: "Exemple factice : une personne née en telle année peut partir à tel âge."
-lien: { titre: "Page de référence (factice)", url: "https://example.org/demo/glossaire" }
-factice: true
