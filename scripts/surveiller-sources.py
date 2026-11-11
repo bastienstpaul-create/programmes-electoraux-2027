@@ -2,8 +2,8 @@
 """Veille des programmes : détecte les pages modifiées, nouvelles ou cassées.
 
 Pages surveillées :
-  - par défaut : programme_url, statut_source et veille_urls de chaque candidat
-    (+ pages sources des mesures « programme » avec --tout)
+  - par défaut : programme_url et veille_urls de chaque candidat
+    (+ source du statut et pages sources des mesures « programme » avec --tout)
 Compare une empreinte du texte de chaque page avec docs/veille/empreintes.json,
 écrit un rapport docs/veille/rapport-AAAA-MM-JJ.md et met à jour les empreintes.
 
@@ -37,7 +37,7 @@ def pages(tout):
     for f in sorted((C / 'candidats').glob('*.yaml')):
         c = yaml.safe_load(f.read_text())
         cid = f.stem
-        for cle in ('programme_url', 'statut_source'):
+        for cle in ('programme_url',) + (('statut_source',) if tout else ()):
             if c.get(cle): p.setdefault(c[cle], set()).add(f'{cid} ({cle})')
         for u in c.get('veille_urls', []) or []:
             p.setdefault(u, set()).add(f'{cid} (veille)')

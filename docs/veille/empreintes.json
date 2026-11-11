@@ -1,9 +1,4 @@
 {
- "https://attalpresident.fr/": {
-  "empreinte": "409c0fc8d1d1382aca97c466a27865360c50e9e1cef344e06f3b979df45a039a",
-  "info": "14346 caractères",
-  "vu_le": "2026-11-11"
- },
  "https://attalpresident.fr/programme": {
   "empreinte": "ecc5392d642b626653d37e5932b28c6d89d855c4476f5cc24f34d506d0014b12",
   "info": "10531 caractères",
@@ -17,21 +12,6 @@
  "https://glucks2027.fr/": {
   "empreinte": "77d1b3a07cde2e945dd2ec89e8fccb98552953bb7d5ea9ae07b23f132632a952",
   "info": "3192 caractères",
-  "vu_le": "2026-11-11"
- },
- "https://lcp.fr/actualites/fabien-roussel-officiellement-candidat-du-pcf-a-l-election-presidentielle-de-2027-441389": {
-  "empreinte": "51002d31693c5b53e1f5d85a47bc5c45153df50f0be98c16ef64a401128a4e21",
-  "info": "6938 caractères",
-  "vu_le": "2026-11-11"
- },
- "https://lcp.fr/actualites/presidentielle-2027-eric-zemmour-officialise-sa-candidature-441871": {
-  "empreinte": "844c432e25cd8c7e2b184c8d318155e91e296da82298457e1c6fb81e1e73152f",
-  "info": "4343 caractères",
-  "vu_le": "2026-11-11"
- },
- "https://melenchon2027.fr/": {
-  "empreinte": "3c738281f822ba0c39a8a4ba444fe71f49fefe4a285fd6a4c6f7a54385f2da87",
-  "info": "6565 caractères",
   "vu_le": "2026-11-11"
  },
  "https://melenchon2027.fr/programme/livre/": {
@@ -64,19 +44,9 @@
   "info": "5252 caractères",
   "vu_le": "2026-11-11"
  },
- "https://www.franceinfo.fr/politique/raphael-glucksmann/raphael-glucksmann-remporte-des-le-premier-tour-la-primaire-a-gauche_8232967.html": {
-  "empreinte": "bd4d3f8a282b2fcf220de031ba17bfb31658ec7a9b31ce5c1eeb5b8b0fb46c69",
-  "info": "16078 caractères",
-  "vu_le": "2026-11-11"
- },
  "https://www.parti-reconquete.fr/": {
   "empreinte": "53f3f928dda55f7907cc5e29f38f9ac738b2f5acc301501e8b6f73de23c48313",
   "info": "12618 caractères",
-  "vu_le": "2026-11-11"
- },
- "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/": {
-  "empreinte": "469fbea64476e90c2cdd442ea208fea9f44c7f924a85002c464e962df6d24e08",
-  "info": "34458 caractères",
   "vu_le": "2026-11-11"
  }
 }
