@@ -1,8 +1,8 @@
 numero: 13
 titre: Transports et territoires
 icone: train-front
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: ferroviaire
   libelle: Train
@@ -16,3 +16,173 @@ axes:
   libelle: Services publics dans les territoires
 - id: outre-mer
   libelle: Outre-mer
+situation:
+  texte: 'En 2024, les déplacements de voyageurs à l''intérieur du pays ont représenté 1 047 milliards de voyageurs-kilomètres (hors départements d''outre-mer). La voiture et les autres véhicules particuliers en assurent 82 %. Les transports sont le premier secteur émetteur de gaz à effet de serre en France : 124,9 millions de tonnes équivalent CO2 en 2024, soit 34 % des émissions nationales, dont 53 % pour les seules voitures particulières. Ils pèsent 13 % des dépenses de consommation des ménages. Pour les marchandises, 89 % du transport terrestre passe par la route, 9 % par le train et 2 % par la voie d''eau.
+
+
+    Le trafic ferroviaire de voyageurs a atteint 113,3 milliards de voyageurs-kilomètres en 2024, son plus haut niveau selon le service statistique du ministère des transports (SDES). Le réseau, d''environ 27 600 km de lignes, est géré par [[SNCF Réseau|sncf-reseau]]. Son réseau structurant a un âge moyen d''environ 25 ans et la conférence Ambition France Transports (2025) estime sa [[dette grise|dette-grise]] à 60 milliards d''euros. Depuis décembre 2023, chaque convention de TER qui arrive à échéance doit être mise en concurrence ; tous les services régionaux devront l''avoir été d''ici 2033. Les sept [[concessions autoroutières historiques|concession-autoroutiere]] prennent fin entre 2031 et 2036. Un projet de loi-cadre relatif au développement des transports, qui crée des lois de programmation des investissements de l''État et prévoit d''affecter à ces investissements de nouvelles ressources tirées des autoroutes, a été adopté par le Sénat le 28 avril 2026 ; il a été examiné en commission à l''Assemblée nationale le 2 juillet 2026.
+
+
+    Pour les déplacements du quotidien, la [[loi d''orientation des mobilités|lom]] de 2019 a confié l''organisation des transports locaux à des [[autorités organisatrices de la mobilité|aom]] qui couvrent désormais tout le territoire : en 2025, la moitié des communautés de communes ([[intercommunalités|intercommunalite]]) exercent elles-mêmes cette compétence, l''autre moitié l''a laissée à la région. Les collectivités dépensent plus que l''État pour les transports (56 milliards d''euros contre 30,3 milliards). La loi Climat et résilience de 2021 imposait une [[zone à faibles émissions|zfe]] dans les agglomérations de plus de 150 000 habitants ; 25 étaient actives fin 2025. Le Parlement a voté leur suppression dans la loi de simplification de la vie économique, mais le Conseil constitutionnel a censuré cette disposition le 21 mai 2026, faute de lien avec le texte initial : les ZFE restent donc en vigueur. Dans l''aérien, les vols intérieurs sont interdits quand le train fait le même trajet en moins de 2 h 30 (trois liaisons au départ de Paris-Orly), et la [[taxe de solidarité sur les billets d''avion|tsba]] a été relevée au 1er mars 2025. Pour l''accès aux démarches administratives, le réseau [[France services|france-services]] compte plus de 2 840 lieux d''accueil, presque tous à moins de 30 minutes des usagers.
+
+
+    Les cinq [[départements et régions d''outre-mer|drom]] (Guadeloupe, Guyane, Martinique, La Réunion, Mayotte) regroupent 3 % de la population française mais 24 % des personnes en grande pauvreté ; à La Réunion, le taux de pauvreté était de 36,1 % en 2021 contre 14,5 % dans l''Hexagone. Selon l''Insee, les prix y sont plus élevés que dans l''Hexagone de 9 % (La Réunion) à environ 15 % (Guadeloupe, Guyane, Martinique), et de 36,7 % à 41,8 % pour l''alimentation (2022). L''[[octroi de mer|octroi-de-mer]], taxe locale sur les marchandises, a rapporté 1,64 milliard d''euros aux collectivités en 2022. Un projet de loi de lutte contre la vie chère dans les outre-mer, adopté par le Sénat le 28 octobre 2025, a été transmis à l''Assemblée nationale le lendemain, qui ne l''a pas encore voté. À Mayotte, frappée par le cyclone Chido le 14 décembre 2024, une loi d''urgence (24 février 2025) puis une loi de programmation (11 août 2025) prévoient notamment un programme d''investissements prioritaires de l''État de 3,2 milliards d''euros sur 2025-2031.'
+  chiffres:
+  - libelle: Émissions de gaz à effet de serre des transports
+    valeur: 124,9 Mt CO2 éq
+    precision: 34 % des émissions nationales, premier secteur émetteur ; les voitures particulières en représentent 53 %, les poids lourds environ 22 %. Métropole et outre-mer appartenant à l'UE (SDES, Chiffres clés des transports 2026, partie « Émissions de gaz à effet de serre », données Citepa)
+    annee: '2024'
+    source: sdes-chiffres-cles-transports-2026
+  - libelle: Part des véhicules particuliers dans le transport intérieur de voyageurs
+    valeur: 82 %
+    precision: Sur 1 047 milliards de voyageurs-kilomètres, France hors DROM (SDES, Chiffres clés des transports 2026, partie 6)
+    annee: '2024'
+    source: sdes-chiffres-cles-transports-2026
+  - libelle: Trafic ferroviaire de voyageurs
+    valeur: 113,3 milliards de voyageurs-kilomètres
+    precision: Hors navettes Eurotunnel, France hors DROM ; le SDES parle d'un « niveau inégalé » (Chiffres clés des transports 2026, partie 6). Selon l'ART, la fréquentation dépasse de 35 % (grande vitesse) et de 12 % (TER et Intercités) son niveau d'avant la crise sanitaire
+    annee: '2024'
+    source: sdes-chiffres-cles-transports-2026
+  - libelle: « Dette grise » des réseaux de transport de l'État
+    valeur: 63,5 milliards d'euros
+    precision: 'Investissements d''entretien non réalisés : réseau ferroviaire 60 Md€, routes nationales non concédées 2,4 Md€, voies navigables 1,1 Md€ (conférence Ambition France Transports, citée par la commission des finances du Sénat, avis n° 511, p. 7)'
+    annee: '2025'
+    source: senat-avis-511-loi-cadre-transports-2026
+  - libelle: Lieux d'accueil France services
+    valeur: Plus de 2 840
+    precision: Dont 142 antennes et 136 points mobiles ; près de 100 % à moins de 30 minutes des usagers ; coût global d'environ 350 M€ par an ; près de 9 millions de demandes traitées fin 2023 (Cour des comptes, synthèse, p. 7-8)
+    annee: '2024'
+    source: ccomptes-france-services-2024
+  - libelle: Écart des prix alimentaires entre les outre-mer et l'Hexagone
+    valeur: 36,7 % à 41,8 %
+    precision: La Réunion 36,7 %, Martinique 40,2 %, Guadeloupe 41,8 % ; tous produits, écart de 9 % (La Réunion) à 31 % (Polynésie française). Données Insee citées par la commission des affaires économiques du Sénat (L'essentiel, p. 1)
+    annee: '2022'
+    source: senat-pjl870-vie-chere-essentiel
+  lois:
+  - titre: Loi n° 2019-1428 du 24 décembre 2019 d'orientation des mobilités (LOM)
+    resume: Elle crée un « droit à la mobilité », confie l'organisation des transports locaux aux intercommunalités ou à défaut aux régions (autorités organisatrices de la mobilité), fixe une programmation indicative de 13,7 Md€ d'investissements de l'État pour 2019-2023 et permet la création de zones à faibles émissions. Le Conseil constitutionnel l'a jugée partiellement conforme (décision n° 2019-794 DC).
+    url: https://www.senat.fr/dossier-legislatif/pjl18-157.html
+  - titre: Loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets (« Climat et résilience »)
+    resume: Issue en partie des propositions de la Convention citoyenne pour le climat. Elle rend obligatoires les zones à faibles émissions dans les agglomérations de plus de 150 000 habitants et interdit, par son article 145, les vols intérieurs réguliers lorsqu'une liaison en train de moins de 2 h 30 existe.
+    url: https://www.senat.fr/dossier-legislatif/pjl20-551.html
+  - titre: Loi n° 2025-797 du 11 août 2025 de programmation pour la refondation de Mayotte
+    resume: Adoptée après le cyclone Chido, elle comprend des mesures sur l'immigration irrégulière, l'habitat illégal, la sécurité, le développement et les institutions (création du Département-Région de Mayotte). Son rapport annexé présente un programme d'investissements prioritaires de l'État de 3,2 Md€ sur 2025-2031. Le Conseil constitutionnel l'a jugée conforme avec réserve (décision n° 2025-894 DC du 7 août 2025).
+    url: https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51985
+  - titre: Projet de loi-cadre relatif au développement des transports (en cours d'examen)
+    resume: Déposé au Sénat le 11 février 2026 et adopté par lui le 28 avril 2026. Il crée des lois de programmation des investissements de l'État dans les infrastructures de transport, pose le principe d'y affecter, dans les années 2030, de nouvelles ressources issues des concessions autoroutières et reporte de deux ans la cible financière (« règle d'or ») de SNCF Réseau. Texte adopté par la commission de l'Assemblée nationale le 2 juillet 2026.
+    url: https://www.senat.fr/dossier-legislatif/pjl25-394.html
+bilan:
+- nature: fonctionne
+  texte: 'Fréquentation des trains : selon l''Autorité de régulation des transports (ART), l''offre des TER et Intercités a augmenté de près de 9 % en 2024. La fréquentation dépasse de 35 % (grande vitesse) et de 12 % (trains régionaux et Intercités) son niveau d''avant la crise sanitaire. Celle des trains de nuit a progressé de 17 %, avec un taux d''occupation de 77 %. Les prix effectifs des billets ont augmenté de 7 % depuis 2019, soit une baisse de 9 % une fois l''inflation déduite.'
+  sources:
+  - art-bilan-ferroviaire-2024
+- nature: ne-fonctionne-pas
+  texte: 'État du réseau ferroviaire : le réseau structurant (18 000 km, 90 % du trafic) a un âge moyen d''environ 25 ans ; 21 % des caténaires, 39 % des tunnels et 30 % des appareils de voie sont « hors d''âge », ce qui entraîne des ralentissements. La commande centralisée du réseau couvre 18 % du réseau (90 % en Allemagne) et le système européen de signalisation ERTMS environ 4 %. Selon la Cour des comptes, l''entretien du réseau existant a manqué d''environ 0,7 Md€ par an par rapport à la cible de la LOM entre 2019 et 2023.'
+  sources:
+  - aft-rapport-2025
+  - art-bilan-ferroviaire-2024
+  - ccomptes-bilan-lom-2026
+- nature: debat
+  texte: 'Mise en concurrence des TER : selon la commission des finances du Sénat (mai 2026), les premiers contrats attribués après appel d''offres réduisent les coûts de production de 20 % à 30 % ; la plupart des régions ont choisi d''augmenter l''offre à budget constant (de 75 % à 100 % sur les premiers lots de la région Sud). La Fondation iFRAP met en avant ces mêmes résultats. Le Sénat relève aussi des coûts nouveaux pour les régions (services renforcés de 25 % à 30 %, ateliers de maintenance de 50 à 70 M€ chacun), des risques pour la lisibilité du système (billets, indemnisation) et un calendrier chargé : une cinquantaine de lots restent à attribuer d''ici 2033, avec un risque que la SNCF soit le seul candidat sur certains.'
+  sources:
+  - senat-concurrence-ferroviaire-2026
+  - ifrap-concurrence-ter-2026
+- nature: debat
+  texte: 'Zones à faibles émissions : une étude de l''Insee (août 2026), citée dans le rapport de l''Assemblée nationale sur la proposition de loi visant à les abroger, porte sur les neuf ZFE des grandes métropoles régionales. En cinq ans, le nombre de voitures les moins polluantes y a augmenté de 88,4 %, dont 5,8 points attribuables aux ZFE ; la majorité de la baisse des émissions vient du renouvellement normal du parc. Une synthèse de la recherche (Cepremap, ADEME, EconomiX-CNRS, mai 2026) conclut que les ZFE réduisent les concentrations de polluants (en Allemagne : −1,21 µg/m3 de particules PM10 et −2,55 µg/m3 de dioxyde d''azote en moyenne), avec des bénéfices pour la santé, mais qu''elles pèsent davantage sur les ménages modestes et les zones mal desservies : dans 6 des 8 ZFE françaises étudiées, la perte d''accès à l''emploi est plus forte pour les bas revenus.'
+  sources:
+  - an-rapport-3200-zfe-2026
+  - cepremap-obe-zfe-2026
+- nature: debat
+  texte: 'Mobilité et services dans les territoires : selon la Cour des comptes (avril 2026), la LOM a permis de couvrir tout le territoire par des autorités organisatrices de la mobilité, mais ses outils de planification et de coordination sont « insuffisamment déployés » et la question du financement des services de transport locaux reste ouverte. Pour France services, la Cour (septembre 2024) mesure une satisfaction des usagers supérieure à 90 % et une hausse des demandes traitées (de 1,17 million en 2020 à près de 9 millions fin 2023), mais note que la charge financière pèse davantage sur les porteurs locaux que sur l''État et ses opérateurs.'
+  sources:
+  - ccomptes-bilan-lom-2026
+  - ccomptes-france-services-2024
+- nature: ne-fonctionne-pas
+  texte: 'Vie chère outre-mer : après chaque crise (Guadeloupe et Martinique en 2009, La Réunion en 2012, Guyane en 2017, Martinique en 2024), une loi a été adoptée (lois de 2009, 2012 et 2017). Selon l''Insee, cité par la commission des affaires économiques du Sénat, les écarts de prix avec l''Hexagone ont légèrement progressé depuis 2010 ; pour l''alimentation, ils n''ont pas évolué entre 2015 et 2022 à La Réunion et en Guadeloupe. La production locale couvre moins de 10 % de la consommation.'
+  sources:
+  - senat-pjl870-vie-chere-essentiel
+effets:
+- sujet: Effet d'un plan d'investissement dans le réseau ferroviaire
+  axes:
+  - ferroviaire
+  - quotidien
+  evaluations:
+  - source: aft-rapport-2025
+    resume: 'La conférence Ambition France Transports (juillet 2025) estime qu''il faudrait augmenter les investissements de 3 Md€ par an entre 2026 et 2031 pour enrayer la dégradation des réseaux de l''État : 1,5 Md€ pour le ferroviaire, 1 Md€ pour les routes nationales, 0,5 Md€ pour le fret ferroviaire et fluvial (chiffres repris par la commission des finances du Sénat).'
+    fourchette: +3 Md€ par an, dont +1,5 Md€ pour le rail
+  - source: senat-avis-511-loi-cadre-transports-2026
+    resume: Le gouvernement s'est engagé en 2023 à investir 1,5 Md€ de plus par an dans le rail d'ici 2028 (1 Md€ de régénération, 0,5 Md€ de modernisation). La SNCF finance seule la première étape (2,1 Md€ sur 2024-2027) puis 0,5 Md€ par an à partir de 2028 ; il reste 1 Md€ par an à trouver à partir de 2028 (p. 6 et 22-23).
+    fourchette: 1 Md€ par an restant à financer à partir de 2028
+  - source: ccomptes-bilan-lom-2026
+    resume: La Cour des comptes (avril 2026) additionne les besoins de régénération (3 Md€ par an) et de développement de l'offre locale, dont les RER métropolitains (3,7 Md€), soit 6,7 Md€ par an, face à environ 3,5 Md€ de ressources supplémentaires envisageables (dont 2,5 à 3 Md€ par an de péages autoroutiers après 2031-2036). Elle conclut à une priorité pour l'entretien des réseaux et les transports du quotidien, « au détriment des grands projets de nouvelles infrastructures » (synthèse, p. 13).
+    fourchette: 6,7 Md€ de besoins annuels contre ≈ 3,5 Md€ de ressources envisageables
+  desaccords: 'Les évaluateurs s''accordent sur le besoin de régénération du réseau existant. Ils divergent sur le calendrier et le financement : la commission des finances du Sénat demande des ressources dès 2028 sans attendre la fin des concessions autoroutières ; la Cour des comptes estime que les ressources nouvelles ne couvriront pas tous les besoins et qu''il faudra renoncer à une partie des projets nouveaux.'
+- sujet: Effet d'une reprise des autoroutes par l'État (rachat anticipé des concessions ou gestion publique à leur échéance)
+  axes:
+  - route
+  evaluations:
+  - source: senat-r19-709-autoroutes-2020
+    resume: Selon le ministère de l'Économie, cité par la commission d'enquête du Sénat (septembre 2020), le rachat anticipé des concessions, prévu par les contrats pour motif d'intérêt général, coûterait de 45 à 50 Md€. Une nationalisation ajouterait à la dette publique les dettes des sociétés d'autoroutes, près de 30 Md€ fin 2017. La commission recommandait d'aller au terme des contrats (p. 260-261).
+    fourchette: 45 à 50 Md€ d'indemnisation, plus ≈ 30 Md€ de dettes reprises
+  - source: aft-rapport-2025
+    resume: La conférence Ambition France Transports a écarté la gestion directe par l'État (« régie ») à la fin des concessions. Elle lui reconnaît une forte acceptabilité et l'absence de captation de la rente par le privé, mais relève que l'État porterait tous les risques et la dette correspondante, devrait recruter massivement, et pourrait être tenté de sous-investir ou de baisser les péages en période budgétaire difficile (rapport, p. 31 et annexe).
+    fourchette: Non chiffré
+  - source: senat-avis-511-loi-cadre-transports-2026
+    resume: À l'échéance des concessions (2031-2036), si les péages restent au niveau actuel, un « surplus » d'environ 2,5 Md€ par an pourrait être affecté aux autres infrastructures de transport, ce que prévoit le projet de loi-cadre (p. 6).
+    fourchette: ≈ 2,5 Md€ par an après 2031-2036
+  desaccords: 'Le chiffrage du rachat anticipé date de 2020 et n''a pas été actualisé dans les sources consultées. Le coût d''une gestion publique après l''échéance des contrats n''est pas chiffré : la conférence Ambition France Transports et le rapport du Sénat de 2024 privilégient de nouvelles concessions réformées, tandis que la conférence reconnaît à la gestion publique l''avantage d''éviter la captation de la rente par le privé.'
+- sujet: Effet des aides à l'achat ou à la location de voitures électriques (bonus, leasing social)
+  axes:
+  - route
+  evaluations:
+  - source: strategie-na139-vehicules-electriques-2024
+    resume: Selon France Stratégie (juin 2024), le bonus-malus expliquerait 40 % de la hausse de la part de marché des voitures électriques entre 2019 et 2021, pour un coût public de 600 € par tonne de CO2 évitée (800 € avec les pertes de recettes fiscales). Le leasing social a touché 50 000 ménages modestes en six semaines début 2024, plus que le bonus en un an (30 000). Sous réserve d'une évaluation, France Stratégie juge ce dispositif « une voie à poursuivre ».
+    fourchette: 600 à 800 € par tonne de CO2 évitée
+  - source: ipp-bonus-malus-2026
+    resume: Selon l'Institut des politiques publiques (2026), environ 80 % des acheteurs de voitures électriques l'auraient été sans le bonus (effet d'aubaine). Le malus serait plus efficace que le bonus ; le bonus ne deviendrait rentable pour la collectivité qu'avec une valeur du carbone d'environ 700 € par tonne. Les ménages modestes et moyens réagissent davantage aux aides, ce qui « plaide pour des aides explicitement ciblées » sur eux. Le leasing social n'est pas évalué séparément.
+    fourchette: ≈ 80 % d'effet d'aubaine sur le bonus
+  desaccords: Les deux études portent sur des dispositifs et des périodes différents (bonus 2019-2021 pour France Stratégie, immatriculations 2022-2023 pour l'IPP). Elles convergent sur l'intérêt de cibler les ménages modestes. Depuis 2025, le bonus et le leasing social sont financés par les certificats d'économies d'énergie, hors budget de l'État, ce qui modifie le calcul du coût public.
+- sujet: Effet d'une restriction ou d'une hausse de la fiscalité des vols intérieurs
+  axes:
+  - aerien
+  evaluations:
+  - source: dgac-note-vols-2h30-2022
+    resume: Selon la DGAC (consultation sur le décret, fin 2022), les trois liaisons interdites (Orly-Bordeaux, Orly-Lyon, Orly-Nantes) émettaient 55,7 milliers de tonnes de CO2 sur la base du trafic 2019 ; ce gain est divisé par deux si tous les voyageurs reportent leur trajet sur la route. Trois autres liaisons (54,9 milliers de tonnes) pourraient être concernées si la desserte ferroviaire s'améliore.
+    fourchette: ≤ 55,7 kt CO2 par an pour les trois liaisons
+  - source: senat-bacea-plf2026
+    resume: Selon le rapporteur spécial de la commission des finances du Sénat (novembre 2025), le trafic aérien intérieur était au premier semestre 2025 inférieur de 26 % à son niveau de 2019, une baisse « vraisemblablement amplifiée » par la hausse de la taxe de solidarité sur les billets d'avion de mars 2025 ; certains aéroports de proximité pourraient perdre toutes leurs lignes.
+    fourchette: −26 % de trafic intérieur par rapport à 2019 (1er semestre 2025)
+  - source: senat-avis-aerien-plf2026
+    resume: La DGAC, citée par la commission de l'aménagement du territoire du Sénat, constate une offre stable en France à l'été 2025 alors qu'elle progresse chez les voisins européens. Elle cite aussi l'écart de croissance économique (0,6 % contre 1,3 %) et juge « trop tôt » pour mesurer précisément l'effet de la taxe.
+    fourchette: Non chiffré
+  - source: lgc-rail-avion-2023
+    resume: 'Article publié par La Grande Conversation (revue de Terra Nova, mai 2023) : selon son auteur, un haut fonctionnaire qui signe sous pseudonyme, le décret d''application a réduit la portée de l''interdiction par rapport au seuil de quatre heures proposé par la Convention citoyenne pour le climat.'
+    fourchette: Non chiffré
+  desaccords: L'effet climatique de l'interdiction actuelle est limité par son périmètre (trois liaisons). Le Sénat met en avant les effets de la hausse de la taxe sur le trafic et les territoires ; la DGAC estime qu'il est trop tôt pour les mesurer. Aucun chiffrage officiel de la suppression de l'exonération de taxe sur le kérosène des vols intérieurs n'a été trouvé dans les sources consultées.
+- sujet: Effet d'une baisse ou d'une réforme de l'octroi de mer sur les prix et les finances locales
+  axes:
+  - outre-mer
+  evaluations:
+  - source: ccomptes-octroi-de-mer-2024
+    resume: 'Selon la Cour des comptes (mars 2024), l''octroi de mer n''est qu''un des facteurs de la cherté de la vie, avec des chiffrages de son poids allant de 4 % à 10 % ; ses effets sur les prix sont « dilués mais négatifs », plus marqués pour certains biens et pour les plus modestes. Il a rapporté 1 644 M€ en 2022, soit 32 % des produits de gestion des collectivités, et finance surtout leur fonctionnement : la part fléchée vers l''investissement (FRDE) n''a atteint que 30,8 M€ par an pour les communes et 45 M€ pour les régions (synthèse, p. 11-14 et 21).'
+    fourchette: 4 % à 10 % du prix selon les chiffrages
+  - source: bdt-octroi-de-mer-2025
+    resume: 'Étude commandée par l''Association des maires de France et l''association des communes d''outre-mer (ACCD''OM), présentée en janvier 2025 : l''octroi de mer représente en moyenne 4,4 % du prix final des produits importés, mais environ 50 % des recettes des collectivités (jusqu''à 80 % à Mayotte). Elle propose de sortir le fret de l''assiette et de le rendre déductible, comme la TVA.'
+    fourchette: 4,4 % du prix final en moyenne
+  - source: senat-r24-514-vie-chere
+    resume: La délégation sénatoriale aux outre-mer (2025) estime l'octroi de mer à environ 5 % du prix final en moyenne, avec des écarts importants selon les produits. Elle recommande de le rendre déductible sur les biens importés sans équivalent local, de réduire le nombre de taux et d'abaisser fortement ceux des produits de première nécessité.
+    fourchette: ≈ 5 % du prix final
+  desaccords: 'Les estimations du poids de l''octroi de mer dans les prix sont proches (4 % à 10 %), mais leur lecture diffère : la Cour des comptes juge son effet négatif et appelle à une réforme, l''étude des associations d''élus le juge marginal et insiste sur la protection de la production locale et le financement des communes. Tous citent d''autres causes : coût du fret, marges des intermédiaires, concentration des distributeurs.'
+glossaire:
+- zfe
+- aom
+- lom
+- sncf-reseau
+- dette-grise
+- concession-autoroutiere
+- tsba
+- octroi-de-mer
+- drom
+- france-services
+- leasing-social
+- intercommunalite
