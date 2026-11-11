@@ -1,0 +1,83 @@
+theme: europe
+titre: Proposition de résolution portant sur la procédure de ratification de l'accord commercial entre l'Union européenne et le Canada (CETA)
+objet: Vote sur la proposition de résolution (article 34-1 de la Constitution). Le texte invite le gouvernement à poursuivre au Parlement l'examen du projet de loi de ratification, après le rejet de l'article premier par le Sénat le 21 mars 2024 ; l'accord s'applique à titre provisoire depuis 2017.
+date: 2024-05-30
+legislature: 16
+numero_scrutin: 3991
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3991
+axes:
+- droit
+resultat: adopte
+decompte:
+  pour: 151
+  contre: 4
+  abstention: 65
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 1
+  contre: 1
+  abstention: 45
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 28
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 45
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 6
+  contre: 0
+  abstention: 1
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 1
+  contre: 1
+  abstention: 13
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 5
+  contre: 2
+  abstention: 6
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC-A
+  pour: 23
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 21
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 4
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 15
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: 220 votants. Une résolution de l'article 34-1 n'engage pas le gouvernement.
+date_consultation: 2026-11-11

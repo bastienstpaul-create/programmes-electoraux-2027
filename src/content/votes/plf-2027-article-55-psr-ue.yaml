@@ -1,0 +1,89 @@
+theme: europe
+titre: Projet de loi de finances pour 2027 – article 55 (participation de la France au budget de l'Union européenne)
+objet: Vote sur l'article 55, qui évalue à 30,9 milliards d'euros le prélèvement sur recettes au profit de l'UE pour 2027, en première lecture (examen prioritaire).
+date: 2026-10-14
+legislature: 17
+numero_scrutin: 8725
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/8725
+axes:
+- budget
+resultat: adopte
+decompte:
+  pour: 111
+  contre: 93
+  abstention: 0
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 52
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 30
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 30
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 25
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 9
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 10
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 20
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 9
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 5
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 5
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 6
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 3
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: 204 votants. L'Assemblée a ensuite rejeté, le 4 novembre 2026, l'ensemble de la première partie du projet de loi de finances pour 2027.
+date_consultation: 2026-11-11
