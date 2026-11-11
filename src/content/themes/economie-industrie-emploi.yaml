@@ -1,8 +1,8 @@
 numero: 5
 titre: Économie, industrie, emploi
 icone: factory
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: industrie
   libelle: Industrie et relocalisations
@@ -16,3 +16,148 @@ axes:
   libelle: Investissement et innovation
 - id: emploi
   libelle: Emploi et formation professionnelle
+situation:
+  texte: 'L''[[industrie manufacturière|industrie-manufacturiere]] (fabrication de biens, de l''agroalimentaire à l''aéronautique) représentait 10,8 % de la valeur ajoutée de l''économie française au 1er trimestre 2025, contre 16,0 % en Italie et 19,8 % en Allemagne. La direction générale du Trésor précise que ces pays ne mesurent pas l''industrie exactement de la même façon. Au 2e trimestre 2025, la production manufacturière restait 4,3 points sous son niveau de 2019 (−12,4 points en Allemagne). Selon le baromètre industriel de l''État, la France a ouvert ou agrandi en 2025 un peu plus d''usines qu''elle n''en a fermé ou réduit (solde de +19), contre +88 en 2024. À fin septembre 2026, la Banque de France recensait 71 139 défaillances d''entreprises sur douze mois, soit 4,4 % de plus qu''un an plus tôt.
+
+
+    La [[balance commerciale|balance-commerciale]] de la France est déficitaire. En 2025, les exportations de biens atteignaient 616,4 milliards d''euros et les importations 681,5 milliards, soit un déficit de 65,2 milliards. Ce déficit s''est réduit depuis le point bas de 2022 (−160,3 milliards), au moment de la crise de l''énergie. Il s''est de nouveau creusé au 1er semestre 2026 (−33,9 milliards), avec la hausse du prix du pétrole liée à la guerre en Iran. La France assurait 2,6 % des exportations mondiales de marchandises en 2025 (9e rang mondial). Côté règles, l''[[accord UE-Mercosur|accord-ue-mercosur]] s''applique à titre provisoire depuis le 1er mai 2026, et l''Union européenne fait payer depuis le 1er janvier 2026 un prix du carbone sur certaines importations (acier, aluminium, ciment, engrais, électricité, hydrogène).
+
+
+    Les prix ont de nouveau accéléré en 2026. L''[[inflation|inflation]] était inférieure à 1 % fin 2025. Elle atteindrait 3,4 % sur un an en octobre 2026 selon l''estimation provisoire de l''Insee, les prix de l''énergie ayant augmenté de 24,1 % en un an. Sur vingt ans, le [[pouvoir d''achat|pouvoir-achat]] de l''ensemble des ménages a progressé de 28,9 % (2005-2025) ; rapporté à la taille des ménages, la hausse est de 13,4 %. Pour 2026, l''Insee prévoyait en septembre un léger recul du pouvoir d''achat, avec une croissance du [[PIB|pib]] de 0,4 %. Les revenus du travail reculeraient en tenant compte des prix, une première depuis 1993 hors crise sanitaire. La plupart des produits énergétiques sont soumis à la [[TVA|tva]] au taux normal de 20 %.
+
+
+    En 2025, 69 % des personnes de 15 à 64 ans avaient un emploi, le niveau le plus haut mesuré par l''Insee depuis 1975. Entre fin 2019 et fin 2025, 1,7 million d''emplois ont été créés, dont la moitié environ par l''alternance et les micro-entrepreneurs. En 2025, 846 700 contrats d''[[apprentissage|apprentissage]] ont commencé, 5 % de moins qu''en 2024. La [[productivité du travail|productivite-travail]] par personne en emploi restait en 2025 1,1 point sous son niveau de 2019. Pour la recherche, l''[[effort de recherche|effort-recherche]] était de 2,18 % du PIB en 2024, pour un objectif légal de 3 % (moyenne de l''OCDE : 2,70 %). Le [[crédit d''impôt recherche|cir]] représentait 8,1 milliards d''euros de créances en 2024. Le plan d''investissement [[France 2030|france-2030]] prévoit 54 milliards d''euros de financements publics.'
+  chiffres:
+  - libelle: Part de l'industrie manufacturière dans la valeur ajoutée
+    valeur: 10,8 %
+    precision: 1er trimestre 2025, contre 16,0 % en Italie et 19,8 % en Allemagne ; comparaison à interpréter avec prudence selon la DG Trésor, car les méthodes de mesure diffèrent (Flash conjoncture, 5 septembre 2025)
+    annee: '2025'
+    source: tresor-flash-industrie-2025
+  - libelle: Solde net d'ouvertures et d'extensions d'usines
+    valeur: '+19'
+    precision: Ouvertures et extensions significatives moins fermetures et réductions significatives (sites de plus de 20 salariés), contre +88 en 2024 ; 158 extensions significatives en 2025 (DGE, relève de mars 2026, données provisoires)
+    annee: '2025'
+    source: dge-barometre-industriel-2025
+  - libelle: Solde commercial (biens)
+    valeur: −65,2 milliards d'euros
+    precision: Exportations 616,4 Md€, importations 681,5 Md€ (FAB/FAB) ; −160,3 Md€ en 2022 ; −33,9 Md€ au 1er semestre 2026 (Insee, fiche Commerce extérieur, p. 278 et 281 du PDF)
+    annee: '2025'
+    source: insee-debats-2027
+  - libelle: Inflation (prix à la consommation sur un an)
+    valeur: +3,4 %
+    precision: Octobre 2026, estimation provisoire (définitive le 13 novembre 2026) ; énergie +24,1 % ; +0,9 % en octobre 2025 (Insee, Informations rapides n° 266)
+    annee: '2026'
+    source: insee-ir266-ipc-oct-2026
+  - libelle: Effort de recherche (dépense de R&D / PIB)
+    valeur: 2,18 % du PIB
+    precision: '64,1 Md€ de dépense intérieure de R&D en 2024, dont 42,0 Md€ par les entreprises ; objectif de 3 % fixé par la loi de programmation de la recherche ; moyenne OCDE 2,70 % (2023) ; créances de crédit d''impôt recherche : 8,1 Md€ (Insee, fiche La recherche en France, p. 296-297 du PDF)'
+    annee: '2024'
+    source: insee-debats-2027
+  - libelle: Défaillances d'entreprises
+    valeur: 71 139 sur douze mois
+    precision: Cumul à fin septembre 2026, +4,4 % sur un an et +19,9 % par rapport à la moyenne 2010-2019 ; hausse dans la plupart des secteurs, sauf l'industrie et le conseil aux entreprises (Banque de France, mise en ligne le 6 novembre 2026)
+    annee: '2026'
+    source: bdf-defaillances-2026-09
+  lois:
+  - titre: Loi du 5 septembre 2018 pour la liberté de choisir son avenir professionnel
+    resume: 'Elle a réformé l''apprentissage : âge maximal porté de 25 à 29 ans, aides aux employeurs modifiées (création d''une aide unique ciblée sur les entreprises de moins de 250 salariés et les diplômes de niveau bac ou inférieur), nouveau financement des centres de formation d''apprentis. Le Conseil constitutionnel l''a examinée le 4 septembre 2018 (décision n° 2018-769 DC).'
+    url: https://www.conseil-constitutionnel.fr/decision/2018/2018769DC.htm
+  - titre: Loi portant mesures d'urgence pour la protection du pouvoir d'achat (2022)
+    resume: Adoptée en août 2022, elle porte sur la rémunération du travail, la revalorisation des retraites, de certaines prestations sociales et des aides au logement, la résiliation des contrats, la sécurité de l'approvisionnement en gaz et en électricité, et l'indexation du prix de l'énergie dans les contrats de transport. Le Conseil constitutionnel a censuré un article (décision n° 2022-843 DC du 12 août 2022).
+    url: https://www.conseil-constitutionnel.fr/decision/2022/2022843DC.htm
+  - titre: Loi relative à l'industrie verte (2023)
+    resume: Elle vise à faciliter et accélérer les implantations industrielles (planification, consultation du public, réhabilitation des friches), à intégrer des critères environnementaux dans la commande publique et prévoit des mesures de financement de l'industrie verte. Texte définitif adopté par l'Assemblée nationale le 10 octobre 2023.
+    url: https://www.assemblee-nationale.fr/dyn/16/textes/l16t0173_texte-adopte-provisoire.pdf
+  - titre: Loi de simplification de la vie économique (2026)
+    resume: Elle supprime plusieurs commissions consultatives, autorise le gouvernement à alléger des formalités des entreprises par ordonnance, modifie des règles de commande publique, de baux commerciaux et de procédures pour les grands projets industriels et les centres de données. Le Conseil constitutionnel a censuré 23 articles et une partie de deux autres comme sans lien avec le texte initial, dont la suppression des zones à faibles émissions (décision n° 2026-903 DC du 21 mai 2026).
+    url: https://www.conseil-constitutionnel.fr/decision/2026/2026903DC.htm
+bilan:
+- nature: debat
+  texte: 'Réindustrialisation : selon le baromètre de l''État, le solde d''usines reste positif en 2025 (+19), mais en net recul par rapport à 2024 (+88). Les extensions d''usines tirent ce solde ; les fermetures augmentent. La défense, l''aéronautique et le spatial (+19), l''électronique (+12) et l''industrie verte (+26) progressent. Le transport, la chimie, la mécanique et la métallurgie sont en recul. La DGE cite la concurrence asiatique, les droits de douane américains et le prix de l''énergie. Le poids de l''industrie dans l''économie reste de 10,8 % (début 2025).'
+  sources:
+  - dge-barometre-industriel-2025
+  - tresor-flash-industrie-2025
+- nature: debat
+  texte: 'Plan France 2030 : selon la Cour des comptes (octobre 2026), sur les 54 Md€ prévus, 33 Md€ étaient engagés auprès de 7 300 projets fin 2025 et près de 14 Md€ versés. Les subventions représentent 82 % des aides, et 1 % des projets concentrent 49 % des montants. Moins de 10 % des projets étaient terminés. Selon les premières évaluations, le plan a été décisif pour environ la moitié des projets. La Cour juge prématuré de se prononcer sur une prolongation. Le Secrétariat général pour l''investissement, qui pilote le plan, cite des évaluations externes : chaque euro public rapporterait 3,8 à 5,4 euros à long terme.'
+  sources:
+  - ccomptes-france-2030-2026
+  - acteurs-publics-france-2030-2026
+- nature: debat
+  texte: 'Compétitivité : l''Insee note que le coût du travail a nettement baissé en France par rapport à ses voisins en dix ans. Dans l''industrie, le coût horaire est inférieur à celui de l''Allemagne (47,7 € contre 49,8 € en 2025). Pourtant, la part de la France dans les exportations de la zone euro est passée de 18 % en 2000 à 13 % en 2025, et ne recule plus depuis 2021. L''Insee y voit une perte de compétitivité propre à la France, au-delà des causes communes à l''Europe (prix de l''énergie, prix chinois, droits de douane américains).'
+  sources:
+  - insee-debats-2027
+- nature: ne-fonctionne-pas
+  texte: 'Productivité : en 2025, la production par personne en emploi est 1,1 point sous son niveau de 2019, et 4,3 points sous le niveau qu''elle aurait atteint en suivant la tendance des années 2010 (1,8 point dans le reste de la zone euro). Selon l''Insee, une partie de cet écart vient de la forte hausse de l''alternance et des micro-entrepreneurs, dont la production par personne est plus faible : hors de cet effet, l''écart est de 2,4 points dans l''emploi salarié privé.'
+  sources:
+  - insee-debats-2027
+- nature: debat
+  texte: 'Apprentissage : les entrées ont fortement augmenté depuis la réforme de 2018 et l''aide exceptionnelle de 2020 (826 853 dans le secteur privé en 2023, soit +270 % par rapport à 2018). Selon la Cour des comptes, l''alternance explique environ la moitié de la hausse de 6 points du taux d''emploi des 15-24 ans entre 2017 et 2023. Mais la hausse a surtout concerné les étudiants du supérieur, avec un risque d''« effets d''aubaine ». L''OFCE note que le nombre de jeunes chômeurs de 15 à 29 ans n''a pas baissé : 942 000 en 2019, 1,03 million en 2025. Le coût public a culminé à 24,1 Md€ en 2024.'
+  sources:
+  - ccomptes-aides-exceptionnelles-2025
+  - ofce-pbrief-157-2026
+- nature: debat
+  texte: 'Crédit d''impôt recherche : après la réforme de 2008, les créances sont passées de 1,8 Md€ (2007) à 6,5 Md€ (2018). Selon les évaluations de la Commission nationale d''évaluation des politiques d''innovation, citées par la DG Trésor, un euro de crédit d''impôt entraîne un euro de R&D privée en plus. L''effet est significatif pour les entreprises de moins de 250 salariés, mais pas pour les plus grandes. Une étude publiée par le Cepremap (2026) estime qu''au moins 14 % des entreprises déclarantes bénéficient d''un effet d''aubaine.'
+  sources:
+  - tresor-eco-290-cir-2021
+  - cepremap-cir-2026
+effets:
+- sujet: Effet d'une baisse de la TVA de 20 % à 5,5 % sur l'énergie (carburants, électricité, gaz, fioul)
+  axes:
+  - pouvoir-achat
+  evaluations:
+  - source: institut-montaigne-tva-energie-2024
+    resume: 'Chiffrage réalisé pour les législatives de 2024 : une perte de recettes d''environ 11,3 Md€ par an, entre 9 et 13,6 Md€ selon l''évolution de la consommation et des prix de l''énergie. L''Institut rappelle que le droit européen ne permet pas un taux réduit sur les carburants sans révision de la directive TVA, à l''unanimité. L''équipe du RN conteste la fourchette basse et la fourchette haute.'
+    fourchette: 9 à 13,6 Md€ par an
+  - source: fjj-tva-energie-2024
+    resume: La Fondation Jean-Jaurès (juillet 2024) cite une estimation de Bercy et de la Fondation iFRAP proche de 17 Md€. Pour un client moyen, la baisse serait d'environ 70 € par an sur l'électricité (tarif de base) et 170 € sur le gaz, à prix hors taxe inchangés. Elle rappelle que la baisse de TVA dans la restauration en 2009 n'a été répercutée qu'à environ 20 % sur les prix, selon l'Insee.
+    fourchette: ≈ 17 Md€ (estimation Bercy citée)
+  - source: ifrap-carburants-2026
+    resume: La Fondation iFRAP (mars 2026) cite 17 Md€ par an pour l'ensemble des énergies selon Bercy, environ 10 Md€ pour les seuls carburants, et 12 Md€ selon le RN. Elle propose à la place de ne plus appliquer la TVA sur l'accise des carburants (4,5 Md€ rendus aux ménages), ou un taux de 15 % sur les carburants (7 à 8 Md€, soit 8 à 10 centimes de moins par litre).
+    fourchette: 4,5 à 17 Md€ selon la variante
+  desaccords: Les écarts viennent du périmètre (toutes les énergies ou carburants seuls), de l'année de référence et des hypothèses de prix. La Fondation Jean-Jaurès estime que la mesure profiterait davantage aux ménages aisés et qu'elle pourrait augmenter les marges plutôt que baisser les prix. L'équipe du RN met en avant les gains de pouvoir d'achat et la relance de l'économie. L'Institut Montaigne et la Fondation iFRAP soulignent que le droit européen ne permet pas un taux réduit sur les carburants.
+- sujet: Effet d'une modification des aides à l'embauche d'apprentis
+  axes:
+  - emploi
+  evaluations:
+  - source: ccomptes-aides-exceptionnelles-2025
+    resume: La Cour des comptes (janvier 2025) propose de réserver l'aide aux apprentis préparant un diplôme de niveau bac ou inférieur, dans les entreprises de moins de 250 salariés. Selon le montant retenu, l'économie serait de 651 à 753 M€ en 2025, et de 6,1 à 7,0 Md€ sur 2025-2027. Sans changement, l'aide aurait coûté 3,9 Md€ en 2025. Rapport p. 15-16.
+    fourchette: 6,1 à 7,0 Md€ d'économies sur 2025-2027
+  - source: ofce-pbrief-157-2026
+    resume: Selon l'OFCE (mai 2026), la dépense publique totale pour l'apprentissage est passée de 24,1 Md€ en 2024 à 22,2 Md€ en 2025, et serait de 20,5 Md€ en 2026. Les aides de 8 000 € ont eu un effet « massif » sur les créations d'emplois entre 2020 et 2022. De nouvelles baisses non ciblées pourraient réduire l'offre de formation ; les aides versées aux apprentis eux-mêmes seraient sans effet incitatif.
+    fourchette: 20,5 à 24,1 Md€ de dépense totale (2024-2026)
+  desaccords: La Cour des comptes et l'OFCE s'accordent sur la nécessité de mieux cibler les aides. La Cour privilégie un retour au périmètre de 2018 ; l'OFCE met en garde contre des baisses supplémentaires sans ciblage. Aucune des deux sources ne chiffre précisément le nombre d'emplois qu'une baisse des aides supprimerait.
+- sujet: Effet de l'accord commercial entre l'Union européenne et le Mercosur
+  axes:
+  - commerce
+  evaluations:
+  - source: senat-mercosur-ppre-2025
+    resume: Selon l'analyse de la Commission européenne citée par le Sénat, l'accord augmenterait les exportations européennes vers le Mercosur de 48,7 Md€ (+39 %) d'ici 2040, et le PIB de l'Union de 77,6 Md€ (+0,05 %). La commission des affaires européennes du Sénat relève un contingent de 99 000 tonnes de viande bovine à droits réduits, et 53 000 tonnes d'importations en plus selon la commission d'évaluation de 2020.
+    fourchette: +0,05 % du PIB de l'UE en 2040
+  - source: delors-mercosur-2026
+    resume: Lors d'un débat organisé par l'Institut Jacques Delors (avril 2026), l'ancien directeur général du commerce de la Commission a cité une étude de Gohin et Matthews. Selon elle, le gain de PIB pour l'UE serait de 0,2 % à 0,4 %, et la perte de revenu des éleveurs bovins européens de 0,6 %. Le directeur du CEPII cite les produits laitiers, les vins et les spiritueux parmi les secteurs français qui pourraient en profiter.
+    fourchette: +0,2 à +0,4 % du PIB de l'UE
+  desaccords: Les estimations de gain de PIB varient de 0,05 % à 0,4 % selon la base de données utilisée. La commission du Sénat met en avant la concurrence pour l'élevage (coûts de production bovine inférieurs de 40 % selon elle) et les normes sanitaires ; les intervenants de l'Institut Jacques Delors jugent l'impact agricole limité. L'Assemblée nationale a approuvé en novembre 2024 la déclaration du gouvernement sur les négociations de l'accord (voir le vote).
+- sujet: Effet du crédit d'impôt recherche (maintien, renforcement ou recentrage)
+  axes:
+  - investissement
+  evaluations:
+  - source: tresor-eco-290-cir-2021
+    resume: Selon la DG Trésor (septembre 2021), la réforme de 2008 aurait accru l'activité de 0,5 point de PIB et créé 30 000 emplois quinze ans plus tard, et de 0,8 point de PIB et 60 000 emplois à long terme, en supposant un financement par des économies sur d'autres dépenses. Ces résultats restent « entourés d'une forte incertitude ».
+    fourchette: +0,5 point de PIB et 30 000 emplois à 15 ans
+  - source: cepremap-cir-2026
+    resume: Pierre Courtioux et François Métivier (Cepremap, 2026) estiment le coût du dispositif à environ 7,6 Md€ par an. Selon eux, les évaluations disponibles montrent une efficacité faible, et au moins 14 % des entreprises déclarantes bénéficient d'un effet d'aubaine. Ils proposent de mieux cibler le crédit sur les personnels qui consacrent une grande part de leur temps à la recherche et d'ajouter des conditions.
+    fourchette: ≈ 7,6 Md€ par an ; aubaine pour au moins 14 % des déclarants
+  desaccords: 'La DG Trésor retient des effets positifs à long terme, issus d''un modèle macroéconomique ; le Cepremap s''appuie sur les données d''entreprises et souligne l''effet d''aubaine. La DG Trésor cite aussi l''évaluation de 2021 de la CNEPI : un effet significatif pour les entreprises de moins de 250 salariés, mais pas pour les plus grandes.'
+glossaire:
+- pib
+- industrie-manufacturiere
+- inflation
+- pouvoir-achat
+- balance-commerciale
+- productivite-travail
+- effort-recherche
+- cir
+- france-2030
+- apprentissage
+- tva
+- accord-ue-mercosur
