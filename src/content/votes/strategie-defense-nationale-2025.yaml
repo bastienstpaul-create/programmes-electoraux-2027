@@ -1,0 +1,90 @@
+theme: defense-diplomatie
+titre: Déclaration du gouvernement portant sur la stratégie de défense nationale
+objet: Vote sur une déclaration du gouvernement suivie d'un débat (article 50-1 de la Constitution). Ce vote n'a pas de portée législative.
+date: 2025-12-10
+legislature: 17
+numero_scrutin: 4698
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/4698
+axes:
+- budget
+- armees
+resultat: adopte
+decompte:
+  pour: 411
+  contre: 88
+  abstention: 22
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 101
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 86
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 71
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 68
+  contre: 1
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 46
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 3
+  contre: 4
+  abstention: 22
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 35
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 34
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 17
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 12
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 16
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 5
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: 521 votants.
+date_consultation: 2026-11-11

@@ -1,8 +1,8 @@
 numero: 15
 titre: Numérique et IA
 icone: cpu
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: ia
   libelle: Intelligence artificielle
@@ -16,3 +16,154 @@ axes:
   libelle: Souveraineté numérique
 - id: acces
   libelle: Accès au numérique et couverture du territoire
+situation:
+  texte: 'Le numérique est encadré surtout par le droit européen. Le [[RGPD|rgpd]] (2016) fixe les règles d''utilisation des données personnelles ; en France, la [[CNIL|cnil]] veille à son respect. En 2025, elle a reçu 20 150 plaintes, un record, et prononcé 83 sanctions pour près de 487 millions d''euros d''amendes. Le [[règlement sur les services numériques (DSA)|dsa]] (2022) impose aux plateformes et réseaux sociaux de retirer les contenus illicites et d''évaluer leurs risques ; le [[règlement sur les marchés numériques (DMA)|dma]] encadre les plus grandes entreprises du secteur. En France, l''[[Arcom|arcom]] contrôle une partie de ces obligations. La loi « SREN » du 21 mai 2024 a ajouté des règles nationales : blocage des sites pornographiques accessibles aux mineurs, protection des données sensibles des administrations dans le [[cloud|informatique-en-nuage]].
+
+
+    L''intelligence artificielle relève du [[règlement européen sur l''IA|reglement-ia]] de 2024. Certains usages sont déjà interdits. Les obligations visant les systèmes « à haut risque » (emploi, éducation, biométrie, etc.) devaient s''appliquer le 2 août 2026 ; un règlement du 8 juillet 2026 les a reportées au 2 décembre 2027, et au 2 août 2028 pour les produits déjà réglementés. Côté usages, 37 % des 16-74 ans ont utilisé une [[IA générative|ia-generative]] en 2025 (73 % des 16-29 ans, 9 % des 60-74 ans). 18 % des entreprises de 10 salariés ou plus déclarent utiliser au moins une technologie d''IA, contre 20 % dans l''Union européenne. L''État finance une stratégie nationale pour l''IA depuis 2018, en partie via [[France 2030|france-2030]] : 1,3 milliard d''euros sur 2018-2022 et 1,1 milliard programmé sur 2023-2025, selon la Cour des comptes.
+
+
+    Pour les mineurs, la loi ne fixe pas encore d''âge minimal effectif pour les réseaux sociaux. Une loi de 2023 sur la « [[majorité numérique|majorite-numerique]] » (15 ans, sauf accord des parents) n''est jamais entrée en vigueur, la Commission européenne l''ayant jugée en partie contraire au droit de l''Union. En juillet 2026, le Parlement a voté l''interdiction des réseaux sociaux aux moins de 15 ans. Le 14 août 2026, le Conseil constitutionnel a censuré cet article. Il l''a jugé trop général : rien ne tenait compte des risques propres à chaque service ni de l''avis des parents, et la vérification de l''âge n''était pas encadrée. La loi du 24 août 2026 étend aux lycées l''interdiction du téléphone portable et impose des actions de sensibilisation aux écrans dans les écoles et établissements, à la rentrée 2026.
+
+
+    Pour l''accès au réseau, fin juin 2026, 95,3 % des locaux (logements et locaux professionnels) pouvaient être raccordés à la [[fibre optique|fibre-ftth]] ; 2,1 millions restaient à équiper. En 2025, 34 % des 16-74 ans manquent de compétences numériques, dont 7 % en situation d''[[illectronisme|illectronisme]]. Sur la [[souveraineté numérique|informatique-en-nuage]], trois entreprises américaines détiennent environ 70 % du marché européen du cloud. Pour les données les plus sensibles de l''État, la règle impose des offres qualifiées [[SecNumCloud|secnumcloud]]. En novembre 2026, l''Assemblée nationale examine en première lecture le projet de loi sur la résilience des infrastructures critiques et le renforcement de la cybersécurité.'
+  chiffres:
+  - libelle: Locaux raccordables à la fibre optique
+    valeur: 95,3 %
+    precision: 43,1 millions sur 45,2 millions de locaux, fin juin 2026 ; 2,1 millions restent à rendre raccordables. La fibre représente 85 % des abonnements internet fixe (28,1 millions)
+    annee: '2026'
+    source: arcep-hd-thd-t2-2026
+  - libelle: Personnes manquant de compétences numériques
+    valeur: 34 % des 16-74 ans
+    precision: Dont 7 % en situation d'illectronisme (5 % n'utilisent pas internet) et 27 % avec des compétences faibles ; 38 % en 2021 ; 82 % des 75 ans ou plus (Insee Focus n° 376)
+    annee: '2025'
+    source: insee-focus-376-competences-numeriques
+  - libelle: Utilisation de l'IA générative
+    valeur: 37 % des 16-74 ans
+    precision: Au cours des trois mois précédant l'enquête ; 73 % des 16-29 ans, 45 % des 30-44 ans, 9 % des 60-74 ans (Insee Focus n° 376, figure 4)
+    annee: '2025'
+    source: insee-focus-376-competences-numeriques
+  - libelle: Entreprises utilisant au moins une technologie d'IA
+    valeur: 18 %
+    precision: Entreprises de 10 salariés ou plus ; 10 % en 2024, 6 % en 2023 ; 20 % dans l'UE ; 58 % des entreprises de 250 salariés ou plus (Insee Première n° 2120)
+    annee: '2025'
+    source: insee-ip2120-tic-entreprises-2025
+  - libelle: Plaintes reçues par la CNIL
+    valeur: 20 150
+    precision: +10 % par rapport à 2024 ; 323 contrôles, 83 sanctions pour près de 487 M€ d'amendes ; 6 167 violations de données notifiées
+    annee: '2025'
+    source: cnil-rapport-annuel-2025
+  - libelle: Part de marché des trois fournisseurs américains de cloud en Europe
+    valeur: 70 %
+    precision: AWS, Microsoft Azure et Google Cloud, d'après la Cour des comptes citée par le rapport n° 2522 de l'Assemblée nationale ; la part des fournisseurs européens est passée de 27 % en 2017 à 16 % en 2021
+    annee: '2021'
+    source: an-rapport-2522-marches-publics-numeriques
+  lois:
+  - titre: Règlement (UE) 2024/1689 sur l'intelligence artificielle, modifié par le règlement (UE) 2026/1744 du 8 juillet 2026
+    resume: 'Classe les systèmes d''IA selon leur niveau de risque : usages interdits, systèmes « à haut risque » soumis à des obligations (documentation, contrôle humain, qualité des données), obligations de transparence. Le règlement de 2026 reporte les obligations des systèmes à haut risque au 2 décembre 2027 (annexe III) et au 2 août 2028 (produits de l''annexe I).'
+    url: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R1744
+  - titre: Règlement (UE) 2022/2065 du 19 octobre 2022 sur les services numériques (DSA)
+    resume: 'Fixe les obligations des plateformes en ligne : retrait des contenus illicites signalés, transparence des algorithmes de recommandation et de la publicité, évaluation des risques pour les plus grandes plateformes, protection des mineurs.'
+    url: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32022R2065
+  - titre: Loi n° 2024-449 du 21 mai 2024 visant à sécuriser et à réguler l'espace numérique (SREN)
+    resume: Permet à l'Arcom de bloquer ou déréférencer les sites pornographiques accessibles aux mineurs, adapte le droit français au DSA et impose aux administrations un cloud protégé des lois étrangères pour leurs données sensibles (article 31). Le Conseil constitutionnel a censuré cinq articles, dont le délit d'outrage en ligne (décision n° 2024-866 DC).
+    url: https://www.conseil-constitutionnel.fr/decision/2024/2024866DC.htm
+  - titre: Loi n° 2026-813 du 24 août 2026 visant à protéger les mineurs des risques auxquels les expose l'utilisation des réseaux sociaux
+    resume: L'article 1er, qui interdisait l'accès aux réseaux sociaux aux moins de 15 ans, a été censuré par le Conseil constitutionnel (décision n° 2026-911 DC du 14 août 2026). La loi promulguée étend l'interdiction du téléphone portable aux lycées et impose un volet sur le numérique et les écrans dans chaque projet d'école ou d'établissement, à la rentrée 2026.
+    url: https://www.senat.fr/dossier-legislatif/ppl25-304.html
+bilan:
+- nature: fonctionne
+  texte: 'Le déploiement de la fibre approche de la couverture complète : fin juin 2026, 95,3 % des locaux sont raccordables et la fibre représente 85 % des abonnements internet fixe. Il reste 2,1 millions de locaux à équiper, dont 970 000 dans les zones moins denses couvertes par les réseaux d''initiative publique (déployés à l''initiative des collectivités). Pour plus d''un tiers de ces locaux, les opérateurs indiquent que des tiers (par exemple des copropriétés) ont refusé les travaux, ou que les bâtiments sont en construction. Le rythme ralentit : 275 000 locaux rendus raccordables au 2e trimestre 2026.'
+  sources:
+  - arcep-hd-thd-t2-2026
+- nature: ne-fonctionne-pas
+  texte: 'La part des personnes qui manquent de compétences numériques baisse lentement : 34 % des 16-74 ans en 2025, contre 38 % en 2021. La part des personnes aux compétences faibles reste stable (27 %, contre 28 %). Selon l''Insee, la baisse vient davantage du renouvellement des générations que d''un progrès des usages. 17 % des 60-74 ans sont en situation d''illectronisme, et le niveau dépend fortement du diplôme.'
+  sources:
+  - insee-focus-376-competences-numeriques
+- nature: debat
+  texte: 'Stratégie nationale pour l''IA : selon la Cour des comptes (novembre 2025), la France est passée de la 13e à la 5e place du Global AI Index entre 2024 et 2025, compte plus de 1 000 start-up de l''IA (près de 2 Md€ levés en 2024) et plus de 4 000 chercheurs. Mais la diffusion de l''IA dans l''économie « n''a pas eu lieu », la formation et l''administration restent en retard, et 35 % seulement des crédits 2023-2025 étaient consommés au 30 juin 2025. Le budget programmé (1,1 Md€) était inférieur d''un tiers à l''annonce initiale.'
+  sources:
+  - ccomptes-snia-2025
+- nature: debat
+  texte: L'IA se diffuse vite, mais ses effets restent limités. Selon la Banque de France, 67 % des entreprises de 20 salariés ou plus utilisaient l'IA générative début 2026, le plus souvent de façon limitée ou expérimentale ; seules 31 % des utilisatrices constatent un gain de productivité. Selon l'Insee, l'écart d'usage entre les entreprises de moins de 50 salariés et celles de 250 ou plus est passé de 16 à 43 points entre 2023 et 2025. Parmi les entreprises qui n'utilisent pas l'IA, 71 % disent ne pas en voir l'utilité.
+  sources:
+  - bdf-bulletin-266-ia-entreprises
+  - insee-ip2120-tic-entreprises-2025
+- nature: ne-fonctionne-pas
+  texte: Les règles d'âge sur les réseaux sociaux restent peu appliquées. Selon le RGPD et la loi de 2018, quand le traitement des données d'un mineur de moins de 15 ans repose sur son consentement, l'accord d'un parent est nécessaire ; mais les réseaux sociaux s'appuient sur d'autres bases juridiques, comme l'exécution du contrat (rapport de l'Assemblée nationale, janvier 2026, p. 14-16). La loi « majorité numérique » de 2023 n'est jamais entrée en vigueur. Selon l'Arcom, citée dans ce rapport, 40 % des adolescents reconnaissent avoir donné une fausse date de naissance à l'inscription. L'interdiction votée en 2026 a été censurée par le Conseil constitutionnel.
+  sources:
+  - an-rapport-2341-mineurs-reseaux-sociaux
+  - cc-2026-911-dc
+- nature: debat
+  texte: 'Sur les effets des réseaux sociaux, l''Anses (janvier 2026, plus d''un millier d''études) constate des risques pour la santé mentale des adolescents : sommeil, image de soi, exposition à des contenus à risque, cyberharcèlement. Les filles sont plus touchées. Elle recommande que les mineurs n''accèdent qu''à des réseaux « conçus et paramétrés pour protéger leur santé ». Le Conseil constitutionnel a jugé qu''une interdiction générale avant 15 ans portait une atteinte disproportionnée à la liberté d''expression, car elle visait aussi des services dont les risques « ne sont pas établis ».'
+  sources:
+  - anses-reseaux-sociaux-adolescents-2026
+  - cc-2026-911-dc
+- nature: ne-fonctionne-pas
+  texte: 'Protection des données publiques dans le cloud : la loi SREN (2024) oblige les administrations à protéger leurs données sensibles des lois étrangères. En février 2026, le décret d''application de cette règle était toujours en attente, selon le rapport de l''Assemblée nationale sur les marchés publics numériques. 11 prestataires proposaient une offre qualifiée SecNumCloud. Le rapport rappelle que les règles de la commande publique interdisent d''écarter un fournisseur en raison de sa nationalité.'
+  sources:
+  - an-rapport-2522-marches-publics-numeriques
+effets:
+- sujet: Effet de l'IA sur la croissance et la productivité
+  axes:
+  - ia
+  evaluations:
+  - source: commission-ia-2024
+    resume: 'La Commission de l''IA (mars 2024) estime que l''IA pourrait augmenter la croissance de la productivité de 0,8 à 1,3 point par an, selon que l''on prend pour modèle la vague numérique américaine des années 1990-2000 ou celle de l''électricité dans les années 1920. Sur dix ans, le PIB serait plus élevé de 250 à 420 Md€ en 2034. La Commission précise que ce gain serait temporaire : une fois l''IA adoptée par toute l''économie, il n''y aurait plus de gains de productivité à attendre, sauf effet durable sur l''innovation (PDF p. 6 et 36).'
+    fourchette: +0,8 à +1,3 point de productivité par an ; +250 à +420 Md€ de PIB en 2034
+  - source: ocde-ecoscope-ia-productivite-2024
+    resume: Les économistes de l'OCDE (novembre 2024) estiment que l'IA pourrait ajouter 0,25 à 0,6 point par an à la productivité globale des facteurs aux États-Unis sur dix ans (0,4 à 0,9 point pour la productivité du travail). Les gains seraient un peu plus faibles dans les autres pays, où l'adoption serait plus lente. Ils pourraient être réduits si les gains restent concentrés dans quelques secteurs.
+    fourchette: +0,25 à +0,6 point par an (productivité globale, États-Unis)
+  - source: tresor-eco-341-ia-2024
+    resume: La direction générale du Trésor (avril 2024) juge qu'il est trop tôt pour mesurer un effet macroéconomique. Les études montrent des gains pour certains salariés, mais des effets encore modestes au niveau des entreprises, car l'adoption reste limitée.
+    fourchette: Non chiffré
+  desaccords: 'Les estimations diffèrent par la méthode : la Commission de l''IA transpose des épisodes historiques ; l''OCDE part de l''exposition des secteurs à l''IA et de la vitesse d''adoption, en tenant compte des freins entre secteurs. L''OCDE porte sur les États-Unis et sur la productivité globale ; la Commission porte sur la France et sur la productivité du travail. En 2026, la Banque de France observe que seules 31 % des entreprises utilisatrices de l''IA générative constatent un gain de productivité.'
+- sujet: Montant de l'effort public en faveur de l'IA
+  axes:
+  - ia
+  - souverainete
+  evaluations:
+  - source: commission-ia-2024
+    resume: La Commission de l'IA chiffre ses 25 recommandations à un investissement public d'environ 5 Md€ par an pendant cinq ans, soit 27 Md€ au total. Elle propose aussi un fonds « France & IA » de 10 Md€, associant capital-investissement d'entreprise et soutien public (PDF p. 124 et 127).
+    fourchette: ≈ 5 Md€ par an, 27 Md€ sur cinq ans
+  - source: ccomptes-snia-2025
+    resume: La Cour des comptes relève que l'État a consacré 1,3 Md€ à la première phase de la stratégie (2018-2022) et programmé 1,1 Md€ sur 2023-2025, soit un tiers de moins que l'annonce initiale. Seuls 35 % des crédits étaient consommés au 30 juin 2025. Elle recommande d'accroître les capacités de calcul en lien avec l'Union européenne et de mieux évaluer les résultats.
+    fourchette: 1,3 Md€ (2018-2022) ; 1,1 Md€ programmé (2023-2025)
+  desaccords: L'écart entre l'effort recommandé par la Commission de l'IA (≈ 5 Md€ par an) et l'effort réalisé (moins de 0,5 Md€ par an en moyenne d'après les montants de la Cour) illustre le débat sur le niveau de dépense nécessaire. La Cour insiste davantage sur l'efficacité de la dépense et la lenteur de consommation des crédits. Les montants annoncés par les candidats n'ont pas été évalués par les sources citées ici.
+- sujet: Effet de l'IA sur l'emploi
+  axes:
+  - ia
+  evaluations:
+  - source: commission-ia-2024
+    resume: 'Selon la Commission de l''IA, l''IA remplace des tâches plutôt que des emplois : les emplois directement remplaçables ne représenteraient qu''environ 5 % des emplois en France. Certains secteurs pourraient perdre des emplois, mais la Commission estime que l''effet global sur l''emploi serait favorable (PDF p. 41).'
+    fourchette: ≈ 5 % des emplois directement remplaçables
+  - source: tresor-eco-391-ia-emploi-2026
+    resume: La direction générale du Trésor (juin 2026) juge que l'effet net sur l'emploi reste incertain, faute de recul. Elle observe des premiers licenciements attribués à l'IA dans la finance et l'informatique, et un ralentissement de l'insertion des jeunes. 62 % des Français voient l'IA comme un risque pour l'emploi (baromètre du numérique 2025).
+    fourchette: Non chiffré
+  - source: bdf-bulletin-266-ia-entreprises
+    resume: Dans l'enquête de la Banque de France (février-avril 2026), 2 % des entreprises utilisatrices de l'IA générative (en solde net) lui attribuent déjà une baisse de leurs effectifs. Pour les trois prochaines années, 21 % des entreprises prévoient une baisse de leurs effectifs liée à l'IA (14 % en solde net).
+    fourchette: −2 % (observé, solde net) ; −14 % des entreprises anticipent une baisse (solde net, 3 ans)
+  desaccords: La Commission de l'IA met en avant les créations d'emplois dans de nouveaux métiers ; le Trésor et la Banque de France insistent sur l'incertitude et sur un effet de réallocation entre métiers. Les chiffres de la Banque de France sont des déclarations d'entreprises, pas une mesure de l'emploi total.
+- sujet: Effet du développement des centres de données sur la consommation d'électricité
+  axes:
+  - souverainete
+  - ia
+  evaluations:
+  - source: rte-bp-2025-principaux-resultats
+    resume: Selon RTE (décembre 2025), les centres de données consomment environ 5 TWh par an. D'ici 2030, la hausse serait de 6 à 10 TWh, selon que 30 % ou 60 % des projets ayant obtenu un accès au réseau se réalisent (2,4 à 4,3 GW). Au 1er novembre 2025, environ 14 GW de projets de centres de données avaient contractualisé un raccordement. La consommation française totale était d'environ 450 TWh en 2024 (p. 18, 23-25).
+    fourchette: +6 à +10 TWh d'ici 2030
+  desaccords: 'RTE souligne que la consommation réelle des centres de données est difficile à prévoir : ceux déjà raccordés n''utilisent qu''environ 20 % de leur puissance contractuelle. Les objectifs de capacité annoncés par certains candidats (en GW) ne se traduisent pas directement en consommation (en TWh), qui dépend du taux d''utilisation.'
+glossaire:
+- rgpd
+- cnil
+- dsa
+- dma
+- arcom
+- informatique-en-nuage
+- reglement-ia
+- ia-generative
+- france-2030
+- majorite-numerique
+- fibre-ftth
+- illectronisme
+- secnumcloud

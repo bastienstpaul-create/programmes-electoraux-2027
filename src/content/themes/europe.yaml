@@ -1,8 +1,8 @@
 numero: 17
 titre: Europe
 icone: flag
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: institutions
   libelle: Institutions européennes
@@ -16,3 +16,161 @@ axes:
   libelle: Défense européenne
 - id: droit
   libelle: Droit européen et souveraineté nationale
+situation:
+  texte: 'La France est l''un des 27 États membres de l''Union européenne (UE). Les règles communes sont fixées par deux traités, le traité sur l''Union européenne et le traité sur le fonctionnement de l''Union européenne, modifiés pour la dernière fois en profondeur par le traité de Lisbonne (2007). La Constitution française y consacre un titre entier (articles 88-1 à 88-7). Les lois européennes sont adoptées par le Parlement européen, élu au suffrage universel tous les cinq ans (720 députés, dont 81 élus en France pour 2024-2029), et par le Conseil de l''UE, où siègent les ministres des États. Le Conseil décide le plus souvent à la [[majorité qualifiée|majorite-qualifiee]] (au moins 55 % des États représentant 65 % de la population), mais l''unanimité reste la règle pour la politique étrangère et de défense, la fiscalité, le budget pluriannuel et l''entrée de nouveaux pays. Quand l''unanimité bloque, au moins neuf États peuvent avancer seuls par une [[coopération renforcée|cooperation-renforcee]] : c''est ce qui a permis en décembre 2025 un prêt de 90 milliards d''euros à l''Ukraine pour 2026-2027, malgré l''opposition de trois États.
+
+
+    Le budget de l''UE est encadré par un [[cadre financier pluriannuel|cadre-financier-pluriannuel]] de sept ans. Celui de 2021-2027 prévoyait 1 074 milliards d''euros d''engagements (prix de 2018), auxquels s''est ajouté le plan de relance [[Next Generation EU|next-generation-eu]] (750 milliards), financé par un emprunt commun. Le budget est alimenté par des [[ressources propres|ressources-propres-ue]] : droits de douane, part de TVA, contributions calculées sur la richesse de chaque pays. La part française passe par le [[prélèvement sur recettes au profit de l''UE|psr-ue]] : 30,9 milliards d''euros prévus en 2027, contre 28,1 milliards attendus en 2026. En sens inverse, l''UE a dépensé 16,4 milliards d''euros en France en 2025, dont 58 % au titre de la politique agricole commune (PAC). La France est le deuxième contributeur net, derrière l''Allemagne. Le prochain cadre (2028-2034) est en négociation : la Commission a proposé 1 985 milliards d''euros courants en juillet 2025 ; les chefs d''État visent un accord d''ici fin 2026, à l''unanimité.
+
+
+    Les règles budgétaires européennes, réformées en 2024, fixent toujours deux seuils : un déficit public de 3 % du PIB et une dette de 60 % du PIB. Chaque État s''engage désormais sur une trajectoire de « dépenses nettes » sur quatre à sept ans. La France, dont le déficit atteignait 5,1 % du PIB en 2025, fait l''objet d''une [[procédure de déficit excessif|procedure-deficit-excessif]] depuis juillet 2024 et s''est engagée à revenir sous 3 % en 2029. En défense, le traité prévoit une [[clause de défense mutuelle|clause-defense-mutuelle]] (article 42.7) qui renvoie à l''OTAN pour les pays qui en sont membres. Depuis 2025, le plan européen de réarmement autorise un déficit supplémentaire pour la défense, que la France n''a pas demandé, et prête 150 milliards d''euros aux États via l''[[instrument SAFE|instrument-safe]] : la France a obtenu 15,1 milliards.
+
+
+    Le droit européen s''impose au droit national ([[primauté|primaute-droit-ue]]) : les directives doivent être transposées et le juge écarte une loi contraire. Le Conseil d''État juge toutefois, depuis 2021, que la Constitution reste au sommet et qu''il peut écarter une règle européenne si elle prive de garanties une exigence constitutionnelle non protégée de façon équivalente par le droit européen. La France est aussi critiquée pour sa [[surtransposition|surtransposition]], c''est-à-dire l''ajout de règles nationales plus strictes que les textes européens. L''Assemblée et le Sénat peuvent adopter des [[résolutions européennes|resolution-europeenne]], qui ne lient pas le gouvernement. Enfin, l''UE négocie l''adhésion de plusieurs pays (Monténégro, Albanie, Serbie, Ukraine, Moldavie notamment) ; chaque entrée exige l''unanimité des États membres et une ratification par chacun d''eux. Fin 2025, le Monténégro, pays le plus avancé, avait ouvert ses 33 chapitres de négociation examinés et en avait clôturé 7.'
+  chiffres:
+  - libelle: Contribution française au budget de l'UE (prélèvement sur recettes)
+    valeur: 30,9 milliards d'euros
+    precision: Montant prévu par l'article 55 du projet de loi de finances pour 2027 (30 906 M€), soit +2,5 Md€ (+8,7 %) par rapport à la loi de finances pour 2026 ; hors droits de douane reversés (Sénat, note p. 21)
+    annee: '2027'
+    source: senat-np-ue-plf2027
+  - libelle: Solde net de la France avec le budget de l'UE
+    valeur: −9,5 milliards d'euros (−0,31 % du RNB)
+    precision: 'Méthode comptable : contribution moins dépenses de l''UE en France. Deuxième contributeur net derrière l''Allemagne (−21,8 Md€), devant les Pays-Bas (−6,8 Md€) ; −7,9 Md€ en 2024 (Sénat, note p. 11-12)'
+    annee: '2025'
+    source: senat-np-ue-plf2027
+  - libelle: Dépenses de l'UE réalisées en France
+    valeur: 16,4 milliards d'euros
+    precision: Hors plan de relance ; 10,3 % des dépenses réparties de l'UE ; dont 9,5 Md€ (58 %) pour la PAC. Rapportées au nombre d'habitants (238 € par personne), la France est 21e sur 27 (Sénat, note p. 10)
+    annee: '2025'
+    source: senat-np-ue-plf2027
+  - libelle: Déficit public de la France
+    valeur: 5,1 % du PIB
+    precision: 'Seuil européen : 3 % du PIB. Procédure pour déficit excessif ouverte en juillet 2024 ; objectif d''un retour sous 3 % en 2029'
+    annee: '2025'
+    source: insee-ir78-apu-2025
+  - libelle: Prêts européens pour la défense accordés à la France (SAFE)
+    valeur: 15,09 milliards d'euros
+    precision: Sur une enveloppe totale de 150 Md€ de prêts (règlement (UE) 2025/1106) ; la France avait demandé 16,216 Md€ (IRIS, note de septembre 2026, p. 17)
+    annee: '2026'
+    source: iris-rearm-europe-2026
+  - libelle: Députés européens élus en France
+    valeur: 81 sur 720
+    precision: 'Répartition des sièges pour la législature 2024-2029 (Allemagne : 96, Italie : 76, Espagne : 61)'
+    annee: '2024'
+    source: eurlex-decision-2023-2061
+  lois:
+  - titre: Constitution du 4 octobre 1958, titre XV « De l'Union européenne » (articles 88-1 à 88-7)
+    resume: 'L''article 88-1 prévoit que la République participe à l''UE selon les traités de Lisbonne. Les articles suivants organisent le rôle du Parlement : examen des projets d''actes européens et vote de résolutions européennes (article 88-4), contrôle du respect de la répartition des compétences (article 88-6), ratification des nouvelles adhésions par référendum ou par le Congrès (article 88-5).'
+    url: https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur
+  - titre: Traité sur l'Union européenne (version consolidée)
+    resume: 'Il fixe les institutions et les règles de vote : majorité qualifiée au Conseil (article 16), unanimité en politique étrangère et de défense (article 31), coopérations renforcées à neuf États au moins (article 20), clause de défense mutuelle (article 42.7), révision des traités avec ratification par tous les États (article 48), adhésion de nouveaux membres à l''unanimité (article 49), retrait d''un État (article 50).'
+    url: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016M/TXT
+  - titre: Traité sur le fonctionnement de l'Union européenne, articles 311 et 312
+    resume: Le budget de l'UE est financé par des ressources propres. Leur liste est fixée à l'unanimité du Conseil puis approuvée par chaque État (en France, par une loi). Le cadre financier pluriannuel est adopté à l'unanimité, après approbation du Parlement européen. Sans accord, les plafonds de la dernière année sont prolongés.
+    url: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT
+  - titre: Règlement (UE) 2024/1263 du 29 avril 2024 relatif à la coordination des politiques économiques et à la surveillance budgétaire
+    resume: Il réforme le volet préventif du pacte de stabilité. Chaque État présente un plan budgétaire et structurel à moyen terme, avec une trajectoire de dépenses nettes sur quatre ans, prolongeable de trois ans. Les seuils de 3 % de déficit et 60 % de dette, inscrits dans les traités, restent inchangés.
+    url: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1263
+bilan:
+- nature: debat
+  texte: 'Plan de relance européen : la France a perçu la totalité de ses subventions, soit 40,3 milliards d''euros. Le 29 septembre 2026, elle est devenue le troisième État à achever son plan national de relance. Début octobre 2026, 79 % de la facilité pour la reprise étaient décaissés au niveau européen, contre environ 29 % pour les fonds de cohésion 2021-2027. La Cour des comptes européenne relève toutefois des jalons mal définis, des cas de double financement et un manque d''information sur les bénéficiaires finaux.'
+  sources:
+  - senat-np-ue-plf2027
+- nature: ne-fonctionne-pas
+  texte: 'Les fonds de cohésion 2021-2027 ont démarré tard : à l''automne 2026, la France en avait utilisé 30 % (28 % en moyenne dans l''UE). En gestion directe, la France a le premier taux de retour (16 %), mais reste sous son potentiel sur certains programmes comme Horizon Europe (recherche). Le Secrétariat général des affaires européennes estime le gain possible entre 1,5 et 2 milliards d''euros par an.'
+  sources:
+  - senat-np-ue-plf2027
+- nature: debat
+  texte: 'Depuis 2023, la France est le premier bénéficiaire de dépenses européennes en volume, mais elle n''est que 21e par habitant. La PAC représente 58 % de ces retours, contre près de 75 % en 2000. Le solde net français oscille depuis vingt ans entre −0,2 % et −0,5 % du revenu national brut. Il dépend de la méthode de calcul : trois méthodes coexistent, et chaque État privilégie la plus favorable à sa position dans les négociations.'
+  sources:
+  - senat-np-ue-plf2027
+- nature: ne-fonctionne-pas
+  texte: 'Règles budgétaires : la France est en procédure de déficit excessif depuis juillet 2024. Le Conseil de l''UE lui a fixé une hausse maximale de ses dépenses nettes de 1,2 % par an pour 2026 à 2028. En 2026, cette hausse atteindrait 1,4 %, soit un dépassement de 0,2 point. Pour le Haut Conseil des finances publiques, un retour sous 3 % de déficit en 2029 est « très peu vraisemblable ». Selon la Cour des comptes, respecter le plafond de dépenses ne suffirait plus à atteindre cet objectif, faute de croissance suffisante.'
+  sources:
+  - hcfp-avis-2026-5-plf-2027
+  - ccomptes-spfp-2026
+- nature: debat
+  texte: 'Plan de réarmement européen (2025) : 18 États ont obtenu le droit de dépenser jusqu''à 1,5 % du PIB de plus pour la défense sans que cela compte dans les règles budgétaires ; la France ne l''a pas demandé en raison de son déficit. Selon l''IRIS, les deux tiers des achats financés par les prêts SAFE sont des achats en commun, ce qui porterait la part des achats d''armement conjoints à environ 28,5 % en 2030 (18 % en 2021, objectif européen de 35 %). Le même auteur estime que la dérogation budgétaire n''aide pas à structurer l''industrie européenne et peut favoriser des achats hors d''Europe.'
+  sources:
+  - iris-rearm-europe-2026
+- nature: ne-fonctionne-pas
+  texte: 'Surtransposition : des circulaires ont tenté de la limiter en 2003, 2004, 2011, 2013 et 2017. En 2017, une consultation de la direction générale du Trésor a recensé 209 mesures financières plus strictes que le droit européen ; certaines ont été supprimées par la loi PACTE de 2019. Un projet de loi de suppression de surtranspositions, adopté par le Sénat en novembre 2018, n''a pas été examiné par l''Assemblée. La délégation sénatoriale aux entreprises estime que la répétition des circulaires « signe leur échec ».'
+  sources:
+  - senat-r22-743-simplification
+- nature: debat
+  texte: 'Élargissement : selon la Commission, le processus avance plus vite qu''au cours des quinze dernières années, avec 11 conférences de négociation depuis début 2024 (Albanie, Monténégro, Ukraine, Moldavie). Mais la règle de l''unanimité ralentit les décisions : en décembre 2025, les conclusions sur l''élargissement n''ont pu être adoptées que comme conclusions de la présidence, faute de soutien d''une délégation sur 27.'
+  sources:
+  - commission-com-2025-690-elargissement
+  - conseil-ue-conclusions-elargissement-2025
+effets:
+- sujet: Coût pour la France du prochain budget européen (2028-2034)
+  axes:
+  - budget
+  evaluations:
+  - source: senat-np-ue-plf2027
+    resume: La Commission propose 1 985 Md€ courants sur 2028-2034, soit 1,26 % du revenu national brut (RNB) de l'UE, dont 0,11 point pour rembourser l'emprunt du plan de relance. Selon un rapport sénatorial cité dans la note, les contributions nationales augmenteraient de 48 % (de 140,7 à 208,5 Md€ par an). D'après la direction du budget, la contribution française moyenne passerait de 26 Md€ par an à 36 Md€, et jusqu'à 42 Md€ si les nouvelles ressources propres n'étaient pas adoptées (p. 30-32).
+    fourchette: 'Contribution française : 36 à 42 Md€ par an en moyenne sur 2028-2034, contre 26 Md€ sur 2021-2027'
+  - source: senat-np-ue-plf2027
+    resume: La présidence irlandaise du Conseil a proposé le 10 octobre 2026 un cadre de 1 826 Md€ courants, soit 159,4 Md€ (−8 %) de moins que la Commission, surtout sur la compétitivité (−75,2 Md€) et l'action extérieure (−37,5 Md€) ; les crédits réservés à la PAC sont préservés (p. 42-43).
+    fourchette: 1 826 à 1 985 Md€ sur sept ans selon les propositions
+  desaccords: 'La Commission souligne que, hors remboursement de l''emprunt, le budget (1,15 % du RNB) reste proche du cadre actuel (1,13 %). La commission des finances du Sénat rappelle qu''en tenant compte de l''inflation, la hausse dépasse 40 % en euros constants. Les États dits « frugaux », dont l''Allemagne, demandent des baisses de plusieurs centaines de milliards ; les États « amis de la cohésion » veulent maintenir les fonds régionaux. Les montants ne sont pas arrêtés : l''accord exige l''unanimité.'
+- sujet: Rendement de nouvelles ressources propres pour le budget européen
+  axes:
+  - budget
+  evaluations:
+  - source: senat-np-ue-plf2027
+    resume: 'Le paquet de la Commission (juillet 2025) rapporterait 58,2 Md€ par an (prix de 2025), alors que le remboursement du plan de relance coûterait environ 24 Md€ par an. Détail : déchets électroniques non collectés (15 Md€), tabac (11,2 Md€), contribution des grandes entreprises sur leur chiffre d''affaires, dite CORE (6,8 Md€), mécanisme carbone aux frontières (1,4 Md€), plus le marché du carbone et les droits de douane. La part française serait inférieure à sa part habituelle (16,2 %) : 10,4 % pour le mécanisme carbone, 14,9 % pour les déchets électroniques, 9,2 % pour le tabac (p. 35-41).'
+    fourchette: 58,2 Md€ par an pour l'ensemble ; 1,4 à 15 Md€ selon la ressource
+  - source: senat-np-ue-plf2027
+    resume: 'Taxe européenne sur les services numériques, alternative étudiée : environ 5 Md€ par an au taux de 3 % selon la Commission ; certaines études avancent de l''ordre de 30 Md€ avec une assiette élargie ou un taux plus élevé (p. 42).'
+    fourchette: 5 à 30 Md€ par an selon l'assiette et le taux
+  desaccords: Les autorités françaises soutiennent l'ensemble du paquet de la Commission. Le rapporteur spécial du Sénat recommande au contraire de s'opposer à la contribution CORE, qu'il juge pénalisante pour la compétitivité, et qu'une majorité d'États membres rejette ; il préfère une taxe numérique. Il note aussi que les ressources fondées sur les déchets et le tabac reposent sur des statistiques nationales et accroissent les contributions des États sans créer de recette nouvelle. Toute création de ressource propre exige l'unanimité puis la ratification de chaque État.
+- sujet: Effort nécessaire pour respecter les règles budgétaires européennes (retour sous 3 % de déficit en 2029)
+  axes:
+  - regles
+  evaluations:
+  - source: hcfp-avis-2026-5-plf-2027
+    resume: Pour revenir sous 3 % en 2029, il faudrait réduire le déficit d'environ 1 point de PIB par an en 2028 et 2029 ; compte tenu de la hausse de la charge de la dette, l'ajustement structurel primaire serait de l'ordre de 1,3 point par an. La trajectoire transmise par l'administration (3,9 % en 2028, 2,8 % en 2029) suppose des dépenses nettes quasi stables en valeur, avec des mesures non documentées (§ 125-129).
+    fourchette: Ajustement de 1,0 à 1,3 point de PIB par an en 2028-2029
+  - source: ofce-prev-avril-2026-fipu
+    resume: Pour tenir ses engagements européens, le gouvernement devrait trouver au moins 1,2 point de PIB (près de 40 Md€) de mesures brutes de consolidation en 2027. L'OFCE estime par ailleurs que la politique budgétaire de 2026 réduit la croissance de 0,5 point de PIB.
+    fourchette: Au moins 40 Md€ de mesures en 2027 ; −0,5 point de croissance en 2026
+  - source: ccomptes-spfp-2026
+    resume: Respecter seulement le plafond de dépenses nettes fixé par le Conseil (1,2 % par an jusqu'en 2028, 1,1 % en 2029) ne suffirait pas à ramener le déficit sous 3 % en 2029, la croissance ayant été revue à la baisse par rapport au plan de 2024 (p. 83).
+  desaccords: Le Haut Conseil juge « impératif pour la souveraineté financière » de respecter la trajectoire de dépenses. L'OFCE insiste sur le coût de la consolidation pour la croissance à court terme. Aucun de ces organismes n'a chiffré l'effet d'une suspension ou d'une sortie des règles européennes.
+- sujet: Effets des instruments européens de financement de la défense
+  axes:
+  - defense
+  evaluations:
+  - source: iris-rearm-europe-2026
+    resume: 'Ordres de grandeur du plan de réarmement : jusqu''à 650 Md€ sur quatre ans de dépenses permises par la dérogation budgétaire (montant théorique), 150 Md€ de prêts SAFE à verser d''ici fin 2030, 1,5 Md€ pour le programme industriel EDIP en 2026-2027. Si 140 Md€ de prêts SAFE sont utilisés, ils financeraient environ 92 Md€ d''achats en commun d''ici 2030, soit 23 Md€ par an, environ 19 % des achats d''équipements des États de l''UE (p. 6 et 31).'
+    fourchette: 92 Md€ d'achats conjoints d'ici 2030 (23 Md€ par an)
+  - source: senat-np-ue-plf2027
+    resume: 'Les prêts SAFE font partie des engagements hors budget de l''UE. L''exposition du budget européen a presque quadruplé entre 2019 et 2024 et pourrait atteindre 640 Md€ fin 2027, sans compter les nouveaux prêts proposés. Ces prêts ne sont pas provisionnés : un défaut se traduirait par moins de dépenses européennes ou des contributions nationales plus élevées (p. 45-48).'
+    fourchette: 'Exposition hors budget : environ 640 Md€ fin 2027'
+  desaccords: 'L''IRIS juge que SAFE aura l''effet le plus fort sur l''industrie de défense, mais par concentration : quelques entreprises pourraient capter l''essentiel du marché européen. La commission des finances du Sénat met en avant le risque financier lié à la multiplication des prêts garantis par le budget européen. Aucun chiffrage public n''a été trouvé pour un fonds de défense européen de 500 Md€ ni pour un bouclier antimissile européen.'
+- sujet: Coût budgétaire d'un élargissement de l'Union
+  axes:
+  - elargissement
+  - budget
+  evaluations:
+  - source: ceps-elargissement-2026
+    resume: 'Les huit pays candidats autres que l''Ukraine recevraient au total environ 9,5 Md€ par an au titre de la PAC et de la cohésion. L''Ukraine recevrait au plus 4,83 Md€ par an de fonds de cohésion, mais deviendrait avec les règles actuelles le premier bénéficiaire de la PAC (10,3 à 13,4 Md€ par an). Reporter l''adhésion ne supprimerait pas les coûts : l''aide de préadhésion et les prêts représentent environ 99,4 Md€ sur 2021-2027.'
+    fourchette: 'Ukraine : 10,3 à 13,4 Md€ par an (PAC) + jusqu''à 4,83 Md€ (cohésion) ; autres candidats : 9,5 Md€ par an'
+  - source: delors-elargissement-cout-2025
+    resume: 'Étude coordonnée pour la commission des budgets du Parlement européen : l''adhésion d''un ou deux pays des Balkans occidentaux aurait un impact très faible (environ 0,17 Md€ par an de coût net pour le Monténégro s''il adhérait d''ici 2030). L''adhésion de l''Ukraine aurait un impact important et obligerait à revoir les priorités ou à trouver des fonds. Les auteurs jugent impossible de prévoir précisément le coût, qui dépendra des négociations.'
+    fourchette: 'Monténégro : environ 0,17 Md€ par an ; Ukraine : non chiffré globalement'
+  desaccords: Ces montants sont des sommes reçues par les nouveaux membres, pas un coût net pour la France. Ils supposent une application immédiate des règles actuelles ; les élargissements passés ont prévu de longues périodes de transition et des plafonds. Les deux études soulignent que le budget de l'UE est resté proche de 1 % du RNB malgré les élargissements précédents. Ces études ne chiffrent pas les effets de la concurrence des produits agricoles ukrainiens sur les agriculteurs des États membres actuels.
+glossaire:
+- cadre-financier-pluriannuel
+- ressources-propres-ue
+- psr-ue
+- next-generation-eu
+- majorite-qualifiee
+- cooperation-renforcee
+- primaute-droit-ue
+- surtransposition
+- clause-defense-mutuelle
+- instrument-safe
+- resolution-europeenne
+- procedure-deficit-excessif

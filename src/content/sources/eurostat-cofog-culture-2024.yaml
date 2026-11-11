@@ -1,0 +1,6 @@
+titre: Dépenses des administrations publiques par fonction (COFOG), services culturels et services récréatifs et sportifs (gov_10a_exp)
+organisme: Eurostat
+date_publication: 2026-10-21
+date_consultation: 2026-11-11
+url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10a_exp?geo=FR&geo=EU27_2020&cofog99=GF0802&cofog99=GF0801&unit=PC_GDP&unit=MIO_EUR&sector=S13&na_item=TE&sinceTimePeriod=2021
+type: statistique

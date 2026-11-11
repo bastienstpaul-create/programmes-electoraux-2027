@@ -1,0 +1,89 @@
+theme: mer-spatial
+titre: Proposition de loi élargissant la possibilité pour les collectivités territoriales et leurs groupements d'avoir recours au modèle de la société portuaire pour l'exploitation de leurs ports
+objet: Vote sur l'article unique de la proposition de loi, adoptée par le Sénat ; le texte n'ayant qu'un article, ce vote vaut adoption définitive.
+date: 2025-12-09
+legislature: 17
+numero_scrutin: 4697
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/4697
+axes:
+- maritime
+resultat: adopte
+decompte:
+  pour: 56
+  contre: 5
+  abstention: 6
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 12
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 14
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 5
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 11
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 4
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 0
+  abstention: 4
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 3
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 7
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 0
+  abstention: 2
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 1
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: Devenue la loi n° 2025-1250 du 22 décembre 2025. Le texte permet aux collectivités de créer des sociétés portuaires, auxquelles les chambres de commerce et d'industrie peuvent participer, pour exploiter leurs ports. Scrutin public, 67 votants.
+date_consultation: 2026-11-11

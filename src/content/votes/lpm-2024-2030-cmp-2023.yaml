@@ -1,0 +1,85 @@
+theme: defense-diplomatie
+titre: Projet de loi relatif à la programmation militaire pour les années 2024 à 2030
+objet: Vote sur l'ensemble du projet de loi, texte de la commission mixte paritaire (dernière lecture à l'Assemblée). Le texte programme 413 milliards d'euros de besoins pour les armées sur 2024-2030.
+date: 2023-07-12
+legislature: 16
+numero_scrutin: 2256
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/2256
+axes:
+- budget
+- armees
+- dissuasion
+resultat: adopte
+decompte:
+  pour: 244
+  contre: 37
+  abstention: 5
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 101
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 53
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 0
+  contre: 28
+  abstention: 0
+  non_votants: 1
+- groupe: Les Républicains
+  sigle: LR
+  pour: 19
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 35
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés (membre de l’intergroupe NUPES)
+  sigle: SOC
+  pour: 10
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 16
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 0
+  contre: 0
+  abstention: 4
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 0
+  contre: 8
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 10
+  contre: 0
+  abstention: 1
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 0
+  contre: 1
+  abstention: 0
+  non_votants: 0
+note: 286 votants. Loi n° 2023-703 du 1er août 2023.
+date_consultation: 2026-11-11

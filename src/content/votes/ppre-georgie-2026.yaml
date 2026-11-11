@@ -1,0 +1,89 @@
+theme: europe
+titre: Proposition de résolution européenne sur la situation en Géorgie et sa perspective d'adhésion à l'UE
+objet: Vote sur l'article unique. Le texte condamne l'évolution du gouvernement géorgien et réaffirme le soutien à l'avenir européen de la Géorgie, pays candidat dont les négociations sont interrompues de fait.
+date: 2026-05-11
+legislature: 17
+numero_scrutin: 6525
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/6525
+axes:
+- elargissement
+resultat: adopte
+decompte:
+  pour: 68
+  contre: 28
+  abstention: 1
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 13
+  abstention: 1
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 34
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 10
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 10
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 6
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 6
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 6
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 5
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 0
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 4
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 1
+  contre: 1
+  abstention: 0
+  non_votants: 0
+note: 97 votants. Une résolution européenne n'engage pas le gouvernement. Texte adopté n° 282.
+date_consultation: 2026-11-11

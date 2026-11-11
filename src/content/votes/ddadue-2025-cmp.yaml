@@ -1,0 +1,89 @@
+theme: europe
+titre: Projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne en matière économique, financière, environnementale, énergétique, de transport, de santé et de circulation des personnes
+objet: Vote sur l'ensemble du texte de la commission mixte paritaire. Le texte transpose ou adapte plusieurs actes européens (dont des corrections à la transposition de la directive sur le rapport de durabilité des entreprises, dite CSRD).
+date: 2025-04-02
+legislature: 17
+numero_scrutin: 1203
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/1203
+axes:
+- droit
+resultat: adopte
+decompte:
+  pour: 63
+  contre: 42
+  abstention: 54
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 0
+  abstention: 37
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 29
+  contre: 0
+  abstention: 0
+  non_votants: 2
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 24
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 0
+  abstention: 12
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 8
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 15
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 6
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 14
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 4
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 3
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 0
+  abstention: 4
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 2
+  contre: 0
+  abstention: 1
+  non_votants: 0
+note: 159 votants. Devenu la loi n° 2025-391 du 30 avril 2025, après la décision n° 2025-879 DC du Conseil constitutionnel.
+date_consultation: 2026-11-11
