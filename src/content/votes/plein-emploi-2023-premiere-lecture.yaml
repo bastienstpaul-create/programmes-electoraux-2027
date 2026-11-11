@@ -1,0 +1,83 @@
+theme: protection-sociale-pauvrete
+titre: Projet de loi pour le plein emploi (France Travail, accompagnement et obligations des bénéficiaires du RSA) – première lecture
+objet: Vote sur l'ensemble du projet de loi en première lecture à l'Assemblée nationale. Il prévoit l'inscription automatique des demandeurs du RSA à France Travail et un contrat d'engagement avec, en principe, 15 heures d'activité par semaine.
+date: 2023-10-10
+legislature: 16
+numero_scrutin: 2717
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/2717
+axes:
+- minima
+resultat: adopte
+decompte:
+  pour: 310
+  contre: 251
+  abstention: 7
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 169
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 88
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 0
+  contre: 75
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 61
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 49
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés (membre de l’intergroupe NUPES)
+  sigle: SOC
+  pour: 0
+  contre: 29
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 29
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 0
+  contre: 23
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 0
+  contre: 21
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 1
+  contre: 13
+  abstention: 6
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 1
+  contre: 2
+  abstention: 1
+  non_votants: 0
+note: Le texte issu de la commission mixte paritaire a été adopté le 14 novembre 2023 (scrutin n° 2965, voir le thème Travail et retraites) et promulgué le 18 décembre 2023 (loi n° 2023-1196).
+date_consultation: 2026-11-11

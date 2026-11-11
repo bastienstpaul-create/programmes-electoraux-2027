@@ -1,8 +1,8 @@
 numero: 8
 titre: Santé et autonomie
 icone: stethoscope
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: hopital
   libelle: Hôpital
@@ -18,3 +18,159 @@ axes:
   libelle: Prévention et santé mentale
 - id: fin-de-vie
   libelle: Fin de vie
+situation:
+  texte: 'En 2024, les Français ont consommé pour 254,8 milliards d''euros de soins et de biens médicaux (hôpital, médecins, médicaments, etc.), soit 8,7 % de la richesse nationale (PIB) et 3 723 euros par habitant. L''Assurance maladie et l''État en financent la plus grande partie, puis viennent les complémentaires santé (mutuelles, assurances). Ce qui reste à payer par les patients eux-mêmes, le [[reste à charge|reste-a-charge]], représente 7,8 % de ces dépenses ; rapporté à l''ensemble de la dépense de santé, il est l''un des plus bas de l''Union européenne (10,2 % en 2023). Une partie des soins est remboursée à 100 %, notamment pour les patients en [[affection de longue durée|affection-longue-duree]] ; pour les autres, il reste un [[ticket modérateur|ticket-moderateur]] et des [[franchises médicales|franchise-medicale]]. Chaque année, la [[LFSS|lfss]] fixe un plafond de dépenses d''assurance maladie, l''[[Ondam|ondam]]. En 2025, il a été respecté pour la première fois depuis la crise sanitaire (265,4 milliards d''euros). Pour 2027, le Gouvernement propose 278,7 milliards d''euros, soit +2,0 %, la hausse la plus faible depuis 2017. La branche maladie de la Sécurité sociale reste en déficit : 15,9 milliards d''euros en 2025 ; le projet de loi prévoit 7,8 milliards en 2027. L''Assemblée nationale a rejeté ce projet le 23 octobre 2026 ; le Sénat l''examine en novembre 2026. Les hôpitaux publics ont accusé un déficit de 2,6 milliards d''euros en 2025. Ils sont financés en partie selon leur activité ([[tarification à l''activité|tarification-activite]]).
+
+
+    L''accès aux médecins s''est dégradé. Selon le zonage officiel, 75,7 % des Français vivent dans un territoire où l''accès aux soins médicaux est jugé insuffisant, et 6,4 millions d''assurés n''avaient pas de [[médecin traitant|medecin-traitant]] en 2025. La densité de médecins généralistes a baissé de 18 % entre 2000 et 2021. Le numerus clausus, qui limitait le nombre d''étudiants en médecine, a été supprimé en 2020 ; ses effets ne sont pas attendus avant les années 2030. Les médecins libéraux choisissent librement leur lieu d''installation. Une proposition de loi adoptée par l''Assemblée nationale le 7 mai 2025 soumettrait toute installation à une autorisation de l''agence régionale de santé (ARS) ; le Sénat ne l''a pas encore votée (sa commission l''a modifiée le 27 mai 2026).
+
+
+    La perte d''autonomie des personnes âgées et le handicap relèvent d''une branche de la Sécurité sociale gérée par la Caisse nationale de solidarité pour l''autonomie (CNSA). Ses dépenses prévues pour 2027 sont de 44,4 milliards d''euros. Une partie finance l''[[allocation personnalisée d''autonomie|apa]], versée par les départements, et les [[Ehpad|ehpad]]. Selon la commission des affaires sociales du Sénat (novembre 2026), 60 % des Ehpad publics, 50 % des Ehpad privés à but non lucratif et 23 % des Ehpad commerciaux restaient en déficit. La CNSA estime à 700 000 le nombre de bénéficiaires supplémentaires de l''APA d''ici 2050. La loi du 8 avril 2024 dite « bien vieillir » a créé un service public départemental de l''autonomie et renforcé la lutte contre la maltraitance.
+
+
+    Sur la fin de vie, deux lois ont été adoptées en 2026. La loi du 26 mai 2026 élargit le droit aux [[soins palliatifs|soins-palliatifs]] et crée des maisons d''accompagnement. Aujourd''hui, environ 190 000 personnes sont prises en charge, soit la moitié des besoins estimés. La loi du 18 août 2026 crée un droit à l''[[aide à mourir|aide-a-mourir]] pour les adultes atteints d''une maladie grave et incurable en phase avancée ou terminale ; le Conseil constitutionnel l''a jugée conforme à la Constitution le 14 août 2026, avec trois réserves d''interprétation. La prévention (vaccination, dépistage des cancers) et la santé mentale font l''objet de plans nationaux et de quelques articles du projet de loi pour 2027.'
+  chiffres:
+  - libelle: Consommation de soins et de biens médicaux
+    valeur: 254,8 milliards d'euros
+    precision: '8,7 % du PIB, soit 3 723 € par habitant ; +3,7 % sur un an. Hôpital : 120,8 Md€ ; médicaments : 34,5 Md€ (Insee, d''après les comptes de la santé de la DREES, données provisoires, figure 1)'
+    annee: '2024'
+    source: insee-depenses-sante-2025
+  - libelle: Objectif national de dépenses d'assurance maladie (Ondam) proposé pour 2027
+    valeur: 278,7 milliards d'euros
+    precision: '+2,0 % par rapport à 2026, hausse la plus faible depuis 2017 ; respect supposant 5,1 Md€ d''économies nouvelles. Ondam 2025 exécuté : 265,4 Md€ (Cour des comptes). Projet de loi rejeté par l''Assemblée nationale le 23 octobre 2026 (Sénat, L''essentiel, p. 8-9)'
+    annee: '2027'
+    source: senat-plfss-2027-essentiel
+  - libelle: Déficit de la branche maladie de la Sécurité sociale
+    valeur: 15,9 milliards d'euros
+    precision: 'Sur un déficit total de 21,6 Md€ pour les régimes de base et le FSV, le plus élevé depuis 2012 hors crise sanitaire (Cour des comptes, synthèse du RALFSS 2026, p. 7). Prévision du projet de loi pour 2027, selon le Sénat : 12,5 Md€ en 2026, 7,8 Md€ en 2027'
+    annee: '2025'
+    source: ccomptes-ralfss-2026-synthese
+  - libelle: Reste à charge des ménages
+    valeur: 7,8 % de la consommation de soins
+    precision: '10,1 % en 2010, 7,7 % en 2023. Rapporté à l''ensemble de la dépense de santé : 10,2 % en 2023, 3e niveau le plus bas de l''UE (moyenne UE : 14,6 %) (HCAAM, Décryptages santé n° 2, p. 1 et 3, données DREES)'
+    annee: '2024'
+    source: hcaam-decryptages-2-2026
+  - libelle: Assurés sans médecin traitant
+    valeur: 6,4 millions
+    precision: 75,7 % des Français vivent dans un territoire classé en accès insuffisant aux soins médicaux selon le dernier zonage (Sénat, rapport n° 668, p. 5-6)
+    annee: '2025'
+    source: senat-rapport-668-deserts-medicaux
+  - libelle: Dépenses de la branche autonomie
+    valeur: 44,4 milliards d'euros
+    precision: Objectif 2027 du projet de loi, +2,5 % (après +3,5 % en 2026) ; déficit prévu de 0,2 Md€ en 2027 et de 1,6 Md€ en 2030 (Sénat, L'essentiel, p. 18-20)
+    annee: '2027'
+    source: senat-plfss-2027-essentiel
+  lois:
+  - titre: Loi n° 2023-1268 du 27 décembre 2023 visant à améliorer l'accès aux soins par l'engagement territorial des professionnels
+    resume: 'Elle modifie l''organisation territoriale de l''offre de soins : rôle du guichet unique départemental des ARS pour accompagner les professionnels, renforcement du médecin coordonnateur en Ehpad, statut d''infirmier référent, signature des certificats de décès par des infirmiers, répartition de la permanence des soins entre hôpitaux publics et cliniques privées.'
+    url: https://www.assemblee-nationale.fr/dyn/16/dossiers/soins_engagement_territorial_professionnels
+  - titre: Loi n° 2024-317 du 8 avril 2024 portant mesures pour bâtir la société du bien vieillir et de l'autonomie
+    resume: Elle crée un service public départemental de l'autonomie et une Conférence nationale de l'autonomie, renforce la lutte contre les maltraitances (instance de recueil des alertes, droit de visite des proches en établissement) et prévoit une carte professionnelle pour les aides à domicile.
+    url: https://www.senat.fr/dossier-legislatif/ppl23-147.html
+  - titre: Loi n° 2026-404 du 26 mai 2026 visant à garantir l'égal accès de tous à l'accompagnement et aux soins palliatifs
+    resume: Elle définit l'accompagnement et les soins palliatifs (douleur, souffrance psychique, besoins sociaux), crée des maisons d'accompagnement et de soins palliatifs, impose un volet palliatif dans chaque Ehpad et un plan personnalisé d'accompagnement proposé au patient. Publiée au Journal officiel du 27 mai 2026.
+    url: https://www.assemblee-nationale.fr/dyn/17/dossiers/soins_palliatifs_et_accompagnement_17e
+  - titre: Loi n° 2026-794 du 18 août 2026 relative au droit à l'aide à mourir
+    resume: Elle permet à une personne majeure, française ou résidant de façon stable en France, atteinte d'une affection grave et incurable en phase avancée ou terminale, avec une souffrance réfractaire ou insupportable, et apte à exprimer une volonté libre et éclairée, de recevoir une substance létale. Le Conseil constitutionnel l'a jugée conforme, avec trois réserves d'interprétation, dont une sur la clause de conscience (décision n° 2026-910 DC du 14 août 2026).
+    url: https://www.conseil-constitutionnel.fr/decision/2026/2026910DC.htm
+bilan:
+- nature: ne-fonctionne-pas
+  texte: 'Accès aux médecins : selon la commission des affaires sociales du Sénat (mai 2026), les aides financières à l''installation en zone sous-dotée (par exemple 10 000 € pour un médecin primo-installé) ont une efficacité limitée, en raison d''effets d''aubaine et de la dispersion des aides. Les délais médians pour voir un généraliste dépassent huit jours dans le Cher, la Nièvre, l''Yonne ou les Alpes-de-Haute-Provence. Les 10 % de la population les mieux dotés ont accès à 5,6 consultations de généraliste par an, contre 1,4 pour les 10 % les moins bien dotés (données DREES).'
+  sources:
+  - senat-rapport-668-deserts-medicaux
+- nature: debat
+  texte: 'Régulation de l''installation : les infirmiers, sages-femmes, kinésithérapeutes et dentistes sont soumis depuis 2008 (infirmiers) à un « conventionnement sélectif » dans les zones très dotées. Le rapport de l''Assemblée nationale sur la proposition de loi Garot cite une étude de la DREES (2019) : l''accessibilité s''est améliorée de 2,3 % à 5,4 % selon la profession en 2016-2017, et les inégalités de répartition ont baissé pour les sages-femmes et les infirmiers, mais pas pour les kinésithérapeutes. La commission du Sénat estime que ce dispositif a freiné les installations en zones très dotées sans attirer autant de professionnels dans les zones sous-dotées, les écarts de densité restant de 1 à 3 entre départements.'
+  sources:
+  - an-rapport-1180-deserts-medicaux
+  - senat-rapport-668-deserts-medicaux
+- nature: ne-fonctionne-pas
+  texte: 'Hôpital : selon la Cour des comptes (mai 2026), environ 30 000 patients occupent chaque jour un lit d''hôpital alors que leur état ne le justifie plus ou ne l''aurait pas justifié (attente d''une place en aval, difficultés sociales, passage aux urgences). Cela représente 10,8 millions de journées en 2024 et un surcoût net de 4,2 Md€. Le déficit des hôpitaux publics s''est stabilisé à 2,6 Md€ en 2025, mais leurs délais de paiement aux fournisseurs atteignent 71 jours en moyenne.'
+  sources:
+  - ccomptes-ralfss-2026-synthese
+  - ccomptes-ralfss-2026-ondam
+- nature: fonctionne
+  texte: 'Réforme « 100 % santé » (2019) : pour une liste de prothèses dentaires à prix plafonnés, le recours aux soins a augmenté et le reste à charge moyen des ménages est passé de 25 % à 12 %, la différence étant prise en charge par les complémentaires santé. La Cour des comptes relève de fortes disparités selon les territoires et les cabinets, et indique que l''effet sur le prix des contrats de complémentaire n''a pas encore pu être évalué.'
+  sources:
+  - ccomptes-ralfss-2026-synthese
+- nature: debat
+  texte: 'Participation financière des patients : le Haut Conseil pour l''avenir de l''assurance maladie (HCAAM, juin 2026) conclut, à partir d''études françaises et étrangères, que faire payer davantage les patients ne rend pas les soins plus pertinents et réduit surtout le recours aux soins des ménages modestes ; après la création des franchises en 2008, 12 % des personnes interrogées déclaraient avoir modifié leurs achats de médicaments. La Cour des comptes (mai 2026) estime aussi que « rien ne démontre » un effet de responsabilisation, mais juge ces participations nécessaires au rééquilibrage des comptes. Leur taux de recouvrement est passé de 90 % (2010-2014) à 78 % (2020-2024).'
+  sources:
+  - hcaam-decryptages-2-2026
+  - ccomptes-ralfss-2026-synthese
+- nature: fonctionne
+  texte: 'Financement des Ehpad : depuis juillet 2025, 23 départements expérimentent la fusion des financements « soins » et « dépendance » en un forfait unique fixé par l''ARS. Selon la commission des affaires sociales du Sénat, l''expérimentation a amélioré l''accompagnement et l''équité territoriale du reste à charge, et augmenté les moyens de 80 % des établissements participants ; elle propose de la généraliser en 2028. Les fonds d''urgence versés depuis 2023 ont amélioré la situation financière des Ehpad, mais 60 % des Ehpad publics restent en déficit.'
+  sources:
+  - senat-plfss-2027-essentiel
+effets:
+- sujet: Effet d'une hausse ou d'une réforme des franchises, participations forfaitaires et ticket modérateur
+  axes:
+  - medicaments
+  - financement
+  evaluations:
+  - source: ccomptes-ralfss-2026-synthese
+    resume: La Cour des comptes propose de prélever les franchises sur le compte bancaire des assurés et d'appliquer la procédure de recouvrement forcé (+500 M€ par an), puis de les étendre aux dentistes, sages-femmes, pharmaciens et dispositifs médicaux et de supprimer certaines exemptions (un peu plus de 600 M€). Elle suggère à plus long terme un dispositif unique, avec un plafond plus élevé seulement pour les assurés aux revenus suffisants (synthèse, p. 20-21).
+    fourchette: ≈ +500 M€ par an (recouvrement) ; ≈ +600 M€ (élargissement)
+  - source: senat-plfss-2027-essentiel
+    resume: Les mesures réglementaires de l'été 2026 rapportent 1,2 Md€ par la hausse du ticket modérateur et 0,4 Md€ par les participations forfaitaires et franchises (p. 4). Le projet de doublement des franchises prévu pour 2026 avait été rejeté par le Parlement (Cour des comptes).
+    fourchette: 1,6 Md€ (mesures de l'été 2026)
+  - source: hcaam-decryptages-2-2026
+    resume: Une hausse du ticket modérateur ou des franchises augmente la part du revenu consacrée à la santé. Pour les 20 % de ménages les plus modestes qui ne bénéficient pas de la complémentaire santé solidaire, cette hausse est de 20 à 25 % supérieure à celle de la moyenne. Le coût d'une hausse du ticket modérateur sur les médicaments est 2,5 fois plus élevé pour un ménage de 75 ans que pour un ménage de 40 à 54 ans (p. 5).
+    fourchette: Effet redistributif, pas de rendement chiffré
+  desaccords: La Cour des comptes et le HCAAM s'accordent pour dire qu'un effet de « responsabilisation » des patients n'est pas démontré. La Cour présente ces participations comme une recette nécessaire et propose de les réorganiser ; le HCAAM souligne qu'elles pèsent davantage sur les ménages modestes, les plus âgés et les malades, et que leur niveau relève d'un choix politique.
+- sujet: Effet d'une régulation de l'installation des médecins
+  axes:
+  - acces
+  evaluations:
+  - source: an-rapport-1180-deserts-medicaux
+    resume: 'Le rapport de la commission des affaires sociales de l''Assemblée (mars 2025) cite la DREES (Études et résultats n° 1100, 2019) : après le conventionnement sélectif, l''accessibilité s''est améliorée de 2,3 % (infirmiers), 2,8 % et 5,4 % selon les professions en 2016-2017 ; l''indice d''inégalité de répartition est passé de 0,649 à 0,624 pour les sages-femmes et de 0,465 à 0,459 pour les infirmiers, mais a augmenté de 0,424 à 0,431 pour les kinésithérapeutes. Il cite aussi des pays qui régulent (Allemagne, Danemark, Québec) (p. 30-32).'
+    fourchette: Accessibilité +2,3 % à +5,4 % (autres professions, 2016-2017)
+  - source: senat-rapport-668-deserts-medicaux
+    resume: 'Selon la commission des affaires sociales du Sénat (mai 2026), la mesure ne porterait que sur les nouvelles installations et non sur les médecins déjà installés : ses effets seraient faibles à court terme. Elle craint une concentration des installations dans les zones sous-denses les plus attractives, comme certaines métropoles, dans un contexte de pénurie générale de médecins (p. 8-9).'
+    fourchette: Non chiffré
+  desaccords: 'Les deux rapports s''appuient sur l''expérience des autres professions de santé mais en tirent des conclusions opposées : réduction des inégalités pour le rapporteur de l''Assemblée, déplacement des installations vers d''autres zones attractives pour la commission du Sénat. La DREES, citée par l''Assemblée, juge qu''aucune conclusion générale ne peut être tirée des comparaisons internationales. Aucun chiffrage de l''effet attendu pour les médecins n''a été trouvé.'
+- sujet: 'Effet d''un allongement du délai de carence en cas d''arrêt maladie (exemple : 3 jours dans le secteur public)'
+  axes:
+  - financement
+  evaluations:
+  - source: insee-analyses-95-carence
+    resume: Dans l'Éducation nationale (environ 16 % des agents publics), le jour de carence a réduit en moyenne de 23 % la fréquence des absences pour maladie ordinaire et de 5 % le nombre total de jours d'absence, surtout pour les absences de moins de sept jours. Les femmes et les personnels de l'éducation prioritaire, qui restent plus souvent absents, sont davantage pénalisés. L'Insee ne peut pas conclure à une baisse des arrêts injustifiés.
+    fourchette: −23 % d'absences ; −5 % de jours d'absence (1 jour de carence)
+  - source: ifrap-absenteisme-2024
+    resume: La Fondation iFRAP (septembre 2024) rapporte qu'un rapport des inspections générales des finances et des affaires sociales chiffre à 289 M€ l'économie d'un passage à 3 jours de carence dans la fonction publique. Elle défend un alignement sur le secteur privé, tout en notant que la plupart des salariés du privé sont indemnisés par leur employeur pendant ces jours.
+    fourchette: ≈ 289 M€ par an (fonction publique)
+  desaccords: L'Insee mesure l'effet d'un seul jour de carence, la Fondation iFRAP cite le chiffrage de trois jours ; aucun chiffrage d'une généralisation à 3 jours non compensés dans le secteur privé n'a été trouvé. L'Insee souligne que la mesure peut inciter des personnes malades à venir travailler ; la Fondation iFRAP met en avant l'équité entre public et privé.
+- sujet: Coût du vieillissement et de la perte d'autonomie
+  axes:
+  - grand-age
+  evaluations:
+  - source: senat-plfss-2027-essentiel
+    resume: Selon la CNSA, citée par la commission du Sénat, l'effort supplémentaire nécessaire pour la seule allocation personnalisée d'autonomie atteindrait 12 Md€ à l'horizon 2050, pour 700 000 bénéficiaires de plus. La commission estime que les moyens prévus ne couvrent pas cette hausse des besoins (p. 19-20).
+    fourchette: +12 Md€ (APA, horizon 2050)
+  - source: insee-premiere-1767
+    resume: 'Projection Insee-DREES (2019) : 4 millions de seniors en perte d''autonomie en 2050, contre 2,5 millions en 2015. À politique de maintien à domicile inchangée, le nombre de places en établissement devrait augmenter de 20 % d''ici 2030 et de plus de 50 % d''ici 2050. L''Insee signale que ces projections sont en cours de correction et de révision.'
+    fourchette: +20 % de places en 2030 ; +50 % en 2050
+  desaccords: Ces estimations portent sur des besoins (bénéficiaires, places) et non sur le coût d'une mesure précise. Elles dépendent de l'évolution de l'espérance de vie sans incapacité et de la part des personnes aidées à domicile ; la projection de 2019 est en cours de révision.
+- sujet: Coût du développement des soins palliatifs
+  axes:
+  - fin-de-vie
+  evaluations:
+  - source: senat-rapport-266-soins-palliatifs
+    resume: 'Selon le rapport du Sénat (janvier 2026), la stratégie décennale lancée en avril 2024 prévoit 1,1 Md€ d''investissement d''ici 2034 : le budget des soins palliatifs passerait de 1,6 Md€ en 2022 à 2,7 Md€ en 2034 (+66 %).'
+    fourchette: +1,1 Md€ d'ici 2034
+  - source: ccomptes-soins-palliatifs-2023
+    resume: La Cour des comptes (juillet 2023) évalue la dépense publique de soins palliatifs à 1,453 Md€ en 2021 (+24,6 % depuis 2017). Les besoins ne seraient couverts qu'à 50 % et augmenteront avec le vieillissement ; elle recommande de développer l'offre à domicile et en établissement médico-social, moins coûteuse que l'hôpital (synthèse, p. 7-8).
+    fourchette: 1,45 Md€ de dépense en 2021
+  desaccords: Les montants de départ diffèrent (1,453 Md€ en 2021 selon la Cour, 1,6 Md€ selon le ministère, cité par le Sénat) en raison du périmètre et de l'année. Aucun chiffrage public du coût de la loi sur l'aide à mourir n'a été trouvé.
+glossaire:
+- lfss
+- ondam
+- tarification-activite
+- affection-longue-duree
+- ticket-moderateur
+- franchise-medicale
+- reste-a-charge
+- medecin-traitant
+- ehpad
+- apa
+- soins-palliatifs
+- aide-a-mourir

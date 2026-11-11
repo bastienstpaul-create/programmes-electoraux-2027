@@ -1,8 +1,8 @@
 numero: 2
 titre: Sécurité, justice, libertés publiques
 icone: shield
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: police
   libelle: Police et gendarmerie
@@ -18,3 +18,152 @@ axes:
   libelle: Drogues et trafics
 - id: libertes
   libelle: Libertés publiques et surveillance
+situation:
+  texte: 'La sécurité intérieure repose sur deux forces nationales : la police nationale et la gendarmerie nationale. Leurs moyens sont fixés pour 2023-2027 par la [[LOPMI|lopmi]]. Pour 2027, le projet de budget prévoit 9,9 milliards d''euros pour la police et 7,2 milliards pour la gendarmerie (hors pensions). Selon la commission des finances du Sénat, la police devrait avoir gagné 5 048 emplois sur la période, au-delà de l''objectif, et la gendarmerie 2 649, en deçà. Sur 239 nouvelles brigades de gendarmerie annoncées, 158 seraient créées fin 2027. En 2025, police et gendarmerie ont enregistré environ 473 000 victimes de violences physiques et 132 000 victimes de violences sexuelles. Ces chiffres ne portent que sur les faits signalés à la police ou à la gendarmerie.
+
+
+    Le projet de budget pour 2026 prévoyait 13,1 milliards d''euros de crédits pour la justice. La [[LOPJ|lopj]] 2023-2027 prévoit 10 000 emplois supplémentaires, dont 1 500 magistrats et 1 800 greffiers. La France compte 11,3 juges professionnels pour 100 000 habitants (2022), contre une médiane européenne de 17,6, selon le Conseil de l''Europe (CEPEJ). En 2025, une affaire civile au tribunal judiciaire durait en moyenne 8,1 mois, et le stock d''affaires en attente a augmenté de 8,1 %, à 1,2 million.
+
+
+    Au 1er octobre 2026, 90 937 personnes étaient détenues pour 63 452 places, soit une [[densité carcérale|densite-carcerale]] de 143,3 % (178 % dans les [[maisons d''arrêt|maison-arret]]). 8 959 personnes dormaient sur un matelas posé au sol. Plus d''un quart des détenus (27,2 %) sont en [[détention provisoire|detention-provisoire]], c''est-à-dire pas encore jugés définitivement. Le plan de construction de 15 000 places lancé en 2018 n''était réalisé qu''à 35 ou 36 % fin 2025, selon la commission des finances du Sénat et la Fondation iFRAP (qui cite un audit de la Cour des comptes). Les peines peuvent aussi s''exécuter hors de prison, notamment sous [[surveillance électronique|ddse]] ou sous forme de [[travail d''intérêt général|tig]]. Une large part des condamnés commet une nouvelle infraction ([[récidive|recidive]]) : 33 % des sortants de prison dans l''année suivant leur libération.
+
+
+    Plusieurs lois récentes ont modifié le droit pénal. La loi « narcotrafic » de 2025 a créé un [[parquet national anti-criminalité organisée|pnaco]] et de nouvelles techniques d''enquête. L''usage de stupéfiants est un délit puni d''un an de prison et de 3 750 € d''amende ; il est le plus souvent sanctionné par une [[amende forfaitaire délictuelle|amende-forfaitaire-delictuelle]] de 200 €. Selon la MILDECA, la France compte 5 millions d''usagers de cannabis dans l''année et 1,1 million d''usagers de cocaïne. Pour les mineurs, la loi de 2025 « à l''égard des mineurs délinquants » a été en grande partie censurée par le Conseil constitutionnel, au nom du principe d''[[atténuation de la responsabilité des mineurs|excuse-de-minorite]]. Côté libertés publiques, la loi sur les Jeux olympiques de 2023 a autorisé à titre expérimental, jusqu''au 31 mars 2025, la [[vidéoprotection algorithmique|videoprotection-algorithmique]].'
+  chiffres:
+  - libelle: Personnes détenues
+    valeur: 90 937
+    precision: Pour 63 452 places opérationnelles, soit une densité carcérale de 143,3 % (135,8 % un an plus tôt) ; 178,0 % dans les maisons d'arrêt ; 8 959 matelas au sol ; 24 716 prévenus (27,2 %). Au 1er octobre 2026 (Mesure de l'incarcération, p. 1)
+    annee: '2026'
+    source: dap-mesure-incarceration-2026-10
+  - libelle: Victimes de violences enregistrées
+    valeur: ≈ 473 000 (violences physiques) et ≈ 132 000 (violences sexuelles)
+    precision: Victimes enregistrées par la police et la gendarmerie, hors homicides ; dont 257 000 en cadre intrafamilial pour les violences physiques ; violences sexuelles +155 % depuis 2016. Données SSMSI reprises par la commission des finances du Sénat (note PLF 2027, p. 26)
+    annee: '2025'
+    source: senat-np-securites-plf2027
+  - libelle: Crédits de la police et de la gendarmerie
+    valeur: 9,9 Md€ (police) et 7,2 Md€ (gendarmerie)
+    precision: 'Crédits de paiement hors pensions proposés dans le projet de loi de finances pour 2027 (9,924 et 7,176 Md€) ; mission « Sécurités » au total : 26,6 Md€ (Sénat, note PLF 2027, p. 5 et 9)'
+    annee: '2027'
+    source: senat-np-securites-plf2027
+  - libelle: Crédits de la mission Justice
+    valeur: 13,1 Md€
+    precision: Crédits de paiement du projet de loi de finances pour 2026, dont 5,5 Md€ pour l'administration pénitentiaire et 4,8 Md€ pour la justice judiciaire ; +1 600 emplois en 2026 (Sénat, L'essentiel PLF 2026, p. 1-2)
+    annee: '2026'
+    source: senat-essentiel-justice-plf2026
+  - libelle: Durée moyenne d'une affaire civile au tribunal judiciaire
+    valeur: 8,1 mois
+    precision: Affaires au fond et référés, hors ruptures d'union et procédures spéciales (7,9 mois en 2024) ; stock de 1,2 million d'affaires au 31 décembre 2025 (+8,1 %) (Références statistiques justice 2026, fiche 4.1)
+    annee: '2025'
+    source: rsj-2026-tribunaux-judiciaires
+  - libelle: Usagers de drogues illicites dans l'année
+    valeur: 5 millions (cannabis) ; 1,1 million (cocaïne)
+    precision: Dont 900 000 usagers quotidiens de cannabis ; 3,7 millions d'adultes ont déjà consommé de la cocaïne (MILDECA, guide décembre 2025, p. 3)
+    annee: '2025'
+    source: mildeca-guide-drogues-2025
+  lois:
+  - titre: Loi n° 2023-22 du 24 janvier 2023 d'orientation et de programmation du ministère de l'intérieur (LOPMI)
+    resume: 'Elle programme les moyens du ministère de l''Intérieur de 2023 à 2027 : son budget devait passer de 20,8 à 25,4 milliards d''euros par an (hors pensions). Le Conseil constitutionnel a censuré quelques dispositions (décision n° 2022-846 DC du 19 janvier 2023).'
+    url: https://www.conseil-constitutionnel.fr/decision/2023/2022846DC.htm
+  - titre: Loi n° 2023-1059 du 20 novembre 2023 d'orientation et de programmation du ministère de la justice 2023-2027 (LOPJ)
+    resume: Elle fixe la trajectoire des crédits de la justice jusqu'en 2027 et prévoit 10 000 emplois supplémentaires, dont 1 500 magistrats. Elle modifie aussi la procédure pénale. Plusieurs articles ont été censurés (décision n° 2023-855 DC du 16 novembre 2023).
+    url: https://www.conseil-constitutionnel.fr/decision/2023/2023855DC.htm
+  - titre: Loi n° 2025-532 du 13 juin 2025 visant à sortir la France du piège du narcotrafic
+    resume: Issue d'une commission d'enquête du Sénat, elle crée un parquet national anti-criminalité organisée, renforce les techniques d'enquête et prévoit des quartiers de haute sécurité en prison. Le Conseil constitutionnel en a censuré plusieurs articles et émis des réserves (décision n° 2025-885 DC du 12 juin 2025).
+    url: https://www.conseil-constitutionnel.fr/decision/2025/2025885DC.htm
+  - titre: Loi de 2025 visant à renforcer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents
+    resume: Le Conseil constitutionnel a censuré six articles, dont la comparution immédiate des mineurs de 16 ans et plus, la levée de principe de l'atténuation des peines pour les plus de 16 ans récidivistes et l'allongement à un an de la détention provisoire des moins de 16 ans (décision n° 2025-886 DC du 19 juin 2025).
+    url: https://www.conseil-constitutionnel.fr/decision/2025/2025886DC.htm
+bilan:
+- nature: ne-fonctionne-pas
+  texte: 'Prisons : la population détenue augmente plus vite que les places. Au 1er octobre 2026, la densité atteint 143,3 % (114,3 % au 1er janvier 2022) et le taux d''encellulement individuel est tombé à 31,3 %. Le plan « 15 000 places » n''avait livré que 5 411 places fin 2025, selon un audit de la Cour des comptes cité par la Fondation iFRAP. La commission des lois du Sénat juge la réponse par la construction « structurellement insuffisante » à elle seule pour endiguer la surpopulation.'
+  sources:
+  - dap-mesure-incarceration-2026-10
+  - senat-avis-penitentiaire-plf2026
+  - ifrap-justice-2026
+- nature: debat
+  texte: 'Sévérité des peines : la commission des lois du Sénat relève que la France incarcère plus que la médiane européenne (112 détenus pour 100 000 habitants contre 105 en 2024) et que la durée moyenne de détention y est plus longue (11,7 mois contre 8,7). Elle en conclut que la justice n''est « en aucun cas laxiste ». La Fondation iFRAP souligne de son côté le délai d''exécution des peines : 14 mois en moyenne pour une peine de prison ferme, selon l''Inspection générale de la justice.'
+  sources:
+  - senat-avis-penitentiaire-plf2026
+  - ifrap-justice-2026
+- nature: debat
+  texte: 'Alternatives à la prison : la Cour des comptes (2025) mesure près de 60 % de récidive dans les cinq ans après un travail d''intérêt général, un niveau proche de la prison ferme. Pour les aménagements de peine sous bracelet électronique, la récidive à trois ans est inférieure de 9 à 19 points à celle des sorties de prison sans aménagement, ce qui s''explique en partie par le profil des condamnés. Ces mesures coûtent bien moins cher que la détention (1 862 € par TIG et 2 788 € par mesure sous bracelet, contre 142 € par jour de détention).'
+  sources:
+  - ccomptes-peines-alternatives-2025
+- nature: ne-fonctionne-pas
+  texte: 'Récidive : selon la Cour des comptes, 33 % des sortants de prison récidivent dans l''année et 59 % dans les quatre ans (sortants de 2016). Ce niveau est stable depuis vingt ans. La Cour juge que les études françaises sur la récidive reposent souvent sur une méthode fragile et des données anciennes.'
+  sources:
+  - ccomptes-peines-alternatives-2025
+- nature: debat
+  texte: 'Amende forfaitaire délictuelle (AFD) : la Cour des comptes (2026) constate un outil apprécié des forces de l''ordre, qui réprime des délits jusqu''ici peu poursuivis : pour l''usage de stupéfiants, la part des AFD dans la réponse pénale est passée de 26 % à 76 % entre 2019 et 2024. Mais seules 34,6 % des AFD pour stupéfiants sont payées au stade initial, et 1,1 milliard d''euros d''AFD majorées restait à recouvrer fin 2025. La Cour recommande de ne plus étendre l''AFD avant d''avoir corrigé ces défauts.'
+  sources:
+  - ccomptes-afd-2026
+- nature: fonctionne
+  texte: 'Moyens : les lois de programmation ont été globalement respectées. Pour 2023-2027, les crédits cumulés dépassent les montants prévus par la LOPMI d''environ 3 milliards d''euros pour la police et la gendarmerie. Les crédits de la justice ont augmenté d''un tiers en euros constants en dix ans. Mais la gendarmerie reste 891 emplois sous son objectif, et le Sénat note que les effets sur les délais de jugement « ne soient encore guère visibles ».'
+  sources:
+  - senat-np-securites-plf2027
+  - senat-essentiel-justice-plf2026
+effets:
+- sujet: Coût d'une augmentation des places de prison
+  axes:
+  - prisons
+  evaluations:
+  - source: ccomptes-peines-alternatives-2025
+    resume: En intégrant la valeur du parc pénitentiaire, la Cour estime le coût complet d'une journée de détention à 141,99 € en 2022 ; la valeur brute du parc représente environ 271 000 € par place (annexe, p. 129 du PDF).
+    fourchette: ≈ 142 € par jour de détention (2022)
+  - source: ccomptes-surpopulation-2023
+    resume: Le coût budgétaire du programme « 15 000 places » a été réévalué à 5,4 Md€ par la direction du budget en juin 2022, contre 4,5 Md€ prévus. La Cour estime à environ 4 Md€ par an la dépense consacrée à l'exécution des peines d'incarcération (p. 9, 16 et 43 du PDF).
+    fourchette: 5,4 Md€ pour le programme de 15 000 places
+  - source: ifrap-justice-2026
+    resume: 'Même avec 10 000 places supplémentaires d''ici 2031, le parc atteindrait 73 413 places pour 88 145 détenus (chiffre d''avril 2026) : la construction seule ne suffirait pas. La Fondation propose d''ajouter environ 7 000 lits de psychiatrie pour les détenus atteints de troubles mentaux, pour 1,76 Md€ d''investissement (Revue n° 280, p. 13 et 17-18 du PDF).'
+    fourchette: 1,76 Md€ d'investissement (plan psychiatrique proposé)
+  desaccords: La Cour des comptes et la commission des lois du Sénat jugent la construction nécessaire mais insuffisante, et insistent sur l'exécution des peines hors prison. La Fondation iFRAP met l'accent sur les détenus atteints de troubles psychiatriques.
+- sujet: Coût et effets des peines alternatives (bracelet électronique, TIG)
+  axes:
+  - prisons
+  - penal
+  evaluations:
+  - source: ccomptes-peines-alternatives-2025
+    resume: Un TIG coûte en moyenne 1 862 € et une détention à domicile sous bracelet 2 788 € (2022). Le bracelet en aménagement de peine réduit la récidive à trois ans de 9 à 19 points par rapport aux sorties sans aménagement ; le TIG ne fait pas mieux que la prison ferme à cinq ou dix ans (synthèse, p. 13-15).
+    fourchette: −9 à −19 points de récidive à 3 ans (bracelet en aménagement de peine)
+  desaccords: La Cour précise que ces résultats portent sur des condamnés de 2016-2017, avant la forte hausse du nombre de bracelets, et que le profil des bénéficiaires explique une partie de l'écart. L'efficacité de la détention à domicile prononcée comme peine n'a pas pu être mesurée.
+- sujet: Coût d'un renforcement des effectifs de la justice
+  axes:
+  - justice
+  - prisons
+  evaluations:
+  - source: ifrap-justice-2026
+    resume: 'Pour rapprocher la France de la moyenne européenne, la Fondation chiffre 20 972 emplois supplémentaires (police pénitentiaire, psychiatrie, parquet, jugement des affaires criminelles en attente) pour 2,7 Md€ par an vers 2030-2032, et 137,5 M€ d''économies possibles. Coût net : environ 2,57 Md€ par an (p. 2 et 18 du PDF).'
+    fourchette: ≈ 2,6 Md€ par an (coût net)
+  - source: senat-essentiel-justice-plf2026
+    resume: 'La LOPJ prévoit 10 000 emplois nets supplémentaires de 2023 à 2027. Pour 2026, le projet de budget prévoit 10,63 Md€ hors pensions, légèrement moins que les 10,69 Md€ de la trajectoire : le Sénat juge la loi « dans l''ensemble respectée » pour les crédits (p. 2).'
+    fourchette: 10 000 emplois sur 2023-2027
+  desaccords: 'La comparaison européenne dépend du périmètre retenu : la France a moins de juges professionnels mais plus de juridictions spécialisées et de juges non professionnels (prud''hommes, tribunaux de commerce). Le Sénat insiste sur le délai de formation des magistrats avant tout effet sur les délais.'
+- sujet: Effets de l'amende forfaitaire pour usage de stupéfiants
+  axes:
+  - drogues
+  evaluations:
+  - source: ccomptes-afd-2026
+    resume: L'AFD (200 €) est devenue la réponse principale à l'usage de stupéfiants. Mais le taux de paiement reste faible (34,6 % au stade initial), le taux d'irrégularité des verbalisations a augmenté et les contestations alourdissent le travail des parquets. La Cour estime que l'AFD détourne en partie les forces de l'ordre du renseignement.
+    fourchette: 34,6 % de paiement au stade initial ; 1,1 Md€ restant à recouvrer (toutes AFD majorées)
+  desaccords: La Cour constate des résultats pour des délits auparavant peu poursuivis, mais doute de la sanction effective. Aucun chiffrage officiel récent d'une légalisation ou d'une dépénalisation du cannabis n'a pu être consulté.
+- sujet: Effets des créations d'emplois dans la police et la gendarmerie
+  axes:
+  - police
+  evaluations:
+  - source: senat-np-securites-plf2027
+    resume: Sur 2023-2027, la police gagne 5 048 emplois (1 176 de plus que prévu) et la gendarmerie 2 649 (891 de moins que prévu). En 2027, 700 des 970 emplois nouveaux de la police iraient à l'investigation. Faute d'emplois, 81 des 239 brigades de gendarmerie annoncées ne seraient pas créées fin 2027 (p. 19-25).
+    fourchette: +5 048 (police) et +2 649 (gendarmerie) emplois sur 2023-2027
+  desaccords: Aucune évaluation publique consultée ne mesure l'effet de ces renforts sur la délinquance. Le Sénat demande que l'effort se poursuive ; les choix entre présence sur la voie publique, investigation et lutte contre l'immigration irrégulière restent débattus.
+glossaire:
+- lopmi
+- lopj
+- densite-carcerale
+- maison-arret
+- detention-provisoire
+- ddse
+- tig
+- recidive
+- amende-forfaitaire-delictuelle
+- pnaco
+- excuse-de-minorite
+- videoprotection-algorithmique

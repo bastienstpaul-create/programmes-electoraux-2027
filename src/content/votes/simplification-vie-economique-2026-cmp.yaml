@@ -1,0 +1,89 @@
+theme: economie-industrie-emploi
+titre: Projet de loi de simplification de la vie économique
+objet: Vote sur l'ensemble du projet de loi, texte de la commission mixte paritaire.
+date: 2026-04-14
+legislature: 17
+numero_scrutin: 6184
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/6184
+axes:
+- pme
+resultat: adopte
+decompte:
+  pour: 275
+  contre: 225
+  abstention: 30
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 118
+  contre: 0
+  abstention: 1
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 25
+  contre: 30
+  abstention: 19
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 68
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 67
+  abstention: 1
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 43
+  contre: 0
+  abstention: 3
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 38
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 25
+  contre: 2
+  abstention: 2
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 32
+  contre: 2
+  abstention: 0
+  non_votants: 1
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 9
+  contre: 4
+  abstention: 4
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 13
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 17
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 6
+  contre: 1
+  abstention: 0
+  non_votants: 0
+note: Le Sénat a adopté le texte le 15 avril 2026. Le Conseil constitutionnel a censuré 23 articles et une partie de deux autres, dont la suppression des zones à faibles émissions (décision n° 2026-903 DC du 21 mai 2026).
+date_consultation: 2026-11-11
