@@ -1,0 +1,83 @@
+theme: culture-sport-medias
+titre: 'Projet de loi de finances rectificative pour 2022 : article 1er (suppression de la contribution à l''audiovisuel public)'
+objet: Vote, en première lecture, sur l'article 1er du projet de loi de finances rectificative pour 2022, qui supprime la contribution à l'audiovisuel public (138 euros par an et par foyer en métropole) et prévoit un autre mode de financement des sociétés de l'audiovisuel public.
+date: 2022-07-23
+legislature: 16
+numero_scrutin: 101
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/101
+axes:
+- audiovisuel-public
+resultat: adopte
+decompte:
+  pour: 170
+  contre: 57
+  abstention: 0
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 84
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 36
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 0
+  contre: 36
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 9
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 23
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés (membre de l’intergroupe NUPES)
+  sigle: SOC
+  pour: 0
+  contre: 4
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 16
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 0
+  contre: 7
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 0
+  contre: 6
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 1
+  contre: 3
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 1
+  contre: 1
+  abstention: 0
+  non_votants: 0
+note: La suppression figure dans la loi n° 2022-1157 du 16 août 2022 de finances rectificative pour 2022. L'audiovisuel public est depuis financé par une part du produit de la TVA (4,026 milliards d'euros en 2024). Décompte relevé sur la page du scrutin ; les données ouvertes de l'Assemblée répartissent différemment 7 voix « pour » entre Renaissance et les non-inscrits.
+date_consultation: 2026-11-11

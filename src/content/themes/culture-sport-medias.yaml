@@ -1,8 +1,8 @@
 numero: 16
 titre: Culture, sport, médias
 icone: palette
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: audiovisuel-public
   libelle: Audiovisuel public
@@ -16,3 +16,157 @@ axes:
   libelle: Création et droits d'auteur
 - id: sport
   libelle: Sport
+situation:
+  texte: 'La culture pèse environ 2 % de l''économie française : en 2024, la valeur ajoutée des branches culturelles (audiovisuel, spectacle vivant, publicité, patrimoine, livre, presse…) atteignait 54,1 milliards d''euros, soit 2,1 % de l''ensemble de l''économie. Les administrations publiques (État, collectivités, organismes publics) ont consacré 19,0 milliards d''euros aux services culturels en 2024, soit 0,6 % de la richesse nationale ([[PIB|pib]]), contre 0,5 % en moyenne dans l''Union européenne. Les collectivités territoriales en assurent une large part : 10 milliards d''euros en 2024, dont 79 % pour les communes de plus de 3 500 habitants et leurs intercommunalités. Dans le projet de budget de l''État pour 2027, la mission « Culture » (patrimoines, création, transmission des savoirs, fonctionnement du ministère) est dotée de 3,65 milliards d''euros de crédits de paiement, soit 2,6 % de moins qu''en 2026. Le [[pass Culture|pass-culture]] a été réformé en mars 2025 : 50 euros à 17 ans et 150 euros à 18 ans, au lieu de 300 euros à 18 ans auparavant, et suppression de la part individuelle à 15 et 16 ans. Le cinéma et l''audiovisuel sont soutenus par le [[CNC|cnc]], financé par des taxes sur la diffusion des œuvres (836 millions d''euros attendus en 2027), et par des [[crédits d''impôt|credits-impot-audiovisuel]] estimés à 498 millions d''euros en 2027.
+
+
+    L''audiovisuel public (France Télévisions, Radio France, France Médias Monde, Arte France, INA, TV5 Monde) était financé jusqu''en 2022 par la [[contribution à l''audiovisuel public|contribution-audiovisuel-public]] (138 euros par an et par foyer équipé d''un téléviseur en métropole). Elle a été supprimée par la loi de finances rectificative du 16 août 2022 et remplacée par une part du produit de la [[TVA|tva]], mode de financement rendu durable par une loi organique de décembre 2024. Le projet de budget pour 2027 prévoit 3,82 milliards d''euros pour ces sociétés, soit 46,8 millions d''euros de moins qu''en 2026, la baisse portant surtout sur France Télévisions. Les présidents de France Télévisions, Radio France et France Médias Monde sont nommés par l''[[Arcom|arcom]], autorité indépendante de régulation. Le projet de regrouper ces sociétés dans une société commune (« holding » France Médias), adopté par le Sénat, a été rejeté par l''Assemblée nationale le 30 juin 2025, puis adopté à nouveau par le Sénat le 11 juillet 2025 ; il attend une deuxième lecture à l''Assemblée. Une commission d''enquête de l''Assemblée sur la neutralité, le fonctionnement et le financement de l''audiovisuel public a rendu son rapport en avril 2026. Côté médias privés, les règles limitant la concentration datent pour l''essentiel de la loi du 30 septembre 1986 et ne portent pas sur les audiences en ligne. Selon un rapport de l''Assemblée nationale de février 2026, quatre groupes privés (TF1, M6, Canal+ et CMA CGM) éditent 16 des 26 chaînes de la télévision numérique terrestre et réunissent près de 60 % de l''audience télévisée, et les quatre premiers titres de presse représentent 86 % de la diffusion imprimée et numérique ; le même rapport note que la concentration reste inférieure à la moyenne européenne. Un règlement européen sur la liberté des médias impose depuis le 8 août 2025 d''évaluer les concentrations au regard du pluralisme ; il n''a pas encore fait l''objet de mesures d''adaptation en droit français. Le chiffre d''affaires de la presse est passé de 10,6 à 5,6 milliards d''euros entre 2004 et 2024 ; l''État lui consacre 363 millions d''euros d''aides directes en 2027. Une loi renforçant les [[droits voisins|droits-voisins]] des éditeurs de presse face aux plateformes numériques est en fin de navette parlementaire (novembre 2026).
+
+
+    Le patrimoine compte 45 446 immeubles protégés au titre des [[monuments historiques|monument-historique]] (fin 2025), situés pour 58 % en zone rurale ; près d''un quart sont en mauvais état selon le Sénat. Aux abords de ces monuments, les travaux sont soumis à l''avis des [[architectes des Bâtiments de France|abf]] (189 en poste en 2024). Une loi du 9 mai 2026 organise la restitution à des États étrangers de biens culturels des collections publiques ayant fait l''objet d''une appropriation illicite. Côté création, une mission de l''Assemblée (novembre 2025) relève que 109 000 [[artistes-auteurs|artiste-auteur]] vivent principalement du droit d''auteur et que plus de 60 % gagnent moins que le SMIC annuel. Une œuvre entre dans le [[domaine public|domaine-public]] soixante-dix ans après la mort de son auteur. Face à l''intelligence artificielle, une proposition de loi créant une présomption d''utilisation des œuvres par les fournisseurs d''IA a été adoptée à l''unanimité par le Sénat au printemps 2026 et attend son examen en séance à l''Assemblée.
+
+
+    Côté sport, 61 % des personnes de 15 ans ou plus pratiquaient une activité sportive au moins une fois par semaine en 2025, soit 7 points de plus qu''en 2018 ; la pratique en club concerne 20 % des pratiquants, contre 24 % en 2018. Les crédits du programme « Sport » de l''État baissent de 8,7 % dans le projet de budget pour 2027 (500,8 millions d''euros). Le [[Pass''Sport|pass-sport]], aide de 50 euros pour l''inscription dans un club, a été plusieurs fois modifié depuis 2021 ; pour 2026-2027, il vise les 6-17 ans des foyers les plus modestes et doit être géré par les caisses d''allocations familiales. La loi du 3 août 2026 sur le sport professionnel modifie la gouvernance des fédérations et des ligues : contrôle d''honorabilité des dirigeants, encadrement des sociétés commerciales créées par les ligues, dialogue avec les supporters. Les Jeux olympiques et paralympiques d''hiver de 2030 se tiendront dans les Alpes françaises.'
+  chiffres:
+  - libelle: Poids économique de la culture
+    valeur: 54,1 milliards d'euros
+    precision: Valeur ajoutée des branches culturelles, soit 2,1 % de l'ensemble de l'économie ; recul de 0,5 % en volume en 2024 (DEPS, Culture chiffres CC-2026-3)
+    annee: '2024'
+    source: deps-poids-economique-culture-2024
+  - libelle: Dépenses publiques pour les services culturels
+    valeur: 0,6 % du PIB
+    precision: '18,96 milliards d''euros, toutes administrations publiques (fonction COFOG 08.2) ; moyenne de l''Union européenne : 0,5 % du PIB (Eurostat, gov_10a_exp, mise à jour d''octobre 2026)'
+    annee: '2024'
+    source: eurostat-cofog-culture-2024
+  - libelle: Crédits de la mission « Culture » de l'État
+    valeur: 3,65 milliards d'euros
+    precision: Crédits de paiement demandés pour 2027, contre 3,74 milliards en loi de finances 2026 (−2,55 %) ; hors audiovisuel public, presse, livre et cinéma (projet annuel de performances, p. 16)
+    annee: '2027'
+    source: pap-culture-plf2027
+  - libelle: Dotations de l'audiovisuel public
+    valeur: 3,82 milliards d'euros
+    precision: 'Projet de loi de finances pour 2027 : −46,8 millions d''euros (−1,21 %) par rapport à 2026, dont 2,38 milliards pour France Télévisions ; −19,6 % hors inflation entre 2018 et 2027 (Sénat, note de présentation, p. 40-43)'
+    annee: '2027'
+    source: senat-np-mlic-plf2027
+  - libelle: Immeubles protégés au titre des monuments historiques
+    valeur: 45 446
+    precision: Classés ou inscrits, au 31 décembre 2025 ; 43 % appartiennent aux communes, 58 % sont situés en zone rurale, 34 % sont des édifices religieux (Sénat, commission de la culture, juillet 2026)
+    annee: '2025'
+    source: senat-essentiel-monuments-historiques-2026
+  - libelle: Pratique sportive régulière
+    valeur: 61 %
+    precision: Part des 15 ans ou plus pratiquant au moins une fois par semaine ; +2 points par rapport à 2023, +7 points par rapport à 2018 ; 84 % chez les 15-29 ans (INJEP, Baromètre national des pratiques sportives 2025)
+    annee: '2025'
+    source: sports-gouv-barometre-2025
+  lois:
+  - titre: Loi n° 86-1067 du 30 septembre 1986 relative à la liberté de communication
+    resume: Elle garantit la liberté de communication audiovisuelle et confie à l'Arcom la régulation des radios et télévisions, la délivrance des fréquences et la nomination des présidents de l'audiovisuel public. Ses articles 39 à 41-2-1 fixent les plafonds anti-concentration pour la télévision, la radio et les cumuls entre médias.
+    url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512205/
+  - titre: Loi organique n° 2024-1177 du 13 décembre 2024 portant réforme du financement de l'audiovisuel public
+    resume: Elle rend durable le financement de l'audiovisuel public par une part de la TVA, mis en place après la suppression de la contribution à l'audiovisuel public par la loi de finances rectificative du 16 août 2022. Le montant reste voté chaque année en loi de finances. Le Conseil constitutionnel l'a jugée conforme (décision n° 2024-873 DC du 12 décembre 2024).
+    url: https://www.conseil-constitutionnel.fr/decision/2024/2024873DC.htm
+  - titre: Règlement (UE) 2024/1083 du 11 avril 2024 sur la liberté des médias
+    resume: Règlement européen qui protège l'indépendance éditoriale et le pluralisme. Il prévoit un financement suffisant, durable et prévisible des médias de service public et, depuis le 8 août 2025 (article 22), une évaluation des concentrations dans le secteur des médias au regard du pluralisme.
+    url: https://eur-lex.europa.eu/eli/reg/2024/1083/oj
+  - titre: Loi n° 2026-725 du 3 août 2026 relative à l'organisation, à la gestion et au financement du sport professionnel
+    resume: Elle interdit certaines fonctions de direction dans les fédérations aux personnes condamnées pour certains crimes ou délits (contrôle d'honorabilité). Elle encadre la convention par laquelle une fédération confie des activités à une société commerciale. Elle oblige les fédérations et les ligues au dialogue avec les associations de supporters et à un suivi de l'égalité entre sport masculin et féminin.
+    url: https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N51732
+bilan:
+- nature: fonctionne
+  texte: 'France Télévisions : selon la Cour des comptes (septembre 2025), la fusion des sociétés en une entreprise unique, décidée en 2009, a été menée à bien sur la période 2017-2024 (direction unique des programmes, rédaction nationale unique). La part d''audience du groupe a gagné 1,5 point depuis 2017, à 29,8 %. En 2023, 75 % des Français disaient faire confiance à son offre d''information, contre 54 % en moyenne pour les chaînes privées.'
+  sources:
+  - ccomptes-france-televisions-2025
+- nature: ne-fonctionne-pas
+  texte: 'La même enquête de la Cour des comptes juge la situation financière de France Télévisions « critique » : résultats nets en déficit cumulé de 81 millions d''euros entre 2017 et 2024, et orientations contradictoires de l''État en 2023-2024 (hausse des moyens annoncée, puis crédits gelés et annulés). Les contrats d''objectifs et de moyens prévus pour 2024-2028 ont été abandonnés à l''automne 2024 et les nouveaux contrats pour 2026-2028 n''étaient toujours pas proposés en octobre 2026, selon le Sénat. Entre 2018 et 2027, hors inflation, les dotations publiques de l''audiovisuel public baissent de 19,6 %.'
+  sources:
+  - ccomptes-france-televisions-2025
+  - senat-np-mlic-plf2027
+- nature: debat
+  texte: 'Pass Culture : fin août 2024, 84 % des jeunes de 18 ans y étaient inscrits, mais seulement 68 % des jeunes de classes populaires avaient activé leur pass. Selon la Cour des comptes (décembre 2024), il a surtout intensifié des pratiques déjà installées, et 38 % des utilisateurs poursuivent les activités découvertes une fois le crédit épuisé. La Cour qualifiait le dispositif de « dépense de guichet » (244 millions d''euros pour la part individuelle en 2024). Après la réforme de 2025, l''État prévoit 137,5 millions d''euros pour 2027.'
+  sources:
+  - ccomptes-pass-culture-2024
+  - pap-culture-plf2027
+- nature: debat
+  texte: 'Concentration des médias : un rapport des inspections des finances et des affaires culturelles (2022), repris par l''Assemblée nationale en 2026, juge les règles de 1986 inadaptées, car elles ne couvrent pas les audiences en ligne. Les États généraux de l''information (septembre 2024) ont proposé de mesurer une « part d''influence » tous supports confondus. Saisi d''une proposition de loi en ce sens, le Conseil d''État (avis du 29 janvier 2026) a admis le principe. Il a toutefois jugé contraire à la liberté d''entreprendre d''interdire une position atteinte par croissance interne.'
+  sources:
+  - an-rapport-2429-concentration-medias
+- nature: debat
+  texte: 'Patrimoine : selon la commission de la culture du Sénat (juillet 2026), près d''un quart des monuments historiques sont en mauvais état, et les crédits budgétaires d''investissement ont reculé d''un tiers entre 2025 et 2026. Aux abords des monuments, les avis des architectes des Bâtiments de France ont augmenté de 63 % entre 2013 et 2023, quand leurs effectifs augmentaient de 6 %. 36 % de ces avis sont des accords simples, 50 % des accords avec prescriptions et 14 % des refus. Une proposition de loi visant à rendre leurs avis plus prévisibles a été adoptée à l''unanimité par le Sénat le 19 mars 2025.'
+  sources:
+  - senat-essentiel-monuments-historiques-2026
+  - senat-r23-780-abf-2024
+  - senat-ppl-195-abf-2025
+- nature: ne-fonctionne-pas
+  texte: 'Pass''Sport : selon le Sénat, le dispositif a changé de règles presque chaque année depuis 2021. En 2025, son recentrage sur les 14-17 ans a réduit le nombre de bénéficiaires de 1,65 million à 444 023, pour un taux de recours de 16,3 % (26 % en 2024) et 36,7 millions d''euros dépensés. Le passage de l''aide de 50 à 70 euros n''a pas augmenté le recours de façon mesurable. Pour le plan « 5 000 équipements », la Cour des comptes (juin 2026) relève que les aides suivent surtout les demandes reçues, ce qui peut favoriser les collectivités les mieux outillées, et que le plan n''a pas été évalué.'
+  sources:
+  - senat-l25-736-sjva-2025
+  - senat-np-sjva-plf2027
+effets:
+- sujet: Effet d'une modification du financement de l'audiovisuel public (contribution dédiée ou baisse des dotations)
+  axes:
+  - audiovisuel-public
+  evaluations:
+  - source: fjj-cage-redevance-2022
+    resume: 'Rapport de l''économiste Julia Cagé pour la Fondation Jean-Jaurès (juin 2022), avant la suppression de la redevance. Il simule une contribution affectée et progressive selon le revenu fiscal, à recettes égales (3,14 milliards d''euros en 2022) : 10 euros par an jusqu''à 15 000 euros de revenu, 50, 100 ou 120 euros pour les tranches intermédiaires, 200 euros au-delà de 50 000 euros. Plus de 85 % des foyers fiscaux paieraient moins que les 138 euros de la redevance (p. 10-11).'
+    fourchette: 10 à 200 € par foyer et par an ; 3,14 Md€ de recettes
+  - source: an-ce-audiovisuel-public-2026
+    resume: 'Rapport de la commission d''enquête de l''Assemblée nationale (rapporteur Charles Alloncle, UDR, avril 2026) : objectif de réduire de plus d''un milliard d''euros, en euros constants, la dépense publique pour l''audiovisuel public d''ici cinq à dix ans. Si France Télévisions avait la part de ressources propres de la BBC (un tiers), sa dotation pourrait baisser de 450 millions d''euros, et de 600 millions avec Radio France. Les contributions de plusieurs groupes (dont Les Démocrates, LFI, Socialistes) contestent ces chiffres et estiment que de telles économies imposeraient de fermer les réseaux régionaux et ultramarins.'
+    fourchette: −600 M€ à −1 Md€ par an (horizon 5 à 10 ans)
+  - source: ifrap-france-tv-2026
+    resume: 'Fondation iFRAP (février 2026) : à chiffre d''affaires constant, si France Télévisions avait le taux de financement public de la BBC, les dotations de l''État pourraient baisser de 450 millions d''euros par an, et de 600 millions avec Radio France, à condition d''augmenter les recettes commerciales et de renégocier l''accord collectif de 2013.'
+    fourchette: −450 à −600 M€ par an
+  - source: fjj-audiovisuel-public-2026
+    resume: 'Note de la Fondation Jean-Jaurès (avril 2026) : le budget de l''audiovisuel public, environ 4 milliards d''euros, place la France au 14e rang européen. Il représente environ 4,2 euros par mois et par habitant, contre 8,7 euros en Allemagne, 6,1 euros au Royaume-Uni et 5,1 euros en Belgique. Ses ressources ont baissé de près de 10 % entre 2014 et 2024, contre 8,6 % en moyenne européenne selon l''UER.'
+    fourchette: 4,2 € par habitant et par mois (France) contre 5,1 à 8,7 € (pays voisins)
+  desaccords: Les évaluateurs ne partent pas des mêmes questions. L'iFRAP et le rapporteur de la commission d'enquête cherchent des économies, en comparant la part de ressources commerciales avec celle de la BBC. La Fondation Jean-Jaurès compare le niveau de financement par habitant avec les pays voisins et défend une ressource affectée. La simulation de Julia Cagé date de 2022, avant la suppression de la redevance, et ne chiffre pas le coût de recouvrement d'une nouvelle contribution. Le Sénat rappelle que, quel que soit le mode de financement, le montant reste voté chaque année par le Parlement.
+- sujet: Effet du pass Culture et de sa réforme (coût et usage)
+  axes:
+  - culture
+  evaluations:
+  - source: ccomptes-pass-culture-2024
+    resume: 'Cour des comptes (décembre 2024) : les crédits de la part individuelle sont passés de 92 millions d''euros en 2021 à 244 millions en 2024, et à 324 millions avec la part collective (80 millions). La Cour évoque plusieurs pistes d''économies : baisser le crédit à 18 ans, le soumettre à condition de ressources ou le cibler selon des critères sociaux ou territoriaux (synthèse, p. 9-12).'
+    fourchette: 244 M€ (part individuelle, 2024) ; 324 M€ avec la part collective
+  - source: pap-culture-plf2027
+    resume: 'Projet annuel de performances 2027 : après la réforme de 2025 (50 euros à 17 ans, 150 euros à 18 ans, bonus de 50 euros sous conditions), les crédits du pass Culture sur le programme 361 sont de 137,5 millions d''euros en 2027, contre 157,5 millions en 2026. Près de 5 millions de jeunes ont bénéficié de la part individuelle depuis sa création (p. 212 et 223).'
+    fourchette: 137,5 M€ en 2027 (−20 M€ sur un an)
+  desaccords: La Cour des comptes juge l'effet sur la démocratisation culturelle limité, faute de suivi des jeunes avant et après le pass. Le ministère et la société pass Culture mettent en avant le taux d'inscription et le développement de la part collective dans les établissements scolaires. Aucune évaluation publiée ne chiffre encore l'effet de la réforme de 2025 sur les pratiques des jeunes.
+- sujet: Effet des crédits d'impôt et des aides au cinéma et à l'audiovisuel
+  axes:
+  - culture
+  - creation
+  evaluations:
+  - source: cnc-ey-credits-impot-2023
+    resume: Étude du cabinet EY pour le CNC (juillet 2023, période 2017-2021). En 2021, les quatre crédits d'impôt (cinéma, audiovisuel, international, jeu vidéo) ont coûté 351 millions d'euros et généré 269 millions de recettes fiscales, soit un coût net de 82 millions. Pour 1 euro de crédit d'impôt, le crédit cinéma a localisé 6,40 euros de dépenses en France et le crédit audiovisuel 7,60 euros.
+    fourchette: Coût net de 82 M€ (2021) ; 4 à 7,6 € de dépenses localisées par euro
+  - source: ccomptes-cnc-2023
+    resume: 'Cour des comptes (2023) : la part des soutiens publics dans le financement des films d''initiative française est passée de 20 % en 2012 à 28 % en 2019, surtout du fait des crédits d''impôt. Dans le même temps, un tiers de ces films ont fait moins de 20 000 entrées en 2019. La Cour en conclut que l''efficacité marginale des aides au cinéma semble décroître.'
+    fourchette: 'Soutiens publics : 20 % → 28 % du financement des films (2012-2019)'
+  - source: senat-np-mlic-plf2027
+    resume: 'Sénat (octobre 2026) : les dépenses fiscales en faveur du cinéma et de l''audiovisuel (hors jeu vidéo) passeraient de 539 millions d''euros en 2025 à 498 millions en 2027, contre 179 millions en 2016. Les œuvres aidées ont dépensé 2,86 milliards d''euros en France en 2025 (p. 35-37).'
+    fourchette: 498 M€ de dépense fiscale en 2027 (179 M€ en 2016)
+  desaccords: L'étude commandée par le CNC mesure les retombées économiques (dépenses localisées, recettes fiscales), sans dire si les tournages auraient eu lieu en France sans les crédits d'impôt. La Cour des comptes s'intéresse au nombre de films produits et à leur public, et pointe la difficulté d'évaluer des aides nombreuses et dispersées. Les deux approches ne répondent pas à la même question.
+- sujet: Effet des aides à la pratique sportive (Pass'Sport, équipements) et de leur financement
+  axes:
+  - sport
+  evaluations:
+  - source: senat-l25-736-sjva-2025
+    resume: 'Sénat (juin 2026), d''après l''exécution budgétaire : le taux de recours au Pass''Sport a varié entre 16,3 % et 26 % depuis 2021. La dépense est passée de 79,2 millions d''euros en 2024 à 36,7 millions en 2025 après le recentrage sur les 14-17 ans. Selon la Cour des comptes, le recours des plus de 14 ans est resté stable, et la hausse de l''aide de 50 à 70 euros n''a pas amélioré le recours (p. 12-13).'
+    fourchette: Recours de 16,3 % à 26 % ; 36,7 à 79,2 M€ par an
+  - source: senat-np-sjva-plf2027
+    resume: 'Sénat (octobre 2026) : le plan « 5 000 équipements – Génération 2024 » a financé 5 036 équipements en 2024-2025, pour 165,6 millions d''euros de subventions, sans évaluation des effets d''aubaine. La taxe de 5 % sur les droits de diffusion sportive (« taxe Buffet »), affectée au sport amateur, a rapporté 41,1 millions d''euros en 2025, pour un plafond de 59,7 millions.'
+    fourchette: '165,6 M€ pour 5 036 équipements ; taxe Buffet : 41 M€ par an'
+  desaccords: Les données publiées décrivent le coût et le recours, mais aucune évaluation publique ne mesure l'effet du Pass'Sport sur le nombre de licenciés ou sur la poursuite de la pratique. Le Sénat estime qu'un critère de ressources aurait été plus pertinent qu'un critère d'âge, ce que retient la campagne 2026-2027. Sur la taxe Buffet, le Sénat propose d'élargir son assiette au streaming plutôt que de relever les prélèvements sur les paris sportifs, en raison de leurs effets sur la santé publique.
+glossaire:
+- pib
+- tva
+- arcom
+- contribution-audiovisuel-public
+- pass-culture
+- cnc
+- credits-impot-audiovisuel
+- monument-historique
+- abf
+- artiste-auteur
+- droits-voisins
+- domaine-public
+- pass-sport
