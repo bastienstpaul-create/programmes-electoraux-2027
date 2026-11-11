@@ -1,5 +1,18 @@
 numero: 17
-titre: "Europe"
-icone: "flag"
+titre: Europe
+icone: flag
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: institutions
+  libelle: Institutions européennes
+- id: budget
+  libelle: Budget de l'Union
+- id: regles
+  libelle: Règles budgétaires et traités
+- id: elargissement
+  libelle: Élargissement de l'Union
+- id: defense
+  libelle: Défense européenne
+- id: droit
+  libelle: Droit européen et souveraineté nationale

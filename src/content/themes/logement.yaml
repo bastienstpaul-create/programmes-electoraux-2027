@@ -1,5 +1,18 @@
 numero: 10
-titre: "Logement"
-icone: "house"
+titre: Logement
+icone: house
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: construction
+  libelle: Construction de logements
+- id: social
+  libelle: Logement social
+- id: loyers
+  libelle: Loyers et location
+- id: propriete
+  libelle: Accession à la propriété
+- id: renovation
+  libelle: Rénovation énergétique
+- id: hebergement
+  libelle: Sans-abrisme et hébergement d'urgence

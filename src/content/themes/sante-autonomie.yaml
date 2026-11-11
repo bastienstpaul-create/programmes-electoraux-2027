@@ -1,5 +1,20 @@
 numero: 8
-titre: "Santé et autonomie"
-icone: "stethoscope"
+titre: Santé et autonomie
+icone: stethoscope
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: hopital
+  libelle: Hôpital
+- id: acces
+  libelle: Accès aux soins et déserts médicaux
+- id: medicaments
+  libelle: Médicaments et reste à charge
+- id: financement
+  libelle: Financement de l'assurance maladie
+- id: grand-age
+  libelle: Grand âge, Ehpad et autonomie
+- id: prevention
+  libelle: Prévention et santé mentale
+- id: fin-de-vie
+  libelle: Fin de vie

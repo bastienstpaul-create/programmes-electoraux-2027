@@ -1,5 +1,20 @@
 numero: 2
-titre: "Sécurité, justice, libertés publiques"
-icone: "shield"
+titre: Sécurité, justice, libertés publiques
+icone: shield
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: police
+  libelle: Police et gendarmerie
+- id: justice
+  libelle: Moyens et délais de la justice
+- id: prisons
+  libelle: Prisons et exécution des peines
+- id: penal
+  libelle: Peines et droit pénal
+- id: mineurs
+  libelle: Justice des mineurs
+- id: drogues
+  libelle: Drogues et trafics
+- id: libertes
+  libelle: Libertés publiques et surveillance

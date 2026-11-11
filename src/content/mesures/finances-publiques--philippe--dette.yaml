@@ -1,0 +1,10 @@
+theme: finances-publiques
+axe: dette
+candidat: philippe
+statut: aucune
+detail: "Le site fixe un objectif de déficit (axe « deficit ») mais aucun objectif de dette."
+source:
+  url: https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere
+  titre: "Pour une France plus prospère — Avec Édouard 2027 (rubrique « Les priorités »)"
+  date_consultation: 2026-11-10
+date_maj: 2026-11-10

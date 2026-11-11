@@ -1,0 +1,13 @@
+theme: finances-publiques
+axe: deficit
+candidat: retailleau
+statut: programme
+intitule: "Économies attendues de l'IA dans l'administration, environ 15 Md€ par an à terme, affectées à la réduction du déficit"
+detail: "Aucune trajectoire chiffrée du déficit public n'est publiée. Les économies du livret Travail gagnant (au moins 30 Md€) seraient restituées aux salariés et aux entreprises et non affectées au déficit (p. 16)."
+citation: "intégralement affectées à la réduction du déficit"
+chiffrage_annonce: "Environ 15 Md€ par an à terme : 7,5 Md€ de masse salariale, environ 4 Md€ sur les achats, 3 à 4 Md€ sur la fraude ; coût du programme 5 Md€ sur le quinquennat"
+source:
+  url: https://republicains.fr/wp-content/uploads/2026/07/LR_IA.pdf
+  titre: "Les Républicains, « Nos propositions pour la France – L’IA au service des Français », p. 26-27"
+  date_consultation: 2026-11-10
+date_maj: 2026-11-10

@@ -1,5 +1,18 @@
 numero: 13
-titre: "Transports et territoires"
-icone: "train-front"
+titre: Transports et territoires
+icone: train-front
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: ferroviaire
+  libelle: Train
+- id: route
+  libelle: Voiture, routes et carburants
+- id: quotidien
+  libelle: Transports du quotidien
+- id: aerien
+  libelle: Transport aérien
+- id: ruralite
+  libelle: Services publics dans les territoires
+- id: outre-mer
+  libelle: Outre-mer

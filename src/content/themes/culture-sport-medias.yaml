@@ -1,5 +1,18 @@
 numero: 16
-titre: "Culture, sport, médias"
-icone: "palette"
+titre: Culture, sport, médias
+icone: palette
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: audiovisuel-public
+  libelle: Audiovisuel public
+- id: medias
+  libelle: Indépendance et concentration des médias
+- id: culture
+  libelle: Financement de la culture
+- id: patrimoine
+  libelle: Patrimoine
+- id: creation
+  libelle: Création et droits d'auteur
+- id: sport
+  libelle: Sport

@@ -1,5 +1,18 @@
 numero: 12
-titre: "Agriculture, alimentation, eau"
-icone: "wheat"
+titre: Agriculture, alimentation, eau
+icone: wheat
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: revenu
+  libelle: Revenu agricole et prix
+- id: normes
+  libelle: Normes et pesticides
+- id: accords
+  libelle: Accords commerciaux agricoles
+- id: installation
+  libelle: Installation et foncier agricole
+- id: alimentation
+  libelle: Alimentation et restauration collective
+- id: eau
+  libelle: Gestion de l'eau

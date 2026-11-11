@@ -1,5 +1,18 @@
 numero: 9
-titre: "Éducation, recherche, jeunesse"
-icone: "graduation-cap"
+titre: Éducation, recherche, jeunesse
+icone: graduation-cap
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: ecole
+  libelle: École et collège
+- id: enseignants
+  libelle: 'Enseignants : recrutement et rémunération'
+- id: lycee
+  libelle: Lycée, voie professionnelle et apprentissage
+- id: superieur
+  libelle: Enseignement supérieur
+- id: recherche
+  libelle: Recherche
+- id: jeunesse
+  libelle: Jeunesse et service national

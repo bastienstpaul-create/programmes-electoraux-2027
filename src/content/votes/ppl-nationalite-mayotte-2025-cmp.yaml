@@ -1,0 +1,89 @@
+theme: immigration-integration
+titre: Proposition de loi visant à renforcer les conditions d'accès à la nationalité française à Mayotte (texte de la commission mixte paritaire)
+objet: Vote sur l'ensemble du texte issu de l'accord entre députés et sénateurs. Voter pour = adopter définitivement la loi.
+date: 2025-04-08
+legislature: 17
+numero_scrutin: 1308
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/1308
+axes:
+- nationalite
+resultat: adopte
+decompte:
+  pour: 339
+  contre: 174
+  abstention: 11
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 122
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 73
+  contre: 0
+  abstention: 4
+  non_votants: 2
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 65
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 61
+  abstention: 3
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 47
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 32
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 30
+  contre: 1
+  abstention: 3
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 32
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 13
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 13
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 15
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 7
+  contre: 2
+  abstention: 1
+  non_votants: 0
+note: 'Texte devenu la loi n° 2025-412 du 12 mai 2025, jugée conforme à la Constitution sous une réserve (décision n° 2025-881 DC). Décompte par groupe : données ouvertes de l''Assemblée nationale, identiques à la page du scrutin.'
+date_consultation: 2026-11-11

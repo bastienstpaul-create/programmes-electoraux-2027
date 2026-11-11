@@ -1,0 +1,83 @@
+theme: institutions-democratie
+titre: Projet de loi constitutionnelle relatif à la liberté de recourir à l'interruption volontaire de grossesse
+objet: Vote sur l'ensemble du projet de loi constitutionnelle, en première lecture à l'Assemblée nationale (majorité des suffrages exprimés requise à ce stade).
+date: 2024-01-30
+legislature: 16
+numero_scrutin: 3289
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3289
+axes:
+- constitution
+resultat: adopte
+decompte:
+  pour: 493
+  contre: 30
+  abstention: 23
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 164
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 46
+  contre: 12
+  abstention: 14
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 75
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 40
+  contre: 15
+  abstention: 4
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 47
+  contre: 0
+  abstention: 2
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 31
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 26
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 23
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 20
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 19
+  contre: 1
+  abstention: 2
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 2
+  contre: 2
+  abstention: 1
+  non_votants: 0
+note: 'Le texte a ensuite été voté par le Sénat puis approuvé par le Parlement réuni en Congrès le 4 mars 2024 : c''est la 25e révision de la Constitution (loi constitutionnelle n° 2024-200 du 8 mars 2024).'
+date_consultation: 2026-11-11

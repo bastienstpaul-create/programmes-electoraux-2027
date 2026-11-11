@@ -1,5 +1,20 @@
 numero: 18
-titre: "Défense et diplomatie"
-icone: "radar"
+titre: Défense et diplomatie
+icone: radar
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: budget
+  libelle: Budget de la défense
+- id: armees
+  libelle: Effectifs et service militaire
+- id: dissuasion
+  libelle: Dissuasion nucléaire
+- id: otan
+  libelle: OTAN et alliances
+- id: ukraine
+  libelle: Guerre en Ukraine
+- id: aide
+  libelle: Aide au développement
+- id: diplomatie
+  libelle: Orientations diplomatiques

@@ -1,5 +1,18 @@
 numero: 11
-titre: "Énergie et climat"
-icone: "zap"
+titre: Énergie et climat
+icone: zap
 date_maj: 2026-11-10
 etat: en-preparation
+axes:
+- id: nucleaire
+  libelle: Nucléaire
+- id: renouvelables
+  libelle: Énergies renouvelables
+- id: objectifs
+  libelle: Objectifs climatiques
+- id: prix
+  libelle: Prix de l'énergie
+- id: financement
+  libelle: Financement de la transition
+- id: biodiversite
+  libelle: Biodiversité et adaptation
