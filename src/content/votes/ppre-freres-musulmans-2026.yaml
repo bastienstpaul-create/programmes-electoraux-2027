@@ -1,0 +1,89 @@
+theme: egalite-discriminations
+titre: Proposition de résolution européenne visant à inscrire la mouvance des Frères musulmans sur la liste européenne des organisations terroristes
+objet: Vote sur l'article unique de la proposition de résolution européenne (lecture unique).
+date: 2026-01-22
+legislature: 17
+numero_scrutin: 5106
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/5106
+axes:
+- laicite
+resultat: adopte
+decompte:
+  pour: 157
+  contre: 101
+  abstention: 1
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 65
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 22
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 47
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 25
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 40
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 23
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 10
+  contre: 0
+  abstention: 1
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 9
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 6
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 7
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: 'Une résolution européenne n''a pas de force obligatoire : elle exprime la position de l''Assemblée et invite le Gouvernement à agir au niveau de l''Union européenne. Résolution adoptée le 22 janvier 2026 (texte adopté n° 215).'
+date_consultation: 2026-11-11

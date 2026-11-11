@@ -1,0 +1,83 @@
+theme: energie-climat
+titre: Projet de loi relatif à l’organisation de la gouvernance de la sûreté nucléaire et de la radioprotection pour répondre au défi de la relance de la filière nucléaire (texte de la commission paritaire) – vote sur l'ensemble
+objet: Adoption définitive par l'Assemblée du texte de compromis du projet de loi sur la gouvernance de la sûreté nucléaire. Voter pour = adopter la loi qui fusionne l'Autorité de sûreté nucléaire (ASN) et l'Institut de radioprotection et de sûreté nucléaire (IRSN) en une seule autorité, l'ASNR (loi n° 2024-450 du 21 mai 2024).
+date: 2024-04-09
+legislature: 16
+numero_scrutin: 3662
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3662
+axes:
+- nucleaire
+resultat: adopte
+decompte:
+  pour: 340
+  contre: 173
+  abstention: 30
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 151
+  contre: 2
+  abstention: 4
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 82
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 0
+  contre: 73
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 43
+  contre: 6
+  abstention: 11
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 37
+  contre: 0
+  abstention: 7
+  non_votants: 1
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 23
+  contre: 0
+  abstention: 3
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC-A
+  pour: 0
+  contre: 31
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 0
+  contre: 22
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 1
+  contre: 15
+  abstention: 5
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 0
+  contre: 21
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 3
+  contre: 3
+  abstention: 0
+  non_votants: 0
+note: 543 votants. Scrutin public solennel. Décision du Conseil constitutionnel n° 2024-868 DC du 17 mai 2024 (conforme).
+date_consultation: 2026-11-11

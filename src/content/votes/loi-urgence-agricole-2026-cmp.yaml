@@ -1,0 +1,92 @@
+theme: agriculture-alimentation-eau
+titre: Projet de loi d'urgence pour la protection et la souveraineté agricoles (texte de la commission mixte paritaire)
+objet: Vote sur l'ensemble du texte issu de la commission mixte paritaire.
+date: 2026-07-20
+legislature: 17
+numero_scrutin: 8427
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/8427
+axes:
+- normes
+- eau
+- alimentation
+- revenu
+resultat: adopte
+decompte:
+  pour: 296
+  contre: 224
+  abstention: 41
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 122
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 51
+  contre: 15
+  abstention: 16
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 71
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 66
+  abstention: 2
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 48
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 38
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 19
+  contre: 11
+  abstention: 6
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 24
+  contre: 3
+  abstention: 4
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 8
+  contre: 4
+  abstention: 11
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 15
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 17
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 7
+  contre: 1
+  abstention: 2
+  non_votants: 0
+note: 'Texte devenu la loi n° 2026-796 du 18 août 2026. Le Conseil constitutionnel a censuré plusieurs articles et validé, avec des réserves, les dérogations encadrées pour la flupyradifurone et l''acétamipride (décision n° 2026-914 DC du 14 août 2026). En première lecture, l''Assemblée avait adopté le projet le 2 juin 2026 (scrutin n° 7259 : 369 pour, 178 contre).'
+date_consultation: 2026-11-11

@@ -1,0 +1,83 @@
+theme: education-recherche-jeunesse
+titre: Proposition de loi visant à assurer un repas à 1 euro pour tous les étudiants (groupe Socialistes, Fatiha Keloua Hachi et plusieurs collègues)
+objet: Vote sur l'ensemble du texte en première lecture.
+date: 2023-02-09
+legislature: 16
+numero_scrutin: 931
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/931
+axes:
+- superieur
+resultat: rejete
+decompte:
+  pour: 183
+  contre: 184
+  abstention: 4
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 0
+  contre: 121
+  abstention: 0
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 57
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 67
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 0
+  contre: 7
+  abstention: 4
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 0
+  contre: 36
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés (membre de l’intergroupe NUPES)
+  sigle: SOC
+  pour: 28
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 0
+  contre: 19
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 10
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 16
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 5
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 0
+  contre: 1
+  abstention: 0
+  non_votants: 0
+note: Texte rejeté à une voix d'écart (183 pour, 184 contre).
+date_consultation: 2026-11-11

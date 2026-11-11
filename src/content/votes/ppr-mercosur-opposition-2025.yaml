@@ -1,0 +1,89 @@
+theme: agriculture-alimentation-eau
+titre: Proposition de résolution invitant le Gouvernement à s'opposer à l'adoption de l'accord commercial entre l'Union européenne et le Mercosur
+objet: Vote sur la proposition de résolution (article 34-1 de la Constitution).
+date: 2025-11-27
+legislature: 17
+numero_scrutin: 4244
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/4244
+axes:
+- accords
+resultat: adopte
+decompte:
+  pour: 244
+  contre: 1
+  abstention: 5
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 64
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 0
+  contre: 0
+  abstention: 5
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 68
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 29
+  contre: 1
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 11
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 26
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 8
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 13
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 6
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 8
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 8
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 3
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: Une résolution de l'article 34-1 exprime la position de l'Assemblée sans pouvoir adresser d'injonction au Gouvernement. Le Conseil de l'UE a autorisé la signature de l'accord le 9 janvier 2026 malgré l'opposition de la France ; le volet commercial s'applique à titre provisoire depuis le 1er mai 2026.
+date_consultation: 2026-11-11

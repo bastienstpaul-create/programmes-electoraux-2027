@@ -1,8 +1,8 @@
 numero: 11
 titre: Énergie et climat
 icone: zap
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: nucleaire
   libelle: Nucléaire
@@ -16,3 +16,178 @@ axes:
   libelle: Financement de la transition
 - id: biodiversite
   libelle: Biodiversité et adaptation
+situation:
+  texte: 'En 2025, la France a émis sur son territoire 359 millions de tonnes d''équivalent CO2 de gaz à effet de serre, selon la pré-estimation du Citepa reprise par le [[Haut Conseil pour le climat|hcc]] : 2,1 % de moins qu''en 2024 et 22 % de moins qu''en 2015. Les transports en sont la première source (34 %), devant l''agriculture (21 %), l''industrie (16 %), les bâtiments (15 %) et la production d''énergie (9 %). Les deux tiers environ de ces émissions viennent de la combustion d''énergies fossiles. La loi fixe l''objectif d''atteindre la [[neutralité carbone|neutralite-carbone]] en 2050. La trajectoire pour y arriver est décrite dans la [[stratégie nationale bas-carbone|snbc]], découpée en [[budgets carbone|budget-carbone]] de cinq ans ; sa troisième version (SNBC 3) était encore un projet en juillet 2026. Au niveau européen, l''objectif est une baisse de 55 % des émissions nettes en 2030 par rapport à 1990, qui se traduit pour la France par −47,5 % par rapport à 2005. En novembre 2025, les États membres puis le Parlement européen se sont prononcés pour un objectif de −90 % en 2040, dont jusqu''à 5 % pourraient être obtenus par des crédits carbone internationaux à partir de 2036.
+
+
+    Les énergies fossiles (pétrole, gaz, charbon) représentaient encore 56 % de la consommation finale d''énergie en 2024, contre 27 % pour l''électricité. L''électricité, elle, est presque entièrement décarbonée : en 2025, 95,2 % des 547,5 TWh produits en métropole venaient du nucléaire ou des énergies renouvelables. Les réacteurs nucléaires ont produit 373 TWh, soit plus des deux tiers du total. La consommation d''électricité est restée stable (451 TWh), environ 6 % en dessous de son niveau de 2014-2019, et la France a exporté un solde record de 92,3 TWh. Les énergies renouvelables (électricité, chaleur, carburants) couvraient 24,0 % de la consommation finale brute d''énergie en 2025 (donnée provisoire), pour un objectif légal de 33 % en 2030.
+
+
+    Les grands choix énergétiques sont fixés par la [[programmation pluriannuelle de l''énergie|ppe]]. Le code de l''énergie prévoyait qu''une loi de programmation sur l''énergie et le climat soit adoptée avant le 1er juillet 2023 ; aucune ne l''a été, et l''Assemblée nationale a rejeté en juin 2025 une proposition de loi sénatoriale sur ce sujet. La troisième PPE a donc été fixée par décret (n° 2026-76 du 12 février 2026) pour 2026-2035. Elle prévoit la construction de six réacteurs [[EPR2|epr2]], l''objectif d''être en mesure de décider en 2026 de huit réacteurs supplémentaires, une production nucléaire de 380 à 420 TWh dès 2030 (320 TWh en 2023), 15 GW d''éolien en mer en 2035, 55 à 80 GW de solaire et 35 à 40 GW d''éolien terrestre en 2035. Jusqu''au 31 décembre 2028, le rythme des aides attribuées à l''éolien terrestre et au solaire est plafonné, et une révision simplifiée de la PPE pourra être lancée en 2027. La part des énergies fossiles dans la consommation finale doit passer de 58 % en 2023 à 40 % en 2030 et 29 % en 2035.
+
+
+    Côté prix, l''[[ARENH|arenh]], qui permettait aux fournisseurs d''acheter une partie de la production nucléaire d''EDF à un prix fixé par l''État, a pris fin le 31 décembre 2025. Les [[tarifs réglementés de vente d''électricité|trve]], souscrits par 19,37 millions de foyers, ont baissé de 0,83 % au 1er février 2026, puis augmenté de 2,5 % au 1er août 2026 : pour une consommation de 4,5 MWh par an, la facture moyenne passe de 1 046 à 1 072 € TTC selon la Commission de régulation de l''énergie. Sur le marché de gros, le prix moyen a été de 61 €/MWh en 2025, contre 275,9 €/MWh en 2022 au cœur de la crise énergétique. Selon le HCC, 10,8 % des ménages sont en situation de précarité énergétique.
+
+
+    Le réchauffement observé en France hexagonale atteint 2,2 °C entre 1900-1930 et 2016-2025. Pour s''y préparer, l''État a publié en 2025 un troisième plan national d''adaptation (PNACC 3), fondé sur une [[trajectoire de réchauffement de référence|tracc]] de +4 °C en 2100 dans l''Hexagone. Côté biodiversité, les populations d''oiseaux communs spécialistes de leur milieu ont reculé de 31 % entre 1989 et 2023 dans l''Hexagone, selon l''Office français de la biodiversité.'
+  chiffres:
+  - libelle: Émissions brutes de gaz à effet de serre
+    valeur: 359 Mt éqCO2
+    precision: Pré-estimation du Citepa ; −2,1 % par rapport à 2024 (367 Mt), après −3,0 % en 2024 et −6,8 % en 2023 ; hors puits de carbone (HCC, rapport annuel 2026, résumé p. 15)
+    annee: '2025'
+    source: hcc-ra-2026-resume
+  - libelle: Part de l'électricité bas-carbone dans la production
+    valeur: 95,2 %
+    precision: 521,1 TWh sur 547,5 TWh produits en métropole, dont 373,0 TWh de nucléaire ; intensité de 19,6 gCO2eq/kWh (RTE, Bilan électrique 2025, p. 8)
+    annee: '2025'
+    source: rte-bilan-electrique-2025
+  - libelle: Part des énergies fossiles dans la consommation finale d'énergie
+    valeur: 56 %
+    precision: 'Électricité : 27 % ; calcul RTE à partir des données SDES et Citepa ; dans les transports, les fossiles couvrent 90 % de la consommation (RTE, Bilan électrique 2025, p. 6)'
+    annee: '2024'
+    source: rte-bilan-electrique-2025
+  - libelle: Part des énergies renouvelables dans la consommation finale brute d'énergie
+    valeur: 24,0 %
+    precision: 'Donnée provisoire, méthode de la directive (UE) 2023/2414 ; 23,2 % en 2024 (donnée définitive, ancienne méthode) ; objectif légal : 33 % en 2030 (SDES)'
+    annee: '2025'
+    source: sdes-enr-2024-definitives
+  - libelle: Solde exportateur d'électricité
+    valeur: 92,3 TWh
+    precision: Record historique (89 TWh en 2024), valorisé à 5,4 Md€ ; en regard, les importations de combustibles fossiles ont coûté 53 Md€ en 2025 (RTE, Bilan électrique 2025, p. 14)
+    annee: '2025'
+    source: rte-bilan-electrique-2025
+  - libelle: Facture annuelle moyenne au tarif réglementé d'électricité
+    valeur: 1 072 € TTC
+    precision: Pour 4,5 MWh par an, après la hausse de 2,5 % au 1er août 2026 (1 046 € auparavant) ; 19,37 millions de clients résidentiels au 31 mars 2026 (chiffres de la CRE cités par l'AFP)
+    annee: '2026'
+    source: cde-afp-trve-aout-2026
+  lois:
+  - titre: Loi n° 2019-1147 du 8 novembre 2019 relative à l'énergie et au climat
+    resume: Elle remplace l'objectif de division par quatre des émissions entre 1990 et 2050 par la neutralité carbone en 2050 (article L. 100-4 du code de l'énergie), porte à 40 % l'objectif de baisse de la consommation d'énergies fossiles en 2030 et repousse de 2025 à 2035 l'objectif de ramener le nucléaire à 50 % de la production d'électricité. Elle crée le Haut Conseil pour le climat.
+    url: https://www.assemblee-nationale.fr/dyn/15/dossiers/energie_climat
+  - titre: Loi n° 2023-175 du 10 mars 2023 relative à l'accélération de la production d'énergies renouvelables
+    resume: Elle simplifie temporairement les procédures d'autorisation des projets, facilite l'installation de panneaux solaires (abords des routes, parkings, montagne, littoral) et de parcs éoliens en mer, et permet aux communes de définir des zones d'accélération pour les énergies renouvelables. Le Conseil constitutionnel l'a validée en partie (décision n° 2023-848 DC).
+    url: https://www.assemblee-nationale.fr/dyn/16/dossiers/DLR5L16N46539
+  - titre: Loi n° 2023-491 du 22 juin 2023 relative à l'accélération des procédures liées à la construction de nouvelles installations nucléaires
+    resume: Elle simplifie les procédures pour les nouveaux réacteurs construits sur ou près d'un site nucléaire existant, pour les demandes déposées dans les vingt ans. Elle supprime l'objectif de réduire le nucléaire à 50 % de la production d'électricité en 2035 et le plafond de 63,2 GW de capacité nucléaire.
+    url: https://www.conseil-constitutionnel.fr/decision/2023/2023851DC.htm
+  - titre: Loi n° 2026-554 du 29 juin 2026 visant à relancer les investissements dans le secteur de l'hydroélectricité
+    resume: Elle met fin aux concessions des barrages de plus de 4,5 MW et les remplace par un régime d'autorisation, avec des droits réels accordés aux exploitants sur les ouvrages, afin de permettre de nouveaux investissements.
+    url: https://www.assemblee-nationale.fr/dyn/17/dossiers/relancer_investissements_secteur_hydroelectricite_contribuer_transition_energetique_17e
+bilan:
+- nature: fonctionne
+  texte: La production d'électricité est décarbonée à plus de 95 % depuis 2024, l'une des intensités en CO2 les plus faibles au monde (19,6 g par kWh). La production d'origine fossile a atteint en 2025 son plus bas niveau depuis près de 75 ans, et la production nucléaire est revenue à un niveau proche de 2019. La France est le premier exportateur net d'électricité d'Europe (92,3 TWh, soit 17 % de sa production).
+  sources:
+  - rte-bilan-electrique-2025
+- nature: ne-fonctionne-pas
+  texte: 'La baisse des émissions ralentit : −6,8 % en 2023, −3,0 % en 2024, −2,1 % en 2025. Selon le HCC, la moitié de la baisse de 2025 s''explique par un recul de l''activité dans l''industrie et l''élevage. Pour respecter le 3e budget carbone (2024-2028), le rythme devrait dépasser 4 % par an en 2026, 2027 et 2028. Le puits de carbone des forêts s''est fortement dégradé depuis 2015, sous l''effet du changement climatique.'
+  sources:
+  - hcc-ra-2026-resume
+- nature: ne-fonctionne-pas
+  texte: Le remplacement des énergies fossiles par l'électricité avance moins vite que prévu. La consommation d'électricité reste stable et inférieure d'environ 6 % à celle de 2014-2019 ; la part de l'électricité dans la consommation finale ne progresse pas. Environ 30 GW de raccordements au réseau ont été réservés (centres de données, hydrogène, industrie), mais ces projets « tardent pour le moment à se concrétiser », selon RTE. Le HCC note que le plan d'électrification d'avril 2026 introduit « peu de nouveaux engagements ».
+  sources:
+  - rte-bilan-electrique-2025
+  - hcc-ra-2026-resume
+- nature: ne-fonctionne-pas
+  texte: Le réacteur EPR de Flamanville a démarré en 2024 avec douze ans de retard, pour un coût total estimé par la Cour des comptes à 23,7 Md€ (euros 2023), contre 3,2 à 3,3 Md€ prévus en 2006 ; la Cour juge sa rentabilité « médiocre ». Le coût de construction des six EPR2 est passé de 51,7 Md€ (2022) à 67,4 Md€ (fin 2023), puis 72,8 Md€ selon EDF (décembre 2025), en euros 2020 et hors frais financiers. La première mise en service est désormais attendue en 2038.
+  sources:
+  - ccomptes-epr-2025
+  - cde-afp-epr2-cout-2025
+- nature: debat
+  texte: 'Le soutien public aux énergies renouvelables électriques a dépassé 50 Md€ entre 2003 et 2025, selon la Fondation iFRAP ; les charges correspondantes atteindraient 12,9 Md€ en 2026, soit 92,42 € par MWh soutenu, au-dessus du prix de marché. Ce coût varie avec les prix : en 2022 et 2023, quand les prix de marché ont dépassé les prix garantis, les producteurs ont reversé plus de 4,4 Md€ à l''État. Pour les nouveaux contrats, le Comité de gestion des charges de service public estime que l''éolien en mer rapporterait à l''État si les prix restent proches ou au-dessus de 70 €/MWh.'
+  sources:
+  - ifrap-ppe3-2026
+  - cgcspe-avis-ppe3-2024
+- nature: debat
+  texte: Face à la crise de 2021-2023, l'État a protégé les consommateurs par des boucliers tarifaires et des remises sur les carburants. Selon la Cour des comptes, ces mesures ont coûté près de 72 Md€ brut (36 Md€ net de recettes liées à la crise) sur 2021-2024. La Cour note qu'elles ont soutenu la consommation « sans ciblage particulier ni limite en volumes », ce qu'elle juge plus critiquable pour le gaz et les carburants que pour l'électricité. Elle estime aussi que la facture d'électricité payée par les clients et les contribuables a dépassé de 37 Md€ les coûts de production nationaux en 2022-2023.
+  sources:
+  - ccomptes-energie-2024
+effets:
+- sujet: Coût du programme de nouveaux réacteurs nucléaires (EPR2)
+  axes:
+  - nucleaire
+  - financement
+  evaluations:
+  - source: ccomptes-epr-2025
+    resume: Fin 2023, le coût de construction de trois paires d'EPR2 était estimé à 67,4 Md€ (euros 2020, hors frais financiers), soit +30 % par rapport à 2022. Le coût de production de l'électricité serait de 79,9 € par MWh (92,9 € en euros 2023) pour un coût du capital de 4 %. Le chiffrage de 2022 donnait 40, 60 ou 100 € par MWh pour un coût du capital de 1 %, 4 % ou 7 %. Rapport p. 31-32.
+    fourchette: 67,4 Md€ (construction) ; 40 à 100 €/MWh selon le coût du capital (chiffrage 2022)
+  - source: cde-afp-epr2-cout-2025
+    resume: EDF a révisé en décembre 2025 le coût des six réacteurs à 72,8 Md€ (euros 2020, hors financement), présenté comme un plafond, soit environ +8 % par rapport à fin 2023 et +40 % par rapport à 2022. Un audit de l'État était prévu début 2026 et la décision finale d'investissement visée pour fin 2026.
+    fourchette: 72,8 Md€ hors financement
+  - source: bdt-ppe3-2026
+    resume: Selon la PPE3, les EPR2 seraient financés par un prêt bonifié de l'État couvrant au moins les coûts de construction et par un contrat pour différence garantissant un prix maximal de 100 € par MWh (euros 2024).
+    fourchette: Prix garanti au plus de 100 €/MWh
+  desaccords: 'Le coût par MWh dépend surtout du coût de financement : selon la Cour des comptes, il varie de 40 à 100 € selon le taux retenu. Les montants ne sont comparables qu''à année d''euros et périmètre identiques (avec ou sans frais financiers). La Cour recommandait de ne prendre la décision finale d''investissement qu''une fois le financement sécurisé et les études de conception avancées ; la PPE3 confirme le programme.'
+- sujet: Coût du soutien public aux énergies renouvelables (électricité et biométhane)
+  axes:
+  - renouvelables
+  - prix
+  - financement
+  evaluations:
+  - source: cgcspe-avis-ppe3-2024
+    resume: Avis sur le projet de PPE3 de fin 2024 (objectifs depuis revus à la baisse pour le solaire et l'éolien terrestre). Les nouveaux contrats nécessaires entre 2025 et 2035 coûteraient entre −36 Md€ (gain pour l'État) et 145 Md€ (euros 2024) sur leur durée, jusqu'en 2060, selon le prix de marché de l'électricité (95, 70 ou 50 € par MWh en 2030). En ajoutant les contrats déjà signés, le total à payer sur 2024-2060 irait de 23 à 258 Md€ ; 130 à 159 Md€ dans le scénario médian. Avis p. 2-3.
+    fourchette: −36 à +145 Md€ pour les nouveaux contrats (2024-2060)
+  - source: ifrap-ppe3-2026
+    resume: 'La Fondation iFRAP retient le scénario de prix bas (50 € par MWh), qu''elle juge compatible avec les anticipations actuelles : 216 à 258 Md€ de charges cumulées sur 2024-2060, dont environ 100 Md€ pour les nouveaux projets. Elle estime que ces charges, ajoutées aux coûts de réseau, risquent d''augmenter les factures et de freiner l''électrification.'
+    fourchette: 216 à 258 Md€ (prix bas, 2024-2060)
+  - source: ps-ppe-300md-2026
+    resume: Selon l'évaluation du gouvernement citée par Public Sénat (12 février 2026), la PPE coûterait à l'État de l'ordre de 115 Md€ sur 45 ans si les prix de l'énergie sont bas, et lui rapporterait 35 Md€ s'ils sont hauts. Nicolas Goldberg (Terra Nova) y estime que les investissements dans les réseaux seraient de toute façon nécessaires pour électrifier le pays et ne doivent pas être additionnés à ce coût.
+    fourchette: −35 à +115 Md€ sur 45 ans selon les prix
+  desaccords: 'Tous les chiffrages dépendent du prix de marché futur : quand il est élevé, les producteurs reversent la différence à l''État. La Fondation iFRAP met en avant le scénario de prix bas ; le Comité de gestion des charges de service public relève que les prix à terme observés sont proches de son scénario médian (70 € par MWh en 2030). Les chiffrages portent sur des versions successives de la PPE3, aux objectifs différents.'
+- sujet: Investissements nécessaires pour atteindre les objectifs climatiques de 2030
+  axes:
+  - objectifs
+  - financement
+  evaluations:
+  - source: france-strategie-pisani-2023
+    resume: Le rapport Pisani-Ferry–Mahfouz (France Stratégie, mai 2023) estime les investissements supplémentaires à environ 66 Md€ par an en 2030 (2,3 points de PIB), près de 80 Md€ ou environ 15 Md€ de moins selon les hypothèses (p. 77). Il évalue le risque sur la dette publique à environ 10 points de PIB en 2030, 15 en 2035 et 25 en 2040, et prévoit un ralentissement de la productivité d'environ un quart de point par an (synthèse p. 14-15).
+    fourchette: ≈ 51 à 80 Md€ par an en 2030 ; dette +10 à +25 points de PIB (2030-2040)
+  - source: ofce-invest-transition-2026
+    resume: L'OFCE (février 2026) rappelle que la stratégie de financement du gouvernement (SPAFTE, 2024) évalue les besoins d'investissement supplémentaires à environ 82 Md€ par an d'ici 2030, et I4CE à 87 Md€. Le secteur public devrait y consacrer 13 Md€ de plus par an, soit +75 % par rapport aux 17 Md€ annuels depuis 2020.
+    fourchette: 82 à 87 Md€ par an
+  - source: hcc-ra-2026-resume
+    resume: Selon le HCC, atteindre les objectifs suppose de doubler les investissements bas-carbone publics et privés et de diviser par deux les investissements carbonés. Les investissements verts ont reculé de 5 % en 2024, alors qu'ils devraient presque doubler d'ici 2030. Résumé p. 13-14.
+    fourchette: Doublement des investissements bas-carbone
+  desaccords: Les estimations n'ont pas le même périmètre ni la même date (66 Md€ en 2023, 82 à 87 Md€ en 2024-2025). France Stratégie souligne que ces investissements n'augmentent pas la croissance potentielle à court terme et que leur financement aura un coût économique et social ; l'OFCE met en avant le risque que la contrainte budgétaire réduise l'investissement public (baisse des crédits de France 2030 et du Fonds vert en 2026).
+- sujet: Effet d'une baisse de la TVA sur l'énergie (électricité, gaz, carburants)
+  axes:
+  - prix
+  evaluations:
+  - source: institut-montaigne-tva-energie-2024
+    resume: 'Chiffrage réalisé pour les législatives de 2024 : passer de 20 % à 5,5 % la TVA sur les carburants, l''électricité, le gaz et le fioul réduirait les recettes publiques d''environ 11,3 Md€ par an, entre 9 et 13,6 Md€ selon l''évolution de la consommation et des prix. L''Institut évalue à 531 € par an la TVA payée en moyenne par un ménage sur ses carburants et l''énergie de son logement.'
+    fourchette: 9 à 13,6 Md€ par an
+  - source: fjj-tva-energie-2024
+    resume: 'La Fondation Jean-Jaurès (juillet 2024) cite des estimations de Bercy et de la Fondation iFRAP proches de 17 Md€. Elle cite la Cour des comptes : une baisse de TVA sur le gaz et l''électricité rapporte 130 € aux 10 % de ménages les plus aisés contre 82 € aux 30 % les plus modestes. Elle rappelle qu''une telle baisse sur les carburants exigerait une modification de la directive européenne sur la TVA.'
+    fourchette: ≈ 17 Md€ par an (Bercy, iFRAP)
+  - source: ccomptes-energie-2024
+    resume: Pour comparaison, la Cour des comptes chiffre à près de 72 Md€ brut le coût des mesures exceptionnelles contre la hausse des prix de l'énergie depuis l'automne 2021 (36 Md€ net sur 2021-2024), et relève leur absence de ciblage. Synthèse p. 9.
+    fourchette: 72 Md€ brut ; 36 Md€ net (2021-2024)
+  desaccords: Les chiffrages vont de 9 à 17 Md€ selon le périmètre et l'hypothèse de prix. La Fondation Jean-Jaurès et la Cour des comptes soulignent que ces baisses profitent aussi aux ménages aisés et peuvent augmenter la consommation d'énergies fossiles ; l'Institut Montaigne indique l'ordre de grandeur du gain par ménage si la baisse est répercutée sur les prix, ce que la Fondation Jean-Jaurès juge incertain (effet de 20 % seulement sur les prix dans la restauration en 2009, selon l'Insee).
+- sujet: Coût des dommages climatiques et de l'adaptation
+  axes:
+  - biodiversite
+  evaluations:
+  - source: france-strategie-pisani-2023
+    resume: À l'horizon 2030, les dommages du changement climatique en France n'excéderaient pas 5 Md€ par an (hors effets sur la productivité, sur la vie humaine et sur les puits de carbone) ; les dommages liés à la vie humaine, monétisés, pourraient atteindre environ 20 Md€ par an. Une première liste de mesures d'adaptation « sans regret » établie par I4CE représente au moins 2,3 Md€ par an. Synthèse p. 21.
+    fourchette: Dommages ≤ 5 Md€ par an en 2030 ; adaptation ≥ 2,3 Md€ par an
+  - source: i4ce-adaptation-2024
+    resume: Dans une France à +4 °C, adapter les constructions neuves aux vagues de chaleur coûterait 1 à 2,5 Md€ par an (jusqu'à plusieurs milliards pour les bâtiments existants) ; adapter les routes et voies ferrées, de quelques centaines de millions à quelques milliards par an ; maintenir les rendements agricoles, de l'ordre de 1,5 Md€ par an. Les dépenses publiques subies (dommages, réparations, aides de crise) représentent déjà plusieurs milliards par an. Résumé p. 3-4.
+    fourchette: ≈ 1 à 2,5 Md€ (bâtiments neufs) ; ≈ 1,5 Md€ (agriculture) par an
+  - source: hcc-ra-2026-resume
+    resume: Le HCC juge l'adaptation actuelle insuffisante et estime qu'il faut « changer d'échelle », ce qui nécessite des investissements supplémentaires ; la mise en œuvre du PNACC 3 « reste suspendue aux moyens financiers ». Pas de chiffrage global dans le résumé.
+    fourchette: Non chiffré
+  desaccords: 'Les montants dépendent du niveau de réchauffement retenu et du niveau de protection visé : I4CE souligne que certains choix (par exemple accepter un moindre niveau de service lors des crues) coûtent moins cher. Aucun chiffrage global récent des besoins d''adaptation n''a été consulté.'
+glossaire:
+- ppe
+- snbc
+- budget-carbone
+- neutralite-carbone
+- hcc
+- epr2
+- arenh
+- trve
+- charges-service-public-energie
+- contrat-pour-difference
+- seqe
+- tracc
+- tva

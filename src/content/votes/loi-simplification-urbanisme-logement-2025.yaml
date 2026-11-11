@@ -1,0 +1,89 @@
+theme: logement
+titre: Proposition de loi de simplification du droit de l'urbanisme et du logement (texte de la commission mixte paritaire)
+objet: Vote sur le texte de compromis. Il simplifie les procédures d'évolution des documents d'urbanisme (PLU, SCOT), élargit les possibilités de déroger au plan local d'urbanisme pour construire des logements et généralise certains permis.
+date: 2025-10-15
+legislature: 17
+numero_scrutin: 3056
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/3056
+axes:
+- construction
+resultat: adopte
+decompte:
+  pour: 65
+  contre: 41
+  abstention: 52
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 0
+  abstention: 49
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 21
+  contre: 0
+  abstention: 0
+  non_votants: 7
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 26
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 10
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 8
+  contre: 0
+  abstention: 0
+  non_votants: 3
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 15
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 10
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 12
+  contre: 0
+  abstention: 0
+  non_votants: 2
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 0
+  abstention: 1
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 0
+  abstention: 2
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: Devenu la loi n° 2025-1129 du 26 novembre 2025. En première lecture (scrutin n° 1717 du 15 mai 2025), le texte avait été adopté par 119 voix contre 28.
+date_consultation: 2026-11-11

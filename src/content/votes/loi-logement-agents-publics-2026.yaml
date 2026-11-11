@@ -1,0 +1,89 @@
+theme: logement
+titre: Proposition de loi visant à améliorer l'accès au logement des travailleurs des services publics (texte de la commission mixte paritaire)
+objet: Vote sur le texte de compromis. Il étend à tous les employeurs publics (hôpitaux, collectivités…) la « clause de fonction », qui réserve un logement social à un agent tant qu'il occupe son emploi, et augmente les droits de réservation de logements sociaux de l'État lorsqu'il cède du foncier avec une décote.
+date: 2026-06-17
+legislature: 17
+numero_scrutin: 7408
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/7408
+axes:
+- social
+resultat: adopte
+decompte:
+  pour: 292
+  contre: 160
+  abstention: 14
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 89
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 80
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 63
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 51
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 42
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 31
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 24
+  contre: 0
+  abstention: 2
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 33
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 2
+  contre: 2
+  abstention: 12
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 13
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 17
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 5
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: Devenue la loi n° 2026-553 du 29 juin 2026. Contenu décrit d'après la synthèse de la commission des affaires économiques du Sénat (11 février 2026), avant la commission mixte paritaire.
+date_consultation: 2026-11-11

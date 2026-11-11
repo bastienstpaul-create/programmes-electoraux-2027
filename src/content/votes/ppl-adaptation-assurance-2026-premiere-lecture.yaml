@@ -1,0 +1,89 @@
+theme: energie-climat
+titre: Proposition de loi visant à reconnaître une politique nationale d'adaptation au changement climatique et à adapter les mécanismes d'assurance (première lecture) – vote sur l'ensemble
+objet: Vote en première lecture sur l'ensemble de la proposition de loi visant à reconnaître une politique nationale d'adaptation au changement climatique et à adapter les mécanismes d'assurance. Voter pour = adopter le texte.
+date: 2026-04-08
+legislature: 17
+numero_scrutin: 6069
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/6069
+axes:
+- biodiversite
+resultat: adopte
+decompte:
+  pour: 70
+  contre: 0
+  abstention: 27
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 0
+  abstention: 19
+  non_votants: 1
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 11
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 9
+  contre: 0
+  abstention: 2
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 20
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 0
+  contre: 0
+  abstention: 3
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 13
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 5
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 9
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 1
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 1
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 0
+  abstention: 3
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 1
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: 97 votants. Scrutin public ordinaire, avec une faible participation.
+date_consultation: 2026-11-11

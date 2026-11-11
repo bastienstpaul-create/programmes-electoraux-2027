@@ -1,0 +1,84 @@
+theme: logement
+titre: Proposition de loi visant à protéger les logements contre l'occupation illicite (deuxième lecture)
+objet: Vote sur l'ensemble du texte en deuxième lecture. Le texte alourdit les peines pour occupation illicite d'un logement, crée un délit d'occupation frauduleuse, rend obligatoire la clause de résiliation du bail en cas d'impayés et raccourcit certains délais de procédure.
+date: 2023-04-04
+legislature: 16
+numero_scrutin: 1361
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/1361
+axes:
+- loyers
+- hebergement
+resultat: adopte
+decompte:
+  pour: 385
+  contre: 147
+  abstention: 8
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 159
+  contre: 0
+  abstention: 1
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 84
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 0
+  contre: 74
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 58
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 38
+  contre: 1
+  abstention: 2
+  non_votants: 0
+- groupe: Socialistes et apparentés (membre de l’intergroupe NUPES)
+  sigle: SOC
+  pour: 0
+  contre: 29
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 29
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 0
+  contre: 22
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 1
+  contre: 20
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 12
+  contre: 0
+  abstention: 5
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 4
+  contre: 1
+  abstention: 0
+  non_votants: 0
+note: Le Sénat a ensuite adopté le texte, devenu la loi n° 2023-668 du 27 juillet 2023, après saisine du Conseil constitutionnel par plus de soixante députés. La page du scrutin indique 1 non-votant dans le groupe Renaissance, alors que les données ouvertes de l'Assemblée n'en comptent aucun.
+date_consultation: 2026-11-11
