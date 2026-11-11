@@ -1,20 +1,14 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Icone from '../../components/Icone.astro';
-import { getThemes, compterMesures, url } from '../../lib/data';
+import CarteTheme from '../../components/CarteTheme.astro';
+import { getThemes, compterMesures } from '../../lib/data';
 const themes = await getThemes();
 const compte = new Map(await Promise.all(themes.map(async (t) => [t.id, await compterMesures(t.id)] as const)));
 ---
 <Base title="Thèmes" large>
   <h1 class="text-2xl">Les thèmes</h1>
   <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-    {themes.map((t) => (
-      <li><a href={url(`/themes/${t.id}/`)} class="carte flex h-full items-start gap-4">
-        <span class="grid size-11 flex-none place-items-center rounded-lg bg-surface text-ink-900">{t.data.icone && <Icone nom={t.data.icone} taille={22} />}</span>
-        <span><span class="block font-semibold text-ink-900">{t.data.titre}</span>
-        <span class="block text-sm text-ink-600">{t.data.etat === 'publie' ? `${compte.get(t.id)} propositions comparées` : 'Fiche en préparation'}</span></span>
-      </a></li>
-    ))}
+    {themes.map((t) => <li><CarteTheme theme={t} nb={compte.get(t.id) ?? 0} /></li>)}
   </ul>
 </Base>
 <script is:inline>

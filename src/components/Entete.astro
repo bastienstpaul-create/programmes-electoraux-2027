@@ -4,16 +4,16 @@ import { url } from '../lib/data';
 const liens = [['/themes/', 'Thèmes'], ['/candidats/', 'Candidats'], ['/methodologie/', 'Méthodologie']];
 const courant = Astro.url.pathname;
 ---
-<header class="sticky top-0 z-30 h-[var(--header-h)] border-b border-line bg-page/95 backdrop-blur">
-  <div class="mx-auto flex h-full max-w-7xl items-center gap-3 px-4">
-    <a href={url('/')} class="mr-auto font-semibold text-ink-900 no-underline">
-      Programmes 2027<span class="hidden font-normal text-ink-600 sm:inline">, comparés thème par thème</span>
+<header class="sticky top-0 z-30 h-[var(--header-h)] px-2 pt-2.5 sm:px-4">
+  <div class="mx-auto flex h-14 max-w-7xl items-center gap-2 rounded-full border border-line bg-white/85 pl-5 pr-2 shadow-[0_6px_24px_rgb(40_30_10/0.06)] backdrop-blur-md sm:gap-3">
+    <a href={url('/')} class="mr-auto text-ink-900 no-underline [font-family:var(--font-display)] text-lg font-medium tracking-tight">
+      Programmes 2027<span class="hidden text-ink-600 sm:inline"><em class="font-normal">, thème par thème</em></span>
     </a>
     <nav aria-label="Navigation principale" class="hidden md:block">
       <ul class="flex gap-1">
         {liens.map(([h, l]) => (
           <li><a href={url(h!)} aria-current={courant.startsWith(h!) ? 'page' : undefined}
-            class="rounded-md px-3 py-2 text-sm text-ink-900 no-underline hover:bg-surface aria-[current=page]:bg-accent-50 aria-[current=page]:text-accent aria-[current=page]:font-semibold">{l}</a></li>
+            class="rounded-full px-3.5 py-2 text-sm text-ink-900 no-underline hover:bg-surface aria-[current=page]:bg-accent-50 aria-[current=page]:text-accent aria-[current=page]:font-semibold">{l}</a></li>
         ))}
       </ul>
     </nav>
@@ -21,16 +21,16 @@ const courant = Astro.url.pathname;
       <label class="relative block">
         <span class="sr-only">Rechercher une mesure</span>
         <span class="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 text-ink-600"><Icone nom="search" taille={18} /></span>
-        <input name="q" type="search" placeholder="Rechercher une mesure" class="h-10 w-56 rounded-lg border border-line bg-white pl-9 pr-3 text-sm text-ink-900 placeholder:text-ink-600" />
+        <input name="q" type="search" placeholder="Rechercher" class="h-10 w-48 rounded-full border border-line bg-page pl-9 pr-3 text-sm text-ink-900 placeholder:text-ink-600" />
       </label>
     </form>
-    <a href={url('/recherche/')} class="btn btn-ghost px-2.5 lg:hidden" aria-label="Rechercher"><Icone nom="search" taille={20} /></a>
-    <button type="button" id="bascule-theme" class="btn btn-ghost px-2.5" aria-label="Basculer entre mode clair et mode sombre">
+    <a href={url('/recherche/')} class="btn btn-ghost rounded-full px-2.5 lg:hidden" aria-label="Rechercher"><Icone nom="search" taille={20} /></a>
+    <button type="button" id="bascule-theme" class="btn btn-ghost rounded-full px-2.5" aria-label="Basculer entre mode clair et mode sombre">
       <span class="theme-icone-lune"><Icone nom="moon" taille={20} /></span><span class="theme-icone-soleil"><Icone nom="sun" taille={20} /></span>
     </button>
     <details class="relative md:hidden">
-      <summary class="btn btn-ghost list-none px-2.5" aria-label="Menu"><Icone nom="menu" taille={22} /></summary>
-      <nav aria-label="Navigation principale" class="absolute right-0 mt-2 w-60 rounded-[var(--radius-card)] border border-line bg-white p-2 shadow-[var(--shadow-hover)]">
+      <summary class="btn btn-ghost list-none rounded-full px-2.5" aria-label="Menu"><Icone nom="menu" taille={22} /></summary>
+      <nav aria-label="Navigation principale" class="absolute right-0 mt-3 w-64 rounded-2xl border border-line bg-white p-2 shadow-[var(--shadow-hover)]">
         <ul>
           {[...liens, ['/glossaire/', 'Glossaire'], ['/recherche/', 'Rechercher']].map(([h, l]) => (
             <li><a href={url(h!)} aria-current={courant.startsWith(h!) ? 'page' : undefined}

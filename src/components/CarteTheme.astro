@@ -1,0 +1,17 @@
+---
+import Icone from './Icone.astro';
+import { url, type Theme } from '../lib/data';
+interface Props { theme: Theme; nb: number }
+const { theme: t, nb } = Astro.props;
+const pret = t.data.etat === 'publie';
+---
+<a href={url(`/themes/${t.id}/`)} class="carte-theme">
+  <span class="flex items-start justify-between">
+    <span class="rond text-ink-900">{t.data.icone && <Icone nom={t.data.icone} taille={24} />}</span>
+    <span class="num" aria-hidden="true">{String(t.data.numero).padStart(2, '0')}</span>
+  </span>
+  <span class="mt-auto">
+    <span class="titre block text-ink-900">{t.data.titre}</span>
+    <span class="mt-1 block text-sm text-ink-600">{pret ? `${nb} proposition${nb > 1 ? 's' : ''} comparée${nb > 1 ? 's' : ''}` : 'Fiche en préparation'}</span>
+  </span>
+</a>
