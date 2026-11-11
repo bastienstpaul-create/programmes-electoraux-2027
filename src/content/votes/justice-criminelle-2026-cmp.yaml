@@ -1,0 +1,90 @@
+theme: securite-justice-libertes
+titre: Projet de loi sur la justice criminelle et le respect des victimes
+objet: Vote solennel sur l'ensemble du projet de loi, texte de la commission mixte paritaire (dernière lecture à l'Assemblée). Le texte modifie notamment les règles des cours criminelles et la prise en charge des victimes ; la mesure de « plaider-coupable » criminel avait été retirée avant le vote.
+date: 2026-07-08
+legislature: 17
+numero_scrutin: 8042
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/8042
+axes:
+- penal
+- justice
+resultat: adopte
+decompte:
+  pour: 283
+  contre: 156
+  abstention: 1
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 80
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 85
+  contre: 0
+  abstention: 1
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 68
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 41
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 27
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 35
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 31
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 34
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 14
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 12
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 10
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: '440 votants. Première lecture le 7 juillet 2026 (scrutin n° 7980 : 357 pour, 177 contre, 1 abstention).'
+date_consultation: 2026-11-11
