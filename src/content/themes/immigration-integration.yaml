@@ -1,8 +1,8 @@
 numero: 3
 titre: Immigration et intégration
 icone: globe
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: sejour
   libelle: Titres de séjour et immigration de travail
@@ -18,3 +18,159 @@ axes:
   libelle: Accès des étrangers aux prestations sociales
 - id: frontieres
   libelle: Frontières et coopération européenne
+situation:
+  texte: 'En France, un [[immigré|immigre]] est une personne née étrangère à l''étranger et qui vit en France ; elle peut ensuite devenir française. Selon l''Insee, 8,0 millions d''immigrés vivaient en France en 2025, soit 11,6 % de la population. Un tiers d''entre eux (2,6 millions) ont acquis la nationalité française. La population étrangère compte 6,3 millions de personnes (9,1 %), dont 1,0 million sont nées en France. L''Insee signale une rupture de série : les chiffres antérieurs à 2024 ne sont pas directement comparables. Sur le marché du travail, la part d''actifs est proche chez les hommes immigrés et non immigrés (80 % et 78 % des 15-64 ans en 2025). Le taux d''emploi des femmes immigrées est de 54 %, contre 69 % pour les autres femmes. Le taux de chômage des immigrés (12 % des hommes, 13 % des femmes) est supérieur à celui des non-immigrés (7 %).
+
+
+    Un étranger non européen qui s''installe en France doit détenir un [[titre de séjour|titre-de-sejour]]. Les règles figurent dans le code de l''entrée et du séjour des étrangers et du droit d''asile (CESEDA). En 2025, 384 230 premiers titres ont été délivrés (+11,2 % sur un an) : 117 970 pour des études, 92 610 pour un motif humanitaire, 91 100 pour un motif familial et 51 190 pour un motif économique. Les régularisations par [[admission exceptionnelle au séjour|admission-exceptionnelle-sejour]] sont passées sous la barre des 30 000 (28 610, −10,1 %), après une circulaire du 23 janvier 2025 qui en rappelle le caractère exceptionnel. Côté asile, 116 476 premières demandes ont été enregistrées en 2025 (−10,3 %). L''[[Ofpra|ofpra]] et la Cour nationale du droit d''asile ont accordé une protection à 78 782 personnes, soit un taux global de protection de 52,1 %. Depuis le 12 juin 2026, le [[Pacte européen sur la migration et l''asile|pacte-migration-asile]] s''applique pour l''essentiel. Le projet de loi qui autorise le Gouvernement à adapter le droit français par ordonnances a été adopté par le Sénat le 20 mai 2026 ; à l''Assemblée nationale, la commission des lois a supprimé son article unique en juillet 2026.
+
+
+    Un étranger en situation irrégulière peut recevoir une [[obligation de quitter le territoire français (OQTF)|oqtf]]. En 2025, en métropole, 156 180 mesures d''éloignement ont été prononcées (+7,6 %) et 24 275 éloignements ont été exécutés, dont 15 253 éloignements forcés (+20,7 %). Pour organiser un départ forcé, la préfecture peut placer la personne en [[rétention administrative|retention-administrative]] (2 188 places en 2024, dont 1 959 en métropole). La durée maximale est de 90 jours ; une loi du 27 juillet 2026 étend les cas où elle peut atteindre 180, voire 210 jours, pour certains étrangers condamnés. Un demandeur d''asile dont le dossier relève d''un autre pays européen est placé en [[procédure Dublin|procedure-dublin]] : c''était le cas de près de 16 % des demandeurs en 2025. Le nombre d''étrangers en situation irrégulière n''est pas connu avec précision. Ils peuvent, sous conditions, bénéficier de l''[[aide médicale de l''État (AME)|ame]] : 454 111 bénéficiaires et 1,465 milliard d''euros de dépenses en 2025.
+
+
+    Tout étranger qui obtient un premier titre de séjour durable signe un [[contrat d''intégration républicaine|contrat-integration-republicaine]] (102 871 signataires en 2025). Depuis le 1er janvier 2026, une carte de séjour pluriannuelle exige la réussite à un examen civique et un niveau de français A2 (B1 pour la carte de résident). La [[naturalisation|naturalisation]] exige désormais le niveau B2 et un examen civique. En 2025, 62 235 personnes sont devenues françaises par les procédures gérées par le ministère de l''Intérieur (−6,8 %) ; après une circulaire du 2 mai 2025, la part d''avis favorables est passée de plus de 70 % à 50 % en fin d''année. Les enfants nés en France de parents étrangers peuvent, en application du [[droit du sol|droit-du-sol]], devenir français à leur majorité, ou par déclaration anticipée dès 13 ans. À Mayotte, une loi du 12 mai 2025 exige que les deux parents résident régulièrement en France depuis plus d''un an à la naissance. Enfin, l''accès des étrangers en situation régulière aux prestations sociales peut être soumis à une durée de résidence, mais le Conseil constitutionnel a jugé en avril 2024 qu''une condition de cinq ans de résidence (ou trente mois d''activité) était disproportionnée.'
+  chiffres:
+  - libelle: Population immigrée
+    valeur: 8,0 millions (11,6 % de la population)
+    precision: 'Personnes nées étrangères à l''étranger, dont 2,6 millions devenues françaises ; population étrangère : 6,3 millions (9,1 %). Données provisoires, rupture de série avant 2024 (Insee, « L''essentiel sur les immigrés et les étrangers », juin 2026)'
+    annee: '2025'
+    source: insee-immigres-essentiel-2026
+  - libelle: Premiers titres de séjour délivrés
+    valeur: 384 230
+    precision: +11,2 % sur un an ; études 117 970, humanitaire 92 610, familial 91 100, économique 51 190, divers 31 360 ; chiffre provisoire, pays tiers (DGEF, rapport au Parlement, p. 7 et 41)
+    annee: '2025'
+    source: dgef-rapport-parlement-2025
+  - libelle: Premières demandes d'asile
+    valeur: 116 476
+    precision: −10,3 % sur un an (151 665 demandes avec les réexamens) ; 78 782 personnes protégées par l'Ofpra et la CNDA, taux global de protection de 52,1 % (DGEF, rapport au Parlement, p. 77-78 et 87)
+    annee: '2025'
+    source: dgef-rapport-parlement-2025
+  - libelle: Éloignements exécutés
+    valeur: 24 275
+    precision: Dont 15 253 éloignements forcés ; 156 180 mesures d'éloignement prononcées la même année ; France métropolitaine (DGEF, rapport au Parlement, p. 65)
+    annee: '2025'
+    source: dgef-rapport-parlement-2025
+  - libelle: Aide médicale de l'État (AME)
+    valeur: 1 465 millions d'euros
+    precision: Dépenses réelles, 21 % au-dessus des crédits votés ; 454 111 bénéficiaires (−2,4 %), dépense moyenne de 2 912 € par bénéficiaire (commission des finances du Sénat, PLF 2027, mission Santé, p. 2)
+    annee: '2025'
+    source: senat-plf2027-sante-essentiel
+  - libelle: Acquisitions de la nationalité française
+    valeur: 62 235
+    precision: Procédures relevant du ministère de l'Intérieur (naturalisations par décret, mariage, ascendants et fratries), −6,8 % ; 103 661 acquisitions toutes procédures en 2024 (DGEF, rapport au Parlement, p. 102 et 105)
+    annee: '2025'
+    source: dgef-rapport-parlement-2025
+  lois:
+  - titre: Loi n° 2024-42 du 26 janvier 2024 pour contrôler l'immigration, améliorer l'intégration
+    resume: Elle conditionne la carte de séjour pluriannuelle à un examen civique et au niveau A2 de français (B1 pour la carte de résident, B2 pour la naturalisation), et réserve l'aide au retour aux personnes visées par une mesure d'éloignement. Le Conseil constitutionnel (décision n° 2023-863 DC du 25 janvier 2024) a censuré plus de trente articles en tout ou en partie, dont la condition de cinq ans de résidence pour certaines prestations sociales, jugée sans lien avec le texte initial.
+    url: https://www.conseil-constitutionnel.fr/decision/2024/2023863DC.htm
+  - titre: Pacte européen sur la migration et l'asile (règlements et directive du 14 mai 2024)
+    resume: Neuf règlements et une directive, dont le règlement (UE) 2024/1351 sur la gestion de l'asile et de la migration, qui remplace le règlement « Dublin III ». Ils prévoient un filtrage aux frontières extérieures, des procédures accélérées et un mécanisme de solidarité entre États. Ils s'appliquent pour l'essentiel depuis le 12 juin 2026.
+    url: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1351
+  - titre: Loi n° 2025-412 du 12 mai 2025 visant à renforcer les conditions d'accès à la nationalité française à Mayotte
+    resume: Pour qu'un enfant né à Mayotte puisse devenir français par le droit du sol, ses deux parents (et non plus un seul) doivent résider régulièrement en France depuis plus d'un an (au lieu de trois mois) à sa naissance. Le Conseil constitutionnel l'a jugée conforme, sous une réserve (décision n° 2025-881 DC du 7 mai 2025).
+    url: https://www.conseil-constitutionnel.fr/decision/2025/2025881DC.htm
+  - titre: Loi n° 2026-667 du 27 juillet 2026 visant à renforcer la sécurité, la rétention administrative et la prévention des risques d'attentat
+    resume: Son article 9 étend les cas où la rétention d'étrangers condamnés pour certaines infractions peut être portée à 180, voire 210 jours. Le Conseil constitutionnel l'a validé (décision n° 2026-906 DC du 23 juillet 2026), alors qu'il avait censuré un allongement comparable en août 2025 (décision n° 2025-895 DC).
+    url: https://www.conseil-constitutionnel.fr/decision/2026/2026906DC.htm
+bilan:
+- nature: ne-fonctionne-pas
+  texte: 'Selon la Cour des comptes (janvier 2024), environ 10 % des obligations de quitter le territoire sont exécutées : en 2022, 134 280 OQTF ont été prononcées et 15 400 éloignements ou départs ont été recensés. Le ministère estime ce taux à 12 % pour les mesures effectivement exécutoires. Les obstacles cités : l''identité des personnes difficile à établir, le refus de nombreux pays d''origine de délivrer un laissez-passer consulaire, les refus d''embarquement. La Cour recommande de centraliser les demandes de laissez-passer.'
+  sources:
+  - ccomptes-immigration-irreguliere-2024
+- nature: fonctionne
+  texte: 'Les éloignements exécutés ont presque doublé en quatre ans en métropole : 12 759 en 2021, 24 275 en 2025, dont 15 253 éloignements forcés (+20,7 % en un an). La Cour des comptes relève une corrélation nette entre le nombre d''éloignements forcés et le nombre de retours aidés ou volontaires. L''écart avec les mesures prononcées reste important (156 180 en 2025).'
+  sources:
+  - dgef-rapport-parlement-2025
+  - ccomptes-immigration-irreguliere-2024
+- nature: fonctionne
+  texte: Le délai global de traitement d'une demande d'asile (Ofpra puis, en cas de recours, CNDA) est passé de 16 mois en 2021 à 10,9 mois en 2025. L'Ofpra a rendu 156 590 décisions en 2025, son plus haut niveau. Le délai moyen de l'Ofpra a toutefois remonté de 4,6 à 5,4 mois entre 2024 et 2025.
+  sources:
+  - dgef-rapport-parlement-2025
+- nature: ne-fonctionne-pas
+  texte: 'Les transferts « Dublin » vers le pays européen responsable d''une demande d''asile restent rares : environ 20 % des demandeurs que les autres États ont accepté de reprendre ont été effectivement transférés en 2025 (3 854 transferts). Aucun transfert n''a eu lieu vers l''Italie ou la Grèce. Le ministère attend une reprise avec l''entrée en application du Pacte européen.'
+  sources:
+  - dgef-rapport-parlement-2025
+- nature: debat
+  texte: 'Aide médicale de l''État : le rapport Évin-Stefanini (décembre 2023) juge le dispositif « globalement maîtrisé » et relève un non-recours important (51 % seulement des personnes éligibles en bénéficieraient selon une étude de 2019, à prendre avec prudence). La commission des finances du Sénat (PLF 2027) souligne que la dépense a dépassé de 21 % les crédits votés en 2025 et que la dette de l''État envers la Sécurité sociale au titre de l''AME atteindrait 1,04 milliard d''euros fin 2027 ; elle demande une réforme du panier de soins.'
+  sources:
+  - evin-stefanini-ame-2023
+  - senat-plf2027-sante-essentiel
+- nature: debat
+  texte: 'Effet de l''immigration sur les finances publiques : la synthèse du Conseil d''analyse économique (2021) conclut à une contribution nette des immigrés généralement comprise entre −0,5 % et +0,5 % du PIB ; pour la France, elle est négative mais faible sur 1979-2011. La Fondation iFRAP (note révisée en septembre 2026) estime à 11,6 milliards d''euros par an (données 2019) le surcroît de prestations sociales et d''allocations chômage versées aux immigrés et à leurs descendants, par rapport à ce qu''ils percevraient avec le même niveau moyen que le reste de la population. Les deux approches ne mesurent pas la même chose : la première compare recettes et dépenses, la seconde ne porte que sur certaines dépenses.'
+  sources:
+  - cae-focus-072-2021
+  - ifrap-pauvrete-immigration-2025
+effets:
+- sujet: Effet d'une restriction de l'accès des étrangers aux prestations sociales (condition de nationalité ou de durée de résidence)
+  axes:
+  - prestations
+  evaluations:
+  - source: institut-montaigne-mlp-2022
+    resume: 'Chiffrage réalisé lors de la présidentielle de 2022 : réserver les prestations familiales aux foyers dont au moins un parent est français ferait économiser 3,1 Md€ par an ; réserver le RSA et les prestations de solidarité aux étrangers ayant travaillé au moins cinq ans en France, 2,5 Md€ par an.'
+    fourchette: 3,1 Md€ (prestations familiales) ; 2,5 Md€ (RSA et solidarité), par an
+  - source: cc-2024-6-rip
+    resume: Le Conseil constitutionnel (11 avril 2024) admet qu'une durée de résidence ou d'activité soit exigée pour certaines prestations, mais juge disproportionnée une condition de cinq ans de résidence ou de trente mois d'activité pour les étrangers en situation régulière. La proposition de loi qui la contenait n'a donc pas pu poursuivre la procédure de référendum d'initiative partagée.
+    fourchette: Pas de chiffrage
+  desaccords: Le chiffrage de l'Institut Montaigne date de 2022 et porte sur des mesures plus larges que celle examinée par le Conseil constitutionnel en 2024. La faisabilité juridique d'une condition de nationalité ou d'une longue durée de résidence dépend de la Constitution, telle qu'interprétée par le Conseil constitutionnel ; aucun chiffrage récent n'a été consulté.
+- sujet: Effet d'un remplacement de l'AME par une aide limitée aux soins urgents, ou d'une réduction du panier de soins
+  axes:
+  - prestations
+  evaluations:
+  - source: institut-montaigne-mlp-2022
+    resume: Remplacer l'AME par une « aide d'urgence vitale » ferait économiser 0,7 Md€ par an, selon le chiffrage de 2022.
+    fourchette: 0,7 Md€ par an
+  - source: evin-stefanini-ame-2023
+    resume: 'Le rapport Évin-Stefanini juge qu''il « n''est pas acquis » qu''une aide médicale urgente fasse économiser à l''État. Il craint un renoncement aux soins et un report vers l''hôpital, plus coûteux : en 2022, la dépense moyenne d''un bénéficiaire était de 1 468 € pour les séjours hospitaliers contre 212 € pour les honoraires de médecins de ville (p. 21-22).'
+    fourchette: Économie non chiffrée, jugée incertaine
+  - source: senat-plf2027-sante-essentiel
+    resume: La commission des finances du Sénat propose d'étendre à tous les bénéficiaires l'accord préalable pour les soins non urgents et de réduire en conséquence de 200 M€ les crédits de l'AME pour 2027.
+    fourchette: −200 M€ sur les crédits 2027 (amendement)
+  desaccords: Le chiffrage de l'Institut Montaigne suppose une économie directe ; le rapport Évin-Stefanini estime que les soins non pris en charge en amont risquent d'être payés plus tard, à l'hôpital. La commission des finances du Sénat défend une réforme du panier de soins, sans aller jusqu'à la suppression de l'AME.
+- sujet: Effet d'un renforcement des éloignements (rétention, éloignements forcés)
+  axes:
+  - eloignement
+  evaluations:
+  - source: ccomptes-immigration-irreguliere-2024
+    resume: La politique de lutte contre l'immigration irrégulière coûte environ 1,8 Md€ par an. Une journée de rétention coûte 602 € et un éloignement forcé effectif 4 414 € en moyenne. Près de la moitié des personnes placées en rétention sont effectivement éloignées. Le plan visant 3 000 places de rétention se heurte à des difficultés de recrutement des personnels (synthèse, p. 13-15).
+    fourchette: 4 414 € par éloignement forcé ; 602 € par jour de rétention
+  - source: institut-montaigne-mlp-2022
+    resume: Renvoyer les étrangers sans emploi depuis un an ferait économiser 0,9 Md€ par an, selon le chiffrage de 2022.
+    fourchette: 0,9 Md€ par an
+  desaccords: La Cour des comptes chiffre des coûts unitaires ; l'Institut Montaigne chiffre une économie sur les dépenses sociales. Aucun chiffrage consulté ne calcule le coût total d'une hausse donnée du nombre d'éloignements. La Cour souligne qu'il est difficile de prouver que plus d'éloignements réduisent les arrivées.
+- sujet: Effet d'une réforme restrictive de l'asile et de l'accueil des mineurs non accompagnés
+  axes:
+  - asile
+  evaluations:
+  - source: institut-montaigne-mlp-2022
+    resume: Réformer la politique de l'asile et mettre fin à l'accueil des mineurs non accompagnés ferait économiser 2,8 Md€ par an, selon le chiffrage de 2022.
+    fourchette: 2,8 Md€ par an
+  - source: dgef-rapport-parlement-2025
+    resume: Pour mémoire, l'allocation pour demandeur d'asile a coûté 325,3 M€ en 2025 (y compris les bénéficiaires de la protection temporaire venus d'Ukraine) ; le parc d'hébergement compte 113 695 places autorisées. Pas de chiffrage d'une réforme (p. 79-80).
+    fourchette: Non chiffré
+  desaccords: Un seul chiffrage d'une réforme a été trouvé ; il date de 2022 et ne détaille pas, dans la synthèse consultée, la part liée à l'asile et celle liée aux mineurs. Le Pacte européen, applicable depuis juin 2026, encadre désormais une partie des règles nationales.
+- sujet: Effet d'une immigration plus sélective (par qualification) sur les finances publiques
+  axes:
+  - sejour
+  - prestations
+  evaluations:
+  - source: cae-focus-072-2021
+    resume: 'Selon la synthèse du Conseil d''analyse économique (Lionel Ragot, novembre 2021), la contribution nette des immigrés dépend surtout de leur âge et de leur qualification. Une immigration jeune et qualifiée améliore les finances de la protection sociale, mais les gains restent modérés : l''immigration ne peut pas être la seule réponse au vieillissement.'
+    fourchette: Contribution nette comprise entre −0,5 % et +0,5 % du PIB
+  - source: ifrap-pauvrete-immigration-2025
+    resume: 'La Fondation iFRAP met en avant la pauvreté plus élevée des immigrés (31,5 % en 2019) et de leurs descendants (21,7 %) : si leur taux de pauvreté était celui du reste de la population, le coût de la pauvreté pour les finances publiques serait réduit d''environ 11,1 Md€. Elle présente ces chiffres comme un indicateur de la « qualité » et de la sélectivité de l''immigration.'
+    fourchette: Environ 11 Md€ de « surcoût » annuel estimé (données 2019)
+  desaccords: Le CAE compare l'ensemble des impôts et des dépenses et conclut à un effet faible ; la Fondation iFRAP isole les dépenses de prestations et de pauvreté. La note de l'iFRAP a été corrigée en septembre 2026 après une surestimation dans sa première version.
+glossaire:
+- immigre
+- titre-de-sejour
+- admission-exceptionnelle-sejour
+- oqtf
+- retention-administrative
+- ofpra
+- procedure-dublin
+- pacte-migration-asile
+- ame
+- contrat-integration-republicaine
+- droit-du-sol
+- naturalisation

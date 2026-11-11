@@ -1,0 +1,89 @@
+theme: immigration-integration
+titre: Proposition de résolution visant à dénoncer les accords franco-algériens du 27 décembre 1968
+objet: Résolution (article 34-1 de la Constitution) invitant le Gouvernement à dénoncer l'accord qui fixe les règles d'entrée et de séjour des Algériens en France. Voter pour = adopter la résolution.
+date: 2025-10-30
+legislature: 17
+numero_scrutin: 3260
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/3260
+axes:
+- sejour
+resultat: adopte
+decompte:
+  pour: 185
+  contre: 184
+  abstention: 5
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 122
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 0
+  contre: 30
+  abstention: 3
+  non_votants: 7
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 52
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 53
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 26
+  contre: 0
+  abstention: 0
+  non_votants: 3
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 32
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 0
+  contre: 10
+  abstention: 2
+  non_votants: 1
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 17
+  contre: 0
+  abstention: 0
+  non_votants: 2
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 2
+  contre: 1
+  abstention: 0
+  non_votants: 1
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 6
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 15
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 3
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: 'Une résolution n''a pas de valeur contraignante : elle exprime un avis de l''Assemblée. Majorité absolue des suffrages exprimés : 185 voix.'
+date_consultation: 2026-11-11

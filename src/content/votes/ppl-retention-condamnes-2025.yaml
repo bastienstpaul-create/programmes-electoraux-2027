@@ -1,0 +1,89 @@
+theme: immigration-integration
+titre: Proposition de loi visant à faciliter le maintien en rétention des personnes condamnées pour des faits d'une particulière gravité et présentant de forts risques de récidive (première lecture)
+objet: Vote sur l'ensemble du texte en première lecture à l'Assemblée. Voter pour = adopter le texte, qui allongeait la durée maximale de rétention pour certains étrangers.
+date: 2025-07-08
+legislature: 17
+numero_scrutin: 2958
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/2958
+axes:
+- eloignement
+resultat: adopte
+decompte:
+  pour: 303
+  contre: 168
+  abstention: 1
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 108
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 61
+  contre: 1
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 58
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 59
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 48
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 33
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 25
+  contre: 0
+  abstention: 1
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 24
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 19
+  contre: 1
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 12
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 13
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 5
+  contre: 4
+  abstention: 0
+  non_votants: 0
+note: Le Conseil constitutionnel a ensuite censuré l'allongement de la durée de rétention (articles 1er et 2, décision n° 2025-895 DC du 7 août 2025).
+date_consultation: 2026-11-11
