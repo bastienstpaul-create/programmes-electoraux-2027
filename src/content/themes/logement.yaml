@@ -1,8 +1,8 @@
 numero: 10
 titre: Logement
 icone: house
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: construction
   libelle: Construction de logements
@@ -16,3 +16,166 @@ axes:
   libelle: Rénovation énergétique
 - id: hebergement
   libelle: Sans-abrisme et hébergement d'urgence
+situation:
+  texte: 'Au 1er juillet 2025, la France compte 38,5 millions de logements ordinaires : 82,6 % de résidences principales, 9,7 % de résidences secondaires et 7,6 % de logements vacants. Environ 57,5 % des ménages sont propriétaires de leur logement et 42,5 % locataires. Au 1er janvier 2025, le parc [[social|logement-social]] compte 5,4 millions de logements, soit 15,9 % des résidences principales. Début 2024, les ménages consacrent en moyenne 16,8 % de leurs revenus à leur résidence principale, aides au logement déduites (c''est le [[taux d''effort|taux-d-effort]]) : 25,4 % pour les locataires du parc privé, 24,0 % pour ceux du parc social et 7,4 % pour les propriétaires sans emprunt. Ce taux a baissé en dix ans pour l''ensemble des ménages, mais il a augmenté de 1,1 point pour le quart des ménages les plus modestes. Selon l''Insee, les loyers ont augmenté de 11 % en une dizaine d''années et les prix d''achat des logements de 27 %.
+
+
+    La construction neuve a fortement reculé depuis 2022. En 2025, 269 700 logements ont été mis en chantier (+3,2 %, après −13,0 % en 2024 et −23,0 % en 2023), un niveau que le service statistique du ministère qualifie de « très bas ». D''octobre 2025 à septembre 2026, 377 834 logements ont été autorisés, soit 9,1 % de moins que la moyenne des cinq années précédentes. Côté logement social, 102 094 logements ont été financés (« agréés ») en 2025, pour 2,76 millions de demandes en attente fin 2024 ; le délai moyen d''obtention était de 19 mois en 2024, et de 39,5 mois en Île-de-France. La [[loi SRU|loi-sru]] impose à certaines communes 20 % ou 25 % de logements sociaux : en 2024, 1 276 des 2 196 communes concernées n''atteignaient pas leur taux cible. En 2025, les aides publiques au logement ont atteint 45,9 milliards d''euros, dont 16,4 milliards d''[[aides personnelles au logement|apl]] et 2,1 milliards de [[MaPrimeRénov''|maprimerenov]] ; les prélèvements liés au logement ont rapporté 103,4 milliards d''euros.
+
+
+    Dans le parc privé, l''[[encadrement des loyers|encadrement-des-loyers]] s''applique, à titre expérimental, dans 9 collectivités et 70 communes situées en [[zone tendue|zone-tendue]] (Paris, Lille, Lyon, Bordeaux, Montpellier, Grenoble, Pays basque, communes de Seine-Saint-Denis…). Cette expérimentation, créée par la loi Élan de 2018 et prolongée en 2022, arrive à échéance le 23 novembre 2026. L''Assemblée nationale a adopté le 11 décembre 2025 une proposition de loi qui la rend permanente ; le Sénat l''a modifiée le 21 octobre 2026 pour la prolonger seulement de deux ans, sans nouvelles communes. Le texte est de nouveau examiné par les députés en novembre 2026. Par ailleurs, depuis le 1er janvier 2025, un logement classé G au [[DPE|dpe]] ne peut plus être proposé à la location ; ce sera le cas des logements classés F en 2028 et E en 2034. Au 1er janvier 2025, 3,9 millions de résidences principales étaient des [[passoires énergétiques|passoire-energetique]] (12,7 %). La loi de finances pour 2026 a créé un avantage fiscal pour les particuliers qui achètent un logement pour le louer (dispositif « Relance logement »), après la fin du dispositif Pinel en 2024. Un projet de loi « relance et décentralisation du logement », adopté par le Sénat le 8 juillet 2026, est en cours d''examen à l''Assemblée nationale.
+
+
+    Pour les personnes sans logement, l''État finance un parc d''[[hébergement d''urgence|hebergement-d-urgence]] qui comptait 203 758 places au 31 décembre 2024 ; le gouvernement s''est engagé à le maintenir autour de 203 000 places en 2026. Selon la commission des finances du Sénat, la part des demandes d''hébergement restées sans réponse a augmenté de 14,8 % entre 2022 et 2025. La Fondation pour le logement des défavorisés estime à 350 000 le nombre de personnes sans domicile en 2026 (estimation associative, la dernière enquête de l''Insee datant de 2012). Le second plan « [[Logement d''abord|logement-d-abord]] » (2023-2027) prévoit 30 000 places supplémentaires d''intermédiation locative et 10 000 places en pensions de famille.'
+  chiffres:
+  - libelle: Logements mis en chantier
+    valeur: 269 700
+    precision: 'Nombre annuel de mises en chantier, +3,2 % après −13,0 % en 2024 et −23,0 % en 2023 (SDES, rapport du compte du logement 2025, p. 18). D''octobre 2025 à septembre 2026 : 377 834 logements autorisés (SDES, 28 octobre 2026)'
+    annee: '2025'
+    source: sdes-rcl-2025
+  - libelle: Logements sociaux
+    valeur: 5,4 millions
+    precision: 15,9 % des résidences principales au 1er janvier 2025 ; 71 300 logements mis en location pour la première fois en un an, 18 100 démolis et 10 900 vendus (SDES, répertoire RPLS)
+    annee: '2025'
+    source: sdes-rpls-2025
+  - libelle: Demandes de logement social en attente
+    valeur: 2,76 millions
+    precision: 'Demandes actives fin 2024, +154 000 en un an ; 380 000 attributions en 2024 ; délai moyen d''obtention : 19 mois (39,5 mois en Île-de-France) (Cour des comptes, rapport public annuel 2026, p. 172 et 179)'
+    annee: '2024'
+    source: ccomptes-rpa-2026-logement-social
+  - libelle: Part des revenus consacrée au logement (taux d'effort net)
+    valeur: 16,8 %
+    precision: Début 2024, aides au logement déduites, contre 18,3 % début 2014 ; 25,4 % pour les locataires du parc privé, 24,0 % pour le parc social, 23,3 % pour les propriétaires qui remboursent un emprunt (Insee Première n° 2128)
+    annee: '2024'
+    source: insee-ip2128-taux-effort
+  - libelle: Passoires énergétiques (DPE F ou G)
+    valeur: 3,9 millions de résidences principales
+    precision: 12,7 % des résidences principales au 1er janvier 2025 (13,8 % du parc locatif privé, 5,8 % du parc social), en baisse de 327 000 en un an ; France métropolitaine (SDES-ONRE)
+    annee: '2025'
+    source: sdes-onre-dpe-2025
+  - libelle: Personnes sans domicile (estimation associative)
+    valeur: 350 000
+    precision: Personnes hébergées en centre ou à l'hôtel, ou sans abri ; estimation de la Fondation pour le logement des défavorisés, contre 143 000 lors de la dernière enquête de l'Insee (2012). Ce n'est pas une statistique publique
+    annee: '2026'
+    source: fdl-reml-2026
+  lois:
+  - titre: Article 55 de la loi SRU (article L302-5 du code de la construction et de l'habitation)
+    resume: Issu de la loi « solidarité et renouvellement urbain » du 13 décembre 2000. Il impose aux communes de plus de 3 500 habitants (1 500 en agglomération parisienne) situées dans les grandes agglomérations d'avoir 25 % de logements sociaux parmi leurs résidences principales, ou 20 % dans les territoires moins tendus. Les communes en retard paient un prélèvement annuel et peuvent être déclarées « carencées » par le préfet.
+    url: https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000033972991
+  - titre: Loi n° 2018-1021 du 23 novembre 2018 portant évolution du logement, de l'aménagement et du numérique (loi Élan), article 140
+    resume: Elle a créé l'expérimentation de l'encadrement des loyers dans les zones tendues, sur candidature des collectivités, pour cinq ans. La loi 3DS du 21 février 2022 l'a prolongée de trois ans, jusqu'au 23 novembre 2026. La loi Élan a aussi créé le bail mobilité et la cotation de la demande de logement social.
+    url: https://www.assemblee-nationale.fr/dyn/15/dossiers/evolution_logement_amenagement_numerique
+  - titre: Loi n° 2021-1104 du 22 août 2021 « climat et résilience » (décence énergétique des logements loués)
+    resume: 'Elle rend progressivement « non décents », donc interdits à la location pour les nouveaux baux, les logements les moins bien classés au diagnostic de performance énergétique : classe G depuis le 1er janvier 2025, F à partir de 2028, E à partir de 2034 (calendrier décalé en outre-mer).'
+    url: https://www.service-public.gouv.fr/particuliers/actualites/A17975?lang=fr
+  - titre: Loi n° 2023-668 du 27 juillet 2023 visant à protéger les logements contre l'occupation illicite
+    resume: Elle alourdit les peines pour violation de domicile, crée un délit d'occupation frauduleuse d'un logement, rend obligatoire dans les baux une clause de résiliation en cas d'impayés et réduit certains délais de la procédure judiciaire entre bailleur et locataire.
+    url: https://www.assemblee-nationale.fr/dyn/16/dossiers/logements_occupationillicite
+bilan:
+- nature: debat
+  texte: 'Encadrement des loyers : les évaluations publiées en 2025-2026 concluent que le dispositif a freiné la hausse des loyers. La mission d''évaluation confiée par le Premier ministre (Chapelle et Fack, mai 2026) estime l''effet à 2 à 4 % les premières années, jusqu''à 5 % en fin de période ; l''étude de l''Apur (juin 2025) mesure −5,2 % dans six villes et −8,2 % à Paris en 2023-2024, sans baisse durable de l''offre locative à Paris. La mission souligne en revanche que les gains profitent souvent à des locataires aisés à Paris, que les données de suivi sont lacunaires et qu''une baisse des annonces de location est observée dans certains territoires. À Paris, 43,2 % des annonces dépassaient le loyer autorisé en 2023-2024 selon l''Apur.'
+  sources:
+  - ipp-note-125-encadrement-loyers
+  - mission-encadrement-loyers-2026
+  - apur-encadrement-loyers-2025
+- nature: ne-fonctionne-pas
+  texte: 'Accès au logement social : selon la Cour des comptes (mars 2026), le nombre de demandes actives a atteint 2,76 millions fin 2024 (+154 000 en un an), pour 380 000 attributions. Plus de la moitié des demandes (55,1 %) sont satisfaites en moins d''un an, mais près de 14 % attendent plus de quatre ans. La Cour juge le processus d''attribution complexe et peu lisible pour les demandeurs ; une part importante des logements proposés sont refusés (jusqu''à 53 % après une première proposition selon une estimation de l''Ancols de 2020).'
+  sources:
+  - ccomptes-rpa-2026-logement-social
+- nature: debat
+  texte: 'Loi SRU : en 2024, 891 des 2 196 communes concernées (41 %) atteignaient ou dépassaient leur taux de logements sociaux, et 1 276 (58 %) étaient en dessous. Pour la période 2020-2022, 341 communes ont été déclarées « carencées ». Le prélèvement sur les communes en retard représentait 240 millions d''euros en 2024, ramené à 141 millions après déduction des dépenses engagées pour le logement social.'
+  sources:
+  - ministere-logement-sru
+- nature: debat
+  texte: 'Rénovation énergétique : une étude de l''Insee et du SDES (septembre 2026), fondée sur les compteurs Linky et Gazpar, mesure une baisse réelle de consommation de 5,0 % (électricité) à 6,6 % (gaz) après des travaux d''isolation de maisons, et jusqu''à 12 % quand plusieurs aides sont cumulées. Ces économies restent nettement inférieures aux gains calculés par les modèles théoriques. La Cour des comptes (mai 2026) relève que l''accompagnement obligatoire « Mon Accompagnateur Rénov'' » a rempli ses objectifs de conseil, mais que l''afflux de dossiers a conduit le gouvernement à suspendre les dépôts de MaPrimeRénov'' en juin 2025, puis à les rouvrir avec des plafonds abaissés.'
+  sources:
+  - insee-dt-2025-16-isolation
+  - ccomptes-mar-2026
+- nature: fonctionne
+  texte: Le premier plan « Logement d'abord » a permis à 550 000 personnes sans domicile d'accéder à un logement entre 2018 et 2023, selon la commission des finances du Sénat. Le parc d'hébergement a gagné près de 52 000 places depuis 2017 et le nombre de nuitées hôtelières a baissé de 7 665 entre 2020 et 2024.
+  sources:
+  - senat-plf2026-logement
+- nature: ne-fonctionne-pas
+  texte: Malgré cette hausse du parc, la commission des finances du Sénat constate que les demandes d'hébergement non pourvues ont augmenté de 14,8 % entre 2022 et 2025, et que les sorties vers un logement durable restent difficiles. Les places en centres d'hébergement et de réinsertion sociale, jugées plus efficaces pour l'insertion, ont moins progressé (+7 172 depuis 2017) que les places en centres d'urgence (+34 222) et à l'hôtel (+15 556).
+  sources:
+  - senat-plf2026-logement
+effets:
+- sujet: Effet du maintien, de la pérennisation ou de l'extension de l'encadrement des loyers
+  axes:
+  - loyers
+  evaluations:
+  - source: mission-encadrement-loyers-2026
+    resume: 'La mission estime que l''encadrement actuel transfère environ 600 M€ par an aux locataires : deux tiers sont supportés par les propriétaires, un tiers par l''État via des recettes fiscales plus faibles. L''étendre à toutes les zones tendues concernerait environ 2 millions de logements supplémentaires et procurerait 1,1 Md€ de gain aux locataires, dont 320 M€ de pertes de recettes pour l''État (rapport p. 66-67, tableau 12). La mission ne mesure pas les effets à long terme sur l''offre.'
+    fourchette: 'Baisse de loyer de 2 à 4 % (jusqu''à 5 %) ; extension à toutes les zones tendues : +1,1 Md€ pour les locataires, −787 M€ pour les propriétaires, −320 M€ de recettes fiscales par an'
+  - source: apur-encadrement-loyers-2025
+    resume: 'Étude de l''Atelier parisien d''urbanisme et d''universitaires sur les annonces du groupe SeLoger : baisse des loyers de l''ordre de 5,2 % dans six villes encadrées ; à Paris, l''effet atteindrait 9,8 à 10,2 % si toutes les règles étaient respectées. L''étude ne constate pas d''effet durable sur le nombre d''annonces à Paris (p. 43).'
+    fourchette: −5,2 % (six villes) ; −8,2 % à Paris en 2023-2024
+  - source: senat-ppl-rapports-locatifs-2026
+    resume: La commission des affaires économiques du Sénat estime qu'« aucune étude empirique » n'a permis d'écarter un effet négatif sur l'offre locative. Elle a donc préféré une prolongation de deux ans, sans nouvelles communes, à une pérennisation.
+    fourchette: Pas de chiffrage
+  desaccords: 'Les études s''accordent sur une baisse modérée des loyers, mais pas sur son ampleur (2 à 5 % selon la mission, environ 5 % selon l''Apur), qui dépend des données utilisées et de la période. Le désaccord principal porte sur l''offre de logements à louer : l''Apur ne mesure pas de baisse durable à Paris ; la mission observe une baisse des annonces dans certains territoires sans pouvoir conclure ; la majorité sénatoriale considère le risque comme non écarté. Le coût pour l''État vient de la baisse des revenus fonciers imposables.'
+- sujet: Effet d'une hausse des aides personnelles au logement (APL)
+  axes:
+  - loyers
+  - social
+  evaluations:
+  - source: institut-montaigne-nfp-apl-2024
+    resume: 'Chiffrage réalisé pour les législatives de 2024 : revaloriser de 10 % toutes les aides au logement coûterait 1,54 Md€ par an, sur la base des 15,4 Md€ versés en 2022 à 5,5 millions de foyers. L''Institut précise qu''une partie du gain pourrait être absorbée par une hausse des loyers.'
+    fourchette: 1,5 Md€ par an pour +10 %
+  - source: sdes-rcl-2025
+    resume: 'Pour situer l''ordre de grandeur : les aides personnelles au logement ont représenté 16,4 Md€ en 2025.'
+    fourchette: 16,4 Md€ en 2025
+  desaccords: Le chiffrage porte sur le coût budgétaire direct. L'effet réel sur le pouvoir d'achat des locataires dépend de la part de la hausse captée par les loyers, que l'Institut Montaigne signale sans la chiffrer.
+- sujet: Effet de la réduction de loyer de solidarité (RLS) sur les bailleurs sociaux et la construction
+  axes:
+  - social
+  - construction
+  evaluations:
+  - source: senat-plf2026-logement
+    resume: La [[RLS|rls]] oblige les bailleurs sociaux à baisser les loyers de leurs locataires qui touchent l'APL, l'État réduisant l'APL d'autant. Elle est passée de 800 M€ en 2018 à 1,3 Md€ en 2021 ; ramenée à 1,1 Md€ en 2025, elle pourrait revenir à 1,3 Md€ en 2026. À politique inchangée, la Banque des territoires prévoit une production d'environ 90 000 logements sociaux par an entre 2026 et 2038 (p. 57-58).
+    fourchette: 1,1 à 1,3 Md€ par an supportés par les bailleurs sociaux
+  - source: institut-montaigne-nfp-micro-2024
+    resume: 'Chiffrage réalisé pour les législatives de 2024 : revenir sur la RLS (« les coupes de 1,4 milliard d''euros ») coûterait 1,3 Md€ par an à l''État à l''horizon 2027.'
+    fourchette: 1,3 Md€ par an
+  desaccords: La commission des finances du Sénat attribue à la RLS une baisse des fonds propres des bailleurs, tout en rappelant que, selon la Cour des comptes (juin 2025), son effet sur leurs capacités d'investissement « n'a pas été objectivé ». La baisse du taux du livret A (de 3 % à 1,7 % en 2025) a par ailleurs réduit le coût de financement des bailleurs.
+- sujet: Effet des aides à la rénovation énergétique (MaPrimeRénov')
+  axes:
+  - renovation
+  evaluations:
+  - source: institut-montaigne-nfp-micro-2024
+    resume: Augmenter de 10 points le taux de prise en charge de MaPrimeRénov' coûterait environ 0,46 Md€ par an, sur la base d'un coût de 4,6 Md€ inscrit au budget 2024. L'Institut n'a pas pu chiffrer une « intensification » plus générale de la rénovation.
+    fourchette: 0,46 Md€ par an pour +10 points de prise en charge
+  - source: insee-dt-2025-16-isolation
+    resume: Les économies réelles d'énergie mesurées après isolation (−5,0 % pour l'électricité, −6,6 % pour le gaz en moyenne, jusqu'à −12 % avec un cumul d'aides) sont inférieures aux économies théoriques retenues pour calibrer les aides.
+    fourchette: −5 % à −13 % de consommation réelle selon les cas
+  - source: sdes-onre-mpr-2024
+    resume: En 2024, MaPrimeRénov' « par geste » a financé des travaux dans environ 241 000 logements, pour des économies conventionnelles (théoriques) estimées à 1,4 TWh par an, soit 5,9 MWh par logement ; les pompes à chaleur représentent 23 % des dossiers mais 65 % de ces économies.
+    fourchette: 1,4 TWh/an d'économies conventionnelles (2024)
+  desaccords: Les chiffrages publics des aides reposent sur des économies d'énergie conventionnelles ; les mesures sur consommations réelles (Insee-SDES) sont plus faibles, ce qui modifie le coût par kWh économisé. La Cour des comptes (mai 2026) souligne aussi le caractère heurté du financement (suspension des dépôts en 2025).
+- sujet: Coût des aides fiscales à l'investissement locatif et à l'accession (Relance logement, PTZ)
+  axes:
+  - construction
+  - propriete
+  evaluations:
+  - source: senat-pjl-relance-logement-finances-2026
+    resume: Le dispositif « Relance logement » (loi de finances pour 2026) permet aux bailleurs privés de déduire de leurs revenus imposables l'amortissement d'un logement loué. Son coût générationnel est estimé à 1 Md€ ; l'assouplissement prévu pour les logements anciens par le projet de loi de 2026 le porterait à 1,8 Md€, soit plus que le dispositif Pinel, selon la commission des finances du Sénat.
+    fourchette: 1 à 1,8 Md€ (coût générationnel)
+  - source: senat-plf2026-logement
+    resume: Le [[prêt à taux zéro|ptz]], étendu à tout le territoire pour le neuf en avril 2025, coûterait 838 M€ en 2026, contre 697 M€ en 2025. Au deuxième trimestre 2025, environ 16 500 prêts avaient été émis, plus du double de la même période de 2024 (7 600) (p. 19 et 60-61).
+    fourchette: 838 M€ en 2026 (PTZ)
+  desaccords: La commission des finances du Sénat demande que ces dépenses fiscales soient « proportionnées » et juge qu'un statut du bailleur privé ne suffirait pas, à lui seul, à relancer l'offre. Le ministère chargé du logement indique que le retour du PTZ a eu un effet d'entraînement sur la demande de logements neufs. Aucun chiffrage indépendant du nombre de logements supplémentaires produits n'a été trouvé.
+glossaire:
+- loi-sru
+- logement-social
+- encadrement-des-loyers
+- zone-tendue
+- dpe
+- passoire-energetique
+- maprimerenov
+- apl
+- rls
+- ptz
+- bail-reel-solidaire
+- logement-d-abord
+- hebergement-d-urgence
+- taux-d-effort

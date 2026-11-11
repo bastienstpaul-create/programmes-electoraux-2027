@@ -1,0 +1,83 @@
+theme: logement
+titre: Projet de loi relatif à l'accélération et à la simplification de la rénovation de l'habitat dégradé et des grandes opérations d'aménagement (texte de la commission mixte paritaire)
+objet: Vote sur le texte de compromis entre députés et sénateurs. Il crée notamment un prêt collectif pour financer des travaux en copropriété et facilite l'expropriation et le traitement des copropriétés dégradées.
+date: 2024-03-19
+legislature: 16
+numero_scrutin: 3548
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3548
+axes:
+- renovation
+resultat: adopte
+decompte:
+  pour: 171
+  contre: 0
+  abstention: 77
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 80
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 0
+  abstention: 49
+  non_votants: 1
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 0
+  contre: 0
+  abstention: 27
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 21
+  contre: 0
+  abstention: 1
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 18
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC-A
+  pour: 19
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 9
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 6
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 7
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 8
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 3
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: Devenu la loi n° 2024-322 du 9 avril 2024. Aucun vote contre ; les groupes RN et LFI-NUPES se sont abstenus. Le sigle du groupe socialiste figure sous la forme « SOC-A » sur la page du scrutin.
+date_consultation: 2026-11-11
