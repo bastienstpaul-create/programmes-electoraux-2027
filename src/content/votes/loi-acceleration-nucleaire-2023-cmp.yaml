@@ -1,0 +1,84 @@
+theme: energie-climat
+titre: Projet de loi relatif à l'accélération des procédures liées à la construction de nouvelles installations nucléaires à proximité de sites nucléaires existants et au fonctionnement des installations existantes (texte de la commission mixte paritaire) – vote sur l'ensemble
+objet: Adoption définitive par l'Assemblée du texte de compromis du projet de loi d'accélération du nucléaire. Voter pour = adopter la loi, qui simplifie les procédures pour les nouveaux réacteurs et supprime l'objectif de 50 % de nucléaire en 2035 (loi n° 2023-491 du 22 juin 2023).
+date: 2023-05-16
+legislature: 16
+numero_scrutin: 1533
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/1533
+axes:
+- nucleaire
+- objectifs
+resultat: adopte
+decompte:
+  pour: 399
+  contre: 100
+  abstention: 39
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 159
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 84
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 0
+  contre: 72
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 59
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 40
+  contre: 1
+  abstention: 0
+  non_votants: 1
+- groupe: Socialistes et apparentés (membre de l’intergroupe NUPES)
+  sigle: SOC
+  pour: 0
+  contre: 0
+  abstention: 30
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 29
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 0
+  contre: 23
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 10
+  contre: 4
+  abstention: 4
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 15
+  contre: 0
+  abstention: 5
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 3
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: 538 votants. Scrutin public solennel. Décision du Conseil constitutionnel n° 2023-851 DC du 21 juin 2023 (partiellement conforme).
+date_consultation: 2026-11-11
