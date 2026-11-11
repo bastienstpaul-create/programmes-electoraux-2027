@@ -8,4 +8,6 @@ precision: "Désigné par une consultation des adhérents LR (19 avril 2026)."
 programme_url: "https://republicains.fr/nos-propositions/"
 groupes_assemblee: ["LR", "DR"]
 groupes_note: "Groupe Les Républicains (2022-2024), puis Droite républicaine (depuis 2024)."
+veille_urls:
+  - "https://avecretailleau.fr/"
 date_verification: 2026-11-10

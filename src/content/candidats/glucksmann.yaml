@@ -8,4 +8,6 @@ precision: "Désigné au premier tour de la primaire de la gauche sociale-démoc
 programme_url: "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
 groupes_assemblee: ["SOC", "SOC-A"]
 groupes_note: "Les députés de Place publique siègent dans le groupe socialiste."
+veille_urls:
+  - "https://glucks2027.fr/"
 date_verification: 2026-11-10
