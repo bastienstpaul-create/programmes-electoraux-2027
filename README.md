@@ -36,6 +36,15 @@ src/
 
 Mettre à jour le contenu ne nécessite jamais de modifier le code : on édite uniquement les fichiers de `src/content/`.
 
+## Mise à jour
+
+```bash
+npm run veille      # détecte les pages de programme modifiées (rapport dans docs/veille/)
+npm run mesure -- --help
+```
+
+Procédure complète : section « Mise à jour d'un programme » de `CLAUDE.md`.
+
 ## Règles éditoriales
 
 Voir `CLAUDE.md` (neutralité, sourçage, statuts des mesures) et `A_VERIFIER.md` (points en attente de vérification).

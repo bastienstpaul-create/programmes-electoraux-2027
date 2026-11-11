@@ -1,0 +1,160 @@
+{
+ "agriculture-alimentation-eau": {
+  "revenu": "Revenu agricole et prix",
+  "normes": "Normes et pesticides",
+  "accords": "Accords commerciaux agricoles",
+  "installation": "Installation et foncier agricole",
+  "alimentation": "Alimentation et restauration collective",
+  "eau": "Gestion de l'eau"
+ },
+ "culture-sport-medias": {
+  "audiovisuel-public": "Audiovisuel public",
+  "medias": "Indépendance et concentration des médias",
+  "culture": "Financement de la culture",
+  "patrimoine": "Patrimoine",
+  "creation": "Création et droits d'auteur",
+  "sport": "Sport"
+ },
+ "defense-diplomatie": {
+  "budget": "Budget de la défense",
+  "armees": "Effectifs et service militaire",
+  "dissuasion": "Dissuasion nucléaire",
+  "otan": "OTAN et alliances",
+  "ukraine": "Guerre en Ukraine",
+  "aide": "Aide au développement",
+  "diplomatie": "Orientations diplomatiques"
+ },
+ "economie-industrie-emploi": {
+  "industrie": "Industrie et relocalisations",
+  "pme": "PME, simplification et normes",
+  "commerce": "Commerce international",
+  "pouvoir-achat": "Prix et pouvoir d'achat",
+  "investissement": "Investissement et innovation",
+  "emploi": "Emploi et formation professionnelle"
+ },
+ "education-recherche-jeunesse": {
+  "ecole": "École et collège",
+  "enseignants": "Enseignants : recrutement et rémunération",
+  "lycee": "Lycée, voie professionnelle et apprentissage",
+  "superieur": "Enseignement supérieur",
+  "recherche": "Recherche",
+  "jeunesse": "Jeunesse et service national"
+ },
+ "egalite-discriminations": {
+  "egalite-pro": "Égalité professionnelle femmes-hommes",
+  "violences": "Violences faites aux femmes",
+  "discriminations": "Racisme et discriminations",
+  "laicite": "Laïcité",
+  "lgbt": "Droits des personnes LGBT+",
+  "accessibilite": "Accessibilité et inclusion"
+ },
+ "energie-climat": {
+  "nucleaire": "Nucléaire",
+  "renouvelables": "Énergies renouvelables",
+  "objectifs": "Objectifs climatiques",
+  "prix": "Prix de l'énergie",
+  "financement": "Financement de la transition",
+  "biodiversite": "Biodiversité et adaptation"
+ },
+ "europe": {
+  "institutions": "Institutions européennes",
+  "budget": "Budget de l'Union",
+  "regles": "Règles budgétaires et traités",
+  "elargissement": "Élargissement de l'Union",
+  "defense": "Défense européenne",
+  "droit": "Droit européen et souveraineté nationale"
+ },
+ "finances-publiques": {
+  "deficit": "Trajectoire du déficit",
+  "dette": "Dette publique",
+  "depenses": "Dépenses publiques et économies",
+  "impot-revenu": "Impôt sur le revenu",
+  "patrimoine": "Impôts sur le patrimoine et les hauts revenus",
+  "entreprises": "Fiscalité des entreprises",
+  "consommation": "TVA et impôts sur la consommation"
+ },
+ "immigration-integration": {
+  "sejour": "Titres de séjour et immigration de travail",
+  "asile": "Droit d'asile",
+  "eloignement": "Expulsions et obligations de quitter le territoire",
+  "nationalite": "Accès à la nationalité",
+  "integration": "Intégration : langue, emploi, logement",
+  "prestations": "Accès des étrangers aux prestations sociales",
+  "frontieres": "Frontières et coopération européenne"
+ },
+ "institutions-democratie": {
+  "mode-scrutin": "Mode de scrutin des législatives",
+  "referendum": "Référendum et participation citoyenne",
+  "parlement": "Pouvoirs du Parlement et article 49.3",
+  "constitution": "Révision de la Constitution et mandat présidentiel",
+  "collectivites": "Collectivités locales et décentralisation",
+  "ethique": "Transparence et éthique de la vie publique"
+ },
+ "logement": {
+  "construction": "Construction de logements",
+  "social": "Logement social",
+  "loyers": "Loyers et location",
+  "propriete": "Accession à la propriété",
+  "renovation": "Rénovation énergétique",
+  "hebergement": "Sans-abrisme et hébergement d'urgence"
+ },
+ "mer-spatial": {
+  "spatial": "Politique spatiale",
+  "maritime": "Économie maritime et ports",
+  "marine": "Marine nationale et zone maritime",
+  "peche": "Pêche",
+  "oceans": "Protection des océans"
+ },
+ "numerique-ia": {
+  "ia": "Intelligence artificielle",
+  "donnees": "Données personnelles et vie privée",
+  "plateformes": "Réseaux sociaux et plateformes",
+  "mineurs": "Protection des mineurs en ligne",
+  "souverainete": "Souveraineté numérique",
+  "acces": "Accès au numérique et couverture du territoire"
+ },
+ "protection-sociale-pauvrete": {
+  "minima": "RSA et minima sociaux",
+  "famille": "Politique familiale",
+  "pauvrete": "Lutte contre la pauvreté",
+  "handicap": "Handicap",
+  "fraude": "Fraude sociale",
+  "simplification": "Simplification des aides"
+ },
+ "sante-autonomie": {
+  "hopital": "Hôpital",
+  "acces": "Accès aux soins et déserts médicaux",
+  "medicaments": "Médicaments et reste à charge",
+  "financement": "Financement de l'assurance maladie",
+  "grand-age": "Grand âge, Ehpad et autonomie",
+  "prevention": "Prévention et santé mentale",
+  "fin-de-vie": "Fin de vie"
+ },
+ "securite-justice-libertes": {
+  "police": "Police et gendarmerie",
+  "justice": "Moyens et délais de la justice",
+  "prisons": "Prisons et exécution des peines",
+  "penal": "Peines et droit pénal",
+  "mineurs": "Justice des mineurs",
+  "drogues": "Drogues et trafics",
+  "libertes": "Libertés publiques et surveillance"
+ },
+ "transports-territoires": {
+  "ferroviaire": "Train",
+  "route": "Voiture, routes et carburants",
+  "quotidien": "Transports du quotidien",
+  "aerien": "Transport aérien",
+  "ruralite": "Services publics dans les territoires",
+  "outre-mer": "Outre-mer"
+ },
+ "travail-retraites": {
+  "age": "Âge de départ à la retraite",
+  "duree": "Durée de cotisation",
+  "pensions": "Montant des pensions",
+  "financement": "Financement des retraites",
+  "penibilite": "Pénibilité, carrières longues et seniors",
+  "salaires": "SMIC et salaires",
+  "temps-travail": "Durée du travail",
+  "chomage": "Assurance chômage"
+ }
+}

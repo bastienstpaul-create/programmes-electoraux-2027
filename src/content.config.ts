@@ -48,6 +48,8 @@ const candidats = defineCollection({
     /** précision factuelle sur le statut (procédure en cours, départage prévu…) */
     precision: z.string().optional(),
     programme_url: z.url().optional(),
+    /** pages supplémentaires à surveiller (sites de campagne, pages programme du parti) */
+    veille_urls: z.array(z.url()).default([]),
     date_verification: date,
     /** sigles des groupes de l'Assemblée où siègent les députés du parti (selon la législature) */
     groupes_assemblee: z.array(z.string()).default([]),
