@@ -1,8 +1,8 @@
 numero: 9
 titre: Éducation, recherche, jeunesse
 icone: graduation-cap
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: ecole
   libelle: École et collège
@@ -16,3 +16,152 @@ axes:
   libelle: Recherche
 - id: jeunesse
   libelle: Jeunesse et service national
+situation:
+  texte: 'En 2025, la France a consacré 199,2 milliards d''euros à l''éducation, de la maternelle à l''université, soit 6,7 % de la richesse nationale ([[PIB|pib]]). L''État en finance 55 %, les collectivités territoriales 23 %. La dépense moyenne s''élève à 9 440 euros par an pour un élève du premier degré (maternelle et élémentaire), 11 780 euros pour un élève du second degré (collège et lycée) et 13 350 euros pour un étudiant. En 2024, 6,3 millions d''élèves étaient scolarisés dans le premier degré avec 367 500 enseignants, et 6,1 millions d''élèves ou d''apprentis dans le second degré avec 482 300 enseignants. L''instruction est obligatoire dès 3 ans depuis la rentrée 2019. Le nombre d''élèves baisse avec la natalité : selon la [[DEPP|depp]], le premier degré compterait 933 000 élèves de moins en 2035, et l''ensemble du système 1,7 million de moins en dix ans.
+
+
+    Sur le niveau des élèves, l''enquête internationale [[PISA|pisa]] de 2022 indique que 29 % des élèves de 15 ans ont une maîtrise insuffisante en mathématiques, 27 % en compréhension de l''écrit et 24 % en sciences, des niveaux proches de la moyenne de l''Union européenne. Les résultats dépendent fortement du milieu social, dès la maternelle. Depuis 2017, les classes de CP et de CE1, puis de grande section, sont dédoublées dans l''[[éducation prioritaire|education-prioritaire]]. Depuis la rentrée 2024, les cours de français et de mathématiques de 6e et de 5e sont organisés en [[groupes|groupes-de-besoins]]. Après des manifestations de lycéens en septembre et octobre 2026, le gouvernement a annoncé le 26 octobre 1 200 postes d''enseignants pour limiter les classes de seconde à 28 élèves (dans la moitié des lycées les plus défavorisés en 2027, puis partout en 2028) et une refonte de [[Parcoursup|parcoursup]] d''ici à 2028.
+
+
+    Un enseignant titulaire gagnait en moyenne 3 010 euros nets par mois en 2023 (équivalent temps plein). En début et en milieu de carrière, les salaires sont inférieurs à la moyenne européenne : un professeur des écoles débute à 2 680 euros bruts par mois. En 2025, 93 % des postes ouverts aux concours de l''Éducation nationale ont été pourvus, mais seulement 71 % au CAPES externe de mathématiques. Depuis la session 2026, de nouveaux concours sont ouverts dès la licence (bac+3), suivis de deux années de formation rémunérées (environ 1 400 puis 1 800 euros nets par mois) ; les anciens concours à bac+5 restent ouverts en parallèle en 2026 et 2027. L''accompagnement des élèves en situation de handicap repose sur les [[AESH|aesh]] : 563 300 enfants handicapés étaient scolarisés en 2024-2025.
+
+
+    Dans l''enseignement supérieur, l''accès aux formations après le bac passe par Parcoursup : en 2026, 93,7 % des nouveaux bacheliers inscrits ont reçu au moins une proposition. En 2025-2026, 656 114 étudiants percevaient une [[bourse sur critères sociaux|bourses-criteres-sociaux]]. Le repas à 1 euro dans les restaurants universitaires, réservé jusque-là aux boursiers et aux étudiants précaires, a été étendu à tous les étudiants par la loi de finances pour 2026. La dépense de recherche atteint 64,1 milliards d''euros en 2024, soit un [[effort de recherche|effort-recherche]] de 2,18 % du PIB, en dessous de l''objectif européen de 3 % fixé en 2000. L''État soutient la recherche des entreprises surtout par le [[CIR|cir]] et finance la recherche publique selon la [[loi de programmation de la recherche|loi-programmation-recherche]] (2021-2030). Côté jeunesse, 13 % des 15-29 ans n''étaient ni en emploi, ni en études, ni en formation en 2024 (11 % dans l''Union européenne) ; 846 700 contrats d''[[apprentissage|apprentissage]] ont débuté en 2025 (−5 % sur un an). Un [[service national|service-national]] militaire volontaire de 10 mois, ouvert aux 18-25 ans, débute en septembre 2026 avec environ 3 000 volontaires.'
+  chiffres:
+  - libelle: Dépense intérieure d'éducation
+    valeur: 199,2 milliards d'euros (6,7 % du PIB)
+    precision: 'Estimation provisoire ; +1,2 % en euros courants sur un an. État : 55 % du financement, collectivités : 23 %, entreprises : 10 %, ménages : 8 % (DEPP, Note d''information n° 26.42, p. 1)'
+    annee: '2025'
+    source: depp-ni-26-42-die-2025
+  - libelle: Élèves de 15 ans en difficulté en mathématiques
+    valeur: 29 %
+    precision: 'Part des élèves ayant une maîtrise insuffisante en culture mathématique (PISA 2022) ; 27 % en compréhension de l''écrit, 24 % en sciences ; cible européenne : 15 % en 2030 (DEPP, L''état de l''École 2025, p. 7)'
+    annee: '2022'
+    source: depp-etat-ecole-2025
+  - libelle: Salaire net moyen d'un enseignant titulaire
+    valeur: 3 010 € par mois
+    precision: 'Équivalent temps plein, public et privé sous contrat ; 2 920 € pour les femmes, 3 230 € pour les hommes ; professeur des écoles débutant : 2 680 € bruts (DEPP, L''état de l''École 2025, fiche 12, p. 36)'
+    annee: '2023'
+    source: depp-etat-ecole-2025
+  - libelle: Postes pourvus aux concours de l'Éducation nationale
+    valeur: 93 %
+    precision: 29 500 admis pour 31 800 postes et contrats (enseignants et non-enseignants) ; 71 % au CAPES externe de mathématiques, 83 % à l'agrégation externe de mathématiques (DEPP, Panorama statistique des personnels 2025-2026, chapitre 5, p. 114)
+    annee: '2025'
+    source: depp-panorama-2026-concours
+  - libelle: Effort de recherche (dépense de R&D rapportée au PIB)
+    valeur: 2,18 % du PIB
+    precision: '64,1 milliards d''euros ; entreprises : 1,43 % du PIB, administrations : 0,75 % ; stable par rapport à 2023 (SIES, Note Flash n° 16, p. 1)'
+    annee: '2024'
+    source: sies-nf-2026-16-dird
+  - libelle: Jeunes ni en emploi, ni en études, ni en formation (15-29 ans)
+    valeur: 13 %
+    precision: 'Contre 11 % en moyenne dans l''Union européenne ; taux de chômage des 15-29 ans : 14 % en France contre 11 % dans l''UE (Insee, 2027 : la statistique publique au service des débats, p. 12)'
+    annee: '2024'
+    source: insee-debats-2027
+  lois:
+  - titre: Loi n° 2019-791 du 26 juillet 2019 pour une école de la confiance
+    resume: Elle a abaissé de 6 à 3 ans l'âge de l'instruction obligatoire à partir de la rentrée 2019, avec une compensation de l'État aux communes pour les dépenses supplémentaires. Elle a aussi créé les instituts nationaux supérieurs du professorat et de l'éducation (INSPÉ), chargés de la formation des enseignants. Le Conseil constitutionnel l'a jugée en partie conforme (décision n° 2019-787 DC du 25 juillet 2019).
+    url: https://www.conseil-constitutionnel.fr/decision/2019/2019787DC.htm
+  - titre: Loi n° 2018-166 du 8 mars 2018 relative à l'orientation et à la réussite des étudiants
+    resume: Elle soumet l'inscription en première année du supérieur public à une procédure nationale de préinscription (la plateforme Parcoursup). Les candidats y voient les caractéristiques de chaque formation. Une université peut conditionner l'inscription à un parcours d'accompagnement (« oui si ») quand le profil du candidat ne correspond pas entièrement à la formation. Le Conseil constitutionnel l'a validée (décision n° 2018-763 DC du 8 mars 2018).
+    url: https://www.conseil-constitutionnel.fr/decision/2018/2018763DC.htm
+  - titre: Loi du 24 décembre 2020 de programmation de la recherche pour les années 2021 à 2030
+    resume: Elle fixe une trajectoire de hausse des crédits de la recherche sur dix ans et des mesures sur les carrières des chercheurs, dont une nouvelle voie de recrutement des professeurs d'université par contrat avant titularisation. Selon la commission des finances du Sénat, le projet de budget pour 2027 prévoit 13 millions d'euros au titre de cette loi pour les universités, contre 91 millions prévus. Décision du Conseil constitutionnel n° 2020-810 DC du 21 décembre 2020.
+    url: https://www.conseil-constitutionnel.fr/decision/2020/2020810DC.htm
+  - titre: 'Loi n° 2026-791 du 16 août 2026 actualisant la programmation militaire 2024-2030 (article 40 : service national)'
+    resume: 'Elle sert de base légale, avec les articles L121-1 à L121-3 du code du service national, au nouveau service national militaire volontaire : 10 mois (1 mois de formation, 9 mois en unité sur le territoire national), pour les Français de 18 à 25 ans, avec une solde d''environ 800 euros bruts par mois et 5 ans dans la réserve ensuite.'
+    url: https://www.assemblee-nationale.fr/dyn/17/dossiers/PJL_actualisation_loi_programmation_militaire_annees_2024_2030_diverses_dispositions_defense
+bilan:
+- nature: fonctionne
+  texte: Les sorties précoces du système scolaire ont nettement baissé. En 2024, la part de sortants précoces du système éducatif était de 8 %, cinq fois moins qu'à la fin des années 1970 ; la France passe sous l'objectif européen de 9 % fixé pour 2030. La part de bacheliers dans une génération oscille autour de 79 % depuis 2022, et la moitié des jeunes sortis de formation en 2022 sont diplômés du supérieur (DEPP, présentation, p. 6-7).
+  sources:
+  - depp-etat-ecole-2025
+- nature: ne-fonctionne-pas
+  texte: 'Selon la DEPP, la France fait partie des pays de l''OCDE où les compétences des élèves sont les plus liées au milieu social, et cet écart existe dès la petite section de maternelle. Il s''accentue pendant la scolarité : en 2024, 74 % des 25-34 ans enfants de cadres ont un diplôme du supérieur long, contre 25 % des enfants d''ouvriers. En collège REP+, 70 % des élèves de sixième ont des parents ouvriers ou inactifs, contre 17 % en collège privé (présentation, p. 8-9).'
+  sources:
+  - depp-etat-ecole-2025
+- nature: ne-fonctionne-pas
+  texte: 'Groupes de français et de mathématiques au collège (réforme de 2024) : la première évaluation de la DEPP et d''une équipe de chercheurs (septembre 2026) ne trouve pas d''effet significatif sur les scores des élèves aux évaluations de début de 4e, quel que soit le type de groupes choisi par le collège. Les auteurs relèvent que cela rejoint la littérature internationale et appellent à la prudence : la réforme a été appliquée de façon très variable (94 % des collèges ont changé leur organisation, 50 % avec des groupes formés selon le profil scolaire des élèves). Les enseignants, très défavorables au départ, jugent la réforme moins sévèrement à la fin de la première année (synthèse, p. 10-11).'
+  sources:
+  - depp-dt-2026-e17-groupes
+- nature: debat
+  texte: 'Recrutement des enseignants : entre 2016 et 2025, le nombre de candidats présents aux concours a baissé de 31,7 % dans le premier degré et de 33,4 % dans le second, plus vite que le nombre de postes. À la session 2026, la première où des concours sont ouverts dès la licence, la part de postes pourvus aux concours externes publics remonte à 97,3 % dans le premier degré et 95,8 % dans le second (contre 86,2 % et 84,9 % en 2022). Le rapporteur du Sénat parle de « premiers résultats encourageants » à interpréter avec prudence et note que les académies de Créteil, Versailles et la Guyane n''ont pas pourvu tous leurs postes. Il relève aussi qu''en 2024-2025 les élèves ont perdu 9,8 % de leurs heures de cours, dont 7,5 % faute de remplacement (p. 49-51, 68, 76).'
+  sources:
+  - senat-np-plf2027-enseignement-scolaire
+  - depp-panorama-2026-concours
+- nature: debat
+  texte: 'Apprentissage : depuis la réforme de 2018 et l''aide exceptionnelle aux employeurs de 2020, le nombre de contrats a fortement augmenté (+31 % par an en moyenne de 2019 à 2022), surtout dans le supérieur (59 % des contrats commencés en 2025). Six mois après la sortie, 62 % des anciens apprentis de niveau CAP à BTS qui ne poursuivent pas leurs études ont un emploi salarié. Environ un tiers des contrats commencés en 2022 ont été rompus ; une fois déduites les reprises d''un autre contrat dans les six mois, le taux de rupture tombe à 18 % pour les contrats de 2021. Les entrées ont baissé de 5 % en 2025 (Insee, données Dares, p. 13).'
+  sources:
+  - insee-debats-2027
+- nature: ne-fonctionne-pas
+  texte: 'Service national universel (SNU) : dans son bilan de septembre 2024, la Cour des comptes juge les objectifs « incertains » et le coût « largement sous-estimé ». Elle évalue le coût réel à près de 2 900 euros par jeune en 2022, contre environ 2 300 euros selon le ministère. Elle estime qu''une généralisation à toute une classe d''âge (environ 850 000 jeunes) n''était pas préparée, faute de solution pour l''hébergement et l''encadrement (synthèse, p. 12-14).'
+  sources:
+  - ccomptes-snu-2024
+effets:
+- sujet: Effet d'une hausse générale du salaire des enseignants
+  axes:
+  - enseignants
+  evaluations:
+  - source: institut-montaigne-enseignants-2022
+    resume: 'Chiffrage réalisé pour les législatives de 2022 (898 400 enseignants actifs) : une hausse de 10 % pour tous, sans contrepartie, coûterait près de 3,3 Md€ par an. Un supplément pour les enseignants qui acceptent de nouvelles missions ajouterait 1,7 Md€ si la moitié y adhérait, soit environ 5 Md€ au total (4,1 à 5,8 Md€). Le chiffrage n''inclut ni le coût futur sur les retraites, ni le supérieur (environ 400 M€ de plus s''il était concerné).'
+    fourchette: ≈ 3,3 Md€ par an pour +10 % pour tous ; 4,1 à 5,8 Md€ avec contreparties
+  - source: senat-np-plf2027-enseignement-scolaire
+    resume: Le rapporteur du Sénat (octobre 2026) estime à 375 M€ en année pleine le coût de la réforme de la formation initiale, qui rémunère les lauréats des concours pendant deux ans. Il relève que 83 % des personnels de l'Éducation nationale jugent leur rémunération insuffisante (2025) et qu'un enseignant d'élémentaire gagne en moyenne 58 436 dollars bruts (en parité de pouvoir d'achat), contre 62 175 dans l'UE (p. 52-54, 76).
+    fourchette: 375 M€ par an (formation initiale rémunérée)
+  desaccords: 'Aucun chiffrage récent d''une hausse générale n''a été trouvé : celui de l''Institut Montaigne date de 2022, avant les revalorisations de 2023-2024. Le coût dépend de la forme retenue (montant fixe en euros ou pourcentage, hausse pour tous ou contre de nouvelles missions) et de l''évolution du nombre d''enseignants, appelé à baisser avec le nombre d''élèves.'
+- sujet: Effet d'un service national généralisé à toute une classe d'âge
+  axes:
+  - jeunesse
+  evaluations:
+  - source: ccomptes-snu-2024
+    resume: Pour le SNU généralisé à environ 850 000 jeunes, le ministère chiffrait le coût à 2 Md€, en ne comptant que les séjours de cohésion. La Cour des comptes estime plutôt les seuls séjours à environ 2,5 Md€ par an et l'ensemble du dispositif à 3,5 à 5 Md€ par an, sans les investissements dans les centres d'hébergement ni les coûts supportés par les autres financeurs publics (synthèse, p. 13-14).
+    fourchette: '3,5 à 5 Md€ par an (ministère : 2 Md€)'
+  desaccords: Ce chiffrage porte sur le SNU (séjour de cohésion puis autres phases d'engagement), et non sur un service obligatoire de plusieurs mois ou sur le service militaire volontaire de 10 mois lancé en 2026, dont le coût n'a pas été trouvé dans les sources consultées. L'écart entre le ministère (2 Md€) et la Cour (3,5 à 5 Md€) tient au périmètre retenu.
+- sujet: Effet d'une modification du crédit d'impôt recherche (maintien, plafonnement, suppression)
+  axes:
+  - recherche
+  evaluations:
+  - source: cae-focus-090-2022
+    resume: Philippe Aghion, Nicolas Chanut et Xavier Jaravel (Conseil d'analyse économique, septembre 2022) concluent, avec la Commission nationale d'évaluation des politiques d'innovation, que le CIR a des effets avérés sur la R&D des TPE et PME mais pas d'effet démontré pour les entreprises de taille intermédiaire et les grandes entreprises. Un million d'euros de CIR versé à des TPE s'accompagne de 1,165 brevet, contre 0,464 pour les grandes entreprises. Ils proposent, à budget constant, d'orienter davantage le CIR vers les TPE et PME (p. 1-3).
+    fourchette: Rendement en brevets 2,5 fois plus élevé pour les TPE que pour les grandes entreprises
+  - source: ifrap-cir-2024
+    resume: 'La Fondation iFRAP (septembre 2024) estime le coût du CIR à 7,65 Md€ en 2024, soit 0,256 % du PIB, en baisse depuis le maximum de 0,289 % atteint en 2018. Elle cite la DG Trésor : la réforme de 2008 rehausserait le PIB de 0,5 point et créerait près de 30 000 emplois à l''horizon de 15 ans. Elle juge qu''une baisse du CIR n''est pas prioritaire et explique le moindre rendement pour les grandes entreprises par la structure de l''industrie française.'
+    fourchette: 7,65 Md€ (2024) ; +0,5 point de PIB à 15 ans selon la DG Trésor
+  desaccords: 'Le CAE met l''accent sur la faible efficacité du CIR pour les grandes entreprises et propose de le recentrer ; la Fondation iFRAP met en avant son effet sur la croissance et la maîtrise de son coût. Les deux citent la même étude de la DG Trésor : le CAE juge son effet macroéconomique faible au regard du coût, l''iFRAP le juge significatif. Les montants diffèrent selon la notion retenue (créances déclarées ou dépense fiscale) et l''année.'
+- sujet: Effet des aides aux étudiants (repas à 1 euro pour tous, bourses, frais d'inscription)
+  axes:
+  - superieur
+  evaluations:
+  - source: senat-essentiel-plf2027-recherche
+    resume: Le rapporteur spécial du Sénat pour l'enseignement supérieur, Vanina Paoli-Gagin (novembre 2026), chiffre le coût de l'extension du repas à 1 euro à tous les étudiants à 143 M€ en 2027, avec une hausse de 48 % de la fréquentation des restaurants des Crous à la rentrée 2026. Le rapport juge que la mesure profite aussi aux étudiants aisés et propose de la supprimer au profit d'une réforme des bourses, dont le coût serait de 350 M€. Il propose aussi des frais d'inscription modulés selon les revenus des familles les plus aisées, pour une recette de 600 M€ (p. 3-4).
+    fourchette: 'Repas à 1 € : 143 M€ ; réforme des bourses : 350 M€ ; frais modulés : +600 M€'
+  - source: senat-np-plf2027-mires
+    resume: Selon la même commission, les crédits du repas à 1 euro atteignent 203,4 M€ en 2027 (+93 M€). L'État compense l'écart avec le tarif de 3,30 €, alors qu'un repas coûte environ 8 €. En 2025, 20,93 millions de repas à 1 euro ont été servis à des boursiers. Le nombre de boursiers (656 114 en 2025-2026) est au plus bas depuis 2015 (p. 44, 52).
+    fourchette: 203,4 M€ de crédits en 2027
+  desaccords: 'Aucun autre évaluateur consulté. L''Assemblée nationale a adopté en 2025 une proposition de loi pour le repas à 1 euro pour tous, et en 2026 une proposition de loi indexant les bourses sur les prix. Les deux chiffres du Sénat (143 M€ dans L''essentiel, 203,4 M€ dans la note de présentation) semblent porter sur des périmètres différents : coût de la réforme d''une part, ensemble des crédits du repas à 1 euro d''autre part.'
+- sujet: Effet des groupes de niveau et de la baisse du nombre d'élèves par classe
+  axes:
+  - ecole
+  - lycee
+  evaluations:
+  - source: depp-dt-2026-e17-groupes
+    resume: 'Première évaluation causale des groupes de 6e et 5e (année 2024-2025) : aucun effet statistiquement significatif sur les scores moyens en français et en mathématiques à l''entrée en 4e, y compris en distinguant les élèves selon leur niveau initial ou leur sexe. La réforme a réduit la taille des groupes et obligé les collèges à mobiliser des moyens en plus de ceux alloués (synthèse, p. 10-11).'
+    fourchette: Effet non significatif sur les scores après un an
+  - source: senat-np-plf2027-enseignement-scolaire
+    resume: Pour limiter les classes de seconde à 28 élèves, le gouvernement prévoit 1 200 postes d'enseignants en 2027. À la rentrée 2025, 77,4 % des classes de seconde générale et technologique (environ 13 800 classes) dépassaient 29 élèves ; le rapporteur juge difficile de dire si ces postes suffiront (p. 10).
+    fourchette: 1 200 emplois pour la première étape (2027)
+  desaccords: La DEPP souligne que ces résultats portent sur une seule année et que la diversité des groupes mis en place peut masquer des effets différents selon les cas ; une évaluation de la deuxième année est prévue. Le coût en postes du plafonnement des classes de seconde n'a pas été chiffré par le gouvernement au moment du rapport du Sénat.
+glossaire:
+- depp
+- education-prioritaire
+- pisa
+- groupes-de-besoins
+- aesh
+- parcoursup
+- bourses-criteres-sociaux
+- effort-recherche
+- cir
+- loi-programmation-recherche
+- apprentissage
+- service-national
+- pib

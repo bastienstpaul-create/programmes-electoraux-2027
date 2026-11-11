@@ -1,0 +1,89 @@
+theme: education-recherche-jeunesse
+titre: Proposition de loi créant un corps de fonctionnaires de catégorie B pour les accompagnants d'élèves en situation de handicap (Nadège Abomangoli et plusieurs collègues)
+objet: Vote sur l'ensemble du texte en première lecture (texte adopté n° 360).
+date: 2026-10-29
+legislature: 17
+numero_scrutin: 9203
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/9203
+axes:
+- ecole
+resultat: adopte
+decompte:
+  pour: 166
+  contre: 16
+  abstention: 123
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 1
+  abstention: 79
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 0
+  contre: 6
+  abstention: 23
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 68
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 41
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 7
+  contre: 0
+  abstention: 3
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 34
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 0
+  contre: 7
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 0
+  contre: 2
+  abstention: 8
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 4
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 12
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 0
+  abstention: 10
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 0
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: Le texte fait des AESH des fonctionnaires de catégorie B recrutés par concours ; les AESH en poste au 1er septembre 2026 seraient nommés stagiaires. Transmis au Sénat.
+date_consultation: 2026-11-11

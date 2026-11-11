@@ -46,6 +46,9 @@ for v in d.get('votes', []):
          'resultat': v['resultat'], 'decompte': v['decompte'], 'groupes': v['groupes']}
     if v.get('note'): o['note'] = v['note']
     o['date_consultation'] = today
-    (C / 'votes' / f"{v['id']}.yaml").write_text(dump(o))
+    fv = C / 'votes' / f"{v['id']}.yaml"
+    if fv.exists() and yaml.safe_load(fv.read_text()).get('theme') != tid:
+        fv = C / 'votes' / f"{v['id']}--{tid}.yaml"  # même scrutin rattaché à un autre thème
+    fv.write_text(dump(o))
 print(tid, 'ok :', len(d['chiffres']), 'chiffres,', len(d['bilan']), 'bilan,', len(d.get('effets', [])), 'effets,', len(t['glossaire']), 'termes,', len(d.get('votes', [])), 'votes')
 print('A VERIFIER :', *d.get('a_verifier', []), sep='\n - ')

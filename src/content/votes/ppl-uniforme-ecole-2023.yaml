@@ -1,0 +1,83 @@
+theme: education-recherche-jeunesse
+titre: Proposition de loi visant à instituer dans les écoles et collèges publics le port d'une tenue uniforme (groupe Rassemblement national, rapporteur Roger Chudeau)
+objet: Amendements de suppression de l'article unique (n° 1 de M. Echaniz et identiques). Voter pour = supprimer l'article unique, ce qui revient à rejeter la proposition de loi ; voter contre = maintenir le texte.
+date: 2023-01-12
+legislature: 16
+numero_scrutin: 830
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/830
+axes:
+- ecole
+resultat: adopte
+decompte:
+  pour: 105
+  contre: 91
+  abstention: 5
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 59
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 1
+  contre: 86
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 11
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 0
+  contre: 3
+  abstention: 0
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 9
+  contre: 1
+  abstention: 4
+  non_votants: 0
+- groupe: Socialistes et apparentés (membre de l’intergroupe NUPES)
+  sigle: SOC
+  pour: 5
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 5
+  contre: 0
+  abstention: 1
+  non_votants: 1
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 8
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 4
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 1
+  contre: 1
+  abstention: 0
+  non_votants: 0
+note: Les amendements de suppression ont été adoptés ; l'article unique étant supprimé, la proposition de loi a été rejetée (compte rendu de la deuxième séance du 12 janvier 2023). Pendant le débat, le ministre délégué Franck Riester a rappelé que rendre une tenue obligatoire relève déjà du règlement intérieur de chaque école ou établissement.
+date_consultation: 2026-11-11
