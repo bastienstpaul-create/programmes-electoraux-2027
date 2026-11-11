@@ -1,0 +1,89 @@
+theme: protection-sociale-pauvrete
+titre: Projet de loi relatif à la lutte contre les fraudes sociales et fiscales – texte de la commission mixte paritaire
+objet: Vote sur l'ensemble du texte de compromis entre députés et sénateurs (dernier vote à l'Assemblée).
+date: 2026-05-05
+legislature: 17
+numero_scrutin: 6319
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/6319
+axes:
+- fraude
+resultat: adopte
+decompte:
+  pour: 335
+  contre: 182
+  abstention: 5
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 109
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 79
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 60
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 64
+  abstention: 1
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 48
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 34
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 34
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 33
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 10
+  contre: 7
+  abstention: 4
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 16
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 16
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 6
+  contre: 1
+  abstention: 0
+  non_votants: 0
+note: Le Sénat a adopté le texte le 11 mai 2026. Le Conseil constitutionnel l'a validé pour l'essentiel le 18 juin 2026 (décision n° 2026-904 DC), et la loi n° 2026-534 a été promulguée le 25 juin 2026.
+date_consultation: 2026-11-11

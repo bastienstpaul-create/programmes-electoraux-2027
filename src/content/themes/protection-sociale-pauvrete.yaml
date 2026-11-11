@@ -1,8 +1,8 @@
 numero: 7
 titre: Protection sociale et pauvreté
 icone: hand-heart
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: minima
   libelle: RSA et minima sociaux
@@ -16,3 +16,169 @@ axes:
   libelle: Fraude sociale
 - id: simplification
   libelle: Simplification des aides
+situation:
+  texte: 'La protection sociale regroupe les régimes qui couvrent les risques de la vie (maladie, vieillesse, famille, chômage, pauvreté). En 2024, ses ressources atteignaient environ 997,8 milliards d''euros, soit 34,2 % de la richesse nationale (PIB). Ce thème porte sur sa partie « solidarité » : des aides versées sous conditions de ressources, en grande partie par les caisses d''allocations familiales (CAF). Les principales sont le [[RSA|rsa]] (652 euros par mois pour une personne seule sans ressources en mai 2026, 1,85 million de foyers bénéficiaires fin 2023), la [[prime d''activité|prime-activite]] pour les travailleurs modestes (4,69 millions de foyers en juin 2025), l''[[AAH|aah]] pour les adultes handicapés (1,37 million de bénéficiaires en juin 2025, 1 041,59 euros par mois au maximum) et l''[[Aspa|aspa]] pour les retraités modestes (1 043,59 euros par mois au maximum pour une personne seule en 2026). Ces aides et quelques autres forment les [[minima sociaux|minima-sociaux]] : 30,6 milliards d''euros en 2022, pour 6,9 millions de personnes couvertes en comptant conjoints et enfants.
+
+
+    En 2024, 15,4 % des personnes vivaient sous le [[seuil de pauvreté|seuil-pauvrete]], fixé à 1 337 euros par mois pour une personne seule, soit 9,8 millions de personnes en métropole. Ce taux est le plus élevé depuis 1996, année où l''Insee a commencé à le mesurer chaque année. La pauvreté touche surtout les chômeurs (36,1 %), les familles monoparentales (34,0 %) et les enfants (22,4 % des moins de 18 ans). 2,3 millions de personnes en emploi sont aussi pauvres. Sans les prestations sociales, le taux de pauvreté serait de 22,3 % au lieu de 15,4 %. Une partie des personnes qui ont droit à une aide ne la demandent pas : c''est le [[non-recours|non-recours]]. Fin 2021, entre 33 % et 37 % des foyers qui avaient droit au RSA ne le percevaient pas.
+
+
+    Plusieurs règles ont changé depuis 2022. Depuis octobre 2023 au plus tard, l''AAH est calculée sans tenir compte des revenus du conjoint (loi du 16 août 2022). Depuis le 1er janvier 2025, la loi pour le plein emploi inscrit automatiquement les demandeurs du RSA à [[France Travail|france-travail]]. Ils signent un contrat d''engagement qui prévoit en principe 15 heures d''activité par semaine (formation, démarches, stages), avec des exemptions selon la situation de santé ou de famille. Un nouveau régime de sanctions (« suspension-remobilisation ») s''applique depuis juin 2025. Depuis le printemps 2025, la [[solidarité à la source|solidarite-source]] pré-remplit les déclarations de ressources du RSA et de la prime d''activité. La loi du 25 juin 2026 contre les fraudes sociales et fiscales renforce les contrôles et les sanctions. Le gouvernement prépare aussi une [[allocation de solidarité unifiée|asu]] (ASU), qui harmoniserait le calcul du RSA, de la prime d''activité et des aides au logement. En mai 2026, après des observations du Conseil d''État, il a retiré ce texte pour le retravailler ; il n''avait pas été présenté en Conseil des ministres à cette date.
+
+
+    Pour les familles, les [[allocations familiales|allocations-familiales]] sont versées à partir du deuxième enfant (152,25 euros par mois pour deux enfants quand les revenus ne dépassent pas 79 980 euros par an). Depuis juillet 2015, leur montant baisse quand les revenus du foyer augmentent. Elles représentent environ 14 milliards d''euros par an. En 2025, 643 905 enfants sont nés en France, 24 % de moins qu''en 2010 (à périmètre comparable). La fécondité est de 1,56 enfant par femme, contre 2,03 en 2010. Pour 2027, les dépenses de la branche famille de la Sécurité sociale sont prévues à 60,2 milliards d''euros. Le projet de [[LFSS|lfss]] pour 2027 prévoit un gel de la plupart des prestations familiales, c''est-à-dire une absence de revalorisation ([[indexation|indexation]]). Il prévoit aussi une condition d''un an de résidence pour certains étrangers non européens. En juin 2025, l''Assemblée nationale a adopté en première lecture une proposition de loi qui verserait les allocations familiales dès le premier enfant.'
+  chiffres:
+  - libelle: Taux de pauvreté monétaire
+    valeur: 15,4 %
+    precision: Part des personnes vivant sous le seuil de 60 % du niveau de vie médian (1 337 € par mois pour une personne seule), soit 9,8 millions de personnes en logement ordinaire en métropole ; plus haut niveau depuis 1996 (Insee, Insee Débats 2027, p. 84)
+    annee: '2024'
+    source: insee-debats-2027
+  - libelle: Taux de pauvreté des enfants
+    valeur: 22,4 %
+    precision: 'Moins de 18 ans vivant dans un ménage pauvre ; familles monoparentales : 34,0 % ; chômeurs : 36,1 % ; personnes en emploi : 8,4 % (Insee, Insee Débats 2027, p. 86)'
+    annee: '2024'
+    source: insee-debats-2027
+  - libelle: Foyers bénéficiaires du RSA
+    valeur: 1,85 million
+    precision: 'Foyers sociaux en France fin 2023. Montant maximal pour une personne seule sans ressources : 565 € fin 2021, 652 € en mai 2026 (Drees, Études et résultats n° 1370, p. 1-2)'
+    annee: '2023'
+    source: drees-er1370-non-recours-rsa
+  - libelle: Foyers bénéficiaires de la prime d'activité
+    valeur: 4,69 millions
+    precision: Juin 2025 (+2,3 % sur un an) ; dépense de 10,7 Md€ en 2024 ; 56 % des bénéficiaires sont des personnes seules sans enfant (Assemblée nationale, rapport spécial PLF 2026, p. 18-19)
+    annee: '2025'
+    source: an-rapport-plf2026-solidarite
+  - libelle: Bénéficiaires de l'AAH
+    valeur: 1,37 million
+    precision: 1 370 400 bénéficiaires en juin 2025, contre 1 158 600 fin 2018, d'après les données de la Drees ; 14,68 Md€ de crédits prévus en 2026 (Assemblée nationale, rapport spécial PLF 2026, p. 42-43)
+    annee: '2025'
+    source: an-rapport-plf2026-solidarite
+  - libelle: Fraude sociale évaluée
+    valeur: 14 Md€
+    precision: Cotisations et prestations, tous régimes ; plus de 52 % porte sur les cotisations (travail dissimulé), 36 % sur les assurés, 12 % sur les professionnels de santé ; 2,06 Md€ détectés et environ 680 M€ recouvrés en 2024 (HCFiPS, note annuelle, p. 9-10 et 16-17)
+    annee: '2024'
+    source: hcfips-fraudes-2026
+  lois:
+  - titre: Loi n° 2023-1196 du 18 décembre 2023 pour le plein emploi
+    resume: 'Elle crée France Travail et inscrit automatiquement les demandeurs du RSA et leur conjoint sur la liste des demandeurs d''emploi. Elle prévoit un contrat d''engagement avec, en principe, au moins 15 heures d''activité par semaine. Le Conseil constitutionnel l''a validée pour l''essentiel (décision n° 2023-858 DC du 14 décembre 2023), avec une réserve : cette durée doit être adaptée à la situation personnelle et familiale de chacun.'
+    url: https://www.senat.fr/dossier-legislatif/pjl22-710.html
+  - titre: Loi n° 2022-1158 du 16 août 2022 portant mesures d'urgence pour la protection du pouvoir d'achat
+    resume: Elle a revalorisé de 4 % plusieurs prestations et minima sociaux au 1er juillet 2022. Elle a aussi prévu que l'AAH soit calculée sans les revenus du conjoint (déconjugalisation), au plus tard le 1er octobre 2023. Les bénéficiaires pour qui l'ancien calcul est plus favorable peuvent le conserver.
+    url: https://www.senat.fr/dossier-legislatif/pjl21-817.html
+  - titre: Loi n° 2026-534 du 25 juin 2026 relative à la lutte contre les fraudes sociales et fiscales
+    resume: Elle renforce le partage de données entre organismes sociaux et les contrôles. France Travail peut suspendre les allocations à titre conservatoire et saisir des sommes en cas de fraude. Elle étend aux prestations des départements l'obligation de versement sur un compte en France ou dans l'espace unique de paiement en euros (SEPA). Le Conseil constitutionnel l'a validée pour l'essentiel, avec des censures partielles et des réserves (décision n° 2026-904 DC du 18 juin 2026).
+    url: https://www.conseil-constitutionnel.fr/decision/2026/2026904DC.htm
+  - titre: Modulation des allocations familiales selon les revenus (article L521-1 du code de la sécurité sociale, loi de financement de la sécurité sociale pour 2015)
+    resume: Depuis le 1er juillet 2015, le montant des allocations familiales, versées à partir du deuxième enfant, est divisé par deux puis par quatre au-delà de deux plafonds de revenus. Le Conseil constitutionnel a jugé cette modulation conforme à la Constitution (décision n° 2014-706 DC du 18 décembre 2014).
+    url: https://www.conseil-constitutionnel.fr/decision/2014/2014706DC.htm
+bilan:
+- nature: fonctionne
+  texte: 'Les prestations sociales réduisent fortement la pauvreté. En 2024, après les impôts directs mais avant les prestations, 22,3 % des personnes seraient sous le seuil de pauvreté, contre 15,4 % après. Selon la Cour des comptes (données 2022), cette réduction vient à 90 % des prestations : 2,1 points pour les minima sociaux, 1,6 point pour les prestations familiales, 1,4 point pour la prime d''activité et 1 point pour les aides au logement.'
+  sources:
+  - insee-debats-2027
+  - ccomptes-pilotage-pauvrete-2025
+- nature: ne-fonctionne-pas
+  texte: Le non-recours reste élevé. Fin 2021, 560 000 foyers qui avaient droit au RSA ne le percevaient pas, soit 33 % à 37 % des foyers éligibles (34 % en 2018). Selon la Drees, si tous les foyers éligibles le percevaient, 345 000 ménages pauvres verraient leur niveau de vie augmenter de 280 € par mois en moyenne, et 58 000 sortiraient de la pauvreté, dont plus de la moitié de familles monoparentales.
+  sources:
+  - drees-er1370-non-recours-rsa
+- nature: debat
+  texte: 'Accompagnement renforcé des bénéficiaires du RSA, testé dans 18 territoires entre 2023 et 2024 avant la loi pour le plein emploi : selon l''évaluation de la Dares et de l''IPP (juin 2026), les participants ont 2,2 points de plus de chances d''avoir un emploi durable. Près des deux tiers de cet effet viennent de contrats aidés. Au niveau du territoire, l''étude ne trouve pas d''effet net significatif sur l''emploi : les gains des participants sont compensés par des pertes pour d''autres bénéficiaires du RSA.'
+  sources:
+  - ipp-dares-rsa-renove-2026
+- nature: ne-fonctionne-pas
+  texte: Le taux de pauvreté a atteint en 2023 et 2024 son plus haut niveau depuis 1996. La Cour des comptes (2025) relève que la stratégie nationale de lutte contre la pauvreté lancée en 2018 n'a pas eu d'objectifs lisibles, que ses effets n'ont pas été évalués en totalité et que les mesures confiées aux départements ont eu un « résultat mitigé ». La revalorisation de la prime d'activité en 2019 a réduit la pauvreté de 0,6 à 0,7 point. Selon les travaux de l'Insee cités par la Cour, d'autres mesures sociales et fiscales de la période l'ont augmentée de 0,5 point, dont 0,2 point dû aux gels et sous-indexations de prestations.
+  sources:
+  - insee-debats-2027
+  - ccomptes-pilotage-pauvrete-2025
+- nature: debat
+  texte: 'Fraude sociale : selon le HCFiPS, les taux de fraude sont globalement stables, en moyenne 5 % sur les prestations de la branche famille mais environ 15 % sur le RSA (13,2 % à 17,8 %). Les sommes détectées augmentent (2,06 Md€ en 2024 contre 1,3 Md€ en 2022), mais seuls 680 M€ environ ont été recouvrés. Le HCFiPS juge le sujet « survalorisé au plan budgétaire ». La Fondation iFRAP ajoute les erreurs pour arriver à 17,5 Md€. Elle estime que les sommes recouvrées ou évitées (1,2 Md€) ne représentent que 6,7 % de ce total, et appelle à renforcer la détection.'
+  sources:
+  - hcfips-fraudes-2026
+  - ifrap-fraude-sociale-2026
+- nature: ne-fonctionne-pas
+  texte: 'Dans la plupart des cas, travailler plus augmente le revenu disponible, mais l''effet est parfois faible. Exemple : pour une mère seule avec deux enfants, locataire et payée au SMIC, 100 € de salaire net en plus font baisser les aides au logement de 30 € et la prime d''activité de 15 €. Elle ne gagne donc que 55 €. Pour une personne seule qui perçoit l''AAH, le revenu disponible varie très peu entre 0,3 et 1,4 SMIC.'
+  sources:
+  - insee-debats-2027
+effets:
+- sujet: Effet du versement des allocations familiales dès le premier enfant
+  axes:
+  - famille
+  evaluations:
+  - source: an-rapport-1473-af-premier-enfant
+    resume: Selon la direction de la sécurité sociale, citée par le rapport de la commission des affaires sociales de l'Assemblée (mai 2025), une allocation de 70 € par mois pour le premier enfant, sans modulation selon les revenus, coûterait 2,8 Md€ par an. Le coût net serait de 1,8 Md€, car les versements de RSA et de prime d'activité baisseraient (p. 19).
+    fourchette: 2,8 Md€ brut ; 1,8 Md€ net par an
+  - source: an-rapport-1473-af-premier-enfant
+    resume: La cellule LexImpact de l'Assemblée estime à 3,58 Md€ par an une allocation de 75 € par mois, modulée selon les revenus. Les dépenses d'allocations familiales passeraient de 14,04 à 17,62 Md€, et la part des ménages bénéficiaires de 16 % à 28 % (p. 19-20). Le même rapport indique que la modulation selon les revenus rapporte environ 1 Md€ en 2025, selon la direction de la sécurité sociale (p. 6).
+    fourchette: 3,58 Md€ par an
+  desaccords: Les deux chiffrages diffèrent par le montant retenu (70 € ou 75 €), l'application ou non de la modulation selon les revenus et la prise en compte des économies sur le RSA et la prime d'activité. Aucun chiffrage publié d'une allocation unique de 350 € dès le premier enfant n'a été trouvé.
+- sujet: Effet d'une baisse du non-recours et d'une simplification des aides (allocation de solidarité unifiée)
+  axes:
+  - simplification
+  - minima
+  - pauvrete
+  evaluations:
+  - source: drees-er1370-non-recours-rsa
+    resume: Si tous les foyers éligibles percevaient le RSA (situation fin 2021), la dépense augmenterait d'environ 630 M€ par trimestre, soit 41 % à 46 % de plus. 58 000 ménages sortiraient de la pauvreté (p. 1-2).
+    fourchette: ≈ 630 M€ par trimestre
+  - source: bdt-asu-printemps-2026
+    resume: Le ministre du Travail (février 2026) estime que l'ASU, en facilitant l'accès aux droits, coûterait 500 M€ à 1,5 Md€ de plus par an, à enveloppe constante pour le RSA, la prime d'activité et les APL. Il fixe un objectif de 700 000 personnes sorties de la pauvreté en 2030, soit près d'un point de taux de pauvreté.
+    fourchette: +0,5 à +1,5 Md€ par an
+  - source: bdt-asu-avant-projet-2026
+    resume: Selon l'entourage du ministre (mars 2026), des simulations prévoient une baisse de 0,5 à 1 point du taux de pauvreté. Le projet vise un « gain au travail » d'au moins 50 % de la rémunération et l'absence de perte de revenus pour les personnes sans activité, à budget constant. L'effet sur le non-recours n'est pas chiffré.
+    fourchette: −0,5 à −1 point de taux de pauvreté
+  desaccords: Les chiffrages du gouvernement n'ont pas été publiés en détail. En avril 2026, le conseil d'administration de la Cnaf puis le Conseil national de l'habitat ont rendu un avis défavorable. L'Union nationale des CCAS évoque « un risque d'appauvrissement des ménages », et France urbaine juge les impacts « faiblement évalués ». En mai 2026, le gouvernement a retiré le texte pour le retravailler après des observations du Conseil d'État.
+- sujet: Effet d'une revalorisation, d'un gel ou d'une baisse des prestations sous conditions de ressources
+  axes:
+  - minima
+  - pauvrete
+  - famille
+  evaluations:
+  - source: ccomptes-pilotage-pauvrete-2025
+    resume: La revalorisation de la prime d'activité en 2019 a coûté 3,9 Md€. Selon France Stratégie, citée par la Cour, elle a réduit le taux de pauvreté de 0,6 à 0,7 point, mais une partie importante a bénéficié à des ménages qui ne sont pas pauvres. Les mesures exceptionnelles de 2022 ont réduit la pauvreté de 0,8 point ; leur arrêt en 2023 l'a augmentée de 0,6 point (p. 28-29).
+    fourchette: −0,6 à −0,7 point de pauvreté pour 3,9 Md€
+  - source: an-rapport-plf2026-solidarite
+    resume: Dans le PLF 2026, la baisse du taux de prise en compte des revenus d'activité dans la prime d'activité (de 59,85 % à 58,25 %) devait économiser 732 M€ en 2026 et 1,2 Md€ en 2027. Selon le gouvernement, elle coûterait 25 à 30 € par mois en moyenne aux allocataires. Revenir sur le gel des allocations de la mission « Solidarité » coûterait 317 M€ (p. 7 et 20).
+    fourchette: '−732 M€ (2026) à −1,2 Md€ (2027) ; gel : 317 M€'
+  - source: senat-plfss-2027-essentiel
+    resume: Le PLFSS pour 2027 prévoit 0,5 Md€ d'économies par le gel de la plupart des prestations familiales. La commission des affaires sociales du Sénat regrette une méthode qui contourne le Parlement et rappelle que le taux de pauvreté des enfants augmente (p. 4 et 17-18).
+    fourchette: 0,5 Md€ en 2027
+  desaccords: Les gains budgétaires sont immédiats et chiffrés. Les effets sur la pauvreté sont mesurés après coup par l'Insee, avec deux ans de décalage. La Cour des comptes rappelle que des mesures qui augmentent le revenu médian relèvent aussi le seuil de pauvreté, ce qui peut augmenter le taux mesuré.
+- sujet: Effet d'un renforcement de la lutte contre la fraude sociale
+  axes:
+  - fraude
+  evaluations:
+  - source: hcfips-fraudes-2026
+    resume: 'Le HCFiPS évalue la fraude sociale à 14 Md€. Il juge que la capacité à mobiliser ces sommes pour le budget est faible : environ 680 M€ ont été recouvrés en 2024 sur 2 Md€ détectés. Il met en avant la prévention, et regrette que le projet de loi sur les fraudes n''aborde pas ce point (p. 8 et 16-17).'
+    fourchette: ≈ 0,7 Md€ recouvré par an (2024)
+  - source: ifrap-fraude-sociale-2026
+    resume: Selon la Fondation iFRAP (janvier 2026), détecter la moitié des fraudes et erreurs estimées permettrait d'en identifier 8,8 Md€. Elle estime qu'un rendement aligné sur le contrôle fiscal permettrait d'encaisser jusqu'à 4 Md€ de plus par an.
+    fourchette: jusqu'à 4 Md€ par an
+  - source: lcp-fraudes-cmp-2026
+    resume: Le gouvernement attendait 1,5 à 2 Md€ de la loi contre les fraudes sociales et fiscales, pour l'ensemble de ses mesures (fiscales et sociales).
+    fourchette: 1,5 à 2 Md€ (sociales et fiscales)
+  - source: an-rapport-plf2026-solidarite
+    resume: La solidarité à la source a réduit les sommes versées à tort au titre de la prime d'activité. L'économie est estimée à 767 M€ en 2025 et 635 M€ en 2026 (p. 20).
+    fourchette: ≈ 0,6 à 0,8 Md€ par an
+  desaccords: Le HCFiPS estime que la fraude ne peut être qu'un « élément très partiel » du redressement des comptes sociaux. La Fondation iFRAP juge le rendement actuel faible et chiffre un potentiel plus élevé. Le chiffrage du gouvernement couvre aussi la fraude fiscale. Lors des débats parlementaires, les groupes de gauche reprochaient au texte de viser surtout les prestations ; le gouvernement répondait que plus de la moitié de la fraude sociale relève du travail dissimulé.
+- sujet: Effet des changements de l'AAH (déconjugalisation, hausse du montant)
+  axes:
+  - handicap
+  evaluations:
+  - source: an-rapport-plf2026-solidarite
+    resume: 'La déconjugalisation de l''AAH coûte 290 M€ en 2024, 330 M€ en 2025 et 360 M€ en 2026. Un amendement adopté en commission des finances pour porter l''AAH au niveau du seuil de pauvreté était chiffré à 1,9 Md€. La rapporteure spéciale s''y est opposée : selon elle, les aides cumulées (logement, majoration pour la vie autonome) placent déjà les bénéficiaires au-dessus du seuil (p. 10 et 43).'
+    fourchette: ≈ 0,3 à 0,4 Md€ par an (déconjugalisation) ; 1,9 Md€ (AAH au seuil de pauvreté)
+  desaccords: 'Un seul document chiffré a été consulté. Le débat porte sur la référence retenue : le montant de l''AAH seul ou le revenu du foyer avec les autres aides.'
+glossaire:
+- rsa
+- prime-activite
+- aah
+- aspa
+- minima-sociaux
+- seuil-pauvrete
+- non-recours
+- allocations-familiales
+- solidarite-source
+- france-travail
+- asu
+- lfss
+- indexation
