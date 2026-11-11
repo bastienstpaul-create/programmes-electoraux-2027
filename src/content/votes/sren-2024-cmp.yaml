@@ -1,0 +1,85 @@
+theme: numerique-ia
+titre: Projet de loi visant à sécuriser et réguler l'espace numérique (SREN)
+objet: Vote sur l'ensemble du projet de loi, texte de la commission mixte paritaire.
+date: 2024-04-10
+legislature: 16
+numero_scrutin: 3668
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3668
+axes:
+- plateformes
+- mineurs
+- souverainete
+resultat: adopte
+decompte:
+  pour: 134
+  contre: 75
+  abstention: 1
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 72
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 41
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 0
+  contre: 20
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 12
+  contre: 0
+  abstention: 1
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 33
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Socialistes et apparentés
+  sigle: SOC-A
+  pour: 0
+  contre: 7
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 15
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 0
+  contre: 1
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 0
+  contre: 5
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 0
+  contre: 1
+  abstention: 0
+  non_votants: 0
+note: Scrutin public ordinaire (210 votants). Devenu la loi n° 2024-449 du 21 mai 2024. Le Conseil constitutionnel a censuré les articles 10, 11, 18, 19 (délit d'outrage en ligne) et 58 (décision n° 2024-866 DC du 17 mai 2024).
+date_consultation: 2026-11-11

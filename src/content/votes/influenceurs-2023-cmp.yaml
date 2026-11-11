@@ -1,0 +1,83 @@
+theme: numerique-ia
+titre: Proposition de loi visant à encadrer l'influence commerciale et à lutter contre les dérives des influenceurs sur les réseaux sociaux
+objet: Vote sur l'ensemble de la proposition de loi, texte de la commission mixte paritaire.
+date: 2023-05-31
+legislature: 16
+numero_scrutin: 1742
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/1742
+axes:
+- plateformes
+resultat: adopte
+decompte:
+  pour: 194
+  contre: 0
+  abstention: 0
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 65
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 37
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 35
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Les Républicains
+  sigle: LR
+  pour: 9
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 17
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés (membre de l’intergroupe NUPES)
+  sigle: SOC
+  pour: 11
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 6
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 5
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 6
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 1
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: Scrutin public ordinaire (194 votants), adopté sans voix contre. Le texte est devenu la loi n° 2023-451 du 9 juin 2023.
+date_consultation: 2026-11-11
