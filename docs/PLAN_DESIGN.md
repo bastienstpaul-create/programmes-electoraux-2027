@@ -50,3 +50,10 @@ Basé sur le brief design. Périmètre : présentation et interactions uniquemen
 - **Idée unique** : le « bulletin ». En France, chaque candidat a un bulletin blanc identique. Les en-têtes candidats reprennent cette égalité stricte : même rectangle blanc, même monogramme gris, même typo. C'est le seul élément « affirmé » ; le reste est sobre.
 - **Mise en page** : alignement à gauche, texte ≤ 70ch, matrice pleine largeur sur desktop, pile de cartes sur mobile.
 - **À éviter** (réflexes génériques) : étiquettes en majuscules, flèches « → » dans les liens, suites « A · B · C », ombres sur chaque carte, numéros décoratifs (les 5 blocs d'une fiche sont une vraie séquence : numérotation conservée), animations d'entrée.
+
+## Évolution du 11/11/2026 (inspiration : Emmaüs AGIR 31, MAI, Terminal, Extrafazant, Agrumea)
+- Fond « papier » chaud (#F7F4EE) avec grain très léger ; cartes blanc cassé ; mode sombre chaud (#151410).
+- Typographie : Fraunces (titres, serif éditorial à axe optique, italique) + Bricolage Grotesque (texte). Polices auto-hébergées (@fontsource-variable).
+- Accueil « affiche » : très grand titre, rangée de 4 chiffres clés, une seule animation d'arrivée (désactivée si mouvement réduit).
+- En-tête en pilule flottante ; cartes thèmes plus grandes (pictogramme en cercle, numéro du thème, léger soulèvement au survol).
+- Neutralité inchangée : aucune couleur de parti, indigo réservé à l'interface.
