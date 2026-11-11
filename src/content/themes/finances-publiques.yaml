@@ -2,8 +2,8 @@ numero: 4
 titre: Finances publiques
 icone: coins
 sous_titre: Dette, déficit, fiscalité
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: deficit
   libelle: Trajectoire du déficit
@@ -19,3 +19,164 @@ axes:
   libelle: Fiscalité des entreprises
 - id: consommation
   libelle: TVA et impôts sur la consommation
+situation:
+  texte: 'Les finances publiques regroupent les comptes de l''État, de la Sécurité sociale et des collectivités locales. Chaque année, le Parlement vote une [[loi de finances|loi-finances]] pour le budget de l''État et une [[LFSS|lfss]] pour la Sécurité sociale. Le [[HCFP|hcfp]] donne un avis sur les prévisions du gouvernement avant le débat. La loi de finances pour 2026 a été promulguée le 19 février 2026, après plusieurs mois de débats et l''usage de l''[[article 49.3|article-49-3]]. Le 4 novembre 2026, l''Assemblée nationale a rejeté la première partie (les recettes) du projet de loi de finances pour 2027 ; le texte est examiné par le Sénat.
+
+
+    En 2025, le [[déficit public|deficit-public]] s''est élevé à 152,5 milliards d''euros, soit 5,1 % du PIB (la richesse produite en un an), après 5,8 % en 2024. Les recettes ont augmenté de 3,9 % et les dépenses de 2,5 %. Les [[prélèvements obligatoires|prelevements-obligatoires]] (impôts et cotisations sociales) ont atteint 43,6 % du PIB, et les dépenses publiques 57,3 % du PIB. Selon la Cour des comptes, la baisse du déficit vient surtout de 23 milliards d''euros de hausses d''impôts, notamment une contribution exceptionnelle sur les bénéfices des grandes entreprises. L''État porte l''essentiel du déficit (128,1 milliards d''euros) ; la Sécurité sociale est en déficit (6,7 milliards d''euros) pour la première fois depuis 2021.
+
+
+    La [[dette publique|dette-publique]] atteignait 3 460,5 milliards d''euros fin 2025 (115,7 % du PIB), puis 3 595,5 milliards d''euros fin juin 2026 (119,0 % du PIB). La France est le troisième pays le plus endetté de la zone euro, derrière la Grèce et l''Italie. La [[charge de la dette|charge-dette]] (les intérêts payés) a atteint 65,7 milliards d''euros en 2025, soit 2,2 % du PIB : l''État emprunte à des taux plus élevés qu''avant (3,35 % en moyenne en 2025 pour ses obligations à l''émission, contre 1,70 % en 2022). Le gouvernement prévoit 79,2 milliards d''euros d''intérêts en 2026 et 91 milliards d''euros en 2027.
+
+
+    La France fait l''objet d''une [[procédure de déficit excessif|procedure-deficit-excessif]] ouverte par l''Union européenne à l''été 2024. Elle s''est engagée à ramener son déficit sous 3 % du PIB en 2029 et à limiter la hausse de ses dépenses nettes. Le gouvernement prévoit un déficit de 5,4 % du PIB en 2026 et de 5,0 % en 2027. Même avec ces objectifs, le [[solde primaire|solde-primaire]] (le solde hors intérêts) resterait en déficit, et la dette continuerait d''augmenter : 121,7 % du PIB prévu en 2027. Côté impôts, les revenus du capital (dividendes, intérêts) sont en principe taxés au [[prélèvement forfaitaire unique|pfu]] depuis 2018, et l''impôt de solidarité sur la fortune (ISF) a été remplacé par l''[[impôt sur la fortune immobilière|ifi]] (réforme votée en 2017). Les recettes de TVA n''ont progressé que de 0,5 % en 2025, avec une consommation des ménages peu dynamique.'
+  chiffres:
+  - libelle: Déficit public
+    valeur: 5,1 % du PIB
+    precision: 152,5 Md€, après 5,8 % du PIB en 2024 et 5,4 % en 2023 ; ensemble des administrations publiques, au sens de Maastricht (Insee Première n° 2106, figure 1)
+    annee: '2025'
+    source: insee-ip2106-apu-2025
+  - libelle: Dette publique
+    valeur: 119,0 % du PIB
+    precision: 3 595,5 Md€ fin juin 2026, après 115,7 % fin 2025 (3 460,5 Md€) ; dette au sens de Maastricht (Insee, Informations rapides n° 239, p. 1)
+    annee: '2026'
+    source: insee-ir239-dette-t2-2026
+  - libelle: Taux de prélèvements obligatoires
+    valeur: 43,6 % du PIB
+    precision: Impôts et cotisations sociales nets des crédits d'impôt, après 42,7 % en 2024 (Insee Première n° 2106, figure 1). Selon la Cour des comptes, c'est le ratio le plus élevé de la zone euro
+    annee: '2025'
+    source: insee-ip2106-apu-2025
+  - libelle: Dépenses publiques
+    valeur: 57,3 % du PIB
+    precision: Après 57,0 % en 2024 et 55,2 % en 2019 (Insee Première n° 2106, figure 1)
+    annee: '2025'
+    source: insee-ip2106-apu-2025
+  - libelle: Charge de la dette (intérêts)
+    valeur: 65,7 Md€ (2,2 % du PIB)
+    precision: 'Ensemble des administrations publiques, +9 % sur un an ; taux moyen des obligations de l''État à l''émission : 3,35 % en 2025 contre 1,70 % en 2022 (Cour des comptes, synthèse p. 16). Prévision du gouvernement : 91 Md€ (2,9 % du PIB) en 2027 (HCFP, avis 2026-5, § 115)'
+    annee: '2025'
+    source: ccomptes-spfp-2026
+  - libelle: Déficit public prévu
+    valeur: 5,4 % du PIB en 2026, 5,0 % en 2027
+    precision: Prévisions du gouvernement (PLF 2027). Le HCFP juge la prévision 2026 plausible mais fragilisée ; avec le surcoût prévisible des intérêts, elle passerait à 5,5 % (avis 2026-6, synthèse)
+    annee: '2026'
+    source: hcfp-avis-2026-5-plf-2027
+  lois:
+  - titre: Loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances (LOLF)
+    resume: Elle fixe le contenu et la procédure d'adoption des lois de finances de l'État. Son article 58 charge la Cour des comptes de publier chaque année un rapport sur la situation et les perspectives des finances publiques.
+    url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000394028
+  - titre: Loi n° 2023-1195 du 18 décembre 2023 de programmation des finances publiques pour les années 2023 à 2027
+    resume: Elle fixe une trajectoire pluriannuelle de déficit, de dépenses et de dette jusqu'en 2027. Selon le HCFP (septembre 2026), la dette prévue pour 2027 dépasse de 13,6 points de PIB celle de cette loi, qui « n'a eu aucun caractère opératoire ».
+    url: https://www.assemblee-nationale.fr/dyn/16/dossiers/programmation_finances_publiques_2023_2027
+  - titre: Loi n° 2026-103 du 19 février 2026 de finances pour 2026
+    resume: Budget de l'État pour 2026, adopté après usage de l'article 49.3. Le Conseil constitutionnel en a validé l'essentiel le 19 février 2026 (décision n° 2026-901 DC). Elle prolonge en 2026 la contribution exceptionnelle sur les bénéfices des grandes entreprises.
+    url: https://www.conseil-constitutionnel.fr/decision/2026/2026901DC.htm
+  - titre: Règlement (UE) 2024/1263 du 29 avril 2024 relatif à la coordination des politiques économiques et à la surveillance budgétaire
+    resume: Nouvelles règles budgétaires européennes en vigueur depuis 2024. Chaque État suit une trajectoire de « dépenses nettes » (dépenses hors intérêts et hors mesures nouvelles de recettes) fixée par le Conseil de l'Union européenne.
+    url: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1263
+bilan:
+- nature: fonctionne
+  texte: En 2025, le déficit public a baissé de 16,6 milliards d'euros, de 5,8 % à 5,1 % du PIB, soit davantage que les dernières prévisions du gouvernement (5,4 %). Les dépenses ont ralenti (+2,5 % après +4,0 %), en lien avec la baisse de l'inflation et la fin des aides liées à la crise de l'énergie. Les dépenses des collectivités locales ont progressé moins vite que l'activité.
+  sources:
+  - insee-ip2106-apu-2025
+  - ccomptes-spfp-2026
+- nature: debat
+  texte: La façon de réduire le déficit fait débat. Selon la Cour des comptes, la baisse de 2025 vient surtout des hausses d'impôts (23 Md€), alors que le poids des dépenses dans le PIB a encore augmenté ; elle calcule que revenir sous 3 % en 2029 exigerait de baisser la dépense primaire de 0,5 % par an en volume. L'OFCE souligne que les économies de dépenses pèsent davantage sur la croissance à court terme (multiplicateurs de 0,7 à 0,8) que la plupart des hausses d'impôts récentes, dont l'effet est faible à court terme mais plus élevé à long terme.
+  sources:
+  - ccomptes-spfp-2026
+  - ofce-prev-avril-2026-fipu
+- nature: ne-fonctionne-pas
+  texte: Les trajectoires votées n'ont pas été tenues. La dette prévue pour 2027 (121,7 % du PIB) dépasse de 13,6 points celle de la loi de programmation de 2023 et de 3,0 points celle du budget 2026. Le HCFP estime que cette loi n'a eu « aucun caractère opératoire » et que les retards successifs rendent un déficit sous 3 % en 2029 « très peu vraisemblable ».
+  sources:
+  - hcfp-avis-2026-5-plf-2027
+- nature: ne-fonctionne-pas
+  texte: La charge de la dette absorbe une part croissante de l'effort. Selon la Cour des comptes, elle dépasse déjà ce que la France consacre à l'investissement dans l'éducation ou la défense. Le HCFP calcule qu'en 2027 l'effort sur la dépense hors intérêts (23 Md€) serait réduit de moitié environ (11 Md€) par la hausse des intérêts. Les taux d'emprunt étant désormais supérieurs à la croissance, la dette augmente même quand le déficit hors intérêts diminue (effet « boule de neige »).
+  sources:
+  - ccomptes-spfp-2026
+  - hcfp-avis-2026-5-plf-2027
+- nature: debat
+  texte: 'L''imposition des plus fortunés fait débat. Une note de l''IPP (2023) estime que le taux d''imposition des 0,0002 % de foyers les plus aisés tombe à 26 %, contre 46 % plus bas dans l''échelle, car leurs revenus restent souvent dans des sociétés. La commission des finances du Sénat juge cette méthode contestable. Le Conseil d''analyse économique (2025) mesure un exil fiscal lié aux impôts sur le capital réel mais limité : moins de 350 foyers par an lors de la hausse de 2013.'
+  sources:
+  - senat-ppl-impot-plancher-2025
+  - cae-focus-118-2025
+effets:
+- sujet: Effet d'un retour du déficit sous 3 % du PIB en 2029
+  axes:
+  - deficit
+  - dette
+  - depenses
+  evaluations:
+  - source: ccomptes-spfp-2026
+    resume: Après 37 Md€ de hausses d'impôts en 2025 et 2026, revenir sous 3 % en 2029 exigerait de réduire la dépense publique primaire de 0,5 % par an en volume, alors qu'elle a augmenté de 1,0 % par an avant la crise sanitaire. Respecter seulement le plafond européen de dépenses laisserait un déficit de 3,2 % en 2029. Pour stabiliser la dette en 2025, il aurait fallu un déficit limité à 62,9 Md€, soit 89,6 Md€ de moins (synthèse p. 16, 19-20).
+    fourchette: −0,5 % par an de dépense primaire en volume (2027-2029)
+  - source: hcfp-avis-2026-5-plf-2027
+    resume: L'objectif suppose une baisse du déficit d'environ 1 point de PIB par an en 2028 et 2029, ce que le HCFP juge « très peu vraisemblable » sauf conjoncture très favorable. Pour 2027, il évalue l'effort structurel prévu à 0,9 point de PIB (28 Md€), dont 17 Md€ en recettes (synthèse p. 3).
+    fourchette: ≈ 1 point de PIB par an en 2028-2029
+  - source: ofce-prev-avril-2026-fipu
+    resume: Pour tenir les engagements européens, l'OFCE estime qu'il faudrait au moins 1,2 point de PIB (près de 40 Md€) de mesures brutes en 2027. Un ajustement de 0,8 point de PIB réduirait la croissance de 0,6 point en 2027 (prévisions d'avril 2026).
+    fourchette: −0,5 point de croissance en 2026, −0,6 point en 2027
+  desaccords: La Cour des comptes met l'accent sur la baisse de la dépense et cite des pays (Allemagne, Portugal, Italie) ayant dégagé un excédent primaire. L'OFCE met en avant le coût de l'ajustement pour la croissance, plus élevé pour les économies de dépenses que pour les hausses d'impôts à court terme. Tous constatent que le déficit reste supérieur au niveau qui stabiliserait la dette.
+- sujet: Effet d'un impôt sur les très hauts patrimoines (impôt plancher de 2 % au-delà de 100 M€ ou retour d'un ISF)
+  axes:
+  - patrimoine
+  evaluations:
+  - source: senat-ppl-impot-plancher-2025
+    resume: Selon Gabriel Zucman, cité par la commission des finances du Sénat, l'impôt plancher de 2 % rapporterait environ 20 Md€, à 5 Md€ près. La commission estime que le rendement tomberait à 2 à 3 Md€ si l'impôt sur les sociétés payé par les entreprises détenues était déduit. Elle juge aussi l'exil fiscal impossible à anticiper et le texte exposé à une censure constitutionnelle, faute de plafonnement (p. 2-4).
+    fourchette: 2 à 3 Md€ (Sénat) ; 15 à 25 Md€ (G. Zucman)
+  - source: cae-focus-118-2025
+    resume: Le Conseil d'analyse économique estime qu'un point d'imposition supplémentaire sur les revenus du capital entraînerait à long terme le départ de 0,02 % à 0,23 % des hauts patrimoines concernés (90 à 900 foyers pour le top 1 %). Une hausse d'impôt de 4 Md€ réduirait l'activité nationale d'environ 0,03 % à 0,05 % du fait des départs. Les autres réactions (optimisation, épargne) pèseraient 2,5 fois plus que l'exil dans l'exemple scandinave.
+    fourchette: −0,03 % à −0,05 % d'activité pour 4 Md€ d'impôt
+  - source: institut-montaigne-nfp-synthese-2024
+    resume: 'Chiffrage réalisé pour les législatives de 2024 : un ISF avec composante climatique rapporterait 3,5 Md€ par an. L''Institut précise que ses chiffrages n''intègrent pas les changements de comportement.'
+    fourchette: 3,5 Md€ par an
+  - source: terra-nova-super-riches-2024
+    resume: Terra Nova rappelle que, selon France Stratégie (2023), l'ISF aurait rapporté 6,3 Md€ en 2022 sans la réforme, soit 4,5 Md€ de plus que l'IFI. Un ISF élargi aux biens professionnels, avec un plafonnement limité, rapporterait 10 à 14 Md€ bruts, avant déduction de l'IFI (p. 9-11).
+    fourchette: 10 à 14 Md€ bruts (ISF élargi)
+  desaccords: Les chiffrages portent sur des impôts différents (impôt plancher, ISF ancien ou élargi) et ne mesurent pas tous la même chose (recette brute ou nette de l'IFI, avec ou sans réactions des contribuables). Pour l'impôt plancher, l'écart entre 2 et 25 Md€ dépend surtout de la prise en compte de l'impôt sur les sociétés et de l'exil. Le CAE juge l'exil limité pour les impôts sur la fortune ; la commission du Sénat estime que l'inclusion des biens professionnels rend ce risque plus difficile à prévoir.
+- sujet: Effet d'une hausse de l'impôt sur les revenus du capital et d'un barème plus progressif
+  axes:
+  - impot-revenu
+  - patrimoine
+  evaluations:
+  - source: institut-montaigne-nfp-flat-tax-2024
+    resume: Supprimer le prélèvement forfaitaire unique et taxer à nouveau les revenus du capital au barème rapporterait 3,2 à 3,6 Md€ à comportements inchangés. Si les revenus distribués retombaient à leur niveau de 2017, le rendement deviendrait négatif (−0,7 Md€). L'Institut cite une étude de l'IPP chiffrant le coût du PFU à 1,6 Md€, contre 1,8 Md€ dans les documents budgétaires.
+    fourchette: −0,7 à +3,6 Md€ selon les comportements
+  - source: institut-montaigne-nfp-synthese-2024
+    resume: 'Chiffrage réalisé pour les législatives de 2024 : un barème de l''impôt sur le revenu à 14 tranches rapporterait 4,7 Md€ par an, hors changements de comportement.'
+    fourchette: 4,7 Md€ par an
+  desaccords: 'Le rendement dépend de la réaction des versements de dividendes : la création du PFU en 2018 les a fait augmenter, ce qui a réduit son coût. Aucun autre chiffrage récent de ces mesures n''a été consulté. Depuis, la loi de finances pour 2026 a relevé de 1,4 point la CSG sur les revenus financiers (OFCE).'
+- sujet: Effet d'une baisse de la TVA à 5,5 % sur l'énergie (carburants, électricité, gaz, fioul)
+  axes:
+  - consommation
+  evaluations:
+  - source: institut-montaigne-rn-tva-energie-2024
+    resume: 'Chiffrage réalisé pour les législatives de 2024 (données 2022) : perte de recettes d''environ 11,3 Md€ par an, entre 9 et 13,6 Md€ selon l''évolution de la consommation et des prix de l''énergie.'
+    fourchette: 9 à 13,6 Md€ par an
+  - source: ifrap-carburants-tva-2026
+    resume: Selon la Fondation iFRAP (mars 2026), le gouvernement chiffre la mesure à 17 Md€ par an pour toutes les énergies, dont environ 10 Md€ pour les carburants ; le Rassemblement national l'estime à 12 Md€. L'iFRAP rappelle que le droit européen n'autorise pas de taux réduit sur les carburants ; une baisse à 15 % coûterait environ 7 à 8 Md€ et exigerait l'accord des 27.
+    fourchette: 12 à 17 Md€ par an selon les sources citées
+  desaccords: 'Les montants varient selon le périmètre (carburants seuls ou toutes énergies) et le niveau des prix de l''énergie. La compatibilité avec la directive TVA est un point distinct du coût : elle concerne les carburants, pas l''électricité ni le gaz.'
+- sujet: Effet de la suppression des impôts de production (CVAE et C3S)
+  axes:
+  - entreprises
+  evaluations:
+  - source: institut-montaigne-rn-cvae-2024
+    resume: 'Chiffrage réalisé pour les législatives de 2024 : supprimer la CVAE et la C3S coûterait 7,3 Md€ aux finances publiques entre 2024 et 2027, en tenant compte du surplus d''impôt sur les sociétés. Le produit de la CVAE est passé de 14 Md€ en 2019 à 4 Md€ fin 2023 ; la C3S rapportait 5,1 Md€ (2024).'
+    fourchette: 7,3 Md€ (2024-2027)
+  - source: ofce-prev-avril-2026-fipu
+    resume: La loi de finances pour 2026 a annulé la suppression progressive de la CVAE (1,3 Md€ de recettes en 2026) et porté la contribution exceptionnelle sur les grandes entreprises à 7,3 Md€, prolongée en 2026 mais pas au-delà. Pas de chiffrage de l'effet sur l'activité dans la page consultée.
+    fourchette: 1,3 Md€ (CVAE, 2026)
+  desaccords: Le chiffrage de 2024 supposait la fin de la CVAE en 2027, prévue alors par la loi ; ce calendrier a été modifié en 2026. Aucune évaluation récente de l'effet de ces impôts sur la compétitivité n'a été consultée.
+glossaire:
+- deficit-public
+- dette-publique
+- prelevements-obligatoires
+- charge-dette
+- solde-primaire
+- hcfp
+- loi-finances
+- procedure-deficit-excessif
+- ifi
+- pfu
+- lfss
+- article-49-3

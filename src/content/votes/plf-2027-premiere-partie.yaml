@@ -1,0 +1,93 @@
+theme: finances-publiques
+titre: Projet de loi de finances pour 2027
+objet: Vote sur l'ensemble de la première partie (recettes et équilibre) du projet de loi, en première lecture.
+date: 2026-11-04
+legislature: 17
+numero_scrutin: 9759
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/9759
+axes:
+- deficit
+- impot-revenu
+- patrimoine
+- entreprises
+- consommation
+resultat: rejete
+decompte:
+  pour: 0
+  contre: 458
+  abstention: 2
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 117
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 0
+  contre: 63
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 68
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 27
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 0
+  contre: 38
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 27
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 0
+  contre: 27
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 0
+  contre: 35
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 0
+  contre: 20
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 15
+  abstention: 2
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 14
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 0
+  contre: 7
+  abstention: 0
+  non_votants: 0
+note: '460 votants, 458 suffrages exprimés. Mises au point : M. Arnaud Bonnet, M. Damien Girard, Mme Louise Morel et M. Didier Padey ont voulu « voter contre » ; M. Hubert Ott a voulu « s''abstenir volontairement ».'
+date_consultation: 2026-11-11

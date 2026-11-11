@@ -1,0 +1,89 @@
+theme: finances-publiques
+titre: Projet de loi de finances pour 2026 – amendement créant un impôt plancher de 2 % sur les patrimoines de plus de 100 millions d'euros
+objet: Vote sur l'amendement n° 2359 (M. Vallaud) et les amendements identiques, après l'article 3, en première lecture. L'exposé de l'amendement prévoit un prélèvement plancher de 2 % pour les patrimoines nets supérieurs à 100 millions d'euros.
+date: 2025-10-31
+legislature: 17
+numero_scrutin: 3300
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/3300
+axes:
+- patrimoine
+resultat: rejete
+decompte:
+  pour: 172
+  contre: 228
+  abstention: 6
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 88
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 0
+  contre: 60
+  abstention: 3
+  non_votants: 7
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 60
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 61
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 0
+  contre: 28
+  abstention: 0
+  non_votants: 3
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 33
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 0
+  contre: 18
+  abstention: 2
+  non_votants: 1
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 0
+  contre: 21
+  abstention: 1
+  non_votants: 2
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 5
+  contre: 5
+  abstention: 0
+  non_votants: 1
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 12
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 5
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 1
+  contre: 3
+  abstention: 0
+  non_votants: 0
+note: '406 votants, 400 suffrages exprimés. Mise au point : M. François Ruffin a fait savoir qu''il avait voulu « voter pour ». Amendement : https://www.assemblee-nationale.fr/dyn/17/amendements/1906A/AN/2359'
+date_consultation: 2026-11-11
