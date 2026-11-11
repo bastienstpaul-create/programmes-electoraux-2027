@@ -1,0 +1,89 @@
+theme: institutions-democratie
+titre: Proposition de loi réformant le mode d'élection des membres du conseil de Paris et des conseils municipaux de Lyon et de Marseille
+objet: Vote sur l'ensemble de la proposition de loi, en lecture définitive (dernier mot donné à l'Assemblée nationale après désaccord avec le Sénat).
+date: 2025-07-10
+legislature: 17
+numero_scrutin: 3018
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/3018
+axes:
+- collectivites
+resultat: adopte
+decompte:
+  pour: 112
+  contre: 28
+  abstention: 2
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 32
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 24
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 37
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 2
+  contre: 5
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 0
+  contre: 1
+  abstention: 1
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 0
+  contre: 12
+  abstention: 0
+  non_votants: 1
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 15
+  contre: 1
+  abstention: 1
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 0
+  contre: 6
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 0
+  contre: 2
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 1
+  abstention: 0
+  non_votants: 0
+- groupe: UDR
+  sigle: UDR
+  pour: 2
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 0
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: Devenue la loi n° 2025-795 du 11 août 2025, après la décision n° 2025-892 DC du Conseil constitutionnel (7 août 2025), saisi notamment par des députés socialistes et écologistes.
+date_consultation: 2026-11-11

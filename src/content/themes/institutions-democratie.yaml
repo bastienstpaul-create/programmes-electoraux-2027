@@ -2,8 +2,8 @@ numero: 1
 titre: Institutions et démocratie
 icone: landmark
 sous_titre: Constitution, mode de scrutin, référendum, collectivités
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: mode-scrutin
   libelle: Mode de scrutin des législatives
@@ -17,3 +17,146 @@ axes:
   libelle: Collectivités locales et décentralisation
 - id: ethique
   libelle: Transparence et éthique de la vie publique
+situation:
+  texte: 'La France est organisée par la Constitution du 4 octobre 1958, celle de la Ve République. Le Président de la République est élu au suffrage universel direct pour cinq ans : la durée de son mandat a été réduite à cinq ans par le référendum de 2000. Il peut prononcer la [[dissolution|dissolution]] de l''Assemblée nationale. Le Parlement comprend l''Assemblée nationale (577 députés au plus) et le Sénat (348 sénateurs au plus). Depuis 1958, la Constitution a été modifiée 25 fois, la dernière fois le 8 mars 2024 pour y inscrire la liberté de recourir à l''interruption volontaire de grossesse. Une [[révision constitutionnelle|revision-constitutionnelle]] doit être votée dans les mêmes termes par les deux assemblées, puis approuvée par référendum ou par le Parlement réuni en [[Congrès|congres-du-parlement]], à la majorité des trois cinquièmes. En 2026, un projet de révision créant un statut d''autonomie pour la Corse a été adopté par l''Assemblée nationale le 23 juin, puis rejeté par le Sénat le 26 octobre ; il revient devant l''Assemblée en deuxième lecture.
+
+
+    Les députés sont élus au [[scrutin majoritaire à deux tours|scrutin-majoritaire-deux-tours]], un par circonscription. Pour se présenter au second tour, un candidat doit avoir obtenu au premier tour un nombre de voix au moins égal à 12,5 % des électeurs inscrits. Le passage à un [[scrutin proportionnel|scrutin-proportionnel]] a figuré parmi les engagements de campagne de plusieurs candidats à la présidentielle depuis 2007, sans être adopté. Aux élections législatives anticipées de 2024, qui ont suivi la dissolution, la participation au premier tour a atteint 67,9 %, contre 75,3 % au premier tour de la présidentielle de 2022 et 53,0 % aux européennes de 2024. Aucun groupe ne dispose de la majorité absolue (289 sièges) : fin octobre 2026, l''Assemblée compte onze groupes politiques et des députés non inscrits, et le groupe le plus nombreux réunit 121 députés. Trois Premiers ministres se sont succédé depuis ces élections. Le 4 décembre 2024, une [[motion de censure|motion-de-censure]] a été adoptée après le recours à l''[[article 49.3|article-49-3]] sur le budget de la Sécurité sociale, ce qui a entraîné la démission du gouvernement de Michel Barnier. Le 8 septembre 2025, l''Assemblée a désapprouvé la déclaration de politique générale de François Bayrou ([[article 49.1|article-49-1]]), ce qui a également entraîné la démission du gouvernement. En janvier 2026, Sébastien Lecornu a engagé la responsabilité de son gouvernement sur le budget de l''État avec l''article 49.3 ; les motions de censure déposées en réponse ont été rejetées.
+
+
+    Le [[référendum|referendum-article-11]] national permet au Président de la République de soumettre un projet de loi directement aux électeurs. Selon le Cevipof, le dernier référendum national remonte à plus de vingt ans. Depuis la révision de 2008, un [[référendum d''initiative partagée|referendum-initiative-partagee]] peut être engagé par un cinquième des parlementaires, à condition d''être soutenu par un dixième des électeurs inscrits. Lors de sa première mise en œuvre, sur la privatisation d''Aéroports de Paris, la proposition a recueilli 1 093 030 soutiens, pour un seuil fixé à 4 717 396. En février 2026, 22 % des personnes interrogées par le Cevipof déclaraient avoir confiance dans la politique, 20 % dans l''Assemblée nationale et 60 % dans leur maire ; 79 % souhaitaient un recours plus fréquent au référendum.
+
+
+    Au 1er janvier 2026, la France (métropole et départements d''outre-mer) compte 34 875 communes, regroupées en 1 252 [[intercommunalités|intercommunalite]] à fiscalité propre, 101 départements et 18 régions. Plus de 580 000 élus locaux y siègent ; les femmes représentent 47,4 % d''entre eux, mais 22,8 % des maires. En 2025, les dépenses de fonctionnement des collectivités locales ont atteint 209,5 milliards d''euros (budgets principaux). Deux lois de 2025 ont modifié les règles locales : l''une change le mode d''élection des conseils municipaux de Paris, Lyon et Marseille, l''autre crée un statut de l''élu local (indemnités, congés pour campagne, protection). Pour les responsables publics, la [[Haute Autorité pour la transparence de la vie publique|hatvp]] reçoit et contrôle des déclarations de patrimoine et d''intérêts : 10 362 déclarations reçues et 5 795 contrôlées en 2025.'
+  chiffres:
+  - libelle: Révisions de la Constitution depuis 1958
+    valeur: '25'
+    precision: 'Dont 21 approuvées par le Congrès et une par référendum (2000, mandat présidentiel de cinq ans) ; dernière révision : loi constitutionnelle du 8 mars 2024 sur l''IVG (Assemblée nationale, fiche n° 55, partie II)'
+    annee: '2024'
+    source: an-fiche-55-revision
+  - libelle: Participation au premier tour des législatives
+    valeur: 67,9 %
+    precision: 'France, hors Français établis hors de France et collectivités d''outre-mer. Pour comparaison : présidentielle 2022, 75,3 % ; européennes 2024, 53,0 % ; régionales 2021, 33,3 % ; municipales 2020, 44,6 % (Insee, d''après le ministère de l''Intérieur)'
+    annee: '2024'
+    source: insee-participation-premier-tour-2024
+  - libelle: Recours à l'article 49.3 sous la XVIe législature (2022-2024)
+    valeur: '23'
+    precision: Contre 6 sous la XIVe législature et 1 sous la XVe ; 39 sous la IXe législature (1988-1993), avant la limitation de 2008 (Assemblée nationale, fiche n° 64, partie III)
+    annee: '2024'
+    source: an-fiche-64-responsabilite
+  - libelle: Nombre de communes
+    valeur: 34 875
+    precision: Métropole et départements d'outre-mer, au 1er janvier 2026 ; 1 252 groupements à fiscalité propre, 8 113 syndicats, 101 départements, 18 régions (DGCL, synthèse)
+    annee: '2026'
+    source: dgcl-clc-2026-synthese
+  - libelle: Part des femmes parmi les maires
+    valeur: 22,8 %
+    precision: Contre 47,4 % parmi l'ensemble des plus de 580 000 élus locaux ; 28,6 % des présidents de région, 20,4 % des présidents de département, 12,8 % des présidents d'intercommunalité (DGCL, chapitre 7)
+    annee: '2026'
+    source: dgcl-clc-2026-elus
+  - libelle: Confiance dans la politique
+    valeur: 22 %
+    precision: 'Part des personnes déclarant avoir confiance dans la politique (−4 points sur un an) ; Assemblée nationale : 20 % ; partis : 15 % ; maires : 60 % (Cevipof, vague 17, enquête OpinionWay de janvier 2026)'
+    annee: '2026'
+    source: cevipof-barometre-2026
+  lois:
+  - titre: Constitution du 4 octobre 1958 (articles 11, 12, 49 et 89)
+    resume: L'article 11 encadre le référendum, y compris le référendum d'initiative partagée. L'article 12 permet au Président de dissoudre l'Assemblée nationale, sans nouvelle dissolution possible dans l'année qui suit les élections. L'article 49 organise la responsabilité du gouvernement devant l'Assemblée (motion de censure, 49.3). L'article 89 fixe la procédure de révision de la Constitution.
+    url: https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur
+  - titre: Loi organique n° 2013-1114 du 6 décembre 2013 portant application de l'article 11 de la Constitution
+    resume: 'Elle fixe les conditions du référendum d''initiative partagée : contrôle de la proposition de loi par le Conseil constitutionnel, recueil des soutiens des électeurs pendant neuf mois, principalement en ligne. Le Conseil constitutionnel a examiné ce texte dans sa décision n° 2013-681 DC.'
+    url: https://www.conseil-constitutionnel.fr/decision/2013/2013681DC.htm
+  - titre: Loi n° 2025-795 du 11 août 2025 visant à réformer le mode d'élection des membres du conseil de Paris et des conseils municipaux de Lyon et de Marseille
+    resume: 'Elle prévoit, dans ces trois villes, deux scrutins distincts organisés le même jour : l''un pour le conseil de Paris ou le conseil municipal de Lyon et de Marseille, l''autre pour les conseils d''arrondissement. Le Conseil constitutionnel a jugé conformes les dispositions dont il était saisi (décision n° 2025-892 DC du 7 août 2025).'
+    url: https://www.conseil-constitutionnel.fr/decision/2025/2025892DC.htm
+  - titre: Loi n° 2025-1249 du 22 décembre 2025 portant création d'un statut de l'élu local
+    resume: 'Elle inscrit dans le code général des collectivités territoriales les droits et devoirs des élus locaux : congé électif porté de 10 à 20 jours pour les salariés candidats, hausse du plafond des indemnités des maires et adjoints des communes de moins de 20 000 habitants, statut de l''élu étudiant, mesures pour le retour à l''emploi après le mandat.'
+    url: https://www.collectivites-locales.gouv.fr/actualites/un-nouveau-statut-de-lelu-local
+bilan:
+- nature: debat
+  texte: Depuis 2024, aucun groupe ne détient la majorité absolue à l'Assemblée. Sur les 68 motions de censure déposées de façon spontanée (article 49, alinéa 2) depuis 1958, une seule avait été adoptée, en 1962 ; celle du 4 décembre 2024, déposée après un recours au 49.3, a renversé le gouvernement Barnier. Selon le Cevipof (janvier 2026), 65 % des Français souhaitent renforcer durablement le pouvoir du Parlement face au gouvernement (23 % y sont opposés), mais seuls 58 % veulent changer de système institutionnel, avec de forts écarts selon la proximité partisane.
+  sources:
+  - an-fiche-64-responsabilite
+  - cevipof-decryptages-2026
+- nature: ne-fonctionne-pas
+  texte: 'Référendum d''initiative partagée : lors de sa première mise en œuvre (Aéroports de Paris, 2019-2020), la proposition a recueilli 1 093 030 soutiens valides, soit environ un quart du seuil exigé (4 717 396). Le Conseil constitutionnel a relevé plusieurs défauts du site de recueil (ergonomie, difficultés à être reconnu comme électeur, absence de confirmation du dépôt), tout en estimant qu''ils n''avaient pas changé le résultat. Il a jugé possible que ces difficultés aient dissuadé certains électeurs.'
+  sources:
+  - cc-2019-1-9-rip
+  - cc-2019-1-rip
+- nature: debat
+  texte: 'Participation : en 2022, 16 % des inscrits n''ont voté à aucun tour de la présidentielle et des législatives, et seuls 36 % ont voté à tous les tours. 83 % des inscrits ont voté à au moins un tour de la présidentielle, contre 58 % pour les législatives. L''abstention systématique touche 24 % des moins de 35 ans et 30 % des inscrits sans diplôme, contre 10 % des diplômés du supérieur. En 2024, la participation au premier tour des législatives anticipées a atteint 67,9 %, contre 75,3 % au premier tour de la présidentielle de 2022.'
+  sources:
+  - insee-ip1928-participation-2022
+  - insee-participation-premier-tour-2024
+- nature: fonctionne
+  texte: 'Parité locale : selon la DGCL, la part des femmes parmi les élus locaux (47,4 % en 2026) continue de progresser, notamment grâce aux listes paritaires imposées aux municipales de 2026 dans toutes les communes, y compris celles de moins de 1 000 habitants. Les fonctions de chef de l''exécutif restent plus souvent occupées par des hommes : 22,8 % des maires et 12,8 % des présidents d''intercommunalité sont des femmes.'
+  sources:
+  - dgcl-clc-2026-elus
+- nature: ne-fonctionne-pas
+  texte: 'Répartition des compétences : la mission confiée à Boris Ravignon (mai 2024) estime à 7,5 milliards d''euros par an le coût de l''enchevêtrement des compétences entre l''État et les collectivités et entre collectivités, dû surtout aux besoins de coordination et aux financements croisés. La Fondation iFRAP (juin 2026) rappelle que ce chiffrage, centré sur la relation État-collectivités et hors opérateurs de l''État, était présenté comme un minimum, et pointe un autre chevauchement, entre communes et Sécurité sociale dans l''action sociale.'
+  sources:
+  - ravignon-millefeuille-2024
+  - ifrap-enchevetrement-2026
+- nature: debat
+  texte: 'Mode de scrutin : l''Institut Montaigne (octobre 2024) rappelle que la France est seule dans l''Union européenne, depuis le départ du Royaume-Uni, à privilégier le scrutin majoritaire. Selon le constitutionnaliste Benjamin Morel, ce mode de scrutin n''empêche pas la dispersion : onze formations sont représentées à l''Assemblée, contre six au Bundestag allemand, élu à la proportionnelle. Pour la constitutionnaliste Anne Levade, dans le même entretien, l''état actuel des partis rend incertain le fonctionnement des coalitions qu''exigerait la proportionnelle.'
+  sources:
+  - institut-montaigne-contrevoix-proportionnelle-2024
+effets:
+- sujet: Effet d'un passage à la proportionnelle pour les élections législatives
+  axes:
+  - mode-scrutin
+  evaluations:
+  - source: lgc-proportionnelle-projections-2023
+    resume: 'Étude publiée par La Grande Conversation (Terra Nova), signée notamment par Jean-François Laslier et Thierry Pech, qui projette les résultats de 2012, 2017 et 2022 dans quatre systèmes. Avec une proportionnelle intégrale par département, aucun parti n''aurait eu seul la majorité absolue : le parti arrivé en tête aurait obtenu 42 % des sièges en 2012, 35 % en 2017 et 28 % en 2022. Avec les systèmes mixtes étudiés, Ensemble aurait obtenu entre 32 % et 36 % des sièges en 2022 (p. 21).'
+    fourchette: 'Premier parti : 28 % à 36 % des sièges selon le système (projection 2022)'
+  - source: lgc-proportionnelle-rn-2024
+    resume: 'Article de La Grande Conversation (Terra Nova) signé d''un pseudonyme (haut fonctionnaire). Une proportionnelle par département ne serait pas pleinement proportionnelle : 93 sièges sur 577 se trouvent dans des départements qui n''éliraient que 1 à 3 députés, 104 en comptant les Français de l''étranger, et environ 140 en ajoutant les départements à 4 sièges. Projetés sur les européennes de 2024, les résultats donneraient au RN un nombre de députés très proche de la majorité absolue avec un découpage départemental, et un peu plus de 200 avec un découpage régional (p. 3-4).'
+    fourchette: 93 à 140 sièges sur 577 peu ou pas répartis à la proportionnelle (maille départementale)
+  - source: institut-montaigne-contrevoix-proportionnelle-2024
+    resume: Entretien croisé publié par l'Institut Montaigne (octobre 2024). Benjamin Morel estime qu'une proportionnelle « bien conçue », ce qui exclut selon lui la maille départementale, favorise les coalitions négociées après l'élection. Anne Levade juge incertain que la proportionnelle conduise les partis à clarifier leurs programmes par des accords de coalition. Pas de chiffrage.
+    fourchette: Non chiffré
+  desaccords: Les projections dépendent du découpage (département, région ou liste nationale), du seuil, d'une éventuelle prime au parti arrivé en tête et des résultats pris comme base (législatives 2022 ou européennes 2024). Les auteurs consultés s'accordent sur le fait qu'une proportionnelle intégrale rendrait probable la formation de coalitions ; ils divergent sur la capacité des partis actuels à les former.
+- sujet: Effet de l'instabilité gouvernementale depuis la dissolution de 2024
+  axes:
+  - parlement
+  - constitution
+  evaluations:
+  - source: ofce-prevision-avril-2026
+    resume: Selon l'OFCE (prévision d'avril 2026, mise à jour en août 2026), la hausse de l'incertitude liée à la politique nationale depuis la dissolution aurait réduit la croissance de 0,1 point de PIB en 2024, 0,3 point en 2025 et 0,2 point en 2026, puis 0,1 point en 2027, soit 0,8 point de PIB au total sur 2024-2027.
+    fourchette: −0,8 point de PIB cumulé sur 2024-2027
+  - source: institut-montaigne-instabilite-2026
+    resume: Article publié par l'Institut Montaigne (septembre 2026), tiré d'un mémoire d'étudiant de l'École polytechnique. Il estime le coût de la crise politique à environ 42 milliards d'euros de PIB perdus sur 2024-2026, plus environ 2,1 milliards d'euros de surcoût de financement de la dette publique, et une baisse d'environ 20 % de l'activité de capital-risque après juin 2024.
+    fourchette: ≈ 42 Md€ de PIB et ≈ 2,1 Md€ d'intérêts sur 2024-2026
+  desaccords: Les deux chiffrages mesurent l'effet de l'incertitude politique, pas celui d'une règle institutionnelle précise. L'OFCE l'isole parmi d'autres chocs (budget, énergie, taux) ; l'article de l'Institut Montaigne s'appuie sur un mémoire de recherche et sur les chiffres de l'OFCE d'octobre 2025, depuis revus à la baisse par l'OFCE. Aucun des deux n'évalue l'effet d'une réforme précise (mode de scrutin, pouvoirs du Parlement).
+- sujet: Effet d'une réduction du nombre de parlementaires
+  axes:
+  - parlement
+  evaluations:
+  - source: ifrap-parlementaires-2018
+    resume: 'Fondation iFRAP (juin 2018), à propos du projet de réduction d''environ un tiers (404 députés, 244 sénateurs) : économie annuelle d''environ 90 millions d''euros pour l''Assemblée (budget de 570 millions) et 70 millions pour le Sénat (budget de 340 millions), soit 160 millions. Le coût annuel total d''un député y est estimé à 530 000 euros et celui d''un sénateur à 680 000 euros. La Fondation indique que ces économies ne suffisent pas à réduire le déficit public et propose d''en réaffecter une partie au contrôle des politiques publiques.'
+    fourchette: ≈ 160 M€ par an (−173 députés, −104 sénateurs)
+  desaccords: Un seul chiffrage a été consulté ; il date de 2018 et repose sur les budgets des assemblées de l'époque. Aucune évaluation récente d'une autre sensibilité n'a été trouvée.
+- sujet: Effet d'une clarification des compétences entre l'État et les collectivités
+  axes:
+  - collectivites
+  evaluations:
+  - source: ravignon-millefeuille-2024
+    resume: Selon le communiqué gouvernemental présentant le rapport de la mission Ravignon (29 mai 2024), l'enchevêtrement des compétences coûte environ 7,5 milliards d'euros par an, pour l'ensemble des niveaux de collectivités et pour l'État. Ces coûts de coordination ne peuvent pas tous être supprimés, mais peuvent être réduits.
+    fourchette: 7,5 Md€ par an de coût estimé (économie possible non chiffrée)
+  - source: ifrap-enchevetrement-2026
+    resume: 'La Fondation iFRAP (juin 2026) détaille ce chiffrage : 6 milliards d''euros pour les collectivités, dont 5,5 milliards pour les communes et intercommunalités, et 1,5 milliard pour l''État. Elle le considère comme un minimum et évalue l''action sociale des communes à au moins 6,3 milliards d''euros, un domaine partagé avec la Sécurité sociale.'
+    fourchette: 7,5 Md€ présenté comme un minimum
+  desaccords: 'Le coût mesuré n''est pas une économie : la mission elle-même indique qu''une partie de la coordination est nécessaire. La Fondation iFRAP juge le périmètre trop étroit (sans les opérateurs de l''État ni la Sécurité sociale). Le rapport complet n''a pas été consulté directement.'
+glossaire:
+- article-49-3
+- motion-de-censure
+- article-49-1
+- revision-constitutionnelle
+- congres-du-parlement
+- referendum-article-11
+- referendum-initiative-partagee
+- scrutin-majoritaire-deux-tours
+- scrutin-proportionnel
+- dissolution
+- intercommunalite
+- hatvp

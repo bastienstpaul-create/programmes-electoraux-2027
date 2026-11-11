@@ -1,0 +1,90 @@
+theme: institutions-democratie
+titre: Projet de loi constitutionnelle pour une Corse autonome au sein de la République
+objet: Vote sur l'ensemble du projet de loi constitutionnelle, en première lecture à l'Assemblée nationale.
+date: 2026-06-23
+legislature: 17
+numero_scrutin: 7454
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/7454
+axes:
+- constitution
+- collectivites
+resultat: adopte
+decompte:
+  pour: 271
+  contre: 202
+  abstention: 64
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 120
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 66
+  contre: 5
+  abstention: 11
+  non_votants: 0
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 60
+  contre: 2
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 41
+  contre: 5
+  abstention: 19
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 1
+  contre: 34
+  abstention: 10
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 27
+  contre: 5
+  abstention: 4
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 25
+  contre: 0
+  abstention: 11
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 22
+  contre: 0
+  abstention: 6
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 21
+  contre: 2
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 6
+  contre: 6
+  abstention: 2
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 0
+  contre: 17
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 2
+  contre: 6
+  abstention: 1
+  non_votants: 0
+note: Le Sénat a rejeté le texte le 26 octobre 2026 ; il a été transmis à l'Assemblée nationale pour une deuxième lecture le 28 octobre 2026 (dossier législatif du Sénat). Une révision n'aboutit que si les deux assemblées votent le même texte, puis si le Congrès (trois cinquièmes) ou un référendum l'approuve.
+date_consultation: 2026-11-11
