@@ -1,8 +1,8 @@
 numero: 19
 titre: Mer et spatial
 icone: rocket
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: spatial
   libelle: Politique spatiale
@@ -14,3 +14,141 @@ axes:
   libelle: Pêche
 - id: oceans
   libelle: Protection des océans
+situation:
+  texte: 'La France possède le deuxième espace maritime du monde. Sa [[zone économique exclusive|zee]] couvre environ 10,9 millions de km², dont 371 000 km² autour de l''Hexagone ; le reste se situe en outre-mer, en majorité dans le Pacifique. Dans cette zone, l''État a des droits exclusifs sur la pêche, l''énergie et les ressources du sous-sol. La surveillance de ces eaux (pêche illégale, trafics, pollutions) repose sur la Marine nationale et les autres administrations de l''action de l''État en mer.
+
+
+    Environ un tiers des eaux françaises (33,6 %) est classé en [[aire marine protégée|aire-marine-protegee]] : parcs nationaux, réserves naturelles, parcs naturels marins, sites Natura 2000, etc. Les règles varient beaucoup d''une aire à l''autre. Seule une petite partie est en [[protection forte|protection-forte]], c''est-à-dire avec des activités humaines fortement limitées : 4,8 % de l''ensemble des eaux en juin 2025, et 0,1 % des eaux de l''Hexagone. Le Gouvernement a annoncé en juin 2025 un objectif de 14,8 % des eaux en protection forte dès 2026. Le [[chalutage de fond|chalutage-de-fond]] est interdit en permanence sur environ la moitié de la zone économique exclusive de l''Hexagone. Au niveau mondial, le [[traité sur la haute mer|traite-haute-mer]], dont la France a autorisé la ratification par une loi de novembre 2024, est entré en vigueur le 17 janvier 2026.
+
+
+    La pêche relève de la [[politique commune de la pêche|politique-commune-peche]] de l''Union européenne : chaque année, l''UE fixe des [[quotas de pêche|quotas-peche]] par espèce et par zone, répartis ensuite entre les États puis entre les navires. Dans la bande des 12 milles marins, chaque État peut réserver la pêche aux navires qui y travaillent traditionnellement, jusqu''à fin 2032. En 2025, 3 760 navires de pêche étaient actifs dans l''Hexagone et 1 400 en outre-mer ; 71 % des navires de l''Hexagone mesurent moins de 12 mètres. Les navires français employaient 12 316 marins pêcheurs en 2022. La France importe beaucoup plus de produits de la mer qu''elle n''en exporte.
+
+
+    La France compte 65 ports de commerce, dont des [[grands ports maritimes|grand-port-maritime]] gérés par l''État (6 dans l''Hexagone et 4 en outre-mer). Leurs trafics ont peu évolué depuis 1997, alors que ceux des grands ports d''Europe du Nord ont progressé. Les armateurs peuvent choisir d''être imposés selon la [[taxe au tonnage|taxe-au-tonnage]] plutôt que sur leurs bénéfices. Côté espace, le [[CNES|cnes]], agence spatiale nationale, conduit la politique spatiale et verse la contribution française à l''[[Agence spatiale européenne|esa]]. Le soutien public au secteur spatial atteignait 3,2 milliards d''euros en 2023. Le nouveau lanceur européen Ariane 6 a réalisé son premier vol en juillet 2024, avec quatre ans de retard. Une stratégie nationale spatiale à l''horizon 2040 a été présentée le 12 novembre 2025.'
+  chiffres:
+  - libelle: Surface de la zone économique exclusive française
+    valeur: 10,9 millions de km²
+    precision: 10 911 921 km², dont 371 096 km² pour l'Hexagone et 10 540 825 km² pour l'outre-mer (dossier de presse du ministère, p. 13)
+    annee: '2025'
+    source: mte-unoc-amp-2025
+  - libelle: Part des eaux françaises en aire marine protégée
+    valeur: 33,6 %
+    precision: Dont 4,8 % de l'ensemble des eaux en protection forte, et 0,1 % des eaux de l'Hexagone (dossier de presse du ministère, p. 16 et 21)
+    annee: '2025'
+    source: mte-unoc-amp-2025
+  - libelle: Poissons débarqués issus de populations exploitées durablement
+    valeur: 58 % des volumes
+    precision: Pêche française de l'Hexagone, données 2023 (52 % en 2022) ; 19 % des volumes viennent de populations surpêchées et 2 % de populations effondrées (bilan Ifremer publié en février 2025)
+    annee: '2023'
+    source: ifremer-bilan-2024-halieutique
+  - libelle: Solde des échanges de produits de la pêche et de l'aquaculture
+    valeur: −4,9 milliards d'euros
+    precision: 'Importations : 7 157 M€ ; exportations : 2 238 M€ ; Hexagone et départements d''outre-mer, données des douanes (FranceAgriMer, p. 19)'
+    annee: '2024'
+    source: franceagrimer-chiffres-cles-2024
+  - libelle: Part des ports français dans les trafics maritimes européens
+    valeur: 12,3 %
+    precision: 'Contre 18 % en 1990 ; pour les conteneurs, 7,1 % contre 12 %. Trafic total des ports français : 328,1 millions de tonnes en 2025 (Assemblée nationale, comité d''évaluation et de contrôle, p. 1)'
+    annee: '2024'
+    source: an-cec-ports-2026
+  - libelle: Contribution française à l'Agence spatiale européenne
+    valeur: 3,7 milliards d'euros
+    precision: 'Souscriptions décidées à la conférence ministérielle de novembre 2025, pour plusieurs années ; deuxième contributeur derrière l''Allemagne (plus de 5 Md€). Budget du CNES en 2025 : 2 537,4 M€ (CNES, rapport annuel 2025, p. 10-11)'
+    annee: '2025'
+    source: cnes-rapport-annuel-2025
+  lois:
+  - titre: Règlement (UE) n° 1380/2013 relatif à la politique commune de la pêche
+    resume: 'Il fixe les règles européennes de la pêche : objectif de pêcher au niveau du rendement maximal durable, répartition des quotas entre États selon une clé stable (article 16), critères d''attribution aux navires laissés aux États, qui peuvent y inclure des critères environnementaux et sociaux (article 17). Son article 5 permet de réserver la bande des 12 milles aux navires locaux ; le règlement (UE) 2022/2495 a prolongé cette possibilité jusqu''au 31 décembre 2032.'
+    url: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013R1380
+  - titre: Loi n° 2008-518 du 3 juin 2008 relative aux opérations spatiales
+    resume: Elle soumet à autorisation préalable de l'État toute opération spatiale pouvant engager la responsabilité de la France (lancement, maîtrise d'un satellite). L'opérateur est responsable des dommages causés aux tiers ; l'État garantit l'indemnisation au-delà d'un plafond. Elle définit aussi le rôle du CNES au Centre spatial guyanais.
+    url: https://www.senat.fr/dossier-legislatif/tc/ana_pjl06-297.html
+  - titre: Loi n° 2024-1018 du 13 novembre 2024 autorisant la ratification de l'accord sur la haute mer (BBNJ)
+    resume: Elle autorise la France à ratifier l'accord des Nations unies de 2023 sur la biodiversité en haute mer, adoptée à l'unanimité par les deux assemblées. L'accord permet de créer des aires marines protégées en haute mer et impose des études d'impact. Il est entré en vigueur le 17 janvier 2026.
+    url: https://www.mer.gouv.fr/laccord-des-nations-unies-sur-la-haute-mer-bbnj
+  - titre: Loi n° 2023-659 du 26 juillet 2023 visant à lutter contre le dumping social sur le transmanche
+    resume: Pour les ferries qui assurent des lignes régulières internationales touchant un port français, elle applique le salaire minimum prévu en France et impose un temps de repos à terre au moins égal au temps passé à bord.
+    url: https://www.assemblee-nationale.fr/dyn/16/dossiers/dumping_transmanche
+bilan:
+- nature: fonctionne
+  texte: 'Pêche : la part des poissons débarqués dans l''Hexagone qui viennent de populations exploitées durablement est passée de 39 % en 2015 à 58 % en 2023. Le nombre de navires de pêche de l''Hexagone a baissé de 52 % entre 2011 et 2022, notamment grâce à des plans publics de sortie de flotte destinés à réduire la pression de pêche.'
+  sources:
+  - mte-unoc-amp-2025
+  - ifremer-bilan-2024-halieutique
+- nature: ne-fonctionne-pas
+  texte: Selon l'Ifremer (février 2025), la part des populations non surpêchées progresse très peu depuis plusieurs années, et le renouvellement des générations baisse de plus en plus (moins de jeunes poissons). En 2023, 19 % des volumes débarqués venaient de populations surpêchées. L'Ifremer y voit un risque de déclin de certaines populations.
+  sources:
+  - ifremer-bilan-2024-halieutique
+- nature: ne-fonctionne-pas
+  texte: 'Aires marines protégées : selon la Cour des comptes européenne (2026), le classement en zone protégée n''entraîne pas en lui-même de restrictions des activités. Dans l''UE, environ 14 % des eaux sont désignées comme zones protégées, mais moins de 1 % sont strictement protégées, loin de l''objectif de 10 % en 2030. Dans les sites marins Natura 2000, l''effort de pêche mesuré est 1,72 fois plus élevé qu''à l''extérieur. La France, auditée avec la Suède et l''Irlande, avait placé environ 45 % des eaux de l''Hexagone sous protection, selon l''Agence européenne pour l''environnement.'
+  sources:
+  - eca-rs-25-2026-amp
+- nature: debat
+  texte: 'Chalutage de fond dans les aires protégées : en février 2023, la Commission européenne a proposé de le supprimer progressivement d''ici 2030. Le Gouvernement français s''y est opposé, en invoquant des conséquences économiques importantes pour la pêche artisanale et l''absence d''étude d''impact territoire par territoire ; la Commission a ensuite renoncé à imposer cette obligation. La Cour des comptes européenne relève que le manque de données empêche souvent d''évaluer l''effet économique de ces mesures, notamment pour les petits navires.'
+  sources:
+  - an-qe-16-6430
+  - eca-rs-25-2026-amp
+- nature: ne-fonctionne-pas
+  texte: 'Ports : selon un rapport transpartisan de l''Assemblée nationale (juillet 2026), la stratégie nationale portuaire de 2021 n''a pas inversé la perte de parts de marché. Le tonnage des quatre premiers grands ports a baissé de 16,2 % entre 2005 et 2025, alors que les trafics européens augmentaient de 25 %. Plus de la moitié des conteneurs destinés à la région parisienne arrivent par Anvers. Seuls 22,3 % des marchandises partent ou arrivent par train ou par bateau fluvial. Le rapport note une exception : HAROPA (Le Havre, Rouen, Paris) a gagné des parts de marché depuis sa création en 2021 (de 8,0 % à 8,8 %).'
+  sources:
+  - an-cec-ports-2026
+- nature: debat
+  texte: 'Spatial : en 2023, la Cour des comptes jugeait limité le bilan du soutien du CNES aux jeunes entreprises du secteur (« NewSpace ») et relevait que le CNES dispensait presque toujours ses fournisseurs de pénalités de retard (manque à gagner de plusieurs dizaines de millions d''euros). Le Sénat (2024) juge la gouvernance du secteur « robuste », mais son financement complexe, réparti sur plusieurs budgets. Il demandait une stratégie nationale, adoptée en novembre 2025. Après quatre ans de retard, Ariane 6 a décollé 4 fois depuis Kourou en 2025, en plus de 3 vols de Vega-C.'
+  sources:
+  - ccomptes-cnes-2023
+  - senat-r23-697-spatial
+  - cnes-rapport-annuel-2025
+- nature: ne-fonctionne-pas
+  texte: 'Surveillance des eaux d''outre-mer : en 2022, la commission des finances du Sénat jugeait la surveillance des zones économiques des outre-mer « insuffisante ». Dans l''océan Indien, un avion de patrouille maritime n''y est présent que deux fois deux semaines par an, et la pêche illégale reste fréquente autour des îles Éparses. Les effectifs des forces de souveraineté ont baissé de 20 % après 2008. Six patrouilleurs d''outre-mer devaient arriver à partir de 2023.'
+  sources:
+  - senat-r22-012-forces-souverainete
+effets:
+- sujet: Effet d'une réforme ou d'une suppression de la taxe au tonnage des armateurs
+  axes:
+  - maritime
+  evaluations:
+  - source: vm-plf2026-depenses-fiscales
+    resume: 'Le Gouvernement chiffre ce régime (dépense fiscale n° 320119) : c''est l''impôt que l''État ne perçoit pas, par rapport à l''impôt sur les sociétés de droit commun. 625 M€ en 2024, 1 435 M€ prévus en 2025 et 620 M€ en 2026, pour 78 entreprises (p. 132).'
+    fourchette: 0,6 à 1,4 Md€ par an (2024-2026)
+  - source: an-execution-2022-affaires-maritimes
+    resume: 'Le rapporteur spécial de la commission des finances de l''Assemblée relève un coût de 3,8 Md€ en 2022, contre 395 M€ en 2021, pour 40 armateurs, en raison des profits exceptionnels du fret maritime. Il soutient pourtant le dispositif : l''activité des armateurs peut facilement être déplacée à l''étranger, et presque tous les pays européens ont un régime semblable (p. 7).'
+    fourchette: 0,4 Md€ (2021) à 3,8 Md€ (2022)
+  desaccords: 'Le coût varie fortement selon les bénéfices du fret maritime, qui changent beaucoup d''une année à l''autre. Il s''agit d''un chiffrage « statique » : il suppose que les armateurs resteraient imposés en France s''ils devaient payer l''impôt sur les sociétés. Le rapporteur spécial juge au contraire qu''une partie de l''activité pourrait partir à l''étranger. Aucun évaluateur n''a publié de chiffrage d''une réforme précise de ce régime.'
+- sujet: Moyens publics de la politique spatiale
+  axes:
+  - spatial
+  evaluations:
+  - source: senat-r23-697-spatial
+    resume: 'Le soutien public au spatial atteignait 3,2 Md€ en 2023 : 1 836 M€ sur le programme budgétaire « Recherche spatiale » (subvention au CNES et contribution à l''ESA), 983 M€ sur d''autres programmes dont ceux des armées, 302 M€ de part du budget européen et 57 M€ de crédit d''impôt recherche.'
+    fourchette: 3,2 Md€ en 2023
+  - source: cnes-rapport-annuel-2025
+    resume: La stratégie nationale spatiale prévoit plus de 16 Md€ d'ici à 2030 pour les activités civiles et duales (hors activités uniquement militaires). À la conférence ministérielle de l'ESA de novembre 2025, la France a souscrit 3,7 Md€, dont 1,65 Md€ pour le transport spatial (p. 10).
+    fourchette: Plus de 16 Md€ d'ici 2030 ; 3,7 Md€ souscrits à l'ESA
+  - source: senat-essentiel-plf2027-recherche
+    resume: Pour 2027, les crédits de paiement du programme « Recherche spatiale » augmenteraient de 46 M€, en raison de la hausse de la contribution à l'ESA. Cette hausse est financée en partie par un plan d'économies de 300 M€ au CNES sur 2026-2028 (p. 6).
+    fourchette: +46 M€ en 2027 ; −300 M€ de dépenses du CNES sur 2026-2028
+  desaccords: Les montants ne portent pas sur le même périmètre (budget de l'État seul, ou avec la part européenne et les crédits d'impôt) ni sur la même durée. Aucun évaluateur n'a publié de chiffrage d'une nationalisation d'ArianeGroup ou d'un changement de rôle du CNES. Le Sénat recommande de regrouper toute la contribution à l'ESA dans le programme « Recherche spatiale » pour rendre le financement plus lisible.
+- sujet: Effet d'une restriction du chalutage de fond et d'une extension de la protection forte
+  axes:
+  - oceans
+  - peche
+  evaluations:
+  - source: mte-unoc-amp-2025
+    resume: Selon le ministère, le chalutage de fond ne concerne que 3 % de la zone économique exclusive française ; il est déjà interdit en permanence sur 50 % de celle de l'Hexagone (56 % avec les interdictions partielles). Le Gouvernement prévoit que les zones où les fonds marins sont fortement protégés couvrent 4 % des eaux de l'Hexagone fin 2026, avec interdiction du chalutage de fond (p. 13 et 23).
+    fourchette: 3 % de la ZEE chalutée ; objectif de 4 % des eaux de l'Hexagone fortement protégées fin 2026
+  - source: eca-rs-25-2026-amp
+    resume: La Cour des comptes européenne constate que les données manquent pour évaluer l'effet économique de ces mesures. Jusqu'en 2026, les navires de moins de 15 mètres n'avaient pas de système de suivi par satellite, ce qui empêche de mesurer le report de la pêche vers d'autres zones et l'effet sur les petits pêcheurs (points 61-62).
+    fourchette: Pas de chiffrage économique disponible
+  desaccords: Aucun évaluateur n'a publié de chiffrage national du coût d'une interdiction du chalutage de fond dans toutes les aires protégées. En 2023, le Gouvernement mettait en avant des « conséquences économiques importantes », notamment pour la pêche artisanale. La Cour des comptes européenne rappelle que la pêche est l'une des principales pressions sur le milieu marin. Les navires de moins de 12 mètres représentent 71 % des navires de l'Hexagone, mais 21 % du chiffre d'affaires.
+glossaire:
+- zee
+- aire-marine-protegee
+- protection-forte
+- chalutage-de-fond
+- politique-commune-peche
+- quotas-peche
+- cnes
+- esa
+- taxe-au-tonnage
+- grand-port-maritime
+- traite-haute-mer
