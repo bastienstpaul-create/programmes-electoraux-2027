@@ -1,0 +1,83 @@
+theme: egalite-discriminations
+titre: Proposition de loi visant à lutter contre les discriminations par la pratique de tests individuels et statistiques
+objet: Vote sur l'ensemble de la proposition de loi, en première lecture.
+date: 2023-12-06
+legislature: 16
+numero_scrutin: 3144
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3144
+axes:
+- discriminations
+resultat: adopte
+decompte:
+  pour: 102
+  contre: 81
+  abstention: 0
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 76
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 31
+  abstention: 0
+  non_votants: 0
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 0
+  contre: 24
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 0
+  contre: 13
+  abstention: 0
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 12
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Socialistes et apparentés
+  sigle: SOC-A
+  pour: 0
+  contre: 7
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 5
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 2
+  contre: 2
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 0
+  contre: 4
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 7
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 0
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: Vote en première lecture à l'Assemblée nationale. La suite de la navette parlementaire n'a pas été vérifiée.
+date_consultation: 2026-11-11

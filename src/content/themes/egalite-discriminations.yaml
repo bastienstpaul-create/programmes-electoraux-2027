@@ -1,8 +1,8 @@
 numero: 14
 titre: Égalité et discriminations
 icone: scale
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: egalite-pro
   libelle: Égalité professionnelle femmes-hommes
@@ -16,3 +16,141 @@ axes:
   libelle: Droits des personnes LGBT+
 - id: accessibilite
   libelle: Accessibilité et inclusion
+situation:
+  texte: 'En 2024, dans le secteur privé, le revenu salarial moyen des femmes était inférieur de 21,8 % à celui des hommes. Une grande partie de cet écart tient au volume de travail : en 2025, 26,6 % des femmes salariées travaillaient à temps partiel, contre 8,4 % des hommes. À temps de travail identique, l''écart de salaire est de 14,0 % ; pour un même emploi dans le même établissement, il est de 3,6 %. Depuis 1995, l''écart de revenu salarial s''est réduit d''un tiers. Les entreprises d''au moins 50 salariés doivent publier chaque année un [[index de l''égalité professionnelle|index-egalite-professionnelle]] (note moyenne : 88,5 sur 100 en 2026). Une directive européenne sur la [[transparence des rémunérations|transparence-des-remunerations]] devait être appliquée en France avant le 7 juin 2026 : le projet de loi a été déposé au Sénat le 10 septembre 2026 ; à la dernière mise à jour de son dossier (8 octobre 2026), il n''avait pas encore été examiné.
+
+
+    En 2024, la police et la gendarmerie ont enregistré 271 848 victimes de violences au sein du couple, dont 84 % de femmes. Selon l''enquête de victimation, 376 000 femmes déclarent avoir subi de telles violences en 2023, et une sur cinq dit avoir porté plainte. En 2025, 111 femmes et 25 hommes ont été tués par leur conjoint ou ex-conjoint (voir [[féminicide|feminicide]]). Pour les viols, les chiffres clés publiés par l''Observatoire national des violences faites aux femmes recensent 89 000 victimes déclarées, 46 297 victimes enregistrées et 1 665 condamnations. Depuis la loi du 6 novembre 2025, le code pénal définit le viol et les agressions sexuelles comme des actes sexuels commis sans [[consentement|consentement-sexuel]].
+
+
+    En 2025, le [[Défenseur des droits|defenseur-des-droits]] a reçu 6 362 réclamations pour discrimination (+12 % en un an) ; le handicap (27 %) et l''origine (18 %) sont les premiers critères invoqués. La même année, la police et la gendarmerie ont enregistré 9 737 crimes et délits à caractère raciste, xénophobe ou antireligieux (+5 %). Selon la Commission nationale consultative des droits de l''homme (CNCDH), 97 % des personnes qui s''estiment victimes de racisme ne portent pas plainte. Un [[test de discrimination|testing]] mené en 2019-2021 pour la Dares montre qu''à candidature équivalente, les personnes au nom à consonance maghrébine sont rappelées par les recruteurs dans 22,8 % des cas, contre 33,3 % pour les autres, soit environ 32 % de rappels en moins.
+
+
+    La [[laïcité|laicite]] repose sur la loi du 9 décembre 1905 de séparation des Églises et de l''État. Elle ne s''applique pas de la même façon partout : en Alsace et en Moselle, un [[régime concordataire|regime-concordataire]] permet à l''État de rémunérer des ministres de quatre cultes. La loi du 24 août 2021 « confortant le respect des principes de la République » a notamment créé un [[contrat d''engagement républicain|contrat-engagement-republicain]] pour les associations qui demandent une subvention. Dans les écoles, collèges et lycées, 6 589 atteintes au principe de laïcité ont été recensées en 2023-2024. Côté handicap, 563 400 élèves en situation de handicap étaient scolarisés en 2024 (4,7 % des élèves). À la rentrée 2026, 140 000 [[AESH|aesh]] étaient en poste, et 39 000 élèves qui avaient droit à un accompagnement n''en avaient pas. Les entreprises de 20 salariés ou plus doivent employer 6 % de travailleurs handicapés ([[obligation d''emploi|oeth]]) : le taux atteint 5,1 % en 2024, et 35 % des entreprises remplissent leur obligation.'
+  chiffres:
+  - libelle: Écart de revenu salarial entre femmes et hommes (secteur privé)
+    valeur: 21,8 %
+    precision: 'Revenu salarial annuel moyen. À temps de travail identique : 14,0 % ; pour le même emploi dans le même établissement : 3,6 %. L''écart s''est réduit d''un tiers depuis 1995 (Insee, partie « Inégalités femmes-hommes », question 1, d''après Insee Focus n° 377).'
+    annee: '2024'
+    source: insee-debats-2027
+  - libelle: Victimes de violences au sein du couple enregistrées par la police et la gendarmerie
+    valeur: 271 848
+    precision: Dont 84 % de femmes (228 000), hors homicides. 376 000 femmes déclarent ces violences dans l'enquête de victimation (2023) ; une sur cinq dit avoir porté plainte (Miprof, Lettre n° 25, chiffres clés p. 7).
+    annee: '2024'
+    source: miprof-lettre-25-2025
+  - libelle: Femmes tuées par leur conjoint ou ex-conjoint
+    valeur: '111'
+    precision: Sur 136 morts violentes au sein du couple (25 hommes) ; 107 femmes en 2024. 9 enfants tués dans le même contexte (Délégation aux victimes, chiffres clés p. 5 et synthèse p. 7).
+    annee: '2025'
+    source: dav-morts-violentes-couple-2025
+  - libelle: Crimes et délits à caractère raciste, xénophobe ou antireligieux enregistrés
+    valeur: 9 737
+    precision: +5 % par rapport à 2024 (9 295) ; dont 583 atteintes à la vie et violences (+11 %). Données du service statistique du ministère de l'Intérieur reprises par la CNCDH (Les essentiels, p. 9).
+    annee: '2025'
+    source: cncdh-racisme-2025-essentiels
+  - libelle: Réclamations pour discrimination reçues par le Défenseur des droits
+    valeur: 6 362
+    precision: '+12 % en un an. Plus de la moitié concernent l''emploi (32 % privé, 21 % public). Premiers critères : handicap (27 %), origine (18 %) (dossier de presse du rapport annuel, p. 18).'
+    annee: '2025'
+    source: ddd-rapport-annuel-2025
+  - libelle: Taux d'emploi de travailleurs handicapés dans les entreprises soumises à l'obligation
+    valeur: 5,1 %
+    precision: Au sens légal (bénéficiaires de 50 ans ou plus comptés avec une majoration) ; 4,0 % sans majoration. 720 800 travailleurs handicapés dans 111 300 entreprises de 20 salariés ou plus ; 35 % des entreprises atteignent le seuil de 6 % (Dares Résultats n° 56, p. 1).
+    annee: '2024'
+    source: dares-oeth-2024
+  lois:
+  - titre: Loi n° 2005-102 du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées
+    resume: Loi de référence sur le handicap. Elle pose notamment le droit des enfants handicapés à être scolarisés en milieu ordinaire (article 19, devenu l'article L. 112-1 du code de l'éducation) et des obligations d'accessibilité des bâtiments et des transports. Depuis son entrée en vigueur, le nombre d'élèves handicapés scolarisés en milieu ordinaire est passé d'environ 100 000 (2006) à 526 587 (rentrée 2025).
+    url: https://www.senat.fr/dossier-legislatif/pjl03-183.html
+  - titre: Loi n° 2021-1109 du 24 août 2021 confortant le respect des principes de la République
+    resume: Loi d'une centaine d'articles. Elle rappelle la neutralité des services publics, impose des référents laïcité et la formation des agents, crée le contrat d'engagement républicain pour les associations subventionnées, élargit les motifs de dissolution d'association, soumet l'instruction en famille à autorisation et renforce le contrôle des associations cultuelles et de leurs financements étrangers. Elle a été évaluée par la commission des lois de l'Assemblée nationale en janvier 2025.
+    url: https://www.assemblee-nationale.fr/dyn/17/documents/cion_lois/l17n870210094_document.pdf
+  - titre: Loi n° 2025-1057 du 6 novembre 2025 visant à modifier la définition pénale du viol et des agressions sexuelles
+    resume: Elle définit l'agression sexuelle comme « tout acte sexuel non consenti ». Le consentement doit être libre et éclairé, spécifique, préalable et révocable ; il ne peut être déduit du seul silence ou de la seule absence de réaction de la victime. Il n'y a pas de consentement en cas de violence, contrainte, menace ou surprise. Publiée au Journal officiel du 7 novembre 2025.
+    url: https://www.assemblee-nationale.fr/dyn/17/dossiers/definition_penale_viol_agressions_sexuelles_17e
+  - titre: Directive (UE) 2023/970 du 10 mai 2023 sur la transparence des rémunérations entre femmes et hommes
+    resume: 'Elle impose aux États de l''Union des règles minimales : information sur la rémunération dès le recrutement, droit des salariés à connaître les niveaux de rémunération moyens par sexe, publication d''écarts de rémunération par les employeurs, évaluation conjointe avec les représentants du personnel en cas d''écart injustifié d''au moins 5 %. Transposition prévue au plus tard le 7 juin 2026 ; en France, le projet de loi n° 944 a été déposé au Sénat le 10 septembre 2026 (procédure accélérée).'
+    url: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023L0970
+bilan:
+- nature: ne-fonctionne-pas
+  texte: 'Selon la Cour des comptes (janvier 2025), l''[[index de l''égalité professionnelle|index-egalite-professionnelle]] ne couvre que 25 % des salariés du privé : il exclut les entreprises de moins de 50 salariés (44 % des salariés du privé), environ 41 % des plus petites entreprises concernées déclarent un index « incalculable » et 14 % n''ont pas répondu. Un seuil de 5 % fait disparaître du calcul une partie des écarts, alors que l''écart de salaire à poste comparable est estimé à 4,3 %. La première évaluation de l''IPP ne détecte pas d''effet de l''index sur les inégalités dans les entreprises concernées pendant ses premières années (rapport p. 84-85). Le [[Haut Conseil à l''égalité|hce]] dressait un constat proche dans son bilan de mars 2024, intitulé « Salaires : 5 ans après l''Index, toujours pas d''égalité ».'
+  sources:
+  - ccomptes-inegalites-fh-2025
+  - hce-avis-transparence-2026
+- nature: debat
+  texte: 'Le Gouvernement met en avant la progression de l''index : 83,5 % des entreprises concernées avaient publié leur note au 1er mars 2026 (54 % en 2020), la note moyenne est de 88,5 sur 100 (84 en 2020) et 93 % des entreprises ont au moins 75 points. Son étude d''impact reconnaît toutefois que l''index ne prend pas en compte le « travail de valeur égale » et que 47 % des entreprises de 50 à 99 salariés ont déclaré un index non calculable en 2025. Les pénalités infligées depuis 2020 totalisent 3,9 millions d''euros. Le projet de loi propose de remplacer l''index par les indicateurs de la directive européenne.'
+  sources:
+  - senat-pjl944-etude-impact
+- nature: ne-fonctionne-pas
+  texte: 'Violences faites aux femmes : selon la commission des finances du Sénat (juillet 2025), les crédits du programme budgétaire « Égalité entre les femmes et les hommes » sont passés de 36,5 millions d''euros en 2020 à 101,1 millions en 2024 (+176,8 %), mais environ 3 % des affaires aboutissent à une condamnation définitive et l''efficacité des dépenses est peu évaluée. Parmi les 111 femmes tuées par leur conjoint en 2025, 37 % avaient déjà subi des violences ; 61 % d''entre elles les avaient signalées aux forces de l''ordre, et 88 % de ces dernières avaient porté plainte. Une seule bénéficiait d''un téléphone grave danger.'
+  sources:
+  - senat-r24-814-violences-2025
+  - dav-morts-violentes-couple-2025
+- nature: ne-fonctionne-pas
+  texte: 'Racisme et discriminations : selon la CNCDH, environ 1,2 million de personnes s''estiment victimes chaque année d''une atteinte raciste, mais seuls quelques milliers de faits sont enregistrés. En 2024, les parquets ont traité 10 035 affaires à caractère raciste ; 1 907 condamnations ont été prononcées, dont 8 seulement pour discrimination comme infraction principale. La CNCDH juge « décevante » la mise en œuvre du plan national contre le racisme, l''antisémitisme et les discriminations liées à l''origine (PRADO), qui arrive à échéance en 2026. Elle relève aussi que l''indice de tolérance mesuré chaque année reste à 64 sur 100 en 2025, son 4e meilleur niveau depuis 1990 (Les essentiels, p. 3, 5, 11-13).'
+  sources:
+  - cncdh-racisme-2025-essentiels
+- nature: debat
+  texte: 'Laïcité : l''évaluation de la loi de 2021 par trois députés (janvier 2025) relève près de 17 000 référents laïcité désignés, 730 000 agents formés (environ 13 % des agents publics, pour un objectif de 100 % fin 2025), 23 dissolutions d''associations depuis septembre 2021 (contre 29 entre 2012 et 2021) et une baisse de l''instruction en famille de 72 369 à 30 644 élèves. L''usage du [[contrat d''engagement républicain|contrat-engagement-republicain]] n''a pas pu être mesuré. Les trois rapporteurs divergent : l''une juge que la loi a donné de nouveaux outils à l''État, un autre qu''elle ne répond pas à l''ampleur du séparatisme islamiste et pénalise des familles de bonne foi, le troisième qu''elle est inutile et stigmatisante.'
+  sources:
+  - an-eval-crpr-2025
+- nature: debat
+  texte: 'Handicap : le nombre d''élèves handicapés scolarisés en milieu ordinaire a été multiplié par 3,2 entre 2006 et 2024 et le budget de l''école inclusive atteint 4,7 milliards d''euros en 2026. Mais 98 % des [[AESH|aesh]] travaillent à temps incomplet (62 % d''un temps plein en moyenne) et 39 000 élèves notifiés étaient sans accompagnement à la rentrée 2026. Dans l''emploi, les entreprises atteignent 92 % des effectifs de travailleurs handicapés exigés par la loi (+4 points en un an), mais seules 35 % remplissent entièrement leur obligation.'
+  sources:
+  - an-rapport-3382-aesh
+  - dares-oeth-2024
+effets:
+- sujet: Effet d'une hausse des moyens contre les violences faites aux femmes (plans de 1 à 3 milliards d'euros)
+  axes:
+  - violences
+  evaluations:
+  - source: senat-r24-814-violences-2025
+    resume: 'Les crédits du programme « Égalité entre les femmes et les hommes » atteignent 101,1 M€ en 2024. Le document budgétaire transversal de l''État affiche 5,8 Md€ pour l''égalité femmes-hommes en 2025, dont 545 M€ pour les violences, mais les rapporteurs jugent cette valorisation « assez complaisante » : sa hausse vient surtout du nombre de programmes comptabilisés (48 en 2025 contre 13 en 2018). Selon les études citées, le coût des violences pour la société va de 2,5 à 70 Md€ par an selon le périmètre (rapport p. 50-58).'
+    fourchette: 101,1 M€ (crédits dédiés 2024) à 5,8 Md€ (périmètre large du document budgétaire)
+  - source: senat-r24-814-violences-2025
+    resume: 'Estimation de la Fondation des femmes (2023), reprise par le Sénat : l''État a dépensé 171,6 M€ contre les violences conjugales et 13,2 M€ contre les violences sexuelles hors du couple en 2023. Les besoins seraient de 2,2 à 3,1 Md€ par an pour les violences conjugales et de 0,36 à 2,3 Md€ pour les violences sexuelles hors du couple. Les rapporteurs jugent ces besoins « assez maximalistes » mais réels (p. 53-57).'
+    fourchette: 2,6 à 5,4 Md€ par an au total selon la Fondation des femmes
+  desaccords: 'L''écart entre les chiffres vient du périmètre : l''État compte des dépenses très larges (par exemple une partie de la rémunération des enseignants), la Fondation des femmes ne retient que les dispositifs dédiés. La commission des finances du Sénat ne tranche pas sur le montant nécessaire et recommande de mieux évaluer l''efficacité des dépenses. Aucun chiffrage indépendant des plans annoncés par les candidats n''a été trouvé.'
+- sujet: Effet du remplacement de l'index de l'égalité par les règles européennes de transparence des salaires
+  axes:
+  - egalite-pro
+  evaluations:
+  - source: ccomptes-inegalites-fh-2025
+    resume: 'Bilan de l''outil actuel : selon l''évaluation de l''IPP citée par la Cour des comptes, l''index n''a pas eu d''effet détectable sur les inégalités femmes-hommes dans les entreprises concernées pendant ses premières années ; il ne couvre que 25 % des salariés du privé (p. 84-85).'
+    fourchette: Pas d'effet mesurable de l'index actuel
+  - source: senat-pjl944-etude-impact
+    resume: Le projet de loi oblige les entreprises à publier un écart de rémunération par catégorie de salariés et, au-delà de 100 salariés, à justifier ou corriger tout écart d'au moins 5 %. Pour l'État, le portail de déclaration, le calcul automatique à partir des déclarations sociales et l'accompagnement coûteraient plus d'un million d'euros. Le coût pour les entreprises et l'effet attendu sur les écarts de salaire ne sont pas chiffrés.
+    fourchette: Plus de 1 M€ pour l'État ; effet sur les salaires non chiffré
+  - source: hce-avis-transparence-2026
+    resume: 'Consulté en juin 2026, le Haut Conseil à l''égalité n''a pas pu rendre un avis unique : 16 voix défavorables (CGT, CFE-CGC, MEDEF, CPME), 14 favorables dont 10 avec réserves (notamment CFDT et FO), 7 avis réservés et 5 abstentions. Les syndicats y voient un risque de transposition a minima (sanctions limitées, renvois au décret) ; le MEDEF un risque de complexité excessive pour les PME (p. 6-9).'
+    fourchette: Non chiffré
+  desaccords: Les organisations syndicales demandent des sanctions en cas d'écarts persistants et non seulement en cas de manquement de procédure ; les organisations patronales demandent de la souplesse par accord collectif et alertent sur la charge administrative. Le seuil d'écart déclenchant une obligation (5 % selon la directive) et plusieurs indicateurs sont renvoyés à un décret.
+- sujet: Effet de la création d'un statut de fonctionnaire pour les accompagnants d'élèves handicapés (AESH)
+  axes:
+  - accessibilite
+  evaluations:
+  - source: an-rapport-3382-aesh
+    resume: 'Lors de l''examen en commission (octobre 2026), plusieurs députés ont cité un chiffrage du ministère de l''Éducation nationale : plus de 4 Md€ par an, dont 2,5 Md€ au titre des futures retraites, soit presque un doublement du budget de l''école inclusive (4,7 Md€ en 2026). La rapporteure indique que la dépense est gagée dans le texte et juge que l''argument du coût n''est pas recevable (rapport n° 3382, p. 46-55).'
+    fourchette: ≈ 4 Md€ par an (chiffrage du ministère cité en commission)
+  desaccords: Des députés des groupes EPR, DR, Dem et HOR estiment que le statut ne créerait pas d'heure d'accompagnement supplémentaire ; les défenseurs du texte estiment que la stabilité des personnels améliorerait l'accompagnement. Le chiffrage du ministère n'est pas publié en détail dans le rapport consulté.
+- sujet: Effet de la fin du régime des cultes d'Alsace-Moselle
+  axes:
+  - laicite
+  evaluations:
+  - source: an-qe15-3811-concordat
+    resume: 'Réponse du ministère de l''Intérieur (juillet 2018) : le régime des cultes d''Alsace-Moselle a coûté à l''État environ 39 M€ en 2017 pour la rémunération de 1 254 emplois cultuels, plus 1,3 M€ pour le patrimoine immobilier religieux et les frais d''administration des cultes. Le Conseil constitutionnel a jugé ce financement conforme à la Constitution (décision n° 2012-297 QPC du 21 février 2013).'
+    fourchette: ≈ 40 M€ par an de dépenses de l'État (2017)
+  desaccords: Aucun chiffrage officiel plus récent n'a été consulté. Ce montant ne comprend pas les dépenses des collectivités locales ni les pensions des ministres des cultes ; il ne tient pas compte d'éventuels coûts de transition.
+glossaire:
+- aesh
+- consentement-sexuel
+- contrat-engagement-republicain
+- defenseur-des-droits
+- feminicide
+- hce
+- index-egalite-professionnelle
+- laicite
+- oeth
+- regime-concordataire
+- testing
+- transparence-des-remunerations
