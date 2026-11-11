@@ -1,0 +1,13 @@
+theme: finances-publiques
+axe: impot-revenu
+candidat: retailleau
+statut: programme
+intitule: "Quotient familial et allocations familiales remplacés par un Revenu familial de 240 € par enfant, déduit de l'impôt à la source"
+detail: "À défaut d'impôt suffisant, la DGFiP verserait directement le montant. Autres mesures d'impôt sur le revenu : réduction pour intérêts d'emprunt de la résidence principale des familles (Famille, p. 17) ; exonération d'IR pendant cinq ans pour les talents de la tech qui rentrent en France (IA, p. 14) ; maintien de l'exonération d'IR des heures supplémentaires (Travail gagnant, p. 21)."
+citation: "permet de déduire automatiquement chaque mois, pour chaque enfant mineur, les 240 euros"
+chiffrage_annonce: "Coût du Revenu familial 40,3 Md€, pour 41 Md€ de dispositifs supprimés"
+source:
+  url: https://republicains.fr/wp-content/uploads/2026/05/LR_Famille_vFinale.pdf
+  titre: "Les Républicains, « Nos propositions pour la France – Une politique pour toutes les familles de France », p. 11-12"
+  date_consultation: 2026-11-10
+date_maj: 2026-11-10

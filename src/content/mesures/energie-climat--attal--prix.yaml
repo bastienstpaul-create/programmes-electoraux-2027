@@ -1,0 +1,14 @@
+theme: energie-climat
+axe: prix
+candidat: attal
+statut: programme
+intitule: "Viser environ 75 euros le mégawattheure pour le nouveau nucléaire et moins de 50 euros pour les industriels exposés"
+detail: "Une autre fiche s'engage à garder les prix de l'électricité stables pendant cinq ans. Le plan indique que l'électricité doit rester moins chère que l'énergie fossile qu'elle remplace."
+citation: "Le plan vise environ 75 euros pour le nouveau nucléaire"
+chiffrage_annonce: "≈75 €/MWh (nouveau nucléaire) ; <50 €/MWh (industriels exposés)"
+source:
+  url: https://attalpresident.fr/programme/mesures/plan-messmer-2
+  titre: "attalpresident.fr, fiche mesure « Réduire notre dépendance énergétique »"
+  contexte: "Mesure annoncée le 23 septembre 2026 (« Conférence avec des économistes »), fiche publiée sur le site de campagne"
+  date_consultation: 2026-11-10
+date_maj: 2026-11-10

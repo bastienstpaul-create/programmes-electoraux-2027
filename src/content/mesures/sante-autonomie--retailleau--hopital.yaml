@@ -1,0 +1,12 @@
+theme: sante-autonomie
+axe: hopital
+candidat: retailleau
+statut: programme
+intitule: "IA médicales françaises entraînées sur les données de santé nationales et outils d'IA pour les écrits à l'hôpital"
+detail: "Le livret vise le temps de soin libéré par l'automatisation des comptes rendus et courriers. Les données de santé seraient hébergées en Europe. Aucune mesure sur les effectifs ou le budget des hôpitaux."
+citation: "Des IA médicales françaises entraînées sur nos propres données de santé"
+source:
+  url: https://republicains.fr/wp-content/uploads/2026/07/LR_IA.pdf
+  titre: "Les Républicains, « Nos propositions pour la France – L’IA au service des Français », p. 4 et 27"
+  date_consultation: 2026-11-10
+date_maj: 2026-11-10
