@@ -1,0 +1,89 @@
+theme: sante-autonomie
+titre: Proposition de loi relative au droit à l'aide à mourir
+objet: Vote solennel sur l'ensemble de la proposition de loi en première lecture.
+date: 2025-05-27
+legislature: 17
+numero_scrutin: 2107
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/2107
+axes:
+- fin-de-vie
+resultat: adopte
+decompte:
+  pour: 305
+  contre: 199
+  abstention: 57
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 19
+  contre: 101
+  abstention: 3
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 64
+  contre: 11
+  abstention: 14
+  non_votants: 0
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 62
+  contre: 1
+  abstention: 3
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 59
+  contre: 4
+  abstention: 2
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 7
+  contre: 34
+  abstention: 8
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 33
+  contre: 1
+  abstention: 1
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 20
+  contre: 9
+  abstention: 7
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 14
+  contre: 13
+  abstention: 6
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 11
+  contre: 3
+  abstention: 9
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 12
+  contre: 1
+  abstention: 3
+  non_votants: 0
+- groupe: UDR
+  sigle: UDR
+  pour: 0
+  contre: 16
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 4
+  contre: 5
+  abstention: 1
+  non_votants: 0
+note: Scrutin public solennel, 561 votants. Le même jour, la proposition de loi sur les soins palliatifs a été adoptée par 560 voix pour et 0 contre (scrutin n° 2106).
+date_consultation: 2026-11-11

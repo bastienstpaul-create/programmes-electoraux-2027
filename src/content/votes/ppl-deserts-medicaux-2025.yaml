@@ -1,0 +1,89 @@
+theme: sante-autonomie
+titre: Proposition de loi visant à lutter contre les déserts médicaux, d'initiative transpartisane
+objet: Vote sur l'ensemble de la proposition de loi en première lecture. Son article 1er soumet l'installation de tout médecin à une autorisation de l'ARS, accordée de droit en zone sous-dotée ou si un médecin de la même spécialité cesse son activité dans la zone.
+date: 2025-05-07
+legislature: 17
+numero_scrutin: 1607
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/1607
+axes:
+- acces
+resultat: adopte
+decompte:
+  pour: 99
+  contre: 9
+  abstention: 10
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 0
+  contre: 0
+  abstention: 8
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 4
+  contre: 4
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 23
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 26
+  contre: 1
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 4
+  contre: 2
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 17
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 8
+  contre: 1
+  abstention: 1
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 5
+  contre: 0
+  abstention: 1
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 4
+  contre: 1
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 7
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: UDR
+  sigle: UDR
+  pour: 0
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 1
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: Scrutin public ordinaire, 118 votants. Texte transmis au Sénat ; sa commission des affaires sociales l'a modifié le 27 mai 2026 (rapport n° 668). Pas d'adoption définitive au 11 novembre 2026.
+date_consultation: 2026-11-11

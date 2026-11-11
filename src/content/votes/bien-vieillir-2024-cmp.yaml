@@ -1,0 +1,83 @@
+theme: sante-autonomie
+titre: Proposition de loi portant mesures pour bâtir la société du bien vieillir et de l'autonomie
+objet: Vote sur l'ensemble du texte de la commission mixte paritaire. Le texte est devenu la loi n° 2024-317 du 8 avril 2024 (service public départemental de l'autonomie, lutte contre les maltraitances).
+date: 2024-03-19
+legislature: 16
+numero_scrutin: 3550
+url: https://www.assemblee-nationale.fr/dyn/16/scrutins/3550
+axes:
+- grand-age
+resultat: adopte
+decompte:
+  pour: 177
+  contre: 51
+  abstention: 45
+groupes:
+- groupe: Renaissance
+  sigle: RE
+  pour: 95
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 37
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouvelle Union Populaire écologique et sociale
+  sigle: LFI-NUPES
+  pour: 0
+  contre: 41
+  abstention: 0
+  non_votants: 0
+- groupe: Les Républicains
+  sigle: LR
+  pour: 1
+  contre: 1
+  abstention: 24
+  non_votants: 0
+- groupe: Démocrate (MoDem et Indépendants)
+  sigle: DEM
+  pour: 30
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 0
+  contre: 3
+  abstention: 11
+  non_votants: 0
+- groupe: Horizons et apparentés
+  sigle: HOR
+  pour: 14
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste - NUPES
+  sigle: ECOLO
+  pour: 0
+  contre: 2
+  abstention: 2
+  non_votants: 0
+- groupe: Gauche démocrate et républicaine - NUPES
+  sigle: GDR-NUPES
+  pour: 0
+  contre: 4
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 0
+  contre: 0
+  abstention: 6
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 0
+  contre: 0
+  abstention: 2
+  non_votants: 0
+note: 'Scrutin public ordinaire, 273 votants. Intitulé du scrutin sur le site de l''Assemblée : « proposition de loi portant diverses mesures relatives au grand âge et à l''autonomie ». Le Sénat a adopté définitivement le texte le 27 mars 2024.'
+date_consultation: 2026-11-11
