@@ -1,8 +1,8 @@
 numero: 12
 titre: Agriculture, alimentation, eau
 icone: wheat
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: revenu
   libelle: Revenu agricole et prix
@@ -16,3 +16,138 @@ axes:
   libelle: Alimentation et restauration collective
 - id: eau
   libelle: Gestion de l'eau
+situation:
+  texte: 'En 2020, la France métropolitaine comptait près de 390 000 exploitations agricoles, soit 100 000 de moins qu''en 2010. Les exploitations s''agrandissent : la [[surface agricole utile|sau]] moyenne est passée de 55 à 69 hectares en dix ans, et la surface agricole totale occupe près de la moitié du territoire. Les exploitants (496 000 en 2020) vieillissent : selon la Cour des comptes, 43 % ont 55 ans ou plus et peuvent partir à la retraite d''ici 2033. L''installation des nouveaux agriculteurs est aidée par des subventions, dont la [[dotation jeune agriculteur|dotation-jeune-agriculteur]], et le marché des terres est encadré par les [[SAFER|safer]]. Une grande partie des aides vient de la [[politique agricole commune|pac]] européenne. La loi d''orientation du 24 mars 2025 a déclaré l''agriculture « d''intérêt général majeur ».
+
+
+    En 2025, la production agricole (hors subventions) a atteint 93,8 milliards d''euros, et les subventions d''exploitation environ 8,0 milliards. Les revenus varient fortement d''une année à l''autre : la valeur ajoutée par emploi agricole a augmenté de 11,6 % en 2025 après une baisse de 10,1 % en 2024. En 2020, le niveau de vie médian des personnes vivant dans un ménage agricole (22 700 euros par an) était proche de celui des ménages actifs, mais 16,3 % d''entre elles vivaient sous le [[seuil de pauvreté|seuil-pauvrete]], et l''activité agricole ne représentait en moyenne que 34,3 % de leur revenu disponible. Les lois [[EGalim|egalim]] (2018 et 2021) encadrent les négociations de prix entre agriculteurs, industriels et distributeurs. Côté commerce, la [[balance commerciale|balance-commerciale]] agricole et agroalimentaire est passée de 7,7 milliards d''euros d''excédent en 2019 à 3,9 milliards en 2024 ; sur douze mois glissants (décembre 2024 à novembre 2025), elle était de −515 millions d''euros selon les chiffres du ministère cités par le Sénat. L''[[accord UE-Mercosur|accord-ue-mercosur]], signé le 17 janvier 2026 malgré l''opposition de la France, s''applique à titre provisoire depuis le 1er mai 2026 ; le Parlement européen a saisi la Cour de justice de l''UE le 21 janvier 2026.
+
+
+    Pour les pesticides, la stratégie Écophyto 2030 vise une baisse de 50 % de l''usage et des risques d''ici 2030 par rapport à 2011-2013, mesurée par l''[[indicateur HRI1|indicateur-hri1]]. Celui-ci était de 53 en 2024 (−47 %), après 50 en 2023. D''autres indicateurs évoluent moins : les ventes de substances de synthèse sont stables entre 41 500 et 44 000 tonnes par an depuis 2020, et celles de glyphosate sont remontées à 8 269 tonnes en 2024. L''usage des [[néonicotinoïdes|neonicotinoides]] est interdit en France. Une dérogation votée en 2025 a été censurée par le Conseil constitutionnel ; la loi d''urgence du 18 août 2026 permet à l''Anses d''accorder, sous conditions, des dérogations pour deux substances (flupyradifurone et acétamipride) sur les betteraves, les cerises, les pommes et les noisettes.
+
+
+    L''agriculture prélève en moyenne 3 milliards de mètres cubes d''eau par an (2010-2020), à plus de 90 % pour l''irrigation. C''est 7 à 12 % des prélèvements d''eau douce (hors hydroélectricité), mais 58 % de l''eau réellement consommée, car l''eau d''irrigation est absorbée par les plantes ou s''évapore. Le Plan eau de 2023 vise 10 % de prélèvements en moins d''ici 2030. La loi du 11 août 2025 présume d''« intérêt général majeur » certains ouvrages de [[stockage d''eau agricole|stockage-eau-agricole]]. La France compte 32 800 captages d''eau potable ; environ 300 ferment chaque année, dont 6 à 11 % à cause des pesticides, et la loi de 2026 modifie les règles de protection des [[aires d''alimentation de captage|aire-alimentation-captage]]. Les agriculteurs paient des [[redevances aux agences de l''eau|redevance-agence-eau]]. Enfin, la loi EGalim impose aux cantines publiques 50 % de produits durables et de qualité, dont 20 % de produits bio : sur les achats de 2024, ces parts étaient de 29,5 % et 11,8 %.'
+  chiffres:
+  - libelle: Nombre d'exploitations agricoles
+    valeur: près de 390 000
+    precision: France métropolitaine, recensement agricole 2020 ; 100 000 de moins qu'en 2010 ; SAU moyenne de 69 ha contre 55 ha en 2010 ; 27 000 exploitations en outre-mer (Insee Références, fiche 2.3)
+    annee: '2020'
+    source: insee-agri24-f12-exploitations
+  - libelle: Exploitants âgés de 55 ans ou plus
+    valeur: 43 %
+    precision: Part des exploitants susceptibles de partir à la retraite d'ici 2033 ; 496 000 exploitants en 2020 contre 764 000 en 2000 (Cour des comptes, synthèse p. 9)
+    annee: '2020'
+    source: ccomptes-installation-2023
+  - libelle: Production de la branche agricole
+    valeur: 93,8 milliards d'euros
+    precision: Hors subventions, compte provisoire ; subventions d'exploitation d'environ 8,0 Md€ (−4,0 %) ; valeur ajoutée par emploi +11,6 % après −10,1 % en 2024 (Insee, DT2026-11, p. 5-6)
+    annee: '2025'
+    source: insee-dt-2026-11-agriculture-2025
+  - libelle: Solde commercial agricole et agroalimentaire
+    valeur: 3,9 milliards d'euros
+    precision: 7,7 Md€ en 2019 ; −515 M€ sur douze mois glissants de décembre 2024 à novembre 2025 (chiffres du ministère de l'agriculture cités par la commission des affaires économiques du Sénat)
+    annee: '2024'
+    source: senat-r25-317-balance-agricole
+  - libelle: Indicateur de risque des pesticides (HRI1)
+    valeur: '53'
+    precision: 'Base 100 en 2011-2013, soit −47 % pour un objectif de −50 % en 2030 ; 50 en 2023 ; moyenne UE : 41. Autre indicateur (NODU agricole) : 94,8 millions d''hectares traités, +6 % sur un an'
+    annee: '2024'
+    source: masa-ecophyto-indicateurs-2026
+  - libelle: Produits durables et de qualité dans la restauration collective
+    valeur: 29,5 %
+    precision: 'Dont 11,8 % de produits bio, en valeur d''achat ; objectifs légaux : 50 % dont 20 % de bio ; 33 797 sites déclarants, soit 40 % des sites (bilan statistique 2025, données d''achats 2024)'
+    annee: '2024'
+    source: masa-egalim-bilan-2025
+  lois:
+  - titre: Loi n° 2018-938 du 30 octobre 2018 pour l'équilibre des relations commerciales dans le secteur agricole et alimentaire et une alimentation saine, durable et accessible à tous (EGalim)
+    resume: Elle encadre les relations commerciales entre producteurs, industriels et distributeurs, et fixe à la restauration collective publique l'objectif de 50 % de produits durables et de qualité, dont 20 % de produits bio. Elle a été complétée par la loi n° 2021-1357 du 18 octobre 2021 visant à protéger la rémunération des agriculteurs (EGalim 2).
+    url: https://www.senat.fr/dossier-legislatif/pjl17-525.html
+  - titre: Loi n° 2025-268 du 24 mars 2025 d'orientation pour la souveraineté alimentaire et le renouvellement des générations en agriculture
+    resume: Elle déclare la protection et le développement de l'agriculture « d'intérêt général majeur », et contient des dispositions sur l'installation des agriculteurs et la transmission des exploitations. Le Conseil constitutionnel en a censuré plusieurs articles (décision n° 2025-876 DC du 20 mars 2025).
+    url: https://www.senat.fr/dossier-legislatif/pjl23-639.html
+  - titre: Loi n° 2025-794 du 11 août 2025 visant à lever les contraintes à l'exercice du métier d'agriculteur
+    resume: Elle modifie les règles sur les produits phytosanitaires et présume d'« intérêt général majeur » certains ouvrages de stockage d'eau à finalité agricole situés en zone de déficit d'eau. Le Conseil constitutionnel a censuré la possibilité de déroger par décret à l'interdiction des néonicotinoïdes (décision n° 2025-891 DC du 7 août 2025).
+    url: https://www.senat.fr/dossier-legislatif/ppl24-108.html
+  - titre: Loi n° 2026-796 du 18 août 2026 d'urgence pour la protection et la souveraineté agricoles
+    resume: Elle permet de suspendre l'importation de denrées contenant des résidus de substances interdites dans l'UE, impose aux cantines publiques des produits originaires de l'Union européenne (sauf offre insuffisante, et hors outre-mer), modifie la gestion de l'eau (stockage, volumes prélevables, protection des captages) et les négociations commerciales. Elle autorise, sous conditions, des dérogations pour la flupyradifurone et l'acétamipride. Le Conseil constitutionnel en a censuré plusieurs articles (décision n° 2026-914 DC du 14 août 2026).
+    url: https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N54085
+bilan:
+- nature: debat
+  texte: 'Pesticides : l''indicateur officiel HRI1, qui pondère les quantités vendues selon le danger des substances, a baissé de 47 % depuis 2011-2013, notamment grâce au retrait des substances les plus dangereuses ; les ventes de substances classées CMR sont à leur plus bas historique. D''autres indicateurs reculent moins : le NODU, qui mesure l''intensité des traitements, a baissé d''environ 10 % depuis son plateau de 2014-2017 et a augmenté de 6 % en 2024 ; les ventes de substances de synthèse sont stables depuis 2020 et le glyphosate est revenu à son niveau moyen historique (8 269 tonnes en 2024). Le choix de l''indicateur de référence, qui a remplacé le NODU en 2024, change donc le diagnostic.'
+  sources:
+  - masa-ecophyto-indicateurs-2026
+- nature: ne-fonctionne-pas
+  texte: 'Restauration collective : six ans après la loi EGalim, les cantines déclarantes atteignaient en 2024 29,5 % de produits durables et de qualité, dont 11,8 % de bio, contre 50 % et 20 % exigés. Environ 35 % des cantines déclarantes atteignaient l''objectif de 50 % et 44 % celui de 20 % de bio. Les secteurs de la santé et du médico-social sont les plus éloignés des objectifs. Seuls 40 % des sites ont déclaré leurs achats.'
+  sources:
+  - masa-egalim-bilan-2025
+- nature: ne-fonctionne-pas
+  texte: 'Installation : la Cour des comptes relève que les aides à l''installation (379 M€ par an en moyenne en 2019-2021, plus 144 M€ d''aides à l''investissement) ont augmenté sans étude préalable des besoins par filière ou par territoire. Environ la moitié des personnes éligibles ne demandent pas la dotation jeune agriculteur. Un tiers des installations concerne des personnes de plus de 40 ans, qui ne peuvent prétendre qu''à 9 % des aides. La Cour note que l''effet de la dotation sur la décision de s''installer « n''est pas démontré » pour tous les projets.'
+  sources:
+  - ccomptes-installation-2023
+- nature: debat
+  texte: 'Revenus : la valeur ajoutée par emploi agricole a augmenté de 11,6 % en 2025 après une baisse de 10,1 % en 2024, ce qui illustre la forte volatilité des revenus. En 2020, le niveau de vie médian des ménages agricoles (22 700 €) était proche de celui des ménages actifs, mais les écarts étaient plus grands : une personne sur six vivait sous le seuil de pauvreté, tandis que les 10 % les plus aisés avaient des niveaux de vie plus élevés que les autres actifs les plus aisés. Le niveau de vie est plus faible dans les territoires d''élevage d''herbivores, et l''activité agricole ne fournit qu''un tiers du revenu disponible des ménages.'
+  sources:
+  - insee-dt-2026-11-agriculture-2025
+  - insee-ip2098-menages-agricoles
+- nature: ne-fonctionne-pas
+  texte: 'Qualité de l''eau : depuis 2020, environ 300 captages d''eau potable ferment chaque année (334 en 2025), dont 6 à 11 % à cause des pesticides. En 2024, 71,5 % de la population a reçu en permanence une eau conforme aux limites de qualité pour les pesticides et leurs résidus ; les dépassements ont été limités et n''ont entraîné que deux restrictions de consommation. Le ministère juge ces chiffres stables et estime nécessaire de renforcer la protection des aires de captage.'
+  sources:
+  - masa-ecophyto-indicateurs-2026
+- nature: debat
+  texte: 'Partage de l''eau : selon le Conseil d''analyse économique, l''agriculture représente 62 % de la consommation d''eau (2020), mais les redevances versées aux agences de l''eau reposent surtout sur les ménages (par exemple 72 % des redevances du bassin Seine-Normandie, contre 5 % pour les agriculteurs, en 2013-2022) ; la redevance sur les pesticides n''a pas augmenté depuis 2019 et il n''en existe pas sur les engrais azotés. À l''inverse, la commission des affaires économiques du Sénat juge l''objectif du Plan eau (−10 % de prélèvements) « déconnecté des réalités agricoles » et souligne que la France ne stocke que 4,7 % de ses flux annuels d''eau.'
+  sources:
+  - cae-note-87-eau-2026
+  - senat-essentiel-pjl-urgence-agricole
+effets:
+- sujet: Effets de l'accord UE-Mercosur sur l'agriculture
+  axes:
+  - accords
+  evaluations:
+  - source: jrc-fta-cumulative-2024
+    resume: Le Centre commun de recherche de la Commission européenne a simulé l'effet cumulé de 10 accords commerciaux, dont celui avec le Mercosur, à l'horizon 2032. Les importations européennes de bœuf augmenteraient de 24 % (91 000 tonnes) dans le scénario le plus ouvert, surtout depuis le Mercosur, l'Australie et la Nouvelle-Zélande ; les prix payés aux producteurs de bœuf baisseraient d'environ 2,4 % et la production de viande de 1 à 2 %. Les exportations de produits laitiers, de porc et de vins augmenteraient. Le solde agroalimentaire de l'UE s'améliorerait de 25 à 311 M€.
+    fourchette: 'Bœuf : +91 000 t d''importations, −2,4 % de prix producteur ; solde agroalimentaire UE : +25 à +311 M€ (2032)'
+  - source: ambec-mercosur-2020
+    resume: La commission d'évaluation présidée par l'économiste Stefan Ambec, mandatée par le Premier ministre, estime que la hausse de la production de bœuf liée à l'accord (2 à 4 % de la production de la région) pourrait accélérer la déforestation d'environ 5 % par an pendant six ans. Les émissions supplémentaires seraient de 4,7 à 6,8 millions de tonnes équivalent CO2 ; si le risque de déforestation se réalisait, le bilan entre gains économiques et coûts climatiques deviendrait négatif. Elle doute de l'efficacité de la clause de sauvegarde agricole dans sa version de l'époque (synthèse p. 4-5).
+    fourchette: 'Déforestation : environ +5 % par an pendant 6 ans ; +4,7 à +6,8 Mt éq. CO2'
+  desaccords: Le chiffrage européen porte sur dix accords à la fois et à l'échelle de toute l'UE ; il ne détaille ni l'effet du seul Mercosur ni celui sur la France. Le rapport français de 2020 porte surtout sur l'environnement et sur une version antérieure de l'accord, avant l'ajout de nouvelles clauses de sauvegarde en 2025-2026. Les deux études concluent à des effets limités sur la production européenne totale, mais concentrés sur certaines filières (bœuf, volaille, sucre).
+- sujet: Demande en eau de l'agriculture d'ici 2050
+  axes:
+  - eau
+  evaluations:
+  - source: fs-na148-demande-eau-2025
+    resume: France Stratégie a simulé la demande en eau entre 2020 et 2050 selon trois scénarios, dans le climat le plus défavorable étudié. La demande d'irrigation augmente fortement et devient majoritaire. La consommation d'eau augmenterait de 102 % si les tendances se prolongent, de 72 % avec les politiques publiques annoncées, et de 10 % seulement dans un scénario de forte sobriété.
+    fourchette: 'Consommation d''eau : +10 % à +102 % entre 2020 et 2050 selon le scénario'
+  - source: hcsp-na156-eau-2050
+    resume: En confrontant cette demande aux ressources projetées, le Haut-Commissariat à la stratégie et au plan estime que, sans changement des tendances, 88 % du territoire pourraient connaître en été une tension modérée ou sévère sur les prélèvements, avec des restrictions probables pour l'agriculture, l'industrie et les particuliers ; la tension serait forte dans le sud-ouest et le sud-est, en raison de l'irrigation.
+    fourchette: 88 % du territoire en tension estivale (scénario tendanciel, 2050)
+  desaccords: Ces travaux appellent à la sobriété. La commission des affaires économiques du Sénat a, elle, adopté en 2026 des objectifs de doublement des volumes de stockage d'eau d'ici 2035 et de multiplication par dix de la réutilisation des eaux usées traitées d'ici 2030 ; elle cite le même rapport de France Stratégie, en retenant une hausse possible de 161 % des prélèvements pour l'irrigation. Le Conseil d'analyse économique privilégie une tarification qui envoie un signal-prix en période de tension et un réexamen des redevances payées par l'agriculture.
+- sujet: Coût des objectifs EGalim pour la restauration collective
+  axes:
+  - alimentation
+  evaluations:
+  - source: masa-egalim-bilan-2025
+    resume: 'Le rapport du Gouvernement au Parlement rappelle l''estimation de mai 2023 : respecter les objectifs EGalim coûte en moyenne 0,14 à 0,42 € de plus par repas selon les secteurs, hors inflation. Avec l''inflation (0,17 à 0,25 €), le surcoût total va de 0,30 à 0,67 € par repas, pour un coût moyen des denrées d''environ 2 € par repas en restauration scolaire, soit environ +20 %.'
+    fourchette: +0,14 à +0,42 € par repas (EGalim seul) ; +0,30 à +0,67 € avec l'inflation
+  desaccords: Un seul chiffrage officiel a été trouvé ; il date de 2023, avant la loi de 2026 qui modifie la liste des produits concernés et réserve les achats des cantines publiques aux produits originaires de l'Union européenne, sauf offre insuffisante. Aucun chiffrage publié de ces nouvelles règles n'a été trouvé.
+- sujet: Coût des aides à l'installation des agriculteurs
+  axes:
+  - installation
+  evaluations:
+  - source: ccomptes-installation-2023
+    resume: Les aides publiques aux nouveaux installés représentaient 379 M€ par an en moyenne en 2019-2021, plus environ 144 M€ d'aides à l'investissement. La dotation jeune agriculteur représente 166 M€ par an. Avec la PAC 2023-2027, les crédits de l'aide à l'installation et de l'aide complémentaire au revenu des jeunes passent de 243 M€ en 2021 à 297 M€ en 2026 ; les nouveaux installés de plus de 40 ans recevront environ 6 M€ par an de crédits européens (synthèse p. 10-12).
+    fourchette: 379 M€ par an (2019-2021) ; 243 M€ (2021) à 297 M€ (2026) pour les aides aux jeunes
+  desaccords: La Cour des comptes estime que la hausse des moyens n'a été précédée d'aucune étude des besoins et recommande de rééquilibrer les aides en faveur des plus de 40 ans. Elle reconnaît que les conditions d'attribution de la dotation (plan d'entreprise, niveau de formation) apportent « une garantie » sur les projets aidés.
+glossaire:
+- sau
+- dotation-jeune-agriculteur
+- safer
+- pac
+- seuil-pauvrete
+- egalim
+- balance-commerciale
+- accord-ue-mercosur
+- indicateur-hri1
+- neonicotinoides
+- stockage-eau-agricole
+- aire-alimentation-captage
+- redevance-agence-eau
