@@ -1,8 +1,8 @@
 numero: 18
 titre: Défense et diplomatie
 icone: radar
-date_maj: 2026-11-10
-etat: en-preparation
+date_maj: 2026-11-11
+etat: publie
 axes:
 - id: budget
   libelle: Budget de la défense
@@ -18,3 +18,140 @@ axes:
   libelle: Aide au développement
 - id: diplomatie
   libelle: Orientations diplomatiques
+situation:
+  texte: 'La politique de défense est encadrée par des [[lois de programmation militaire|lpm]], qui fixent les moyens des armées sur plusieurs années. La loi du 1er août 2023 couvre 2024-2030. Elle a été actualisée par la loi du 16 août 2026, qui ajoute 36 milliards d''euros sur 2026-2030 et porte le total programmé à 435,7 milliards d''euros. Les [[crédits de paiement|ae-cp]] de la mission « Défense » (hors pensions) passent de 47,2 milliards d''euros en 2024 à 57,1 milliards en 2026, puis 75,7 milliards prévus en 2030. Le projet de loi de finances pour 2027, en cours d''examen au Parlement, prévoit 63,4 milliards d''euros, soit 6,5 milliards de plus qu''en 2026. Pour comparaison, France Stratégie évalue ces crédits à 32,7 milliards d''euros en 2017. La loi vise à porter l''effort de défense de 2 % du [[PIB|pib]] en 2025 à au moins 2,5 % en 2030, avec un objectif de 3,5 % en 2035.
+
+
+    Le ministère des Armées doit compter 268 400 emplois en équivalent temps plein en 2027 et 275 000 en 2030. Le gouvernement prévoit 57 500 militaires de la [[réserve opérationnelle|reserve-operationnelle]] fin 2027. La loi vise un réserviste pour deux militaires d''active en 2035. La loi de 2026 a aussi créé un [[service national|service-national]] militaire et volontaire de dix mois, réservé au territoire national. Il doit accueillir 3 000 appelés en 2026, 4 000 en 2027 et 10 000 en 2030, pour un coût prévu de 2,3 milliards d''euros sur 2026-2030. Il s''ajoute au service militaire volontaire (SMV), un dispositif d''insertion créé en 2015.
+
+
+    La Constitution fait du président de la République le chef des armées. Elle impose au gouvernement d''informer le Parlement d''une intervention militaire à l''étranger dans les trois jours ; au-delà de quatre mois, la prolongation doit être autorisée par le Parlement. La France est le seul pays de l''Union européenne à disposer d''une [[dissuasion nucléaire|dissuasion-nucleaire]] autonome, avec des sous-marins et des avions. La décision d''utiliser l''arme nucléaire appartient au seul président. Depuis la fin des années 1980, la dissuasion représente 12,5 % à 13,5 % des crédits de la mission « Défense ». Le 2 mars 2026, le président de la République a annoncé une hausse du nombre de têtes nucléaires, dont le chiffre ne sera plus publié. Il a aussi annoncé une « dissuasion avancée » : des pays européens partenaires pourront participer aux exercices, et des éléments des forces nucléaires pourront être déployés chez eux, sans partage de la décision. Depuis 2009, la France participe de nouveau au commandement militaire intégré de l''[[OTAN|otan]], qui a fixé en juin 2025 à La Haye un objectif de 5 % du PIB en 2035 (dont 1,5 % pour la sécurité au sens large). Selon les données de l''OTAN reprises par l''Assemblée nationale, la France consacre 2,2 % de son PIB à la défense en 2026. La France n''a pas pris part au traité d''interdiction des armes nucléaires ([[TIAN|tian]]).
+
+
+    Depuis l''invasion de l''Ukraine par la Russie en février 2022, la France fournit à l''Ukraine des armes, la formation de soldats ukrainiens et l''entretien des matériels livrés. Elle participe aussi aux missions de l''OTAN sur le flanc Est de l''Europe, par exemple en Roumanie. Fin 2025, l''Union européenne a décidé un prêt de 90 milliards d''euros à l''Ukraine pour acheter des équipements entre 2026 et 2028. L''[[aide publique au développement|apd]] de la France s''est élevée à 12,9 milliards d''euros en 2025, soit 0,42 % du revenu national brut, contre 0,49 % en 2023. La loi du 4 août 2021 visait 0,7 % en 2025. Pour 2027, le projet de budget prévoit 3,17 milliards d''euros de crédits de paiement pour la mission « Aide publique au développement », en baisse de 11 %.'
+  chiffres:
+  - libelle: Crédits de la mission « Défense » (projet de budget)
+    valeur: 63,4 milliards d'euros
+    precision: Crédits de paiement hors pensions du projet de loi de finances pour 2027, contre 57 Md€ en loi de finances 2026 (+11 %) ; 78,7 Md€ d'autorisations d'engagement. Montant avant vote du Parlement (Assemblée nationale, avis n° 3394, tome VII, p. 7 et 11)
+    annee: '2027'
+    source: an-avis-3394-t7-plf2027
+  - libelle: Total programmé par la loi de programmation militaire actualisée
+    valeur: 435,7 milliards d'euros
+    precision: 'Crédits de paiement de la mission « Défense » sur 2024-2030, dont 36 Md€ ajoutés en 2026 pour 2026-2030 ; trajectoire : 57,1 Md€ en 2026, 63,3 Md€ en 2027, 75,7 Md€ en 2030 (texte adopté n° 325, article 3)'
+    annee: '2026'
+    source: an-ta-325-lpm-actualisee-2026
+  - libelle: Dépenses de défense en part du PIB
+    valeur: 2,2 %
+    precision: 'Estimation 2026 selon l''OTAN (définition OTAN, pensions comprises), contre 1,9 % en 2021. Moyenne de l''UE et du Royaume-Uni : 2,54 % en 2026 (Assemblée nationale, avis n° 3394, tome VII, tableau p. 62, d''après l''OTAN)'
+    annee: '2026'
+    source: an-avis-3394-t7-plf2027
+  - libelle: Effectifs du ministère des Armées
+    valeur: 268 400 emplois (équivalent temps plein)
+    precision: 'Cible 2027 fixée par la loi, hors apprentis, volontaires du SMV et appelés du service national ; 275 000 prévus en 2030. Appelés du service national : 3 000 en 2026, 10 000 prévus en 2030 (texte adopté n° 325, article 5 et rapport annexé)'
+    annee: '2027'
+    source: an-ta-325-lpm-actualisee-2026
+  - libelle: Crédits de l'action « Dissuasion » (programme 146)
+    valeur: 6,7 milliards d'euros
+    precision: 'Crédits de paiement prévus en 2027 (+9 %), contre 6,1 Md€ en 2026 ; autorisations d''engagement : 6,1 Md€ (−24 %). Ce montant ne couvre que l''équipement de la dissuasion, pas l''ensemble de son coût (avis n° 3394, tome VII, p. 23-24)'
+    annee: '2027'
+    source: an-avis-3394-t7-plf2027
+  - libelle: Aide publique au développement
+    valeur: 0,42 % du revenu national brut
+    precision: '12,9 Md€ en 2025 (données préliminaires), 5e contributeur en volume et 11e en part du revenu national ; 0,49 % en 2023, 0,48 % en 2024 ; projection 2026 : 0,37 % (Sénat, commission des finances, p. 2)'
+    annee: '2025'
+    source: senat-essentiel-apd-plf2027
+  lois:
+  - titre: Loi n° 2023-703 du 1er août 2023 relative à la programmation militaire pour les années 2024 à 2030
+    resume: Elle programme 413,3 milliards d'euros de besoins pour les armées sur 2024-2030, avec des crédits de paiement de la mission « Défense » passant de 47,2 Md€ en 2024 à 67,4 Md€ en 2030. Elle prévoyait une actualisation, réalisée en 2026.
+    url: https://www.assemblee-nationale.fr/dyn/16/dossiers/programmation_militaire_2024_2030
+  - titre: Loi n° 2026-791 du 16 août 2026 actualisant la programmation militaire pour les années 2024 à 2030
+    resume: Elle ajoute 36 milliards d'euros sur 2026-2030, fixe l'objectif d'un effort de défense d'au moins 2,5 % du PIB en 2030 et de 3,5 % en 2035, et crée le service national militaire volontaire de dix mois. Le Conseil constitutionnel a jugé conformes les dispositions dont il était saisi (renseignement, code de la défense) dans sa décision n° 2026-907 DC du 6 août 2026.
+    url: https://www.conseil-constitutionnel.fr/decision/2026/2026907DC.htm
+  - titre: Loi n° 2021-1031 du 4 août 2021 de programmation relative au développement solidaire et à la lutte contre les inégalités mondiales
+    resume: Elle fixait un objectif d'aide publique au développement de 0,55 % du revenu national brut en 2022 et prévoyait que la France « s'efforcera » d'atteindre 0,7 % en 2025. Elle a créé une commission d'évaluation de l'aide publique au développement placée auprès de la Cour des comptes.
+    url: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043898536/
+  - titre: Constitution du 4 octobre 1958, articles 15 et 35
+    resume: 'Article 15 : le président de la République est le chef des armées. Article 35 : la déclaration de guerre est autorisée par le Parlement ; le gouvernement l''informe de toute intervention des forces armées à l''étranger au plus tard trois jours après son début, et doit obtenir son autorisation pour la prolonger au-delà de quatre mois.'
+    url: https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur
+bilan:
+- nature: fonctionne
+  texte: Selon France Stratégie, les lois de programmation militaire de la Ve République ont rarement été respectées avant 2015 ; depuis la loi 2014-2019, leurs annuités le sont. Le [[Haut Conseil des finances publiques|hcfp]] constate que la trajectoire de la loi de 2023 a été respectée en 2024 et 2025. Les crédits de la mission « Défense » (hors pensions) auront environ doublé entre 2017 et 2027.
+  sources:
+  - france-strategie-rearmement-2025
+  - hcfp-avis-2026-1-plapm
+  - an-avis-3394-t7-plf2027
+- nature: debat
+  texte: Le Haut Conseil des finances publiques signale des fragilités. Environ 9 Md€ de dépenses sont reportées chaque année sur le budget suivant ([[reports de charges|reports-de-charges]]). Les sommes déjà engagées et restant à payer sont passées de 60 Md€ fin 2019 à environ 140 Md€ prévus en 2026, et autant en 2030. Pour respecter les engagements européens, les dépenses publiques hors lois de programmation et intérêts ne pourraient augmenter que de 11 Md€ au plus en 2027, contre 36 Md€ en 2025.
+  sources:
+  - hcfp-avis-2026-1-plapm
+- nature: ne-fonctionne-pas
+  texte: 'Service national universel (SNU) lancé en 2019 : la Cour des comptes (2024) relève une gestion « dans l''urgence » depuis le lancement, sans réponse aux questions d''hébergement et d''encadrement. Le chiffrage du ministère (2 Md€ par an pour une classe d''âge d''environ 850 000 jeunes) ne couvrait que la première phase. La Cour estime le coût de fonctionnement d''un SNU généralisé entre 3,5 et 5 Md€ par an, hors investissements (p. 13-14).'
+  sources:
+  - ccomptes-snu-2024
+- nature: debat
+  texte: 'Premiers mois du service national volontaire (rentrée 2026) : la Marine compte 584 appelés pour un objectif de 800 en 2027 ; 35 % n''ont pas de diplôme. Elle espère que 40 % s''engageront ensuite. Selon le rapporteur, le dispositif puise dans le même vivier que le recrutement des matelots sous contrat de deux ans. Les appelés sont encadrés par des militaires déjà en poste, sans effectifs supplémentaires. L''armée de Terre recrute 1 800 appelés en 2026-2027. Le service militaire volontaire (SMV) a accueilli 1 612 jeunes en 2025, pour un objectif de 1 500. Il coûte 35 720 € par volontaire et son financement est fragilisé par le retrait partiel des régions.'
+  sources:
+  - an-avis-3394-t5-plf2027
+  - an-avis-3394-t4-plf2027
+- nature: ne-fonctionne-pas
+  texte: 'Coopérations européennes d''armement : l''Allemagne a annoncé en juin 2026 la fin de l''avion du programme franco-allemand SCAF, faute d''accord sur les besoins et sur le partage du travail entre les industriels de la [[base industrielle de défense|bitd]]. En juillet 2026, le projet de char commun MGCS a été réduit à un réseau de communication partagé. Le chef d''état-major de l''armée de Terre parle plutôt d''un report à la fin des années 2040. L''hélicoptère européen NH90 a connu des surcoûts et des retards.'
+  sources:
+  - an-avis-3394-t7-plf2027
+- nature: debat
+  texte: 'Aide au développement : les crédits de paiement de la mission ont été divisés par deux depuis 2024, et le budget 2027 les ramène au niveau de 2017. L''aide de l''Agence française de développement (AFD) en dons pour des projets doit se concentrer sur onze pays, et le futur contrat de l''agence intègre un « dividende stratégique » pour la France. Les deux rapporteurs du Sénat divergent : Michel Canévet (Union centriste) juge cette baisse à la mesure des besoins de réduction du déficit et de la défense ; Raphaël Daubet (RDSE) regrette une perte d''expertise et des risques pour la réputation de la France.'
+  sources:
+  - senat-essentiel-apd-plf2027
+effets:
+- sujet: Coût d'un objectif de dépenses de défense exprimé en part du PIB (3 %, 3,5 % ou 5 %)
+  axes:
+  - budget
+  - otan
+  evaluations:
+  - source: france-strategie-rearmement-2025
+    resume: 'Projection en 2030 (euros courants), avant l''actualisation de 2026 : 80 Md€ avec la LPM de 2023 (2,3 % du PIB, définition large), 100 Md€ pour 2,9 %, 120 Md€ pour 3,5 % et 172 Md€ pour 5 %. Pour financer 3,5 % en 2030, plus 1 point de PIB pour la transition écologique, sans dépasser le déficit promis à l''Union européenne, il faudrait limiter la hausse des autres dépenses à 0,9 % par an. L''autre option serait d''augmenter les recettes de 61 Md€ par an en moyenne (Tableaux 4 et 5, p. 9-10).'
+    fourchette: 80 à 172 Md€ de dépenses de défense en 2030 selon la cible (2,3 % à 5 % du PIB)
+  - source: ofce-blog-defense-2025
+    resume: Les prévisions d'avril 2025 de l'OFCE supposent un budget de défense porté à 100 Md€ en 2030 (3,4 points de PIB), soit 7 Md€ de plus en 2026. L'effet sur l'activité dépend du financement (dette ou baisses d'autres dépenses) et de la nature des dépenses. Les achats d'équipement soutiendraient davantage l'investissement privé que les dépenses de personnel. Selon les études, un euro de dépense publique produit entre 0,3 et 2 euros d'activité. L'OFCE juge aussi « assez optimiste » l'hypothèse que les industriels pourront suivre.
+    fourchette: 'Effet multiplicateur des dépenses publiques : 0,3 à 2 selon les études citées'
+  desaccords: France Stratégie estime que l'effet sur le déficit ne serait pas compensé par un surcroît de croissance. Elle note toutefois que certains travaux (Institut de Kiel, 2025) attribuent aux dépenses de défense un effet sur l'activité plus élevé qu'aux autres dépenses publiques. L'OFCE souligne que les équipements militaires ont pour but de dissuader, ce qui limite leurs retombées sur le reste de l'économie, sauf pour la recherche reprise par le civil. Ces chiffrages sont antérieurs à l'actualisation de 2026.
+- sujet: Effet de la hausse du budget militaire sur les autres dépenses publiques
+  axes:
+  - budget
+  evaluations:
+  - source: hcfp-avis-2026-1-plapm
+    resume: L'actualisation ajoute 3,5 Md€ en 2026, 6,5 Md€ en 2027, 8 Md€ en 2028 et 9 Md€ en 2029 et 2030. La progression atteint 8,7 % par an en moyenne, contre 5,9 % dans la loi de 2023. En 2027, les lois de programmation absorbent plus de 8 Md€ sur une hausse totale de la dépense limitée à environ 20 Md€. Les autres dépenses (État, Sécurité sociale, collectivités) ne pourraient donc augmenter que de 11 Md€ au plus (synthèse, p. 1-2).
+    fourchette: Hausse des autres dépenses limitée à 11 Md€ au plus en 2027 (36 Md€ en 2025, 25 Md€ en 2026)
+  - source: ifrap-plapm-2026
+    resume: La Fondation iFRAP soutient le choix de ne pas utiliser la clause européenne qui permet d'exclure la hausse des dépenses militaires des règles de déficit. Elle estime qu'il faut environ 22,6 Md€ d'économies en 2027, surtout sur les retraites et l'assurance maladie. Elle relève aussi que 13,3 Md€ de besoins de la loi de 2023, non couverts par des crédits, n'ont pas été actualisés.
+    fourchette: Environ 22,6 Md€ d'économies à trouver en 2027
+  - source: ofce-blog-defense-2025
+    resume: L'OFCE rappelle que le plan européen ReArm Europe permet aux États de dépasser leur objectif de déficit de la hausse de leurs dépenses de défense depuis 2021, dans la limite de 1,5 point de PIB par an sur 2025-2028. Pour la France, cette marge serait de 0,4 point de PIB en 2025. L'OFCE doute que la France l'utilise, par crainte d'une hausse du coût de sa dette.
+    fourchette: Marge européenne estimée à 0,4 point de PIB pour la France en 2025
+  desaccords: 'Le HCFP ne recommande pas de solution : il chiffre la contrainte. La Fondation iFRAP défend un financement par des économies sur les dépenses sociales. L''OFCE décrit l''option d''un déficit plus élevé autorisé par l''Union européenne, tout en soulignant son coût sur les taux d''intérêt. France Stratégie juge qu''aucun levier unique ne suffira (dépenses, impôts, emploi, dette européenne).'
+- sujet: Coût d'un service national ou militaire selon sa taille
+  axes:
+  - armees
+  evaluations:
+  - source: ccomptes-snu-2024
+    resume: Le SNU généralisé à une classe d'âge (environ 850 000 jeunes) coûterait 3,5 à 5 Md€ par an en fonctionnement, sans compter l'investissement dans les centres d'hébergement ni les coûts des autres financeurs publics (p. 13-14).
+    fourchette: 3,5 à 5 Md€ par an (SNU généralisé)
+  - source: an-ta-325-lpm-actualisee-2026
+    resume: Le nouveau service national militaire et volontaire de dix mois est financé à hauteur de 2,3 Md€ sur 2026-2030, pour une montée de 3 000 à 10 000 appelés par an (rapport annexé).
+    fourchette: 2,3 Md€ sur cinq ans pour 3 000 à 10 000 appelés par an
+  - source: an-avis-3394-t7-plf2027
+    resume: Pour 2027, la ministre des Armées annonce 230 M€ pour accueillir 4 000 appelés à partir du second semestre, soit 1 000 de plus qu'en 2026 (audition du 8 octobre 2026, p. 91).
+    fourchette: 230 M€ en 2027 pour 4 000 appelés
+  desaccords: 'Ces chiffrages portent sur des formules différentes : un service universel pour toute une classe d''âge (Cour des comptes) ou un volontariat limité à quelques milliers de jeunes (loi de 2026). Aucune source consultée ne chiffre une conscription obligatoire. Les députés rapporteurs signalent un coût non budgété : l''encadrement des appelés par des militaires déjà en poste.'
+glossaire:
+- lpm
+- ae-cp
+- dissuasion-nucleaire
+- otan
+- reserve-operationnelle
+- bitd
+- reports-de-charges
+- apd
+- tian
+- service-national
+- pib
+- hcfp

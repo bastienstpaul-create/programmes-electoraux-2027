@@ -1,0 +1,91 @@
+theme: defense-diplomatie
+titre: Projet de loi actualisant la programmation militaire pour les années 2024 à 2030
+objet: Vote sur l'ensemble du projet de loi, texte de la commission mixte paritaire (adoption définitive).
+date: 2026-07-01
+legislature: 17
+numero_scrutin: 7905
+url: https://www.assemblee-nationale.fr/dyn/17/scrutins/7905
+axes:
+- budget
+- armees
+- dissuasion
+resultat: adopte
+decompte:
+  pour: 375
+  contre: 113
+  abstention: 2
+groupes:
+- groupe: Rassemblement National
+  sigle: RN
+  pour: 97
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Ensemble pour la République
+  sigle: EPR
+  pour: 86
+  contre: 0
+  abstention: 0
+  non_votants: 1
+- groupe: La France insoumise - Nouveau Front Populaire
+  sigle: LFI-NFP
+  pour: 0
+  contre: 62
+  abstention: 0
+  non_votants: 0
+- groupe: Socialistes et apparentés
+  sigle: SOC
+  pour: 46
+  contre: 1
+  abstention: 0
+  non_votants: 0
+- groupe: Droite Républicaine
+  sigle: DR
+  pour: 44
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Écologiste et Social
+  sigle: ECOS
+  pour: 1
+  contre: 36
+  abstention: 1
+  non_votants: 0
+- groupe: Les Démocrates
+  sigle: DEM
+  pour: 26
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Horizons & Indépendants
+  sigle: HOR
+  pour: 35
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Libertés, Indépendants, Outre-mer et Territoires
+  sigle: LIOT
+  pour: 19
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Gauche Démocrate et Républicaine
+  sigle: GDR
+  pour: 0
+  contre: 14
+  abstention: 1
+  non_votants: 0
+- groupe: Union des droites pour la République
+  sigle: UDR
+  pour: 14
+  contre: 0
+  abstention: 0
+  non_votants: 0
+- groupe: Députés non inscrits
+  sigle: NI
+  pour: 7
+  contre: 0
+  abstention: 0
+  non_votants: 0
+note: 490 votants. Loi n° 2026-791 du 16 août 2026 (décision du Conseil constitutionnel n° 2026-907 DC du 6 août 2026).
+date_consultation: 2026-11-11
